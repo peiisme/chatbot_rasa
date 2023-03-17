@@ -8,7 +8,14 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - nganh_hoc
+  - nganhhoc
+  - nganh_dao_tao
+  - phuong_thuc_tuyen_sinh
+  - hoc_bong
+  - gioi_thieu
+  - co_so_vat_chat
+  - thoi_gian_dao_tao
+  - diem_chuan
 responses:
   utter_greet:
   - text: "Hey! How are you?"
@@ -30,6 +37,10 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+
+  utter_nganh_dao_tao:
+   - text: "Có tất cả 51 ngành học được đào tạo tại trường Đại học Nguyễn Tất Thành"
 
   utter_nganhhoc:
   - text: "Ngành: Dược học"

@@ -89,72 +89,79 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-<<<<<<< HEAD=======>>>>>>> 46006de0f9aa19801e86fed5b101767a6981172c
 
-  - intent: phuong_thuc_tuyen_sinh
-    examples: |
-      - các phương thức tuyển sinh
-      - tuyển sinh theo phương thức nào
-      - phương thức tuyển sinh
-      - tuyển sinh mấy phương thức
-      - liệt kê các phương thức tuyển sinh
-      - năm nay tuyển sinh mấy phương thức
-      - phương thức được dùng để tuyển sinh năm nay
+- intent: phuong_thuc_tuyen_sinh
+  examples: |
+    - các phương thức tuyển sinh
+    - tuyển sinh theo phương thức nào
+    - phương thức tuyển sinh
+    - tuyển sinh mấy phương thức
+    - liệt kê các phương thức tuyển sinh
+    - năm nay tuyển sinh mấy phương thức
+    - phương thức được dùng để tuyển sinh năm nay
 
-  - intent: nganh_dao_tao
-    examples: |
-      - các ngành tuyển sinh
-      - tuyển sinh ngành nào
-      - tuyển sinh các ngành
-      - tuyển sinh các ngành nào
-      - các ngành trường đào tạo
-      - các ngành trường tuyển sinh
-      - các ngành tuyển sinh năm nay
-      - tuyển sinh ngành nào năm nay
-      - năm nay tuyển sinh các ngành 
-      - năm nay tuyển sinh các ngành nào
-      - các ngành trường đào tạo năm nay
-      - các ngành trường tuyển sinh
-      - đào tạo các ngành
-      - trường tuyển sinh ngành nào
-      - các ngành được đào tạo tại trường
-      - có bao nhiêu ngành
-      - có bao nhiêu ngành được đào tạo
-      - trường đào tạo bao nhiêu ngành
+- intent: nganh_dao_tao
+  examples: |
+    - các ngành tuyển sinh
+    - tuyển sinh ngành nào
+    - tuyển sinh các ngành
+    - tuyển sinh các ngành nào
+    - các ngành trường đào tạo
+    - các ngành trường tuyển sinh
+    - các ngành tuyển sinh năm nay
+    - tuyển sinh ngành nào năm nay
+    - năm nay tuyển sinh các ngành 
+    - năm nay tuyển sinh các ngành nào
+    - các ngành trường đào tạo năm nay
+    - các ngành trường tuyển sinh
+    - đào tạo các ngành
+    - trường tuyển sinh ngành nào
+    - các ngành được đào tạo tại trường
+    - có bao nhiêu ngành
+    - có bao nhiêu ngành được đào tạo
+    - trường đào tạo bao nhiêu ngành
 
-  - intent: hoc_bong
-    examples: |
-      - trường có học bổng không
-      - học bổng cho sinh viên
-      - học bổng cho sinh viên như thế nào
-      - tân sinh viên có học bổng không
-      - có học bổng cho sinh viên không
+- intent: hoc_bong
+  examples: |
+    - trường có học bổng không
+    - học bổng cho sinh viên
+    - học bổng cho sinh viên như thế nào
+    - tân sinh viên có học bổng không
+    - có học bổng cho sinh viên không
 
-  - intent: co_so_vat_chat
-    examples: |
-      - các cơ sở chính
-      - trường có bao nhiêu cơ sở
-      - các cơ sở của trường
-      - các cơ sở của trường ở đâu
-      - có bao nhiêu cơ sở tất cả
+- intent: co_so_vat_chat
+  examples: |
+    - các cơ sở chính
+    - trường có bao nhiêu cơ sở
+    - các cơ sở của trường
+    - các cơ sở của trường ở đâu
+    - có bao nhiêu cơ sở tất cả
 
-  - intent: hoat_dong
-    examples: |
-      - các hoạt động của trường
-      - trường có những hoạt động nào
-      -
+- intent: hoat_dong
+  examples: |
+    - các hoạt động của trường
+    - trường có những hoạt động nào
+    -
 
-  - intent: thoi_gian_dao_tao
-    examples: |
-      - ngành ABC đào tạo bao lâu
-      - ngành XYZ học mấy năm
-      - bao lâu thì học xong ngành ABC
-      - ngành XYZ học lâu không
+- intent: thoi_gian_dao_tao
+  examples: |
+    - ngành ABC đào tạo bao lâu
+    - ngành XYZ học mấy năm
+    - bao lâu thì học xong ngành ABC
+    - ngành XYZ học lâu không
 
-  - intent: diem_chuan
-    examples: |
-      - điểm chuẩn năm trước của trường
-      - điểm chuẩn các ngành
-      - điểm chuẩn các ngành của trường
-      - ngành ABC lấy bao nhiêu điểm
-      -
+- intent: diem_chuan
+  examples: |
+    - điểm chuẩn năm trước của trường
+    - điểm chuẩn các ngành
+    - điểm chuẩn các ngành của trường
+    - ngành ABC lấy bao nhiêu điểm
+    -
+
+- intent: gioi_thieu
+  examples: |
+    - giới thiệu về trường
+    - trường đại học Nguyễn Tất Thành có gì
+    - 
+    
+    

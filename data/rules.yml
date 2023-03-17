@@ -11,3 +11,8 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+- rule: Say "Có tất cả 51 ngành học được đào tạo tại trường Đại học Nguyễn Tất Thành" anytime when user say nganh_dao_tao
+  steps:
+    - intent: nganh_dao_tao
+    - action: utter_nganh_dao_tao
