@@ -8,7 +8,7 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-
+  - nganh_hoc
 responses:
   utter_greet:
   - text: "Hey! How are you?"
@@ -30,6 +30,56 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_nganhhoc:
+  - text: "Ngành: Dược học"
+  - text: "Ngành: Kỹ thuật xét nghiệm y học"
+  - text: "Ngành: Y khoa"
+  - text: "Ngành: Y học dự phòng (Bác sĩ y học dự phòng)"
+  - text: "Ngành: Điều dưỡng"
+  - text: "Ngành: Thanh nhạc"
+  - text: "Ngành: Piano"
+  - text: "Ngành: Diễn viên kịch - Điện ảnh - Truyền hình"
+  - text: "Ngành: Đạo diễn kịch - Điện ảnh - Truyền hình"
+  - text: "Ngành: Quay phim"
+  - text: "Ngành: Thiết kế đồ họa"
+  - text: "Ngành: Tiếng Việt & Văn hóa Việt Nam"
+  - text: "Ngành: Ngôn ngữ Anh"
+  - text: "Ngành: Ngôn ngữ Trung Quốc"
+  - text: "Ngành: Quan hệ quốc tế"
+  - text: "Ngành: Tâm lý học"
+  - text: "Ngành: Đông phương học"
+  - text: "Ngành: Việt Nam học"
+  - text: "Ngành: Truyền thông đa phương tiện"
+  - text: "Ngành: Quan hệ công chúng"
+  - text: "Ngành: Quản trị kinh doanh"
+  - text: "Ngành: Marketing"
+  - text: "Ngành: Kinh doanh quốc tế"
+  - text: "Ngành: Tài chính ngân hàng"
+  - text: "Ngành: Kế toán"
+  - text: "Ngành: Thương mại điện tử"
+  - text: "Ngành: Quản trị nhân lực"
+  - text: "Ngành: Luật kinh tế"
+  - text: "Ngành: Công nghệ sinh học"
+  - text: "Ngành: Kỹ thuật phần mềm"
+  - text: "Ngành: Mạng máy tính và Truyền thông dữ liệu"
+  - text: "Ngành: Công nghệ thông tin"
+  - text: "Ngành: Công nghệ kỹ thuật cơ điện tử"
+  - text: "Ngành: Công nghệ kỹ thuật ô tô"
+  - text: "Ngành: Công nghệ kỹ thuật điện - điện tử"
+  - text: "Ngành: Công nghệ kỹ thuật hoá học"
+  - text: "Ngành: Logistics & Quản lý chuỗi cung ứng"
+  - text: "Ngành: Kỹ thuật hệ thống công nghiệp"
+  - text: "Ngành: Kỹ thuật y sinh"
+  - text: "Ngành: Vật lý y khoa"
+  - text: "Ngành: Công nghệ thực phẩm"
+  - text: "Ngành: Kiến trúc"
+  - text: "Ngành: Thiết kế nội thất"
+  - text: "Ngành: Kỹ thuật xây dựng"
+  - text: "Ngành: Quản trị khách sạn"
+  - text: "Ngành: Quản trị nhà hàng & Dịch vụ ăn uống"
+  - text: "Ngành: Du lịch"
+  - text: "Ngành: Quản lý tài nguyên & môi trường"
 
 session_config:
   session_expiration_time: 60
