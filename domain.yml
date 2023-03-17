@@ -9,6 +9,13 @@ intents:
   - mood_unhappy
   - bot_challenge
   - nganh_hoc
+  - phuong_thuc_tuyen_sinh
+  - nganh_dao_tao
+  - hoc_bong
+  - co_so_vat_chat
+  - hoat_dong
+  - thoi_gian_dao_tao
+  - diem_chuan
 responses:
   utter_greet:
   - text: "Hey! How are you?"
