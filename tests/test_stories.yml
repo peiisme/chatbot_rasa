@@ -2,16 +2,16 @@
 #### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
 
 stories:
-- story: happy path 1
+- story: thứ nhất 
   steps:
   - user: |
-      hello there!
-    intent: greet
-  - action: utter_nganhhoc
+      Xin chào
+    intent: chao_hoi
+  - action: utter_chao_hoi
   - user: |
-      amazing
-    intent: mood_great
-  - action: utter_happy
+      cho mình hỏi trường có bao nhiêu ngành đào tạo
+    intent: nganh_dao_tao
+  - action: utter_nganh_dao_tao
 
 - story: happy path 2
   steps:

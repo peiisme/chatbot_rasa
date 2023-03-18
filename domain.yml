@@ -1,96 +1,86 @@
 version: "3.1"
 
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-  - nganhhoc
-  - nganh_dao_tao
+  - chao_hoi
+  - tam_biet
+  - dong_y
+  - hoi_ve_bot
   - phuong_thuc_tuyen_sinh
+  - nganh_dao_tao
   - hoc_bong
-  - gioi_thieu
   - co_so_vat_chat
+  - hoat_dong
   - thoi_gian_dao_tao
   - diem_chuan
+  - gioi_thieu
+
+
+
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
-  - text: "how can i help you? "
-  - text: "what do u want"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  utter_phuong_thuc_tuyen_sinh:
+  - text: "Xét học bạ và điểm thi trung học phổ thông quốc gia"
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_chao_hoi:
+  - text: "Xin chào, mình là một chat bot của NTTU, mình có thể giúp gì?"
 
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
+  utter_tam_biet:
+  - text: "Bái bai, tạm biệt bạn, rất vui vì đã hỗ trợ được bạn"
 
   utter_nganh_dao_tao:
-   - text: "Có tất cả 51 ngành học được đào tạo tại trường Đại học Nguyễn Tất Thành"
+  - text: "Có tất cả 51 ngành học được đào tạo tại trường Đại học Nguyễn Tất Thành \n
+            Ngành: Dược học \n
+            Ngành: Kỹ thuật xét nghiệm y học \n
+            Ngành: Y khoa\n
+            Ngành: Y học dự phòng (Bác sĩ y học dự phòng)\n
+            Ngành: Điều dưỡng\n
+            Ngành: Thanh nhạc\n
+            Ngành: Piano\n
+            Ngành: Diễn viên kịch - Điện ảnh - Truyền hình\n
+            Ngành: Đạo diễn kịch - Điện ảnh - Truyền hình\n
+            Ngành: Quay phim\n
+            Ngành: Thiết kế đồ họa\n
+            Ngành: Tiếng Việt & Văn hóa Việt Nam\n
+            Ngành: Ngôn ngữ Anh\n
+            Ngành: Ngôn ngữ Trung Quốc\n
+            Ngành: Quan hệ quốc tế\n
+            Ngành: Tâm lý học\n
+            Ngành: Đông phương học\n
+            Ngành: Việt Nam học\n
+            Ngành: Truyền thông đa phương tiện\n
+            Ngành: Quan hệ công chúng\n
+            Ngành: Quản trị kinh doanh\n
+            Ngành: Marketing\n
+            Ngành: Kinh doanh quốc tế\n
+            Ngành: Tài chính ngân hàng\n
+            Ngành: Kế toán\n
+            Ngành: Thương mại điện tử\n
+            Ngành: Quản trị nhân lực\n
+            Ngành: Luật kinh tế\n
+            Ngành: Công nghệ sinh học\n
+            Ngành: Kỹ thuật phần mềm\n
+            Ngành: Mạng máy tính và Truyền thông dữ liệu\n
+            Ngành: Công nghệ thông tin\n
+            Ngành: Công nghệ kỹ thuật cơ điện tử\n
+            Ngành: Công nghệ kỹ thuật ô tô\n
+            Ngành: Công nghệ kỹ thuật điện - điện tử\n
+            Ngành: Công nghệ kỹ thuật hoá học\n
+            Ngành: Logistics & Quản lý chuỗi cung ứng\n\n
+            Ngành: Kỹ thuật hệ thống công nghiệp\n
+            Ngành: Kỹ thuật y sinh\n
+            Ngành: Vật lý y khoa\n
+            Ngành: Công nghệ thực phẩm\n
+            Ngành: Kiến trúc\n
+            Ngành: Thiết kế nội thất\n
+            Ngành: Kỹ thuật xây dựng\n
+            Ngành: Quản trị khách sạn\n
+            Ngành: Quản trị nhà hàng & Dịch vụ ăn uống\n
+            Ngành: Du lịch\n
+            Ngành: Quản lý tài nguyên & môi trường\n"
 
-  utter_nganhhoc:
-  - text: "Ngành: Dược học"
-  - text: "Ngành: Kỹ thuật xét nghiệm y học"
-  - text: "Ngành: Y khoa"
-  - text: "Ngành: Y học dự phòng (Bác sĩ y học dự phòng)"
-  - text: "Ngành: Điều dưỡng"
-  - text: "Ngành: Thanh nhạc"
-  - text: "Ngành: Piano"
-  - text: "Ngành: Diễn viên kịch - Điện ảnh - Truyền hình"
-  - text: "Ngành: Đạo diễn kịch - Điện ảnh - Truyền hình"
-  - text: "Ngành: Quay phim"
-  - text: "Ngành: Thiết kế đồ họa"
-  - text: "Ngành: Tiếng Việt & Văn hóa Việt Nam"
-  - text: "Ngành: Ngôn ngữ Anh"
-  - text: "Ngành: Ngôn ngữ Trung Quốc"
-  - text: "Ngành: Quan hệ quốc tế"
-  - text: "Ngành: Tâm lý học"
-  - text: "Ngành: Đông phương học"
-  - text: "Ngành: Việt Nam học"
-  - text: "Ngành: Truyền thông đa phương tiện"
-  - text: "Ngành: Quan hệ công chúng"
-  - text: "Ngành: Quản trị kinh doanh"
-  - text: "Ngành: Marketing"
-  - text: "Ngành: Kinh doanh quốc tế"
-  - text: "Ngành: Tài chính ngân hàng"
-  - text: "Ngành: Kế toán"
-  - text: "Ngành: Thương mại điện tử"
-  - text: "Ngành: Quản trị nhân lực"
-  - text: "Ngành: Luật kinh tế"
-  - text: "Ngành: Công nghệ sinh học"
-  - text: "Ngành: Kỹ thuật phần mềm"
-  - text: "Ngành: Mạng máy tính và Truyền thông dữ liệu"
-  - text: "Ngành: Công nghệ thông tin"
-  - text: "Ngành: Công nghệ kỹ thuật cơ điện tử"
-  - text: "Ngành: Công nghệ kỹ thuật ô tô"
-  - text: "Ngành: Công nghệ kỹ thuật điện - điện tử"
-  - text: "Ngành: Công nghệ kỹ thuật hoá học"
-  - text: "Ngành: Logistics & Quản lý chuỗi cung ứng"
-  - text: "Ngành: Kỹ thuật hệ thống công nghiệp"
-  - text: "Ngành: Kỹ thuật y sinh"
-  - text: "Ngành: Vật lý y khoa"
-  - text: "Ngành: Công nghệ thực phẩm"
-  - text: "Ngành: Kiến trúc"
-  - text: "Ngành: Thiết kế nội thất"
-  - text: "Ngành: Kỹ thuật xây dựng"
-  - text: "Ngành: Quản trị khách sạn"
-  - text: "Ngành: Quản trị nhà hàng & Dịch vụ ăn uống"
-  - text: "Ngành: Du lịch"
-  - text: "Ngành: Quản lý tài nguyên & môi trường"
+
+
 
 session_config:
   session_expiration_time: 60
