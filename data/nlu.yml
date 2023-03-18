@@ -107,5 +107,16 @@ nlu:
     - giới thiệu về trường
     - trường đại học Nguyễn Tất Thành có gì
     
+- intent: chuong_trinh_dao_tao
+  examples: |
+    - cho em hỏi về chương trình đào tạo
+    - chương trình đào tạo của mình có cái gì
+    - chương trinh đào tạo của mình ra sao ạ
+
     
+- intent: hoc_phi
+  examples: |
+    - cho e hoi hoc phi cu truong
+    - học phí trung bình của trường
+    - học phí
     

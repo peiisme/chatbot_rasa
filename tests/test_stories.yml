@@ -9,8 +9,9 @@ stories:
     intent: chao_hoi
   - action: nganh_dao_tao
   - user: |
-      Phương thức tuyển sinh
-    intent: phuong_thuc_tuyen_sinh
-  - action: utter_phuong_thuc_tuyen_sinh
+      chương trình đào tạo
+    intent: chuong_trinh_dao_tao
+  - action: utter_chuong_trinh_dao_tao
+  
 
 
