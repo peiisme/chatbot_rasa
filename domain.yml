@@ -12,21 +12,20 @@ intents:
   - hoat_dong
   - thoi_gian_dao_tao
   - diem_chuan
-  - gioi_thieu
 
-
+entities:
+  -cust_slot
+slots:
+  cust_nganh:
+    auto_fill:true
+    type:text
 
 responses:
-
-
   utter_phuong_thuc_tuyen_sinh:
   - text: "Xét học bạ và điểm thi trung học phổ thông quốc gia"
 
   utter_chao_hoi:
   - text: "Xin chào, mình là một chat bot của NTTU, mình có thể giúp gì?"
-
-  utter_tam_biet:
-  - text: "Bái bai, tạm biệt bạn, rất vui vì đã hỗ trợ được bạn"
 
   utter_nganh_dao_tao:
   - text: "Có tất cả 51 ngành học được đào tạo tại trường Đại học Nguyễn Tất Thành \n
@@ -78,9 +77,6 @@ responses:
             Ngành: Quản trị nhà hàng & Dịch vụ ăn uống\n
             Ngành: Du lịch\n
             Ngành: Quản lý tài nguyên & môi trường\n"
-
-
-
 
 session_config:
   session_expiration_time: 60

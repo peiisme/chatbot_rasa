@@ -3,6 +3,7 @@ version: "3.1"
 rules:
 
 - rule: Xin chào hẹn gặp lại
+
   steps:
   - intent: tam_biet
   - action: utter_tam_biet
