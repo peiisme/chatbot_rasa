@@ -6,6 +6,7 @@ nlu:
     - hey
     - hello
     - hi
+<<<<<<< Updated upstream
     - hello there
     - good morning
     - good evening
@@ -16,12 +17,23 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+=======
+    - Co o do khong
+    
+>>>>>>> Stashed changes
 
 - intent: goodbye
   examples: |
+<<<<<<< Updated upstream
     - cu
     - good by
     - cee you later
+=======
+    - good bye
+    - Tạm biệt
+    - Hẹn gặp lại
+    - see you later
+>>>>>>> Stashed changes
     - good night
     - bye
     - goodbye
@@ -32,15 +44,25 @@ nlu:
 
 - intent: affirm
   examples: |
+<<<<<<< Updated upstream
     - yes
     - y
     - indeed
     - of course
     - that sounds good
     - correct
+=======
+    - có
+    - có chứ
+    - tất nhiên rồi
+    - tất nhiên
+    - có vẻ thú vị
+    - chính xác
+>>>>>>> Stashed changes
 
 - intent: deny
   examples: |
+<<<<<<< Updated upstream
     - no
     - n
     - never
@@ -89,6 +111,14 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+=======
+    - bạn có phải là một chat bot không
+    - bạn có phải là con người không
+    - mình đang nói chuyện với một chat bot phải không
+    - ai đang trả lời cuộc trò chuyện này
+    - đầu dây bên kia là ai thế
+    - who are you
+>>>>>>> Stashed changes
 
 - intent: phuong_thuc_tuyen_sinh
   examples: |

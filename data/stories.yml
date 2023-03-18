@@ -10,6 +10,7 @@ stories:
 
   - story: sad path 1
     steps:
+<<<<<<< Updated upstream
       - intent: greet
       - action: utter_greet
       - intent: mood_unhappy
@@ -27,3 +28,25 @@ stories:
       - action: utter_did_that_help
       - intent: deny
       - action: utter_goodbye
+=======
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: chuong_trinh_dao_tao
+      - action: utter_chuong_trinh_dao_tao
+      - intent: hoc_phi
+      - action: utter_hoc_phi
+      - intent: phuong_thuc_tuyen_sinh
+      - action: utter_phuong_thuc_tuyen_sinh
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+stories:
+  - story: story_3 
+    steps:
+      - intent: phuong_thuc_tuyen_sinh
+      - action: 
+      - intent: cung_cap_diem
+      - action:       
+      - intent: thong_bao_trung_tuyen
+      - action: 
+>>>>>>> Stashed changes
