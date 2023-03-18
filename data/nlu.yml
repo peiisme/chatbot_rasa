@@ -5,6 +5,7 @@ nlu:
   examples: |
     - Xin chào
     - hello
+    - hi
 
 
 - intent: tam_biet
