@@ -7,7 +7,7 @@ stories:
   - user: |
       hello there!
     intent: greet
-  - action: utter_greet
+  - action: utter_nganhhoc
   - user: |
       amazing
     intent: mood_great
