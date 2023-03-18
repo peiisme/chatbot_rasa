@@ -1,17 +1,12 @@
 version: "3.1"
 
 rules:
-- rule: Say goodbye anytime the user says goodbye
-  steps:
-  - intent: goodbye
-  - action: utter_goodbye
 
-- rule: Say 'I am a bot' anytime the user challenges
-  steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+- rule: Xin chào hẹn gặp lại
 
-- rule: Say "Có tất cả 51 ngành học được đào tạo tại trường Đại học Nguyễn Tất Thành" anytime when user say nganh_dao_tao
   steps:
-    - intent: nganh_dao_tao
-    - action: utter_nganh_dao_tao
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+
+
