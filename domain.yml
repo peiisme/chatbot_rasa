@@ -8,7 +8,21 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - nganh_hoc
+  - nganhhoc
+  - nganh_dao_tao
+  - phuong_thuc_tuyen_sinh
+  - hoc_bong
+  - gioi_thieu
+  - co_so_vat_chat
+  - thoi_gian_dao_tao
+  - diem_chuan
+
+entities:
+  -cust_slot
+slots:
+  cust_nganh:
+    auto_fill:true
+    type:text
 responses:
   utter_greet:
   - text: "Hey! How are you?"
@@ -30,6 +44,13 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_khoiNganh:
+    -text: "trường bao gồm 15 khối ngành với 51 ngành đào tạo không biết bạn đang quan tâm đến khối ngành nào"
+  utter_thoi_gian_dao_tao:
+    -text: "thời gian đào tạo nhành{cust_nganh}"
+  utter_nganh_dao_tao:
+   - text: "Có tất cả 51 ngành học được đào tạo tại trường Đại học Nguyễn Tất Thành"
 
   utter_nganhhoc:
   - text: "Ngành: Dược học"
@@ -80,7 +101,8 @@ responses:
   - text: "Ngành: Quản trị nhà hàng & Dịch vụ ăn uống"
   - text: "Ngành: Du lịch"
   - text: "Ngành: Quản lý tài nguyên & môi trường"
-
+utter_gioi_thieu:
+  - text: "Trường đại học NTT là trường đạt chuẩn 4 sao QS với 51 ngành đào tạo có thể đảm bảo việc làm cho bạn khi ra trường"
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
