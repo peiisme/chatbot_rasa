@@ -6,7 +6,8 @@ nlu:
     - Xin chào
     - hello
     - hi
-    - Co o do khong
+    - chào
+    - alo
 
 
 - intent: tam_biet
@@ -14,25 +15,26 @@ nlu:
     - good bye
     - Tạm biệt
     - Hẹn gặp lại
-    - cee you later
+    - see you later
     - good night
-
-
 - intent: dong_y
   examples: |
     - có
     - có chứ
     - tất nhiên rồi
-    - of course
-    - that sounds good
-    - correct
+
+    - tất nhiên
+    - có vẻ thú vị
+    - đúng rồi
 
 - intent: hoi_ve_bot
   examples: |
     - bạn có phải là một chat bot không
     - bạn có phải là con người không
     - mình đang nói chuyện với một chat bot phải không
- 
+    - đầu dây bên kia là ai nhỉ
+    - ai đang trả lời cuộc trò chuyện này
+  
 
 - intent: phuong_thuc_tuyen_sinh
   examples: |
@@ -116,7 +118,99 @@ nlu:
     
 - intent: hoc_phi
   examples: |
-    - cho e hoi hoc phi cu truong
+    - cho em hỏi học phí của trường
     - học phí trung bình của trường
     - học phí
+    - học phí thế nào ạ
+
+- intent: hp_cnnt
+  examples: |
+    - học phí ngành CNTT như nào ạ
+    - ngành CNTT có đắt không
+    - học phí trung bình 1 học kì ngành CNTT
+    - 1 học kì ngành CNTT bao nhiêu
+
+- intent: hp_duoc
+  examples: |
+    - học phí ngành Dược học như nào ạ
+    - ngành Dược học có đắt không
+    - học phí trung bình 1 học kì ngành Dược học
+    - 1 học kì ngành Dược học bao nhiêu
+
+- intent: hp_y
+  examples: |
+    - học phí ngành Y khoa như nào ạ
+    - ngành Y khoa có đắt không
+    - học phí trung bình 1 học kì ngành Y khoa
+    - 1 học kì ngành Y khoa bao nhiêu
+
+- intent: hp_yhdp
+  examples: |
+    - học phí ngành Y học dự phòng như nào ạ
+    - ngành Y học dự phòng có đắt không
+    - học phí trung bình 1 học kì ngành Y học dự phòng
+    - 1 học kì ngành Y học dự phòng bao nhiêu
+
+- intent: hp_dduong
+  examples: |
+    - học phí ngành Điều dưỡng như nào ạ
+    - ngành Điều dưỡng có đắt không
+    - học phí trung bình 1 học kì ngành Điều dưỡng
+    - 1 học kì ngành Điều dưỡng bao nhiêu
+
+- intent: hp_xnyh
+  examples: |
+    - học phí ngành Kỹ thuật xét nghiệm y học như nào ạ
+    - ngành Kỹ thuật xét nghiệm y học có đắt không
+    - học phí trung bình 1 học kì ngành Kỹ thuật xét nghiệm y học
+    - 1 học kì ngành Kỹ thuật xét nghiệm y học bao nhiêu
+
+- intent: hp_qlbv
+  examples: |
+    - học phí ngành Quản lý bệnh viện như nào ạ
+    - ngành Quản lý bệnh viện có đắt không
+    - học phí trung bình 1 học kì ngành Quản lý bệnh viện
+    - 1 học kì ngành Quản lý bệnh viện bao nhiêu
+
+- intent: hp_phcn
+  examples: |
+    - học phí ngành Kỹ thuật phục hồi chức năng như nào ạ
+    - ngành Kỹ thuật phục hồi chức năng có đắt không
+    - học phí trung bình 1 học kì ngành Kỹ thuật phục hồi chức năng
+    - 1 học kì ngành Kỹ thuật phục hồi chức năng bao nhiêu
     
+- intent: hp_tnhac
+  examples: |
+    - học phí ngành Thanh nhạc như nào ạ
+    - ngành Thanh nhạc có đắt không
+    - học phí trung bình 1 học kì ngành Thanh nhạc
+    - 1 học kì ngành Thanh nhạc bao nhiêu
+
+- intent: hp_piano
+  examples: |
+    - học phí ngành Piano như nào ạ
+    - ngành Piano có đắt không
+    - học phí trung bình 1 học kì ngành Piano
+    - 1 học kì ngành Piano bao nhiêu
+
+- intent: hp_ddien
+  examples: |
+    - học phí ngành Đạo diễn điện ảnh truyền hình như nào ạ
+    - ngành Đạo diễn điện ảnh truyền hình có đắt không
+    - học phí trung bình 1 học kì ngành Đạo diễn điện ảnh truyền hình
+    - 1 học kì ngành Đạo diễn điện ảnh truyền hình bao nhiêu
+    
+- intent: hp_qphim
+  examples: |
+    - học phí ngành Quay phim như nào ạ
+    - ngành Quay phim có đắt không
+    - học phí trung bình 1 học kì ngành Quay phim
+    - 1 học kì ngành Quay phim bao nhiêu
+    
+- intent: hp_tkdh
+  examples: |
+    - học phí ngành Thiết kế đồ họa như nào ạ
+    - ngành Thiết kế đồ họa có đắt không
+    - học phí trung bình 1 học kì ngành Thiết kế đồ họa
+    - 1 học kì ngành Thiết kế đồ họa bao nhiêu
+
