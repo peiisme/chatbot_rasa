@@ -27,7 +27,8 @@ intents:
   - hp_piano
   - hp_ddien
   - hp_qphim
-  _ hp_tkdh
+  - hp_tkdh
+  - 
 
 responses:
 

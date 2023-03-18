@@ -26,4 +26,4 @@ stories:
       - intent: chao_hoi
       - action: utter_chao_hoi
       - intent: gioi_thieu
-      - action:       
+      - action: utter_gioi_thieu      
