@@ -99,6 +99,7 @@ nlu:
     - liệt kê các phương thức tuyển sinh
     - năm nay tuyển sinh mấy phương thức
     - phương thức được dùng để tuyển sinh năm nay
+
 - intent: nganh_dao_tao
   examples: |
     - các ngành tuyển sinh
@@ -119,6 +120,9 @@ nlu:
     - có bao nhiêu ngành
     - có bao nhiêu ngành được đào tạo
     - trường đào tạo bao nhiêu ngành
+
+
+
 - intent: hoc_bong
   examples: |
     - trường có học bổng không
@@ -126,6 +130,7 @@ nlu:
     - học bổng cho sinh viên như thế nào
     - tân sinh viên có học bổng không
     - có học bổng cho sinh viên không
+
 - intent: co_so_vat_chat
   examples: |
     - các cơ sở chính
@@ -133,21 +138,38 @@ nlu:
     - các cơ sở của trường
     - các cơ sở của trường ở đâu
     - có bao nhiêu cơ sở tất cả
+
+
+
 - intent: hoat_dong
   examples: |
     - các hoạt động của trường
     - trường có những hoạt động nào
     -
+
+
 - intent: thoi_gian_dao_tao
   examples: |
     - ngành ABC đào tạo bao lâu
     - ngành XYZ học mấy năm
     - bao lâu thì học xong ngành ABC
     - ngành XYZ học lâu không
+
+
 - intent: diem_chuan
   examples: |
     - điểm chuẩn năm trước của trường
     - điểm chuẩn các ngành
     - điểm chuẩn các ngành của trường
     - ngành ABC lấy bao nhiêu điểm
-      
+
+    -
+
+- intent: gioi_thieu
+  examples: |
+    - giới thiệu về trường
+    - trường đại học Nguyễn Tất Thành có gì
+    - 
+    
+    
+
