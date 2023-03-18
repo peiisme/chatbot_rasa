@@ -8,7 +8,7 @@ stories:
       - intent: nganh_dao_tao
       - action: utter_nganh_dao_tao
 
-  - story: thu hai
+  - story: thu hai 
     steps:
       - intent: chao_hoi
       - action: utter_chao_hoi

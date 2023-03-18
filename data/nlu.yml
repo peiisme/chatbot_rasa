@@ -6,6 +6,7 @@ nlu:
     - Xin chào
     - hello
     - hi
+    - Co o do khong
 
 
 - intent: tam_biet
