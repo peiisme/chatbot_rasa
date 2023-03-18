@@ -56,7 +56,6 @@ responses:
 
   utter_tam_biet:
   - text: "Chào bạn hẹn gặp lại bạn, rất vui vì đã hỗ trợ được bạn"
-
   utter_chuong_trinh_dao_tao:
   - text: "
         -Lĩnh vực Máy tính & Công nghệ thông tin của Trường ĐH Nguyễn Tất Thành hiện đang có các chương trình đào tạo:\n
@@ -189,6 +188,7 @@ responses:
             Ngành: Quản trị nhà hàng & Dịch vụ ăn uống\n
             Ngành: Du lịch\n
             Ngành: Quản lý tài nguyên & môi trường\n"
+
   utter_hp_cntt:
   - text: "Ngành Công nghệ thông tin với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 11 triệu đồng."
 

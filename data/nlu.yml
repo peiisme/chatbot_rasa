@@ -17,13 +17,12 @@ nlu:
     - Hẹn gặp lại
     - see you later
     - good night
-
-
 - intent: dong_y
   examples: |
     - có
     - có chứ
     - tất nhiên rồi
+
     - tất nhiên
     - có vẻ thú vị
     - đúng rồi
@@ -215,16 +214,3 @@ nlu:
     - học phí trung bình 1 học kì ngành Thiết kế đồ họa
     - 1 học kì ngành Thiết kế đồ họa bao nhiêu
 
-- intent:
-  examples: |
-    -
-    -
-    -
-    -        
-
-- intent:
-  examples: |
-    -
-    -
-    -
-    -        
