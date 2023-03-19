@@ -23,7 +23,6 @@ stories:
       - intent: phuong_thuc_tuyen_sinh
       - action: utter_phuong_thuc_tuyen_sinh
       - intent: tam_biet
-
       - action: utter_tam_biet
 
   - story: gioi_thieu
