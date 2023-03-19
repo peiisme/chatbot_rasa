@@ -1,14 +1,35 @@
 version: "3.1"
 
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-  - nganh_hoc
+  - chao_hoi
+  - tam_biet
+  - dong_y
+  - hoi_ve_bot
+  - phuong_thuc_tuyen_sinh
+  - nganh_dao_tao
+  - hoc_bong
+  - co_so_vat_chat
+  - hoat_dong
+  - thoi_gian_dao_tao
+  - diem_chuan
+  - chuong_trinh_dao_tao
+  - hoc_phi
+  - gioi_thieu
+  - hp_cntt
+  - hp_duoc
+  - hp_y
+  - hp_yhdp
+  - hp_dduong
+  - hp_xnyh
+  - hp_qlbv
+  - hp_phcn
+  - hp_tnhac
+  - hp_piano
+  - hp_ddien
+  - hp_qphim
+  - hp_tkdh
+  
+
 responses:
   utter_greet:
   - text: "Hey! How are you?"
@@ -80,10 +101,6 @@ responses:
   - text: "Ngành: Quản trị nhà hàng & Dịch vụ ăn uống"
   - text: "Ngành: Du lịch"
   - text: "Ngành: Quản lý tài nguyên & môi trường"
-  
-  utter_gioithieu_duochoc:
-  - text: Dược học là lĩnh vực khoa học ứng dụng chuyên về bào chế, quản lý, phân phối thuốc và chăm sóc dược. Người hành nghề trong ngành Dược là Dược sỹ, được trang bị đầy đủ kiến thức, kỹ năng chuyên môn để tư vấn sử dụng thuốc an toàn, hiệu quả; để sản xuất, quản lý và cung ứng thuốc tốt, đáp ứng như cầu chăm sóc, bảo vệ sức khỏe người dân.
-Cơ hội nghề nghiệp.
 
 session_config:
   session_expiration_time: 60
