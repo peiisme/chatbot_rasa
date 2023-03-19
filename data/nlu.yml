@@ -1,216 +1,215 @@
 version: "3.1"
 
 nlu:
-- intent: chao_hoi
-  examples: |
-    - Xin chào
-    - hello
-    - hi
-    - chào
-    - alo
-
-
-- intent: tam_biet
-  examples: |
-    - good bye
-    - Tạm biệt
-    - Hẹn gặp lại
-    - see you later
-    - good night
-- intent: dong_y
-  examples: |
-    - có
-    - có chứ
-    - tất nhiên rồi
-
-    - tất nhiên
-    - có vẻ thú vị
-    - đúng rồi
-
-- intent: hoi_ve_bot
-  examples: |
-    - bạn có phải là một chat bot không
-    - bạn có phải là con người không
-    - mình đang nói chuyện với một chat bot phải không
-    - đầu dây bên kia là ai nhỉ
-    - ai đang trả lời cuộc trò chuyện này
+  - intent: chao_hoi
+    examples: |
+      - Xin chào
+      - hello
+      - hi
+      - chào
+      - alo
   
 
-- intent: phuong_thuc_tuyen_sinh
-  examples: |
-    - các phương thức tuyển sinh
-    - tuyển sinh theo phương thức nào
-    - phương thức tuyển sinh
-    - tuyển sinh mấy phương thức
-    - liệt kê các phương thức tuyển sinh
-    - năm nay tuyển sinh mấy phương thức
-    - phương thức được dùng để tuyển sinh năm nay
+  - intent: tam_biet
+    examples: |
+      - good bye
+      - Tạm biệt
+      - Hẹn gặp lại
+      - see you later
+      - good night
+  - intent: dong_y
+    examples: |
+      - có
+      - có chứ
+      - tất nhiên rồi
+      - tất nhiên
+      - có vẻ thú vị
+      - đúng rồi
 
-- intent: nganh_dao_tao
-  examples: |
-    - các ngành tuyển sinh
-    - tuyển sinh ngành nào
-    - tuyển sinh các ngành
-    - tuyển sinh các ngành nào
-    - các ngành trường đào tạo
-    - các ngành trường tuyển sinh
-    - các ngành tuyển sinh năm nay
-    - tuyển sinh ngành nào năm nay
-    - năm nay tuyển sinh các ngành 
-    - năm nay tuyển sinh các ngành nào
-    - các ngành trường đào tạo năm nay
-    - các ngành trường tuyển sinh
-    - đào tạo các ngành
-    - trường tuyển sinh ngành nào
-    - các ngành được đào tạo tại trường
-    - có bao nhiêu ngành
-    - có bao nhiêu ngành được đào tạo
-    - trường đào tạo bao nhiêu ngành
+  - intent: hoi_ve_bot
+    examples: |
+      - bạn có phải là một chat bot không
+      - bạn có phải là con người không
+      - mình đang nói chuyện với một chat bot phải không
+      - đầu dây bên kia là ai nhỉ
+      - ai đang trả lời cuộc trò chuyện này
+    
 
-- intent: hoc_bong
-  examples: |
-    - trường có học bổng không
-    - học bổng cho sinh viên
-    - học bổng cho sinh viên như thế nào
-    - tân sinh viên có học bổng không
-    - có học bổng cho sinh viên không
+  - intent: phuong_thuc_tuyen_sinh
+    examples: |
+      - các phương thức tuyển sinh
+      - tuyển sinh theo phương thức nào
+      - phương thức tuyển sinh
+      - tuyển sinh mấy phương thức
+      - liệt kê các phương thức tuyển sinh
+      - năm nay tuyển sinh mấy phương thức
+      - phương thức được dùng để tuyển sinh năm nay
 
-- intent: co_so_vat_chat
-  examples: |
-    - các cơ sở chính
-    - trường có bao nhiêu cơ sở
-    - các cơ sở của trường
-    - các cơ sở của trường ở đâu
-    - có bao nhiêu cơ sở tất cả
+  - intent: nganh_dao_tao
+    examples: |
+      - các ngành tuyển sinh
+      - tuyển sinh ngành nào
+      - tuyển sinh các ngành
+      - tuyển sinh các ngành nào
+      - các ngành trường đào tạo
+      - các ngành trường tuyển sinh
+      - các ngành tuyển sinh năm nay
+      - tuyển sinh ngành nào năm nay
+      - năm nay tuyển sinh các ngành 
+      - năm nay tuyển sinh các ngành nào
+      - các ngành trường đào tạo năm nay
+      - các ngành trường tuyển sinh
+      - đào tạo các ngành
+      - trường tuyển sinh ngành nào
+      - các ngành được đào tạo tại trường
+      - có bao nhiêu ngành
+      - có bao nhiêu ngành được đào tạo
+      - trường đào tạo bao nhiêu ngành
 
-- intent: hoat_dong
-  examples: |
-    - các hoạt động của trường
-    - trường có những hoạt động nào
-    -
+  - intent: hoc_bong
+    examples: |
+      - trường có học bổng không
+      - học bổng cho sinh viên
+      - học bổng cho sinh viên như thế nào
+      - tân sinh viên có học bổng không
+      - có học bổng cho sinh viên không
 
-- intent: thoi_gian_dao_tao
-  examples: |
-    - ngành ABC đào tạo bao lâu
-    - ngành XYZ học mấy năm
-    - bao lâu thì học xong ngành ABC
-    - ngành XYZ học lâu không
+  - intent: co_so_vat_chat
+    examples: |
+      - các cơ sở chính
+      - trường có bao nhiêu cơ sở
+      - các cơ sở của trường
+      - các cơ sở của trường ở đâu
+      - có bao nhiêu cơ sở tất cả
 
-- intent: diem_chuan
-  examples: |
-    - điểm chuẩn năm trước của trường
-    - điểm chuẩn các ngành
-    - điểm chuẩn các ngành của trường
-    - ngành ABC lấy bao nhiêu điểm
+  - intent: hoat_dong
+    examples: |
+      - các hoạt động của trường
+      - trường có những hoạt động nào
+      -
+
+  - intent: thoi_gian_dao_tao
+    examples: |
+      - ngành ABC đào tạo bao lâu
+      - ngành XYZ học mấy năm
+      - bao lâu thì học xong ngành ABC
+      - ngành XYZ học lâu không
+
+  - intent: diem_chuan
+    examples: |
+      - điểm chuẩn năm trước của trường
+      - điểm chuẩn các ngành
+      - điểm chuẩn các ngành của trường
+      - ngành ABC lấy bao nhiêu điểm
+    
+
+  - intent: gioi_thieu
+    examples: |
+      - giới thiệu về trường
+      - trường đại học Nguyễn Tất Thành có gì
+
+  - intent: chuong_trinh_dao_tao
+    examples: |
+      - cho em hỏi về chương trình đào tạo
+      - chương trình đào tạo của mình có cái gì
+      - chương trinh đào tạo của mình ra sao ạ
   
 
-- intent: gioi_thieu
-  examples: |
-    - giới thiệu về trường
-    - trường đại học Nguyễn Tất Thành có gì
-    
-- intent: chuong_trinh_dao_tao
-  examples: |
-    - cho em hỏi về chương trình đào tạo
-    - chương trình đào tạo của mình có cái gì
-    - chương trinh đào tạo của mình ra sao ạ
+  - intent: hoc_phi
+    examples: |
+      - cho em hỏi học phí của trường
+      - học phí trung bình của trường
+      - học phí
+      - học phí thế nào ạ
 
-    
-- intent: hoc_phi
-  examples: |
-    - cho em hỏi học phí của trường
-    - học phí trung bình của trường
-    - học phí
-    - học phí thế nào ạ
+  - intent: hp_cnnt
+    examples: |
+      - học phí ngành CNTT như nào ạ
+      - ngành CNTT có đắt không
+      - học phí trung bình 1 học kì ngành CNTT
+      - 1 học kì ngành CNTT bao nhiêu
 
-- intent: hp_cnnt
-  examples: |
-    - học phí ngành CNTT như nào ạ
-    - ngành CNTT có đắt không
-    - học phí trung bình 1 học kì ngành CNTT
-    - 1 học kì ngành CNTT bao nhiêu
+  - intent: hp_duoc
+    examples: |
+      - học phí ngành Dược học như nào ạ
+      - ngành Dược học có đắt không
+      - học phí trung bình 1 học kì ngành Dược học
+      - 1 học kì ngành Dược học bao nhiêu
 
-- intent: hp_duoc
-  examples: |
-    - học phí ngành Dược học như nào ạ
-    - ngành Dược học có đắt không
-    - học phí trung bình 1 học kì ngành Dược học
-    - 1 học kì ngành Dược học bao nhiêu
+  - intent: hp_y
+    examples: |
+      - học phí ngành Y khoa như nào ạ
+      - ngành Y khoa có đắt không
+      - học phí trung bình 1 học kì ngành Y khoa
+      - 1 học kì ngành Y khoa bao nhiêu
 
-- intent: hp_y
-  examples: |
-    - học phí ngành Y khoa như nào ạ
-    - ngành Y khoa có đắt không
-    - học phí trung bình 1 học kì ngành Y khoa
-    - 1 học kì ngành Y khoa bao nhiêu
+  - intent: hp_yhdp
+    examples: |
+      - học phí ngành Y học dự phòng như nào ạ
+      - ngành Y học dự phòng có đắt không
+      - học phí trung bình 1 học kì ngành Y học dự phòng
+      - 1 học kì ngành Y học dự phòng bao nhiêu
 
-- intent: hp_yhdp
-  examples: |
-    - học phí ngành Y học dự phòng như nào ạ
-    - ngành Y học dự phòng có đắt không
-    - học phí trung bình 1 học kì ngành Y học dự phòng
-    - 1 học kì ngành Y học dự phòng bao nhiêu
+  - intent: hp_dduong
+    examples: |
+      - học phí ngành Điều dưỡng như nào ạ
+      - ngành Điều dưỡng có đắt không
+      - học phí trung bình 1 học kì ngành Điều dưỡng
+      - 1 học kì ngành Điều dưỡng bao nhiêu
 
-- intent: hp_dduong
-  examples: |
-    - học phí ngành Điều dưỡng như nào ạ
-    - ngành Điều dưỡng có đắt không
-    - học phí trung bình 1 học kì ngành Điều dưỡng
-    - 1 học kì ngành Điều dưỡng bao nhiêu
+  - intent: hp_xnyh
+    examples: |
+      - học phí ngành Kỹ thuật xét nghiệm y học như nào ạ
+      - ngành Kỹ thuật xét nghiệm y học có đắt không
+      - học phí trung bình 1 học kì ngành Kỹ thuật xét nghiệm y học
+      - 1 học kì ngành Kỹ thuật xét nghiệm y học bao nhiêu
 
-- intent: hp_xnyh
-  examples: |
-    - học phí ngành Kỹ thuật xét nghiệm y học như nào ạ
-    - ngành Kỹ thuật xét nghiệm y học có đắt không
-    - học phí trung bình 1 học kì ngành Kỹ thuật xét nghiệm y học
-    - 1 học kì ngành Kỹ thuật xét nghiệm y học bao nhiêu
+  - intent: hp_qlbv
+    examples: |
+      - học phí ngành Quản lý bệnh viện như nào ạ
+      - ngành Quản lý bệnh viện có đắt không
+      - học phí trung bình 1 học kì ngành Quản lý bệnh viện
+      - 1 học kì ngành Quản lý bệnh viện bao nhiêu
 
-- intent: hp_qlbv
-  examples: |
-    - học phí ngành Quản lý bệnh viện như nào ạ
-    - ngành Quản lý bệnh viện có đắt không
-    - học phí trung bình 1 học kì ngành Quản lý bệnh viện
-    - 1 học kì ngành Quản lý bệnh viện bao nhiêu
+  - intent: hp_phcn
+    examples: |
+      - học phí ngành Kỹ thuật phục hồi chức năng như nào ạ
+      - ngành Kỹ thuật phục hồi chức năng có đắt không
+      - học phí trung bình 1 học kì ngành Kỹ thuật phục hồi chức năng
+      - 1 học kì ngành Kỹ thuật phục hồi chức năng bao nhiêu
 
-- intent: hp_phcn
-  examples: |
-    - học phí ngành Kỹ thuật phục hồi chức năng như nào ạ
-    - ngành Kỹ thuật phục hồi chức năng có đắt không
-    - học phí trung bình 1 học kì ngành Kỹ thuật phục hồi chức năng
-    - 1 học kì ngành Kỹ thuật phục hồi chức năng bao nhiêu
-    
-- intent: hp_tnhac
-  examples: |
-    - học phí ngành Thanh nhạc như nào ạ
-    - ngành Thanh nhạc có đắt không
-    - học phí trung bình 1 học kì ngành Thanh nhạc
-    - 1 học kì ngành Thanh nhạc bao nhiêu
+  - intent: hp_tnhac
+    examples: |
+      - học phí ngành Thanh nhạc như nào ạ
+      - ngành Thanh nhạc có đắt không
+      - học phí trung bình 1 học kì ngành Thanh nhạc
+      - 1 học kì ngành Thanh nhạc bao nhiêu
 
-- intent: hp_piano
-  examples: |
-    - học phí ngành Piano như nào ạ
-    - ngành Piano có đắt không
-    - học phí trung bình 1 học kì ngành Piano
-    - 1 học kì ngành Piano bao nhiêu
+  - intent: hp_piano
+    examples: |
+      - học phí ngành Piano như nào ạ
+      - ngành Piano có đắt không
+      - học phí trung bình 1 học kì ngành Piano
+      - 1 học kì ngành Piano bao nhiêu
 
-- intent: hp_ddien
-  examples: |
-    - học phí ngành Đạo diễn điện ảnh truyền hình như nào ạ
-    - ngành Đạo diễn điện ảnh truyền hình có đắt không
-    - học phí trung bình 1 học kì ngành Đạo diễn điện ảnh truyền hình
-    - 1 học kì ngành Đạo diễn điện ảnh truyền hình bao nhiêu
-    
-- intent: hp_qphim
-  examples: |
-    - học phí ngành Quay phim như nào ạ
-    - ngành Quay phim có đắt không
-    - học phí trung bình 1 học kì ngành Quay phim
-    - 1 học kì ngành Quay phim bao nhiêu
-    
-- intent: hp_tkdh
-  examples: |
-    - học phí ngành Thiết kế đồ họa như nào ạ
-    - ngành Thiết kế đồ họa có đắt không
-    - học phí trung bình 1 học kì ngành Thiết kế đồ họa
-    - 1 học kì ngành Thiết kế đồ họa bao nhiêu
+  - intent: hp_ddien
+    examples: |
+      - học phí ngành Đạo diễn điện ảnh truyền hình như nào ạ
+      - ngành Đạo diễn điện ảnh truyền hình có đắt không
+      - học phí trung bình 1 học kì ngành Đạo diễn điện ảnh truyền hình
+      - 1 học kì ngành Đạo diễn điện ảnh truyền hình bao nhiêu
+
+  - intent: hp_qphim
+    examples: |
+      - học phí ngành Quay phim như nào ạ
+      - ngành Quay phim có đắt không
+      - học phí trung bình 1 học kì ngành Quay phim
+      - 1 học kì ngành Quay phim bao nhiêu
+
+  - intent: hp_tkdh
+    examples: |
+      - học phí ngành Thiết kế đồ họa như nào ạ
+      - ngành Thiết kế đồ họa có đắt không
+      - học phí trung bình 1 học kì ngành Thiết kế đồ họa
+      - 1 học kì ngành Thiết kế đồ họa bao nhiêu
 
