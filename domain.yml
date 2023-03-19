@@ -28,28 +28,28 @@ intents:
   - hp_ddien
   - hp_qphim
   - hp_tkdh
-  - 
+  
 
 responses:
 
   utter_phuong_thuc_tuyen_sinh:
-  - text: "Hiện tại trường Đại học Nguyễn Tất Thành đang tuyển sinh với 4 hình thức:
-1. Xét tuyển kết quả thi tốt nghiệp THPT năm xét tuyển theo tổ hợp môn.
-2. Xét tuyển kết quả học bạ đạt 1 trong các tiêu chí:
-- Tổng điểm trung bình 1 học kì lớp 10 + điểm trung bình 1 học kì lớp 11 + điểm trung bình 1 học kì lớp 12 đạt từ 18 điểm trở lên (được chọn điểm cao nhất trong 2 trọng kì của mỗi năm học)
-- Điểm tổ hợp các môn xét tuyển lớp 12 đạt từ 18 điểm trở lên.
-- Điểm trung bình cả năm lớp 12 đạt từ 6.0 trở lên.
-3. Xét tuyển kết quả bài thi kiểm tra đánh giá năng lực của ĐHQG TH.HCM và ĐHQG Hà Nội.
-4. Xét tuyển thẳng, ưu tiên xét tuyển và cử tuyển.
-(Lưu ý: các ngành thuộc khối Sức khỏe và Giáo dục Mầm non đảm bảo ngưỡng chất lượng đầu vào của Bộ Giáo dục và Đào tạo)"
+  - text: "Hiện tại trường Đại học Nguyễn Tất Thành đang tuyển sinh với 4 hình thức:\n
+        1. Xét tuyển kết quả thi tốt nghiệp THPT năm xét tuyển theo tổ hợp môn.\n
+        2. Xét tuyển kết quả học bạ đạt 1 trong các tiêu chí:\n
+        - Tổng điểm trung bình 1 học kì lớp 10 + điểm trung bình 1 học kì lớp 11 + điểm trung bình 1 học kì lớp 12 đạt từ 18 điểm trở lên (được chọn điểm cao nhất trong 2 trọng kì của mỗi năm học)\n
+        - Điểm tổ hợp các môn xét tuyển lớp 12 đạt từ 18 điểm trở lên.\n
+        - Điểm trung bình cả năm lớp 12 đạt từ 6.0 trở lên.\n
+        3. Xét tuyển kết quả bài thi kiểm tra đánh giá năng lực của ĐHQG TH.HCM và ĐHQG Hà Nội.\n
+        4. Xét tuyển thẳng, ưu tiên xét tuyển và cử tuyển.\n
+            (Lưu ý: các ngành thuộc khối Sức khỏe và Giáo dục Mầm non đảm bảo ngưỡng chất lượng đầu vào của Bộ Giáo dục và Đào tạo)"
 
   utter_gioi_thieu:
   - text: "Trường ĐH Nguyễn Tất Thành là trường đại học ứng dụng đa ngành, đa lĩnh vực, đáp ứng nhu cầu giáo dục đại học đại chúng thông qua việc tạo lập một môi trường học tập tích cực và trải nghiệm thực tiễn cho mọi sinh viên trang bị cho người học năng lực tự học tinh thần sáng tạo khởi nghiệp có trách nhiệm với cộng đồng hội nhập với khu vực và toàn cầu."
-  - text: "Trường ĐH Nguyễn Tất Thành có quy mô đào tạo khoảng 25.000 sinh viên, học viên với 18 khoa, 49 chương trình đào tạo bậc đại học, 9 chương trình đào tạo Tiến sĩ, Thạc sĩ thuộc 16 lĩnh vực gồm: Sức khỏe; Nghệ thuật; Nhân văn; Khoa học xã hội và Hành vi; Báo chí và thông tin; Kinh doanh và quản lý; Pháp luật; Khoa học sự sống; Máy tính và công nghệ thông tin; Công nghệ kỹ thuật; Kỹ thuật; Sản xuất và Chế biến; Kiến trúc và xây dựng; Du lịch; Môi trường và bảo vệ môi trường; Khoa học giáo dục và đào tạo giáo viên.
-  Trải qua 23 năm hình thành và phát triển, Nhà trường đã được Bộ GD&ĐT công nhận đạt chuẩn kiểm định chất lượng, 9 chương trình đào tạo bậc đại học và sau đại học đạt chuẩn chất lượng cấp cơ sở giáo dục của Bộ Giáo dục & Đào tạo. 8 chương trình đào tạo của Trường đạt Kiểm định chất lượng theo bộ tiêu chuẩn đảm bảo chất lượng chung của Mạng lưới Đảm bảo chất lượng của hệ thống các trường đại học ASEAN (ASEAN University Network – Quality Assurance, AUN-QA). 
-  Năm 2019, Đại học Nguyễn Tất Thành là Trường đại học duy nhất tại Việt Nam được tổ chức kiểm định chất lượng quốc tế QS Stars (Anh Quốc) xếp hạng 4 sao. Tháng 8/2020, Trường ĐH Nguyễn Tất Thành lọt vào Top 6 trường đại học đầu tiên đạt 4 sao theo UPM (hệ thống xếp hạng đối sánh chất lượng đại học Việt Nam và khu vực – University Performance Metrics).
-  Năm 2022,  Nhà trường cũng ghi nhận 4 chương trình đào tạo được gắn sao theo Hệ thống đối sánh chất lượng giáo dục UPM, gồm: Quản trị nhà hàng và Dịch vụ ăn uống, đạt 3 sao plus. Kế toán đạt 4 sao, Tài chính ngân hàng đạt 4 sao. Công nghệ thông tin đạt 4 sao plus. Tháng 7/2022, Hệ thống xếp hạng đối sánh chất lượng đại học UPM xếp hạng Trường ĐH Nguyễn Tất Thành là một trong hai trường đạt chuẩn 5 sao theo định hướng ứng dụng và là trường ngoài công lập duy nhất đạt được xếp hạng này.
-  Bên cạnh những thành tựu về đào tạo nguồn nhân lực chất lượng cao, vai trò và vị thế của trường đại học Nguyễn Tất Thành còn được thể hiện đậm nét trong các hoạt động nghiên cứu khoa học khi đứng ở TOP 5 toàn quốc về công trình nghiên cứu khoa học công bố quốc tế do tạp chí ISI trong năm 2019; TOP 5 tạp chí khoa học Việt Nam có chỉ số ảnh hưởng cao nhất năm 2020; TOP 20 các chỉ số nghiên cứu khoa học tại bảng xếp hạng Đại học của Việt Nam UPM năm 2020; Top 12 trường đại học Việt Nam tại bảng xếp hạng thế giới URAP 2020. Năm 2021, Trường ĐH Nguyễn Tất Thành được Webometrics xếp vị trí thứ 7 trên tổng số 178 trường đại học tại Việt Nam. Năm 2022, Trường ĐH Nguyễn Tất Thành xuất sắc lọt Top 3  trong tổng số 24 trường đại học của Việt Nam trên bảng xếp hạng SCImago Institutions Rankings 2022."
+  - text: "Trường ĐH Nguyễn Tất Thành có quy mô đào tạo khoảng 25.000 sinh viên, học viên với 18 khoa, 49 chương trình đào tạo bậc đại học, 9 chương trình đào tạo Tiến sĩ, Thạc sĩ thuộc 16 lĩnh vực gồm: Sức khỏe; Nghệ thuật; Nhân văn; Khoa học xã hội và Hành vi; Báo chí và thông tin; Kinh doanh và quản lý; Pháp luật; Khoa học sự sống; Máy tính và công nghệ thông tin; Công nghệ kỹ thuật; Kỹ thuật; Sản xuất và Chế biến; Kiến trúc và xây dựng; Du lịch; Môi trường và bảo vệ môi trường; Khoa học giáo dục và đào tạo giáo viên.\n
+            Trải qua 23 năm hình thành và phát triển, Nhà trường đã được Bộ GD&ĐT công nhận đạt chuẩn kiểm định chất lượng, 9 chương trình đào tạo bậc đại học và sau đại học đạt chuẩn chất lượng cấp cơ sở giáo dục của Bộ Giáo dục & Đào tạo. 8 chương trình đào tạo của Trường đạt Kiểm định chất lượng theo bộ tiêu chuẩn đảm bảo chất lượng chung của Mạng lưới Đảm bảo chất lượng của hệ thống các trường đại học ASEAN (ASEAN University Network – Quality Assurance, AUN-QA). \n
+            Năm 2019, Đại học Nguyễn Tất Thành là Trường đại học duy nhất tại Việt Nam được tổ chức kiểm định chất lượng quốc tế QS Stars (Anh Quốc) xếp hạng 4 sao. Tháng 8/2020, Trường ĐH Nguyễn Tất Thành lọt vào Top 6 trường đại học đầu tiên đạt 4 sao theo UPM (hệ thống xếp hạng đối sánh chất lượng đại học Việt Nam và khu vực – University Performance Metrics).\n
+            Năm 2022,  Nhà trường cũng ghi nhận 4 chương trình đào tạo được gắn sao theo Hệ thống đối sánh chất lượng giáo dục UPM, gồm: Quản trị nhà hàng và Dịch vụ ăn uống, đạt 3 sao plus. Kế toán đạt 4 sao, Tài chính ngân hàng đạt 4 sao. Công nghệ thông tin đạt 4 sao plus. Tháng 7/2022, Hệ thống xếp hạng đối sánh chất lượng đại học UPM xếp hạng Trường ĐH Nguyễn Tất Thành là một trong hai trường đạt chuẩn 5 sao theo định hướng ứng dụng và là trường ngoài công lập duy nhất đạt được xếp hạng này.\n
+            Bên cạnh những thành tựu về đào tạo nguồn nhân lực chất lượng cao, vai trò và vị thế của trường đại học Nguyễn Tất Thành còn được thể hiện đậm nét trong các hoạt động nghiên cứu khoa học khi đứng ở TOP 5 toàn quốc về công trình nghiên cứu khoa học công bố quốc tế do tạp chí ISI trong năm 2019; TOP 5 tạp chí khoa học Việt Nam có chỉ số ảnh hưởng cao nhất năm 2020; TOP 20 các chỉ số nghiên cứu khoa học tại bảng xếp hạng Đại học của Việt Nam UPM năm 2020; Top 12 trường đại học Việt Nam tại bảng xếp hạng thế giới URAP 2020. Năm 2021, Trường ĐH Nguyễn Tất Thành được Webometrics xếp vị trí thứ 7 trên tổng số 178 trường đại học tại Việt Nam. Năm 2022, Trường ĐH Nguyễn Tất Thành xuất sắc lọt Top 3  trong tổng số 24 trường đại học của Việt Nam trên bảng xếp hạng SCImago Institutions Rankings 2022."
 
   utter_chao_hoi:
   - text: "Xin chào, mình là một chat bot của NTTU, mình có thể giúp gì?"
