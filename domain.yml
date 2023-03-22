@@ -223,8 +223,6 @@ responses:
                 Ngành: Quản trị nhà hàng & Dịch vụ ăn uống\n
                 Ngành: Du lịch\n
                 Ngành: Quản lý tài nguyên & môi trường\n"
-
-    <<<<<<< HEAD
     #   utter_nganhhoc:
     #   - text: "Ngành: Dược học"
     #   - text: "Ngành: Kỹ thuật xét nghiệm y học"
@@ -348,7 +346,7 @@ responses:
     - text: "Đây là một ngành thuộc lĩnh vực kinh tế bao gồm toàn bộ các hoạt động liên quan đến giao dịch tiền tệ và kinh doanh thông qua ngân hàng. Hay nói cách khác đây là ngành tập trung cụ thể đến các lĩnh vực về tài chính và lưu thông tiền tệ."
 
     utter_gt_ktoan:
-    - text: "Đây là một trong những ngành "hot" trên thị trường lao động hiện nay bởi bất cứ một tổ chức hay doanh nghiệp dù lớn hay nhỏ đều phải cần đến. Kế toán là lĩnh vực liên quan đến việc thực hiện quá trình thu thập, xử lý, kiểm tra thông tin về kinh tế tài chính cho các đối tượng có nhu cầu sử dụng."
+    - text: "Đây là một trong những ngành 'hot' trên thị trường lao động hiện nay bởi bất cứ một tổ chức hay doanh nghiệp dù lớn hay nhỏ đều phải cần đến. Kế toán là lĩnh vực liên quan đến việc thực hiện quá trình thu thập, xử lý, kiểm tra thông tin về kinh tế tài chính cho các đối tượng có nhu cầu sử dụng."
     
     utter_gt_tmdientu:
     - text: "Đây là ngành chuyên nghiên cứu về các hoạt động thương mại thông qua những phương tiện điện tử hiện đại, từ đó giúp cho hoạt động thương mại diễn ra nhanh hơn, hiệu quả hơn, tiết kiệm chi phí, mở rộng không gian kinh doanh."
@@ -458,310 +456,104 @@ responses:
     
     utter_hp_tkdh:
     - text: "Ngành Thiết kế đồ họa với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 11 triệu đồng."
+    utter_hp_qhqt:
+    - text: "Ngành Quan hệ quốc tế là ngành mới với thời gian đào tạo là 3 năm, chưa có mức học phí cụ thể."
 
-  utter_phuong_thuc_tuyen_sinh:
-  - text: "Hiện tại trường Đại học Nguyễn Tất Thành đang tuyển sinh với 4 hình thức:
-1. Xét tuyển kết quả thi tốt nghiệp THPT năm xét tuyển theo tổ hợp môn.
-2. Xét tuyển kết quả học bạ đạt 1 trong các tiêu chí:
-- Tổng điểm trung bình 1 học kì lớp 10 + điểm trung bình 1 học kì lớp 11 + điểm trung bình 1 học kì lớp 12 đạt từ 18 điểm trở lên (được chọn điểm cao nhất trong 2 trọng kì của mỗi năm học)
-- Điểm tổ hợp các môn xét tuyển lớp 12 đạt từ 18 điểm trở lên.
-- Điểm trung bình cả năm lớp 12 đạt từ 6.0 trở lên.
-3. Xét tuyển kết quả bài thi kiểm tra đánh giá năng lực của ĐHQG TH.HCM và ĐHQG Hà Nội.
-4. Xét tuyển thẳng, ưu tiên xét tuyển và cử tuyển.
-(Lưu ý: các ngành thuộc khối Sức khỏe và Giáo dục Mầm non đảm bảo ngưỡng chất lượng đầu vào của Bộ Giáo dục và Đào tạo)"
+    utter_hp_tlh:
+    - text: "Ngành Tâm lý học với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 13 triệu đồng."
 
-  utter_gioi_thieu:
-  - text: "Trường ĐH Nguyễn Tất Thành là trường đại học ứng dụng đa ngành, đa lĩnh vực, đáp ứng nhu cầu giáo dục đại học đại chúng thông qua việc tạo lập một môi trường học tập tích cực và trải nghiệm thực tiễn cho mọi sinh viên trang bị cho người học năng lực tự học tinh thần sáng tạo khởi nghiệp có trách nhiệm với cộng đồng hội nhập với khu vực và toàn cầu."
-  - text: "Trường ĐH Nguyễn Tất Thành có quy mô đào tạo khoảng 25.000 sinh viên, học viên với 18 khoa, 49 chương trình đào tạo bậc đại học, 9 chương trình đào tạo Tiến sĩ, Thạc sĩ thuộc 16 lĩnh vực gồm: Sức khỏe; Nghệ thuật; Nhân văn; Khoa học xã hội và Hành vi; Báo chí và thông tin; Kinh doanh và quản lý; Pháp luật; Khoa học sự sống; Máy tính và công nghệ thông tin; Công nghệ kỹ thuật; Kỹ thuật; Sản xuất và Chế biến; Kiến trúc và xây dựng; Du lịch; Môi trường và bảo vệ môi trường; Khoa học giáo dục và đào tạo giáo viên.
-  Trải qua 23 năm hình thành và phát triển, Nhà trường đã được Bộ GD&ĐT công nhận đạt chuẩn kiểm định chất lượng, 9 chương trình đào tạo bậc đại học và sau đại học đạt chuẩn chất lượng cấp cơ sở giáo dục của Bộ Giáo dục & Đào tạo. 8 chương trình đào tạo của Trường đạt Kiểm định chất lượng theo bộ tiêu chuẩn đảm bảo chất lượng chung của Mạng lưới Đảm bảo chất lượng của hệ thống các trường đại học ASEAN (ASEAN University Network – Quality Assurance, AUN-QA). 
-  Năm 2019, Đại học Nguyễn Tất Thành là Trường đại học duy nhất tại Việt Nam được tổ chức kiểm định chất lượng quốc tế QS Stars (Anh Quốc) xếp hạng 4 sao. Tháng 8/2020, Trường ĐH Nguyễn Tất Thành lọt vào Top 6 trường đại học đầu tiên đạt 4 sao theo UPM (hệ thống xếp hạng đối sánh chất lượng đại học Việt Nam và khu vực – University Performance Metrics).
-  Năm 2022,  Nhà trường cũng ghi nhận 4 chương trình đào tạo được gắn sao theo Hệ thống đối sánh chất lượng giáo dục UPM, gồm: Quản trị nhà hàng và Dịch vụ ăn uống, đạt 3 sao plus. Kế toán đạt 4 sao, Tài chính ngân hàng đạt 4 sao. Công nghệ thông tin đạt 4 sao plus. Tháng 7/2022, Hệ thống xếp hạng đối sánh chất lượng đại học UPM xếp hạng Trường ĐH Nguyễn Tất Thành là một trong hai trường đạt chuẩn 5 sao theo định hướng ứng dụng và là trường ngoài công lập duy nhất đạt được xếp hạng này.
-  Bên cạnh những thành tựu về đào tạo nguồn nhân lực chất lượng cao, vai trò và vị thế của trường đại học Nguyễn Tất Thành còn được thể hiện đậm nét trong các hoạt động nghiên cứu khoa học khi đứng ở TOP 5 toàn quốc về công trình nghiên cứu khoa học công bố quốc tế do tạp chí ISI trong năm 2019; TOP 5 tạp chí khoa học Việt Nam có chỉ số ảnh hưởng cao nhất năm 2020; TOP 20 các chỉ số nghiên cứu khoa học tại bảng xếp hạng Đại học của Việt Nam UPM năm 2020; Top 12 trường đại học Việt Nam tại bảng xếp hạng thế giới URAP 2020. Năm 2021, Trường ĐH Nguyễn Tất Thành được Webometrics xếp vị trí thứ 7 trên tổng số 178 trường đại học tại Việt Nam. Năm 2022, Trường ĐH Nguyễn Tất Thành xuất sắc lọt Top 3  trong tổng số 24 trường đại học của Việt Nam trên bảng xếp hạng SCImago Institutions Rankings 2022."
+    utter_hp_dph:
+    - text: "Ngành Đông phương học với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 14 triệu đồng."
 
-  utter_chao_hoi:
-  - text: "Xin chào, mình là một chat bot của NTTU, mình có thể giúp gì?"
+    utter_hp_vnh:
+    - text: "Ngành Việt Nam học với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 14 triệu đồng."
 
-  utter_tam_biet:
-  - text: "Chào bạn hẹn gặp lại bạn, rất vui vì đã hỗ trợ được bạn"
-  utter_chuong_trinh_dao_tao:
-  - text: "
-        -Lĩnh vực Máy tính & Công nghệ thông tin của Trường ĐH Nguyễn Tất Thành hiện đang có các chương trình đào tạo:\n
-            Mạng máy tính và truyền thông dữ liệu: Thời gian đào tạo 3.5 năm.\n
-            Kỹ thuật phần mềm: Thời gian đào tạo 3.5 năm. \n
-            Công nghệ thông tin: Thời gian đào tạo 3.5 năm. \n
-        
-        -Lĩnh vực Công nghệ Kỹ thuật của Trường ĐH Nguyễn Tất Thành hiện đang có các chương trình đào tạo:\n
-            Công nghệ kỹ thuật cơ điện tử: Thời gian đào tạo 4 năm. (Chuyên ngành: Cơ điện tử, Robot và Trí tuệ nhân tạo, chế tạo máy bằng công nghệ số)\n
-            Công nghệ kỹ thuật ô tô: Thời gian đào tạo 4 năm. \n
-            Công nghệ kỹ thuật điện – điện tử: Thời gian đào tạo 4 năm. (Chuyên ngành: Điện, điện tử; Tự động hóa)\n
-            Kỹ thuật hệ thống công nghiệp: Thời gian đào tạo 4 năm. (Chuyên ngành: Kỹ thuật hệ thống công nghiệp; Logistics và kết nối vạn vật)\n
-        
-        -Lĩnh vực Kỹ thuật của Trường ĐH Nguyễn Tất Thành hiện đang có các chương trình đào tạo\n
-            Kỹ thuật hệ thống công nghiệp: Thời gian đào tạo 4 năm.\n
-            Kỹ thuật y sinh: Thời gian đào tạo 4 năm. \n
-            Vật lý y khoa: Thời gian đào tạo 4 năm.     \n
-        
-        -Lĩnh vực Sản xuất và Chế biến của Trường ĐH Nguyễn Tất Thành hiện đang có các chương trình đào tạo:\n
-            Công nghệ thực phẩm: Thời gian đào tạo 4 năm.\n
-        
-        -Lĩnh vực Kiến trúc và Xây dựng của Trường ĐH Nguyễn Tất Thành hiện đang có các chương trình đào tạo:\n
-            Kiến trúc: Thời gian đào tạo 4 năm. \n
-            Thiết kế nội thất: Thời gian đào tạo 3.5 năm. \n
-            Kỹ thuật xây dựng: Thời gian đào tạo 3.5 năm.\n
-        
-        -Lĩnh vực Du lịch của Trường ĐH Nguyễn Tất Thành hiện đang có các chương trình đào tạo:\n
-            Du lịch: Thời gian đào tạo 3 năm. \n
-            Quản trị khách sạn: Thời gian đào tạo 3 năm. \n
-            Quản trị nhà hàng và dịch vụ ăn uống: Thời gian đào tạo 3 năm.\n
-        
-        -Lĩnh vực Môi trường và Bảo vệ môi trường của Trường ĐH Nguyễn Tất Thành hiện đang có các chương trình đào tạo:\n
-            Quản lý tài nguyên và môi trường: Thời gian đào tạo 3 năm.\n
-        
-        -Lĩnh vực Sức khỏe của Trường ĐH Nguyễn Tất Thành ra đời với sứ mạng cung cấp nguồn nhân lực chất lượng cao trong lĩnh vực y tế. Để thực hiện công tác đào tạo chuyên môn Trường đã không ngừng đầu tư cơ sở vật chất phòng thực hành, thí nghiệm, trang thiết bị y tế… nâng cao trình độ chuyên môn cho đội ngũ sư phạm. Bên cạnh đó, Trường cũng hợp tác với các bác sĩ, các cán bộ quản lý tới từ bệnh viện nhà thuốc, các cơ sở y tế để tham gia góp ý chương trình đào tạo và giảng dạy các môn thực hành. Hiện tại, lĩnh vực Sức khỏe của Trường ĐH Nguyễn Tất Thành đang có các chương trình đào tạo gồm:\n
-            Dược học: Thời gian đào tạo 5 năm.\n
-            Y khoa (Bác sĩ Đa khoa): Thời gian đào tạo 6 năm.\n
-            Y học Dự phòng (Bác sĩ Y học Dự phòng): Thời gian đào tạo 6 năm.\n
-            Điều dưỡng: Thời gian đào tạo 4 năm.\n\n
-            Kỹ thuật Xét nghiệm Y học: Thời gian đào tạo 4 năm.\n
-        
-        -Chương trình đào tạo của lĩnh vực Nghệ thuật được thiết kế linh hoạt, phù hợp với từng ngành học, hướng tới sự phát triển tư duy trí tuệ toàn diện, biểu hiện sáng tạo thông qua chương trình giảng dạy có cấu trúc cân bằng giữa lý thuyết và thực tiễn, kết hợp hài hòa giữa nghệ thuật và công nghệ, giữa sáng tạo và logic.\n
-            Đạo diễn Kịch –  Điện ảnh – Truyền hình: Thời gian đào tạo 3.5 năm.\n
-            Diễn viên Kịch – Điện ảnh – Truyền hình: Thời gian đào tạo 3.5 năm.\n
-            Quay phim: Thời gian đào tạo 3.5 năm.\n
-            Thanh nhạc: Thời gian đào tạo 3 năm.\n
-            Piano: Thời gian đào tạo 3 năm.\n
-            Thiết kế Đồ họa:  Thời gian đào tạo 3.5 năm.\n
-        -Lĩnh vực Nhân văn của Trường Đại học Nguyễn Tất Thành luôn bám sát nhu cầu xã hội để đưa ra những kế hoạch đào tạo phù hợp, đáp ứng mục tiêu giải quyết nhu cầu việc làm của sinh viên sau khi ra trường cũng như cam kết cung cấp cho xã hội nguồn nhân lực chất lượng cao. \n
-        -Hiện nay, với nhu cầu phát triển nguồn nhân lực có chất lượng và đào tạo đa ngành, đa bậc học, khối ngành Xã hội – Nhân văn Trường Đại học Nguyễn Tất Thành đang đào tạo các ngành:\n
-            Ngôn ngữ Anh: Thời gian đào tạo 3.5 năm.\n
-            Tiếng Việt & Văn hóa Việt Nam: Thời gian đào tạo 3.5 năm.\n
-        
-        -Lĩnh vực Khoa học Xã hội & Hành vi Trường ĐH Nguyễn Tất Thành hiện đang có các chương trình đào tạo:\n
-            Ngôn ngữ Trung Quốc: Thời gian đào tạo 3.5 năm.\n
-            Quan hệ Quốc tế: Thời gian đào tạo 3 năm.\n
-            Tâm lý học: Thời gian đào tạo 3 năm.\n
-            Đông Phương học: Thời gian đào tạo 3.5 năm.\n
-            Việt Nam học: Thời gian đào tạo 3 năm.\n
-        
-        -Lĩnh vực Báo chí & Thông tin của Trường ĐH Nguyễn Tất Thành hiện đang có các chương trình đào tạo:\n
-            Truyền thông đa phương tiện: Thời gian đào tạo 3.5 năm.\n
-            Quan hệ công chúng: Thời gian đào tạo 3 năm.\n
-        
-        -Lĩnh vực Kinh doanh & Quản lý của Trường ĐH Nguyễn Tất Thành hiện đang có các chương trình đào tạo:\n
-            Quản trị kinh doanh: Thời gian đào tạo 3 năm.\n
-            Marketing: Thời gian đào tạo 3 năm. \n
-            Kinh doanh quốc tế: Thời gian đào tạo 3 năm.\n
-            Thương mại điện tử: Thời gian đào tạo 3.5 năm. \n
-            Tài chính – ngân hàng: Thời gian đào tạo 3 năm.\n
-            Kế toán: Thời gian đào tạo 3 năm.\n
-            Quản trị nhân lực: Thời gian đào tạo 3 năm.\n
-        
-        -Lĩnh vực Pháp luật của Trường ĐH Nguyễn Tất Thành hiện đang có các chương trình đào tạo:\n
-            Luật kinh tế: Thời gian đào tạo 4 năm.\n
-        
-        -Lĩnh vực Khoa học sự sống của Trường ĐH Nguyễn Tất Thành hiện đang có các chương trình đào tạo:\n
-            Công nghệ sinh học: Thời gian đào tạo 3.5 năm.\n
-          "
-  utter_hoc_phi:
-  - text: "Học phí trung bình của trường Đại học Nguyễn Tất Thành dao động từ 11.300.000 đến 16.900.000 đồng cho 1 học kì. Ngành có mức học phí thấp nhất là Luật kinh tế (11.360.000 đồng), ngành cao nhất là Đạo diễn điện ảnh, Truyền hình (16.984.000 đồng)"
+    utter_hp_dpt:
+    - text: "Ngành Truyền thông đa phương tiện với thời gian đào tạo là 3.5 năm, chưa có mức học phí cụ thể."
 
-  utter_nganh_dao_tao:
-  - text: "Có tất cả 51 ngành học được đào tạo tại trường Đại học Nguyễn Tất Thành \n
-            Ngành: Dược học \n
-            Ngành: Kỹ thuật xét nghiệm y học \n
-            Ngành: Y khoa\n
-            Ngành: Y học dự phòng (Bác sĩ y học dự phòng)\n
-            Ngành: Điều dưỡng\n
-            Ngành: Thanh nhạc\n
-            Ngành: Piano\n
-            Ngành: Diễn viên kịch - Điện ảnh - Truyền hình\n
-            Ngành: Đạo diễn kịch - Điện ảnh - Truyền hình\n
-            Ngành: Quay phim\n
-            Ngành: Thiết kế đồ họa\n
-            Ngành: Tiếng Việt & Văn hóa Việt Nam \n
-            Ngành: Ngôn ngữ Anh\n
-            Ngành: Ngôn ngữ Trung Quốc\n
-            Ngành: Quan hệ quốc tế\n
-            Ngành: Tâm lý học\n
-            Ngành: Đông phương học\n
-            Ngành: Việt Nam học\n
-            Ngành: Truyền thông đa phương tiện\n
-            Ngành: Quan hệ công chúng\n
-            Ngành: Quản trị kinh doanh\n
-            Ngành: Marketing\n
-            Ngành: Kinh doanh quốc tế\n
-            Ngành: Tài chính ngân hàng\n
-            Ngành: Kế toán\n
-            Ngành: Thương mại điện tử\n
-            Ngành: Quản trị nhân lực\n
-            Ngành: Luật kinh tế\n
-            Ngành: Công nghệ sinh học\n
-            Ngành: Kỹ thuật phần mềm\n
-            Ngành: Mạng máy tính và Truyền thông dữ liệu\n
-            Ngành: Công nghệ thông tin\n
-            Ngành: Công nghệ kỹ thuật cơ điện tử\n
-            Ngành: Công nghệ kỹ thuật ô tô\n
-            Ngành: Công nghệ kỹ thuật điện - điện tử\n
-            Ngành: Công nghệ kỹ thuật hoá học\n
-            Ngành: Logistics & Quản lý chuỗi cung ứng\n\n
-            Ngành: Kỹ thuật hệ thống công nghiệp\n
-            Ngành: Kỹ thuật y sinh\n
-            Ngành: Vật lý y khoa\n
-            Ngành: Công nghệ thực phẩm\n
-            Ngành: Kiến trúc\n
-            Ngành: Thiết kế nội thất\n
-            Ngành: Kỹ thuật xây dựng\n
-            Ngành: Quản trị khách sạn\n
-            Ngành: Quản trị nhà hàng & Dịch vụ ăn uống\n
-            Ngành: Du lịch\n
-            Ngành: Quản lý tài nguyên & môi trường\n"
+    utter_hp_qhcc:
+    - text: "Ngành Quan hệ công chúng với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 16 triệu đồng."
 
-  utter_hp_cntt:
-  - text: "Ngành Công nghệ thông tin với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 11 triệu đồng."
+    utter_hp_qtkd:
+    - text: "Ngành Quản trị kinh doanh với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 12 triệu đồng."
 
-  utter_hp_duoc:
-  - text: "Ngành Dược học với thời gian đào tạo là 5 năm, học phí trung bình một kì khoảng  14 triệu đồng."
-  
-  utter_hp_y:
-  - text: "Ngành Y khoa với thời gian đào tạo là 6 năm, học phí trung bình một kì khoảng  26 triệu đồng."
+    utter_hp_mar:
+    - text: "Ngành Marketing với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 16 triệu đồng."
 
-  utter_hp_yhdp:
-  - text: "Ngành Y học dự phòng với thời gian đào tạo là 6 năm, học phí trung bình một kì khoảng 16 triệu đồng." 
+    utter_hp_kdqt:
+    - text: "Ngành Kinh doanh quốc tế là ngành mới với thời gian đào tạo là 3 năm, chưa có mức học phí cụ thể."
 
-  utter_hp_dduong:
-  - text: "Ngành Điều dưỡng với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 12 triệu đồng."  
+    utter_hp_tmdt:
+    - text: "Ngành Thương mại điện tử với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 15 triệu đồng."
 
-  utter_hp_xnyh:
-  - text: "Ngành Kỹ thuật xét nghiệm y học với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 13 triệu đồng."  
+    utter_hp_tcnh:
+    - text: "Ngành Tài chính - Ngân hàng với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 12 triệu đồng."
 
-  utter_hp_qlbv:
-  - text: "Ngành Quản lí bệnh viện là ngành học dự kiến, với thời gian đào tạo là 4 năm, chưa có mức học phí cụ thể."  
+    utter_hp_ktoan:
+    - text: "Ngành Kế toán với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 12 triệu đồng."
 
-  utter_hp_phcn:
-  - text: "Ngành Kỹ thuật phục hồi chức năng với thời gian đào tạo là 4 năm, chưa có mức học phí cụ thể."  
+    utter_hp_qtnl:
+    - text: "Ngành Quản trị nhân lực với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 12 triệu đồng."
 
-  utter_hp_tnhac:
-  - text: "Ngành Thanh nhạc với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 13 triệu đồng."  
-  
-  utter_hp_piano:
-  - text: "Ngành Piano với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 13 triệu đồng."
-  
-  utter_hp_ddien:
-  - text: "Ngành Đạo diễn điện ảnh truyền hình với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 13 triệu đồng."
-  
-  utter_hp_qphim:
-  - text: "Ngành Quay phim với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 14 triệu đồng."
-  
-  utter_hp_tkdh:
-  - text: "Ngành Thiết kế đồ họa với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 11 triệu đồng."
-  
-  utter_hp_tv:
-  - text: "Ngành Tiếng Việt và văn hóa Việt Nam với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 13 triệu đồng."
-  
-utter_hp_nna:
-  - text: "Ngành Ngôn ngữ Anh với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 13 triệu đồng."
+    utter_hp_lkt:
+    - text: "Ngành Luật kinh tế với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 12 triệu đồng."
 
-  utter_hp_nntq:
-  - text: "Ngành Ngôn ngữ Trung Quốc với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 13 triệu đồng."
+    utter_hp_cnsh:
+    - text: "Ngành Công nghệ sinh học với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 11 triệu đồng."
 
-  utter_hp_qhqt:
-  - text: "Ngành Quan hệ quốc tế là ngành mới với thời gian đào tạo là 3 năm, chưa có mức học phí cụ thể."
+    utter_hp_mmt:
+    - text: "Ngành Mạng máy tính và truyền thông dữ liệu là ngành mới với thời gian đào tạo là 3 - 3.5 năm, chưa có mức học phí cụ thể."
 
-  utter_hp_tlh:
-  - text: "Ngành Tâm lý học với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 13 triệu đồng."
+    utter_hp_ktpm:
+    - text: "Ngành Kỹ thuật phần mềm là ngành mớimới với thời gian đào tạo là 3 - 3.5 năm, chưa có mức học phí cụ thể."
 
-  utter_hp_dph:
-  - text: "Ngành Đông phương học với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 14 triệu đồng."
+    utter_hp_cdt:
+    - text: "Ngành Công nghệ kỹ thuật cơ điện tử với thời gian đào tạo là 3.5 - 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
 
-  utter_hp_vnh:
-  - text: "Ngành Việt Nam học với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 14 triệu đồng."
+    utter_hp_oto:
+    - text: "Ngành Công nghệ kỹ thuật ô tô với thời gian đào tạo là 3.5 - 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
 
-  utter_hp_dpt:
-  - text: "Ngành Truyền thông đa phương tiện với thời gian đào tạo là 3.5 năm, chưa có mức học phí cụ thể."
+    utter_hp_ddt:
+    - text: "Ngành Công nghệ kỹ thuật điện điện tử với thời gian đào tạo là 3.5 - 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
 
-  utter_hp_qhcc:
-  - text: "Ngành Quan hệ công chúng với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 16 triệu đồng."
+    utter_hp_kthh:
+    - text: "Ngành Công nghệ kỹ thuật hóa học với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
 
-  utter_hp_qtkd:
-  - text: "Ngành Quản trị kinh doanh với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 12 triệu đồng."
+    utter_hp_log:
+    - text: "Ngành Logistics và quản lý chuỗi cung ứng với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 13 triệu đồng."
 
-  utter_hp_mar:
-  - text: "Ngành Marketing với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 16 triệu đồng."
+    utter_hp_htcn:
+    - text: "Ngành Kỹ thuật hệ thống công nghiệp với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 9 triệu đồng."
 
-  utter_hp_kdqt:
-  - text: "Ngành Kinh doanh quốc tế là ngành mới với thời gian đào tạo là 3 năm, chưa có mức học phí cụ thể."
+    utter_hp_ktys:
+    - text: "Ngành Kỹ thuật y sinh với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
 
-  utter_hp_tmdt:
-  - text: "Ngành Thương mại điện tử với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 15 triệu đồng."
+    utter_hp_cntp:
+    - text: "Ngành Công nghệ thực phẩm với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
 
-  utter_hp_tcnh:
-  - text: "Ngành Tài chính - Ngân hàng với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 12 triệu đồng."
+    utter_hp_ktruc:
+    - text: "Ngành Kiến trúc với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 12 triệu đồng."
 
-  utter_hp_ktoan:
-  - text: "Ngành Kế toán với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 12 triệu đồng."
+    utter_hp_tknt:
+    - text: "Ngành Thiết kế nội thất với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 12 triệu đồng."
 
-  utter_hp_qtnl:
-  - text: "Ngành Quản trị nhân lực với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 12 triệu đồng."
+    utter_hp_ktxd:
+    - text: "Ngành Kỹ thuật xây dựng với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
 
-  utter_hp_lkt:
-  - text: "Ngành Luật kinh tế với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 12 triệu đồng."
+    utter_hp_dlich:
+    - text: "Ngành Du lịch với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 16 triệu đồng."
 
-  utter_hp_cnsh:
-  - text: "Ngành Công nghệ sinh học với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 11 triệu đồng."
+    utter_hp_qtks:
+    - text: "Ngành Quản trị khách sạn với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 14 triệu đồng."
 
-  utter_hp_mmt:
-  - text: "Ngành Mạng máy tính và truyền thông dữ liệu là ngành mới với thời gian đào tạo là 3 - 3.5 năm, chưa có mức học phí cụ thể."
+    utter_hp_qtnhhang:
+    - text: "Ngành Quản trị nhà hàng và dịch vụ ăn uống với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 14 triệu đồng."
 
-  utter_hp_ktpm:
-  - text: "Ngành Kỹ thuật phần mềm là ngành mớimới với thời gian đào tạo là 3 - 3.5 năm, chưa có mức học phí cụ thể."
+    utter_hp_tnmt:
+    - text: "Ngành Quản lý tài nguyên và môi trường với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 11 triệu đồng."
 
-  utter_hp_cdt:
-  - text: "Ngành Công nghệ kỹ thuật cơ điện tử với thời gian đào tạo là 3.5 - 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
-
-  utter_hp_oto:
-  - text: "Ngành Công nghệ kỹ thuật ô tô với thời gian đào tạo là 3.5 - 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
-
-  utter_hp_ddt:
-  - text: "Ngành Công nghệ kỹ thuật điện điện tử với thời gian đào tạo là 3.5 - 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
-
-  utter_hp_kthh:
-  - text: "Ngành Công nghệ kỹ thuật hóa học với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
-
-  utter_hp_log:
-  - text: "Ngành Logistics và quản lý chuỗi cung ứng với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 13 triệu đồng."
-
-  utter_hp_htcn:
-  - text: "Ngành Kỹ thuật hệ thống công nghiệp với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 9 triệu đồng."
-
-  utter_hp_ktys:
-  - text: "Ngành Kỹ thuật y sinh với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
-
-  utter_hp_cntp:
-  - text: "Ngành Công nghệ thực phẩm với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
-
-  utter_hp_ktruc:
-  - text: "Ngành Kiến trúc với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 12 triệu đồng."
-
-  utter_hp_tknt:
-  - text: "Ngành Thiết kế nội thất với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 12 triệu đồng."
-
-  utter_hp_ktxd:
-  - text: "Ngành Kỹ thuật xây dựng với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
-
-  utter_hp_dlich:
-  - text: "Ngành Du lịch với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 16 triệu đồng."
-
-  utter_hp_qtks:
-  - text: "Ngành Quản trị khách sạn với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 14 triệu đồng."
-
-  utter_hp_qtnhhang:
-  - text: "Ngành Quản trị nhà hàng và dịch vụ ăn uống với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 14 triệu đồng."
-
-  utter_hp_tnmt:
-  - text: "Ngành Quản lý tài nguyên và môi trường với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 11 triệu đồng."
-
-  utter_hp_gdmn:
-  - text: "Ngành Giáo dục mầm non là ngành mới với thời gian đào tạo là 3.5 năm, chưa có mức học phí cụ thể."
+    utter_hp_gdmn:
+    - text: "Ngành Giáo dục mầm non là ngành mới với thời gian đào tạo là 3.5 năm, chưa có mức học phí cụ thể."
 
 session_config:
   session_expiration_time: 60

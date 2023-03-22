@@ -1,0 +1,106 @@
+[
+  {
+    "text": "hi",
+    "intent": "chao_hoi",
+    "intent_prediction": {
+      "name": "dong_y",
+      "confidence": 0.8428577184677124
+    }
+  },
+  {
+    "text": "Tạm biệt",
+    "intent": "tam_biet",
+    "intent_prediction": {
+      "name": "dong_y",
+      "confidence": 0.7760661244392395
+    }
+  },
+  {
+    "text": "see you later",
+    "intent": "tam_biet",
+    "intent_prediction": {
+      "name": "chao_hoi",
+      "confidence": 0.3337148427963257
+    }
+  },
+  {
+    "text": "ai đang trả lời cuộc trò chuyện này",
+    "intent": "hoi_ve_bot",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.584490180015564
+    }
+  },
+  {
+    "text": "ngành ABC đào tạo bao lâu",
+    "intent": "thoi_gian_dao_tao",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.997302770614624
+    }
+  },
+  {
+    "text": "trường đại học Nguyễn Tất Thành có gì",
+    "intent": "gioi_thieu",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.25993940234184265
+    }
+  },
+  {
+    "text": "cho em hỏi học phí của trường",
+    "intent": "hoc_phi",
+    "intent_prediction": {
+      "name": "hoc_bong",
+      "confidence": 0.6441372036933899
+    }
+  },
+  {
+    "text": "good bye",
+    "intent": "tam_biet",
+    "intent_prediction": {
+      "name": "chao_hoi",
+      "confidence": 0.6864810585975647
+    }
+  },
+  {
+    "text": "Hẹn gặp lại",
+    "intent": "tam_biet",
+    "intent_prediction": {
+      "name": "chao_hoi",
+      "confidence": 0.3452385663986206
+    }
+  },
+  {
+    "text": "good night",
+    "intent": "tam_biet",
+    "intent_prediction": {
+      "name": "chao_hoi",
+      "confidence": 0.4532921016216278
+    }
+  },
+  {
+    "text": "có vẻ thú vị",
+    "intent": "dong_y",
+    "intent_prediction": {
+      "name": "chao_hoi",
+      "confidence": 0.3298860490322113
+    }
+  },
+  {
+    "text": "ngành XYZ học mấy năm",
+    "intent": "thoi_gian_dao_tao",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.9488792419433594
+    }
+  },
+  {
+    "text": "giới thiệu về trường",
+    "intent": "gioi_thieu",
+    "intent_prediction": {
+      "name": "hoc_phi",
+      "confidence": 0.34082528948783875
+    }
+  }
+]

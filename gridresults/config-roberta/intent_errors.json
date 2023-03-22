@@ -1,0 +1,330 @@
+[
+  {
+    "text": "hello",
+    "intent": "chao_hoi",
+    "intent_prediction": {
+      "name": "tam_biet",
+      "confidence": 0.5188077092170715
+    }
+  },
+  {
+    "text": "Hẹn gặp lại",
+    "intent": "tam_biet",
+    "intent_prediction": {
+      "name": "dong_y",
+      "confidence": 0.28020739555358887
+    }
+  },
+  {
+    "text": "có",
+    "intent": "dong_y",
+    "intent_prediction": {
+      "name": "tam_biet",
+      "confidence": 0.29120180010795593
+    }
+  },
+  {
+    "text": "mình đang nói chuyện với một chat bot phải không",
+    "intent": "hoi_ve_bot",
+    "intent_prediction": {
+      "name": "hp_phcn",
+      "confidence": 0.09898660331964493
+    }
+  },
+  {
+    "text": "đầu dây bên kia là ai nhỉ",
+    "intent": "hoi_ve_bot",
+    "intent_prediction": {
+      "name": "dong_y",
+      "confidence": 0.17858241498470306
+    }
+  },
+  {
+    "text": "trường có những hoạt động nào",
+    "intent": "hoat_dong",
+    "intent_prediction": {
+      "name": "diem_chuan",
+      "confidence": 0.1279042661190033
+    }
+  },
+  {
+    "text": "ngành XYZ học mấy năm",
+    "intent": "thoi_gian_dao_tao",
+    "intent_prediction": {
+      "name": "diem_chuan",
+      "confidence": 0.11437639594078064
+    }
+  },
+  {
+    "text": "ngành XYZ học lâu không",
+    "intent": "thoi_gian_dao_tao",
+    "intent_prediction": {
+      "name": "hp_y",
+      "confidence": 0.16839183866977692
+    }
+  },
+  {
+    "text": "điểm chuẩn các ngành",
+    "intent": "diem_chuan",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.5669768452644348
+    }
+  },
+  {
+    "text": "giới thiệu về trường",
+    "intent": "gioi_thieu",
+    "intent_prediction": {
+      "name": "hp_dduong",
+      "confidence": 0.28897151350975037
+    }
+  },
+  {
+    "text": "chương trình đào tạo của mình có cái gì",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "thoi_gian_dao_tao",
+      "confidence": 0.14905020594596863
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành CNTT",
+    "intent": "hp_cnnt",
+    "intent_prediction": {
+      "name": "hp_piano",
+      "confidence": 0.23493586480617523
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Dược học",
+    "intent": "hp_duoc",
+    "intent_prediction": {
+      "name": "hp_piano",
+      "confidence": 0.15246163308620453
+    }
+  },
+  {
+    "text": "học phí ngành Y khoa như nào ạ",
+    "intent": "hp_y",
+    "intent_prediction": {
+      "name": "thoi_gian_dao_tao",
+      "confidence": 0.1009855642914772
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Y khoa",
+    "intent": "hp_y",
+    "intent_prediction": {
+      "name": "hp_piano",
+      "confidence": 0.15069051086902618
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Thanh nhạc",
+    "intent": "hp_tnhac",
+    "intent_prediction": {
+      "name": "hp_qlbv",
+      "confidence": 0.18433141708374023
+    }
+  },
+  {
+    "text": "1 học kì ngành Thanh nhạc bao nhiêu",
+    "intent": "hp_tnhac",
+    "intent_prediction": {
+      "name": "thoi_gian_dao_tao",
+      "confidence": 0.14329788088798523
+    }
+  },
+  {
+    "text": "ngành Piano có đắt không",
+    "intent": "hp_piano",
+    "intent_prediction": {
+      "name": "hp_cnnt",
+      "confidence": 0.3182202875614166
+    }
+  },
+  {
+    "text": "1 học kì ngành Piano bao nhiêu",
+    "intent": "hp_piano",
+    "intent_prediction": {
+      "name": "hp_dduong",
+      "confidence": 0.156285360455513
+    }
+  },
+  {
+    "text": "ngành Quay phim có đắt không",
+    "intent": "hp_qphim",
+    "intent_prediction": {
+      "name": "thoi_gian_dao_tao",
+      "confidence": 0.14446638524532318
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Quay phim",
+    "intent": "hp_qphim",
+    "intent_prediction": {
+      "name": "hp_piano",
+      "confidence": 0.12678644061088562
+    }
+  },
+  {
+    "text": "tất nhiên rồi",
+    "intent": "dong_y",
+    "intent_prediction": {
+      "name": "hp_tkdh",
+      "confidence": 0.1617661714553833
+    }
+  },
+  {
+    "text": "tất nhiên",
+    "intent": "dong_y",
+    "intent_prediction": {
+      "name": "tam_biet",
+      "confidence": 0.1436251550912857
+    }
+  },
+  {
+    "text": "có vẻ thú vị",
+    "intent": "dong_y",
+    "intent_prediction": {
+      "name": "co_so_vat_chat",
+      "confidence": 0.19415947794914246
+    }
+  },
+  {
+    "text": "học bổng cho sinh viên",
+    "intent": "hoc_bong",
+    "intent_prediction": {
+      "name": "hoc_phi",
+      "confidence": 0.1586206555366516
+    }
+  },
+  {
+    "text": "các hoạt động của trường",
+    "intent": "hoat_dong",
+    "intent_prediction": {
+      "name": "diem_chuan",
+      "confidence": 0.11003989726305008
+    }
+  },
+  {
+    "text": "ngành ABC đào tạo bao lâu",
+    "intent": "thoi_gian_dao_tao",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.955726683139801
+    }
+  },
+  {
+    "text": "bao lâu thì học xong ngành ABC",
+    "intent": "thoi_gian_dao_tao",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.16234610974788666
+    }
+  },
+  {
+    "text": "trường đại học Nguyễn Tất Thành có gì",
+    "intent": "gioi_thieu",
+    "intent_prediction": {
+      "name": "hp_duoc",
+      "confidence": 0.07126311212778091
+    }
+  },
+  {
+    "text": "học phí ngành CNTT như nào ạ",
+    "intent": "hp_cnnt",
+    "intent_prediction": {
+      "name": "thoi_gian_dao_tao",
+      "confidence": 0.09140950441360474
+    }
+  },
+  {
+    "text": "ngành CNTT có đắt không",
+    "intent": "hp_cnnt",
+    "intent_prediction": {
+      "name": "hp_piano",
+      "confidence": 0.10339324176311493
+    }
+  },
+  {
+    "text": "học phí ngành Y học dự phòng như nào ạ",
+    "intent": "hp_yhdp",
+    "intent_prediction": {
+      "name": "hp_xnyh",
+      "confidence": 0.08372289687395096
+    }
+  },
+  {
+    "text": "ngành Điều dưỡng có đắt không",
+    "intent": "hp_dduong",
+    "intent_prediction": {
+      "name": "gioi_thieu",
+      "confidence": 0.09978049248456955
+    }
+  },
+  {
+    "text": "1 học kì ngành Điều dưỡng bao nhiêu",
+    "intent": "hp_dduong",
+    "intent_prediction": {
+      "name": "hp_duoc",
+      "confidence": 0.09853435307741165
+    }
+  },
+  {
+    "text": "1 học kì ngành Quản lý bệnh viện bao nhiêu",
+    "intent": "hp_qlbv",
+    "intent_prediction": {
+      "name": "hp_ddien",
+      "confidence": 0.12551528215408325
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Kỹ thuật phục hồi chức năng",
+    "intent": "hp_phcn",
+    "intent_prediction": {
+      "name": "hp_xnyh",
+      "confidence": 0.1151597797870636
+    }
+  },
+  {
+    "text": "học phí ngành Thanh nhạc như nào ạ",
+    "intent": "hp_tnhac",
+    "intent_prediction": {
+      "name": "hp_ddien",
+      "confidence": 0.07698364555835724
+    }
+  },
+  {
+    "text": "ngành Thanh nhạc có đắt không",
+    "intent": "hp_tnhac",
+    "intent_prediction": {
+      "name": "hp_qphim",
+      "confidence": 0.1147778257727623
+    }
+  },
+  {
+    "text": "học phí ngành Piano như nào ạ",
+    "intent": "hp_piano",
+    "intent_prediction": {
+      "name": "thoi_gian_dao_tao",
+      "confidence": 0.10349541157484055
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Piano",
+    "intent": "hp_piano",
+    "intent_prediction": {
+      "name": "hp_qphim",
+      "confidence": 0.09646826982498169
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Thiết kế đồ họa",
+    "intent": "hp_tkdh",
+    "intent_prediction": {
+      "name": "hp_xnyh",
+      "confidence": 0.13933859765529633
+    }
+  }
+]

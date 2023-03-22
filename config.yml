@@ -1,14 +1,13 @@
 recipe: default.v1
-language: "vi"
+language: vi
 pipeline:
-  - name: WhitespaceTokenizer
-  - name: CountVectorsFeaturizer
-  - name: CountVectorsFeaturizer
-    analyzer: char_wb
-    min_ngram: 1
-    max_ngram: 4
-  - name: DIETClassifier
-    epochs: 200
+   - name: WhitespaceTokenizer
+   - name: LanguageModelFeaturizer
+     model_name: bert
+     model_weights: bert-base-uncased
+   - name: DIETClassifier
+     epochs: 200
+   - name: EntitySynonymMapper
 policies:
 # # No configuration for policies was provided. The following default policies were used to train your model.
 # # If you'd like to customize them, uncomment and adjust the policies.
