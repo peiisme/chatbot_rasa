@@ -66,7 +66,398 @@ intents:
   - hp_tnmt
   - hp_gdmn
 
+
 responses:
+    utter_phuong_thuc_tuyen_sinh:
+    - text: "Hiện tại trường Đại học Nguyễn Tất Thành đang tuyển sinh với 4 hình thức:\n
+            1. Xét tuyển kết quả thi tốt nghiệp THPT năm xét tuyển theo tổ hợp môn.\n
+            2. Xét tuyển kết quả học bạ đạt 1 trong các tiêu chí:\n
+            - Tổng điểm trung bình 1 học kì lớp 10 + điểm trung bình 1 học kì lớp 11 + điểm trung bình 1 học kì lớp 12 đạt từ 18 điểm trở lên (được chọn điểm cao nhất trong 2 trọng kì của mỗi năm học)\n
+            - Điểm tổ hợp các môn xét tuyển lớp 12 đạt từ 18 điểm trở lên.\n
+            - Điểm trung bình cả năm lớp 12 đạt từ 6.0 trở lên.\n
+            3. Xét tuyển kết quả bài thi kiểm tra đánh giá năng lực của ĐHQG TH.HCM và ĐHQG Hà Nội.\n
+            4. Xét tuyển thẳng, ưu tiên xét tuyển và cử tuyển.\n
+               (Lưu ý: các ngành thuộc khối Sức khỏe và Giáo dục Mầm non đảm bảo ngưỡng chất lượng đầu vào của Bộ Giáo dục và Đào tạo)"
+
+    utter_gioi_thieu:
+    - text: "Trường ĐH Nguyễn Tất Thành là trường đại học ứng dụng đa ngành, đa lĩnh vực, đáp ứng nhu cầu giáo dục đại học đại chúng thông qua việc tạo lập một môi trường học tập tích cực và trải nghiệm thực tiễn cho mọi sinh viên trang bị cho người học năng lực tự học tinh thần sáng tạo khởi nghiệp có trách nhiệm với cộng đồng hội nhập với khu vực và toàn cầu."
+    - text: "Trường ĐH Nguyễn Tất Thành có quy mô đào tạo khoảng 25.000 sinh viên, học viên với 18 khoa, 49 chương trình đào tạo bậc đại học, 9 chương trình đào tạo Tiến sĩ, Thạc sĩ thuộc 16 lĩnh vực gồm: Sức khỏe; Nghệ thuật; Nhân văn; Khoa học xã hội và Hành vi; Báo chí và thông tin; Kinh doanh và quản lý; Pháp luật; Khoa học sự sống; Máy tính và công nghệ thông tin; Công nghệ kỹ thuật; Kỹ thuật; Sản xuất và Chế biến; Kiến trúc và xây dựng; Du lịch; Môi trường và bảo vệ môi trường; Khoa học giáo dục và đào tạo giáo viên.\n
+            Trải qua 23 năm hình thành và phát triển, Nhà trường đã được Bộ GD&ĐT công nhận đạt chuẩn kiểm định chất lượng, 9 chương trình đào tạo bậc đại học và sau đại học đạt chuẩn chất lượng cấp cơ sở giáo dục của Bộ Giáo dục & Đào tạo. 8 chương trình đào tạo của Trường đạt Kiểm định chất lượng theo bộ tiêu chuẩn đảm bảo chất lượng chung của Mạng lưới Đảm bảo chất lượng của hệ thống các trường đại học ASEAN (ASEAN University Network - Quality Assurance, AUN-QA). \n                Năm 2019, Đại học Nguyễn Tất Thành là Trường đại học duy nhất tại Việt Nam được tổ chức kiểm định chất lượng quốc tế QS Stars (Anh Quốc) xếp hạng 4 sao. Tháng 8/2020, Trường ĐH Nguyễn Tất Thành lọt vào Top 6 trường đại học đầu tiên đạt 4 sao theo UPM (hệ thống xếp hạng đối sánh chất lượng đại học Việt Nam và khu vực – University Performance Metrics).\n
+            Năm 2022,  Nhà trường cũng ghi nhận 4 chương trình đào tạo được gắn sao theo Hệ thống đối sánh chất lượng giáo dục UPM, gồm: Quản trị nhà hàng và Dịch vụ ăn uống, đạt 3 sao plus. Kế toán đạt 4 sao, Tài chính ngân hàng đạt 4 sao. Công nghệ thông tin đạt 4 sao plus. Tháng 7/2022, Hệ thống xếp hạng đối sánh chất lượng đại học UPM xếp hạng Trường ĐH Nguyễn Tất Thành là một trong hai trường đạt chuẩn 5 sao theo định hướng ứng dụng và là trường ngoài công lập duy nhất đạt được xếp hạng này.\n
+            Bên cạnh những thành tựu về đào tạo nguồn nhân lực chất lượng cao, vai trò và vị thế của trường đại học Nguyễn Tất Thành còn được thể hiện đậm nét trong các hoạt động nghiên cứu khoa học khi đứng ở TOP 5 toàn quốc về công trình nghiên cứu khoa học công bố quốc tế do tạp chí ISI trong năm 2019; TOP 5 tạp chí khoa học Việt Nam có chỉ số ảnh hưởng cao nhất năm 2020; TOP 20 các chỉ số nghiên cứu khoa học tại bảng xếp hạng Đại học của Việt Nam UPM năm 2020; Top 12 trường đại học Việt Nam tại bảng xếp hạng thế giới URAP 2020. Năm 2021, Trường ĐH Nguyễn Tất Thành được Webometrics xếp vị trí thứ 7 trên tổng số 178 trường đại học tại Việt Nam. Năm 2022, Trường ĐH Nguyễn Tất Thành xuất sắc lọt Top 3  trong tổng số 24 trường đại học của Việt Nam trên bảng xếp hạng SCImago Institutions Rankings 2022."
+
+    utter_chao_hoi:
+    - text: "Xin chào, mình là một chat bot của NTTU, mình có thể giúp gì?"
+
+    utter_tam_biet:
+    - text: "Chào bạn hẹn gặp lại bạn, rất vui vì đã hỗ trợ được bạn"
+    utter_chuong_trinh_dao_tao:
+    - text: "
+            -Lĩnh vực Máy tính & Công nghệ thông tin của Trường ĐH Nguyễn Tất Thành hiện đang có các chương trình đào tạo:\n
+                Mạng máy tính và truyền thông dữ liệu: Thời gian đào tạo 3.5 năm.\n
+                Kỹ thuật phần mềm: Thời gian đào tạo 3.5 năm. \n
+                Công nghệ thông tin: Thời gian đào tạo 3.5 năm. \n
+            
+            -Lĩnh vực Công nghệ Kỹ thuật của Trường ĐH Nguyễn Tất Thành hiện đang có các chương trình đào tạo:\n
+                Công nghệ kỹ thuật cơ điện tử: Thời gian đào tạo 4 năm. (Chuyên ngành: Cơ điện tử, Robot và Trí tuệ nhân tạo, chế tạo máy bằng công nghệ số)\n
+                Công nghệ kỹ thuật ô tô: Thời gian đào tạo 4 năm. \n
+                Công nghệ kỹ thuật điện - điện tử: Thời gian đào tạo 4 năm. (Chuyên ngành: Điện, điện tử; Tự động hóa)\n
+                Kỹ thuật hệ thống công nghiệp: Thời gian đào tạo 4 năm. (Chuyên ngành: Kỹ thuật hệ thống công nghiệp; Logistics và kết nối vạn vật)\n
+            
+            -Lĩnh vực Kỹ thuật của Trường ĐH Nguyễn Tất Thành hiện đang có các chương trình đào tạo\n
+                Kỹ thuật hệ thống công nghiệp: Thời gian đào tạo 4 năm.\n
+                Kỹ thuật y sinh: Thời gian đào tạo 4 năm. \n
+                Vật lý y khoa: Thời gian đào tạo 4 năm.     \n
+            
+            -Lĩnh vực Sản xuất và Chế biến của Trường ĐH Nguyễn Tất Thành hiện đang có các chương trình đào tạo:\n
+                Công nghệ thực phẩm: Thời gian đào tạo 4 năm.\n
+            
+            -Lĩnh vực Kiến trúc và Xây dựng của Trường ĐH Nguyễn Tất Thành hiện đang có các chương trình đào tạo:\n
+                Kiến trúc: Thời gian đào tạo 4 năm. \n
+                Thiết kế nội thất: Thời gian đào tạo 3.5 năm. \n
+                Kỹ thuật xây dựng: Thời gian đào tạo 3.5 năm.\n
+            
+            -Lĩnh vực Du lịch của Trường ĐH Nguyễn Tất Thành hiện đang có các chương trình đào tạo:\n
+                Du lịch: Thời gian đào tạo 3 năm. \n
+                Quản trị khách sạn: Thời gian đào tạo 3 năm. \n
+                Quản trị nhà hàng và dịch vụ ăn uống: Thời gian đào tạo 3 năm.\n
+            
+            -Lĩnh vực Môi trường và Bảo vệ môi trường của Trường ĐH Nguyễn Tất Thành hiện đang có các chương trình đào tạo:\n
+                Quản lý tài nguyên và môi trường: Thời gian đào tạo 3 năm.\n
+            
+            -Lĩnh vực Sức khỏe của Trường ĐH Nguyễn Tất Thành ra đời với sứ mạng cung cấp nguồn nhân lực chất lượng cao trong lĩnh vực y tế. Để thực hiện công tác đào tạo chuyên môn Trường đã không ngừng đầu tư cơ sở vật chất phòng thực hành, thí nghiệm, trang thiết bị y tế… nâng cao trình độ chuyên môn cho đội ngũ sư phạm. Bên cạnh đó, Trường cũng hợp tác với các bác sĩ, các cán bộ quản lý tới từ bệnh viện nhà thuốc, các cơ sở y tế để tham gia góp ý chương trình đào tạo và giảng dạy các môn thực hành. Hiện tại, lĩnh vực Sức khỏe của Trường ĐH Nguyễn Tất Thành đang có các chương trình đào tạo gồm:\n
+                Dược học: Thời gian đào tạo 5 năm.\n
+                Y khoa (Bác sĩ Đa khoa): Thời gian đào tạo 6 năm.\n
+                Y học Dự phòng (Bác sĩ Y học Dự phòng): Thời gian đào tạo 6 năm.\n
+                Điều dưỡng: Thời gian đào tạo 4 năm.\n\n
+                Kỹ thuật Xét nghiệm Y học: Thời gian đào tạo 4 năm.\n
+            
+            -Chương trình đào tạo của lĩnh vực Nghệ thuật được thiết kế linh hoạt, phù hợp với từng ngành học, hướng tới sự phát triển tư duy trí tuệ toàn diện, biểu hiện sáng tạo thông qua chương trình giảng dạy có cấu trúc cân bằng giữa lý thuyết và thực tiễn, kết hợp hài hòa giữa nghệ thuật và công nghệ, giữa sáng tạo và logic.\n
+                Đạo diễn Kịch -  Điện ảnh - Truyền hình: Thời gian đào tạo 3.5 năm.\n
+                Diễn viên Kịch - Điện ảnh - Truyền hình: Thời gian đào tạo 3.5 năm.\n
+                Quay phim: Thời gian đào tạo 3.5 năm.\n
+                Thanh nhạc: Thời gian đào tạo 3 năm.\n
+                Piano: Thời gian đào tạo 3 năm.\n
+                Thiết kế Đồ họa:  Thời gian đào tạo 3.5 năm.\n
+            -Lĩnh vực Nhân văn của Trường Đại học Nguyễn Tất Thành luôn bám sát nhu cầu xã hội để đưa ra những kế hoạch đào tạo phù hợp, đáp ứng mục tiêu giải quyết nhu cầu việc làm của sinh viên sau khi ra trường cũng như cam kết cung cấp cho xã hội nguồn nhân lực chất lượng cao. \n
+            -Hiện nay, với nhu cầu phát triển nguồn nhân lực có chất lượng và đào tạo đa ngành, đa bậc học, khối ngành Xã hội – Nhân văn Trường Đại học Nguyễn Tất Thành đang đào tạo các ngành:\n
+                Ngôn ngữ Anh: Thời gian đào tạo 3.5 năm.\n
+                Tiếng Việt & Văn hóa Việt Nam: Thời gian đào tạo 3.5 năm.\n
+            
+            -Lĩnh vực Khoa học Xã hội & Hành vi Trường ĐH Nguyễn Tất Thành hiện đang có các chương trình đào tạo:\n
+                Ngôn ngữ Trung Quốc: Thời gian đào tạo 3.5 năm.\n
+                Quan hệ Quốc tế: Thời gian đào tạo 3 năm.\n
+                Tâm lý học: Thời gian đào tạo 3 năm.\n
+                Đông Phương học: Thời gian đào tạo 3.5 năm.\n
+                Việt Nam học: Thời gian đào tạo 3 năm.\n
+            
+            -Lĩnh vực Báo chí & Thông tin của Trường ĐH Nguyễn Tất Thành hiện đang có các chương trình đào tạo:\n
+                Truyền thông đa phương tiện: Thời gian đào tạo 3.5 năm.\n
+                Quan hệ công chúng: Thời gian đào tạo 3 năm.\n
+            
+            -Lĩnh vực Kinh doanh & Quản lý của Trường ĐH Nguyễn Tất Thành hiện đang có các chương trình đào tạo:\n
+                Quản trị kinh doanh: Thời gian đào tạo 3 năm.\n
+                Marketing: Thời gian đào tạo 3 năm. \n
+                Kinh doanh quốc tế: Thời gian đào tạo 3 năm.\n
+                Thương mại điện tử: Thời gian đào tạo 3.5 năm. \n
+                Tài chính - ngân hàng: Thời gian đào tạo 3 năm.\n
+                Kế toán: Thời gian đào tạo 3 năm.\n
+                Quản trị nhân lực: Thời gian đào tạo 3 năm.\n
+            
+            -Lĩnh vực Pháp luật của Trường ĐH Nguyễn Tất Thành hiện đang có các chương trình đào tạo:\n
+                Luật kinh tế: Thời gian đào tạo 4 năm.\n
+            
+            -Lĩnh vực Khoa học sự sống của Trường ĐH Nguyễn Tất Thành hiện đang có các chương trình đào tạo:\n
+                Công nghệ sinh học: Thời gian đào tạo 3.5 năm.\n
+            "
+    utter_hoc_phi:
+    - text: "Học phí trung bình của trường Đại học Nguyễn Tất Thành dao động từ 11.300.000 đến 16.900.000 đồng cho 1 học kì. Ngành có mức học phí thấp nhất là Luật kinh tế (11.360.000 đồng), ngành cao nhất là Đạo diễn điện ảnh, Truyền hình (16.984.000 đồng)"
+
+    utter_nganh_dao_tao:
+    - text: "Có tất cả 51 ngành học được đào tạo tại trường Đại học Nguyễn Tất Thành \n
+                Ngành: Dược học \n
+                Ngành: Kỹ thuật xét nghiệm y học \n
+                Ngành: Y khoa\n
+                Ngành: Y học dự phòng (Bác sĩ y học dự phòng)\n
+                Ngành: Điều dưỡng\n
+                Ngành: Thanh nhạc\n
+                Ngành: Piano\n
+                Ngành: Diễn viên kịch - Điện ảnh - Truyền hình\n
+                Ngành: Đạo diễn kịch - Điện ảnh - Truyền hình\n
+                Ngành: Quay phim\n
+                Ngành: Thiết kế đồ họa\n
+                Ngành: Tiếng Việt & Văn hóa Việt Nam \n
+                Ngành: Ngôn ngữ Anh\n
+                Ngành: Ngôn ngữ Trung Quốc\n
+                Ngành: Quan hệ quốc tế\n
+                Ngành: Tâm lý học\n
+                Ngành: Đông phương học\n
+                Ngành: Việt Nam học\n
+                Ngành: Truyền thông đa phương tiện\n
+                Ngành: Quan hệ công chúng\n
+                Ngành: Quản trị kinh doanh\n
+                Ngành: Marketing\n
+                Ngành: Kinh doanh quốc tế\n
+                Ngành: Tài chính ngân hàng\n
+                Ngành: Kế toán\n
+                Ngành: Thương mại điện tử\n
+                Ngành: Quản trị nhân lực\n
+                Ngành: Luật kinh tế\n
+                Ngành: Công nghệ sinh học\n
+                Ngành: Kỹ thuật phần mềm\n
+                Ngành: Mạng máy tính và Truyền thông dữ liệu\n
+                Ngành: Công nghệ thông tin\n
+                Ngành: Công nghệ kỹ thuật cơ điện tử\n
+                Ngành: Công nghệ kỹ thuật ô tô\n
+                Ngành: Công nghệ kỹ thuật điện - điện tử\n
+                Ngành: Công nghệ kỹ thuật hoá học\n
+                Ngành: Logistics & Quản lý chuỗi cung ứng\n\n
+                Ngành: Kỹ thuật hệ thống công nghiệp\n
+                Ngành: Kỹ thuật y sinh\n
+                Ngành: Vật lý y khoa\n
+                Ngành: Công nghệ thực phẩm\n
+                Ngành: Kiến trúc\n
+                Ngành: Thiết kế nội thất\n
+                Ngành: Kỹ thuật xây dựng\n
+                Ngành: Quản trị khách sạn\n
+                Ngành: Quản trị nhà hàng & Dịch vụ ăn uống\n
+                Ngành: Du lịch\n
+                Ngành: Quản lý tài nguyên & môi trường\n"
+
+    <<<<<<< HEAD
+    #   utter_nganhhoc:
+    #   - text: "Ngành: Dược học"
+    #   - text: "Ngành: Kỹ thuật xét nghiệm y học"
+    #   - text: "Ngành: Y khoa"
+    #   - text: "Ngành: Y học dự phòng (Bác sĩ y học dự phòng)"
+    #   - text: "Ngành: Điều dưỡng"
+    #   - text: "Ngành: Thanh nhạc"
+    #   - text: "Ngành: Piano"
+    #   - text: "Ngành: Diễn viên kịch - Điện ảnh - Truyền hình"
+    #   - text: "Ngành: Đạo diễn kịch - Điện ảnh - Truyền hình"
+    #   - text: "Ngành: Quay phim"
+    #   - text: "Ngành: Thiết kế đồ họa"
+    #   - text: "Ngành: Tiếng Việt & Văn hóa Việt Nam"
+    #   - text: "Ngành: Ngôn ngữ Anh"
+    #   - text: "Ngành: Ngôn ngữ Trung Quốc"
+    #   - text: "Ngành: Quan hệ quốc tế"
+    #   - text: "Ngành: Tâm lý học"
+    #   - text: "Ngành: Đông phương học"
+    #   - text: "Ngành: Việt Nam học"
+    #   - text: "Ngành: Truyền thông đa phương tiện"
+    #   - text: "Ngành: Quan hệ công chúng"
+    #   - text: "Ngành: Quản trị kinh doanh"
+    #   - text: "Ngành: Marketing"
+    #   - text: "Ngành: Kinh doanh quốc tế"
+    #   - text: "Ngành: Tài chính ngân hàng"
+    #   - text: "Ngành: Kế toán"
+    #   - text: "Ngành: Thương mại điện tử"
+    #   - text: "Ngành: Quản trị nhân lực"
+    #   - text: "Ngành: Luật kinh tế"
+    #   - text: "Ngành: Công nghệ sinh học"
+    #   - text: "Ngành: Kỹ thuật phần mềm"
+    #   - text: "Ngành: Mạng máy tính và Truyền thông dữ liệu"
+    #   - text: "Ngành: Công nghệ thông tin"
+    #   - text: "Ngành: Công nghệ kỹ thuật cơ điện tử"
+    #   - text: "Ngành: Công nghệ kỹ thuật ô tô"
+    #   - text: "Ngành: Công nghệ kỹ thuật điện - điện tử"
+    #   - text: "Ngành: Công nghệ kỹ thuật hoá học"
+    #   - text: "Ngành: Logistics & Quản lý chuỗi cung ứng"
+    #   - text: "Ngành: Kỹ thuật hệ thống công nghiệp"
+    #   - text: "Ngành: Kỹ thuật y sinh"
+    #   - text: "Ngành: Vật lý y khoa"
+    #   - text: "Ngành: Công nghệ thực phẩm"
+    #   - text: "Ngành: Kiến trúc"
+    #   - text: "Ngành: Thiết kế nội thất"
+    #   - text: "Ngành: Kỹ thuật xây dựng"
+    #   - text: "Ngành: Quản trị khách sạn"
+    #   - text: "Ngành: Quản trị nhà hàng & Dịch vụ ăn uống"
+    #   - text: "Ngành: Du lịch"
+    #   - text: "Ngành: Quản lý tài nguyên & môi trường"
+    
+    utter_gt_duochoc:
+    - text: "Dược học là lĩnh vực khoa học ứng dụng chuyên về bào chế, quản lý, phân phối thuốc và chăm sóc dược. Người hành nghề trong ngành Dược là Dược sỹ, được trang bị đầy đủ kiến thức, kỹ năng chuyên môn để tư vấn sử dụng thuốc an toàn, hiệu quả; để sản xuất, quản lý và cung ứng thuốc tốt, đáp ứng như cầu chăm sóc, bảo vệ sức khỏe người dân."
+
+    utter_gt_xny:
+    - text: "Đây là một trong những ngành học có tính ứng dụng cao trong xu thế phát triển của xã hội hiện đại, với việc sử dụng máy móc thiết bị để phân tích bệnh nhằm phát hiện và cung cấp chính xác thông tin về tình trạng sức khỏe của người bệnh, làm căn cứ để bác sĩ đưa ra chuẩn đoán, tiên lượng bệnh và đưa ra phác đồ điều trị hiệu quả nhất. Ngoài ra, ngành Kỹ thuật Xét nghiệm y học còn đóng vai trò quan trọng trong An toàn Vệ sinh thực phẩm, dự phòng và tầm soát dịch tễ bệnh, đánh giá hiệu quả lâm sàng thuốc và vaccine trên thực địa."
+
+    utter_gt_ykhoa:
+    - text: "Đây là ngành học đào tạo ra những bác sĩ đa khoa với đầy đủ kiến thức chuyên môn và kỹ năng nghề nghiệp trong việc phòng bệnh, chữa bệnh, và nâng cao sức khỏe của nhân dân. Đồng thời tăng cường và phát triển nguồn nhân lực y tế cả về số lượng và chất lượng hiện còn đang thiếu."
+
+    utter_gt_yhdp:
+    - text: "Đây là một ngành thuộc lĩnh vực y tế có liên quan đến việc thực hiện các biện pháp để phòng ngừa bệnh. Hay nói cách khác, Y học dự phòng là để bảo vệ sức khỏe, phòng chống dịch bệnh và ngăn chặn sự sinh sôi, phát triển nguồn bệnh."
+    
+    utter_gt_dduong:
+    - text: "Điều dưỡng là một trong những ngành nằm trong lĩnh vực Sức khỏe và hệ thống dịch vụ y tế. Theo học ngành Điều dưỡng, sinh viên sẽ được đào tạo những nguyên tắc cơ bản từ quy trình chăm sóc, nuôi dưỡng, tập luyện, phòng bệnh, giáo dục sức khỏe cho đến quá trình hồi phục và điều trị cho bệnh nhân."
+    
+    utter_gt_tnhac:
+    - text: "Thanh nhạc là ngành học đào tạo sinh viên những kiến thức cơ bản về âm nhạc, về kỹ thuật biểu diễn, sau khi tốt nghiệp trở thành ca sỹ chuyên nghiệp, hoạt động trong các đơn vị nghệ thuật."
+
+    utter_gt_piano:
+    - text: "Ngành Piano tại Trường Đại học Nguyễn Tất Thành là ngành đào tạo cử nhân âm nhạc có kiến thức toàn diện, có kỹ năng sư phạm piano, kỹ năng đệm, hòa tấu thính phòng, thị tấu và bản lĩnh sân khấu vững vàng."
+
+    utter_gt_dvien:
+    - text: "Diễn viên kịch, điện ảnh, truyền hình còn được gọi tắt là diễn viên, là người hóa thân vào các nhân vật và thể hiện nhân vật trong các bộ phim, kịch sân khấu bằng ngôn ngữ cơ thể, cử chỉ, giọng nói, dáng điệu, nét mặt,... biến những nhân vật tưởng tượng trong kịch bản thành con người thật, đầy sống động."
+
+    utter_gt_ddien:
+    - text: "Đạo diễn là người có vai trò chủ chốt trong quá trình xây dựng tác phẩm điện ảnh - truyền hình. Khi bắt đầu xây dựng câu chuyện với một kịch bản, người đạo diễn sẽ định hướng những nội dung hình ảnh, dàn cảnh, chỉ đạo diễn xuất, setup các phương tiện kỹ thuật và nghệ thuật cho bộ phim."
+
+    utter_gt_qphim:
+    - text: "Quay phim là một ngành nghệ thuật thuộc lĩnh vực điện ảnh truyền hình. Nhà quay phim là người chịu trách nhiệm về mặt hình ảnh cho một bộ phim, một video, TVC một chương trình truyền hình bất kì. Họ là những người làm việc cới máy quay, ánh sáng cùng nhiều yếu tố khác,... sao cho hình ảnh thu được có thể đảm bảo yêu cầu về chất lượng và phù hợp với ý đồ đạo diễn cũng như kịch bản."
+
+    utter_gt_tkdh:
+    - text: "Đây là ngành thuộc lĩnh vực nghệ thuật ứng dụng, nhờ sự kết hợp với các loại phần mềm hỗ trợ để tạo ra những sản phẩm quảng cáo thương mại như ấn phẩm quảng bá, thiết kế web, dựng phim, hình ảnh trò chơi, hiệu ứng truyền hình, hệ thống nhận diện thương hiệu."
+
+    utter_gt_vhvn:
+    - text: "Là ngành học thuộc khối khoa học xã hội và nhân văn giúp người học sử dụng thành thạo ngôn ngữ tiếng Việt để có thể nghiên cứu ngôn ngữ, văn hóa, văn minh, kinh tế, chính trị, xã hội Việt Nam qua đó góp phần lưu giữ, bảo tồn giá trị và phát triển văn hóa dân tộc."
+
+    utter_gt_nnanh:
+    - text: "Là một ngành học nghiên cứu ngôn ngữ, giúp người học sử dụng thành thạo tiếng Anh trong các lĩnh vực văn hóa, xã hội, kinh doanh, thương mại, tài chính, du lịch, ngoại giap, quan hệ quốc tế. Với vai trò là ngôn ngữ quốc tế, tiếng Anh đã và đang mang đến nhiều cơ hội việc làm hấp dẫn trong tất cả các lĩnh vực ngành nghề khác nhau."
+
+    utter_gt_nntq:
+    - text: "Là ngành học nghiên cứu ngôn ngữ sử dụng tiếng Trung ở mọi lĩnh vực kinh tế, thương mại, du lịch, ngoại giao. Ngành ngôn ngữ Trung Quốc được đánh giá là một ngành học có nhiều cơ hội việc làm và là ngành học có tiềm năng phát triển nghề nghiệp trong tương lai."
+
+    utter_gt_qhqt:
+    - text: "Đây là một ngành học nghiên cứu về các vấn đề ngoại giao liên quan đến các lĩnh vực như: kinh tế, chính trị, xã hội, lịch sử, con người, văn hóa,... của các nước thông qua hệ thống quốc tế."
+
+    utter_gt_tlhoc:
+    - text: "Đây là ngành khoa học nghiên cứu về tâm trí và hành vi, về mặt ý thức, vô thức và tư duy của con người. Tâm lý học giúp con người hiểu rõ hơn góc khuất trong tâm hồn của chính mình đồng thời là cơ hội thấu hiểu những tâm tư, tình cảm, nguyện vọng của người khác,... từ đó có thể giúp tháo gỡ những khó khăn, vướng mắc mà người thân và gia đình gặp phải."
+
+    utter_gt_dphoc:
+    - text: "Là ngành học nghiên cứu về ngôn ngữ, văn hóa, lịch sử, địa lí, kinh tế, xã hội của các quốc gia phương Đông. Thông qua việc nắm bắt Ngôn ngữ Hàn Quốc hoặc Ngôn ngữ Nhật Bản tạo nền tảng để người học sử dụng thành thạo ngôn nghữ Hàn và ngôn ngữ Nhật trong các lĩnh vực của đời sống xã hội."
+
+    utter_gt_vnhoc:
+    - text: "Đây là ngành khoa học nghiên cứu đất nước và con người Việt Nam từ nền văn hóa, lịch sử, địa lý đến phong tục tập quán, ngôn ngữ, văn học,... nhằm đem đến cho người học những kiến thức cơ bản và toàn diện về đất nước, con người Việt Nam từ quá khứ đến hiện đại."
+
+    utter_gt_ttdaphuongtien:
+    - text: "Truyền thông đa phương tiện (Multimedia) là ngành ứng dụng công nghệ thông tin vào việc sáng tạo, thiết kế những sản phẩm mang tính ứng dụng và tương tác trong các lĩnh vực truyền thông - quảng cáo - giáo dục - nghệ thuật - giải trí."
+
+    utter_gt_qhcongchung:
+    - text: "Quan hệ công chúng (hay còn gọi là PR), đây là một lĩnh vực thuộc khối xã hội nhân văn, một trong những nghệ thuật quản lý các quan hệ giao tiếp trong cộng đồng để tạo dựng và gìn giữ hình ảnh tích cực cho tổ chức, doanh nghiệp. Nói một cách khác, người làm PR là người hoạch định chiến lược, kế hoạch để giữ gìn, phát triển mối quan hệ hai chiều giữa doanh nghiệp và công chúng."
+
+    utter_gt_qtkdoanh:
+    - text: "Đây là một trong những ngành thuộc khối kinh tế liên quan đến việc quản trị quá trình kinh doanh nhằm duy trì và phát triển công việc kinh doanh của doanh nghiệp. Quản trị kinh doanh bao gồm cả việc tạo ra hệ thống, quy trình quản lý để tối ưu hiệu suất công việc, quản lý và phát triển doanh nghiệp."
+
+    utter_gt_marketing:
+    - text: "Marketing là ngành học liên quan đến các hoạt động nghiên cứu thị trường, hướng đến khách hàng, tạo dựng mối quan hệ giữa doanh nghiệp với khách hàng. Đây là ngành giữ vai trò chính yếu trong hoạt động kinh doanh của một doang nghiệp vì giúp tạo được lợi nhuận thông qua đáp ứng nhu cầu khách hàng."
+
+    utter_gt_kdqte:
+    - text: "Đây là ngành liên quan đế toàn bộ các hoạt động giao dịch, kinh doanh được thực hiện giữa các quốc gia, nhằm thỏa mãn các mục tiêu kinh doanh của doanh nghiệp, các nhân và các tổ chức kinh tế."
+
+    utter_gt_tcnganhang:
+    - text: "Đây là một ngành thuộc lĩnh vực kinh tế bao gồm toàn bộ các hoạt động liên quan đến giao dịch tiền tệ và kinh doanh thông qua ngân hàng. Hay nói cách khác đây là ngành tập trung cụ thể đến các lĩnh vực về tài chính và lưu thông tiền tệ."
+
+    utter_gt_ktoan:
+    - text: "Đây là một trong những ngành "hot" trên thị trường lao động hiện nay bởi bất cứ một tổ chức hay doanh nghiệp dù lớn hay nhỏ đều phải cần đến. Kế toán là lĩnh vực liên quan đến việc thực hiện quá trình thu thập, xử lý, kiểm tra thông tin về kinh tế tài chính cho các đối tượng có nhu cầu sử dụng."
+    
+    utter_gt_tmdientu:
+    - text: "Đây là ngành chuyên nghiên cứu về các hoạt động thương mại thông qua những phương tiện điện tử hiện đại, từ đó giúp cho hoạt động thương mại diễn ra nhanh hơn, hiệu quả hơn, tiết kiệm chi phí, mở rộng không gian kinh doanh."
+
+    utter_gt_qtnhanluc:
+    - text: "Đây là ngành nghiên cứu trong việc cung cấp các giải pháp, kỹ năng để phát triển và ổn định nguồn nhân lực trong tổ chức, công ty. Cụ thể là các kế hoạch khai thác, tổ chức, quản lý, kiểm soát mọi công việc liên quan đến thu hút, sử dụng và phát triển nguồn lao động trong doanh nghiệp một cách hợp lý, hiệu quả."
+
+    utter_gt_luatkt:
+    - text: "Luật kinh tế là ngành nghiên cứu và vận dụng những quy định pháp luật do Nhà nước ban hành để điều chỉnh các quan hệ kinh tế phát sinh trong quá trình quản lý kinh tế. Hiện nay, Luật kinh tế được xem là một ngành “hot” thu hút nhiều bạn trẻ bởi có nhiều cơ hội việc làm và có nhiều tiềm năng phát triển nghề nghiệp trong tương lai."
+
+    utter_gt_cnshoc:
+    - text: "Đây là một trong những lĩnh vực công nghệ cao sử dụng công nghệ hiện đại tạo ra các sản phẩm có nguồn gốc từ sinh vật để phục vụ cuộc sống như: giống cây trồng và vật nuôi chất lượng cao, protein, các chủng vi sinh vật có lợi… ứng dụng trong công nghiệp, nông nghiệp công nghệ cao, y dược và các lĩnh vực khác…"
+    
+    utter_gt_ktphanmem:
+    - text: "Ngành Kỹ thuật phần mềm là ngành chuyên sâu của lĩnh vực công nghệ thông tin, chuyên nghiên cứu và ứng dụng các công nghệ và ngôn ngữ lập trình hiện đại để tạo các chương trình điều khiển máy tính cùng các thiết bị hoạt động theo yêu cầu và mong muốn của con người trong công việc và cuộc sống."
+
+    utter_gt_mmt_ttdulieu:
+    - text: "Ngành Mạng máy tính & Truyền thông dữ liệu là một trong các nhóm ngành thuộc lĩnh vực công nghệ thông tin, chuyên nghiên cứu ứng dụng kiến trúc và nguyên lý hoạt động của các loại mạng máy tính và truyền thông để phân tích, thiết kế, xây dựng, bảo mật, an ninh và quản trị một hệ thống mạng, từ mạng nội bộ cho đến mạng diện rộng."
+
+    utter_gt_cnnt:
+    - text: "Ngành Công nghệ thông tin là ngành cốt lõi của cuộc cách mạng công nghiệp 4.0. Là ngành sử dụng công nghệ hiện đại dựa trên máy tính, thiết bị và mạng truyền thông để thu thập, xử lý, khai thác, bảo mật, xuất và truyền dẫn thông tin phục vụ cho các ngành nhằm đáp ứng tốt hơn cho nhu cầu con người và cuộc sống cộng đồng."
+
+    utter_gt_cnktcdientu:
+    - text: "Đây là ngành học có sự kết hợp của kỹ thuật cơ khí, kỹ thuật điện tử và công nghệ thông tin nhằm thiết kế, chế tạo, vận hành máy móc và thiết bị tự động hóa tạo ra những sản phẩm thông minh ứng dụng trong các lĩnh vực của đời sống. Robot chính là sản phẩm tiêu biểu của ngành Kỹ thuật Cơ điện tử."
+
+    utter_gt_cnktoto:
+    - text: "Đây là ngành học tích hợp kiến thức của các lĩnh vực cơ khí, công nghệ chế tạo máy, điện - điện tử, tự động hóa vào việc thiết kế, khai thác, sử dụng và quản lý dịch vụ kỹ thuật liên quan tới ô tô như: bảo trì, bảo dưỡng, sửa chữa ô tô; điều hành sản xuất phụ tùng, lắp ráp ô tô; cải tiến, nâng cao hiệu quả sử dụng ô tô."
+
+    utter_gt_cnktdien_dientu:
+    - text: "Đây là ngành áp dụng tri thức kỹ thuật - công nghệ và kỹ năng nhằm thiết kế, quản lý, vận hành và bảo trì các hệ thống điện công nghiệp, hệ thống điện, điện tử, hệ thống tự động hóa trong công nghiệp và dân dụng."
+
+    utter_gt_cnkthhoc:
+    - text: "Đây là ngành thuộc lĩnh vực khoa học và công nghệ, trong việc nghiên cứu và ứng dụng những kiến thức hóa học và kỹ thuật vào quá trình sản xuất các sản phẩm hóa học phục vụ công nghiệp và đời sống, đặc biệt trong các lĩnh vực: lọc - hóa dầu, hóa dược, mỹ phẩm. sản xuất sản phẩm hóa hữu cơ, hóa vô cơ…"
+
+    utter_gt_logistic:
+    - text: "Đây là ngành nghiên cứu, phát triển và quản trị các dịch vụ vận chuyển trong quá trình sản xuất kinh doanh, đồng thời đào tạo những chuyên gia đưa ra chiến lược vận chuyển hàng hóa đến khắp nơi trên thế giới một cách hiệu quả, tạo ra những giá trị gia tăng làm hài lòng khách hàng của một thương hiệu hay doanh nghiệp."
+
+    utter_gt_kthtcnghiep:
+    - text: "Đây là ngành đào tạo ra những kỹ sư kỹ thuật hệ thống công nghiệp chuyên điều hành các hoạt động sản xuất, dịch vụ, cung ứng, dự án cho doanh nghiệp, công ty, cơ sở sản xuất, cơ sở dịch vụ. Do đó ngành này còn được gọi là Kỹ thuật Công nghiệp, Quản lý Công nghiệp."
+
+    utter_gt_ktysinh:
+    - text: "Kỹ thuật y sinh là ngành khoa học ứng dụng các thành tựu hiện đại, vận dụng sự hiểu biết liên quan đến sự sống con người và áp dụng khoa học kỹ thuật hiện đại (cơ khí, quang học, điện, điện tử, tin học, hóa học...) vào việc nghiên cứu và chế tạo ra các thiết bị, vật liệu đặc biệt để tác động lên cơ thể sống của con người nhằm chẩn đoán và đưa ra phương pháp điều trị một cách có hiệu quả."
+
+    utter_gt_vlykhoa:
+    - text: "Vật lý y khoa là ngành khoa học ứng dụng các kiến thức vật lý và các đặc trưng tương tác của bức xạ với vật chất cũng như các nguyên lý hoạt động của các thiết bị để khám chữa bệnh."
+
+    utter_gt_cntpham:
+    - text: "Đây là ngành chuyên về lĩnh vực bảo quản, chế biến nông sản; kiểm tra, đánh giá chất lượng sản phẩm hoặc nghiên cứu phát triển sản phẩm mới. Ngành học này được ứng dụng nhiều trong lĩnh vực ăn uống, an toàn thực phẩm... nhằm tối ưu hóa dinh dưỡng trong việc phục vụ nhu cầu ăn uống của cộng đồng."
+
+    utter_gt_ktruc:
+    - text: "Là ngành học đào tạo ra kiến trúc sư tương lai. Ngành học đặc thù nằm giữa hai lĩnh vực nghệ thuật và kỹ thuật liên quan đến việc tổ chức sắp xếp không gian, lập hồ sơ thiết kế các công trình kiến trúc. Công việc của một kiến trúc sư là thiết kế mặt bằng, không gian, cấu trúc... của một công trình."
+
+    utter_gt_tknthat:
+    - text: "Đây là một ngành học tổng hợp giữa các yếu tố mang tính nghệ thuật, mỹ thuật và kỹ thuật – công nghệ, trong đó dựa trên sự phối hợp hài hòa giữa màu sắc, ánh sáng, thẩm mỹ kiến trúc, các vật trang trí... để thiết kế một không gian sống, không gian làm việc, không gian thư giãn..., cho công trình xây dựng như: nhà ở, văn phòng, khách sạn,..."
+
+    utter_gt_ktxdung:
+    - text: "Đây là ngành có liên quan đến các lĩnh vực tư vấn, thiết kế, tổ chức thi công, quản lý giám sát và nghiệm thu các công trình xây dựng dân dụng, công trình xây dựng công nghiệp phục vụ đời sống con người như: đường cao tốc, nhà cao tầng, bệnh viện, trường học, nhà xưởng, trung tâm thương mại, cảng biển, sân bay…"
+
+    utter_gt_qtksan:
+    - text: "Đây là ngành nghiên cứu về các đặc thù của ngành công nghiệp khách sạn từ khâu quản lý, tổ chức các hoạt động của khách sạn đến việc cung cấp các dịch vụ lưu trú, dịch vụ ẩm thực và dịch vụ bổ sung... Đồng thời tạo ra mối liên kết chặt chẽ với từng bộ phận trong khách sạn giúp mang lại cho khách hàng cảm giác thoải mái nhất với dịch vụ mà họ trải nghiệm."
+
+    utter_gt_qtnhang:
+    - text: "Đây là ngành học về lĩnh vực quản lý khách sạn, nhà hàng thuộc phương diện văn hóa ẩm thực. Cụ thể là quản lý các khâu về ẩm thực, yến tiệc, hội nghị, sự kiện... Với ngành học này, sinh viên được trang bị kiến thức, kỹ năng kinh doanh các dịch vụ về nhà hàng và ẩm thực như: quản trị chất lượng du lịch, phân tích du lịch, phương pháp xây dựng khẩu phần, thực đơn…"
+
+    utter_gt_dlich:
+    - text: "Du lịch hiện đang là một trong những ngành “công nghiệp không khói” có tốc độ tăng trưởng nhanh với những đóng góp to lớn trong việc phát triển kinh tế xã hội và quảng bá hình ảnh đất nước ra toàn thế giới. Nhiều bạn trẻ có mong muốn được trải nghiệm một công việc được đi nhiều nơi, biết nhiều nền văn hóa thì ngành Du lịch là một gợi ý cho các bạn."
+
+    utter_gt_qltnmt:
+    - text: "Đây là ngành học kết hợp giữa hai khối kiến thức KHTN và KHXH nhằm nghiên cứu mối quan hệ giữa các nguồn tài nguyên thiên nhiên, môi trường tự nhiên và các hoạt động sống. của con người, qua đó tìm ra các phương thức đánh giá, quản lý, bảo vệ, khôi phục các nguồn tài nguyên và môi trường."
+
+
+    utter_hp_cntt:
+    - text: "Ngành Công nghệ thông tin với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 11 triệu đồng."
+
+    utter_hp_duoc:
+    - text: "Ngành Dược học với thời gian đào tạo là 5 năm, học phí trung bình một kì khoảng  14 triệu đồng."
+    
+    utter_hp_y:
+    - text: "Ngành Y khoa với thời gian đào tạo là 6 năm, học phí trung bình một kì khoảng  26 triệu đồng."
+
+    utter_hp_yhdp:
+    - text: "Ngành Y học dự phòng với thời gian đào tạo là 6 năm, học phí trung bình một kì khoảng 16 triệu đồng." 
+
+    utter_hp_dduong:
+    - text: "Ngành Điều dưỡng với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 12 triệu đồng."  
+
+    utter_hp_xnyh:
+    - text: "Ngành Kỹ thuật xét nghiệm y học với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 13 triệu đồng."  
+
+    utter_hp_qlbv:
+    - text: "Ngành Quản lí bệnh viện là ngành học dự kiến, với thời gian đào tạo là 4 năm, chưa có mức học phí cụ thể."  
+
+    utter_hp_phcn:
+    - text: "Ngành Kỹ thuật phục hồi chức năng với thời gian đào tạo là 4 năm, chưa có mức học phí cụ thể."  
+
+    utter_hp_tnhac:
+    - text: "Ngành Thanh nhạc với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 13 triệu đồng."  
+    
+    utter_hp_piano:
+    - text: "Ngành Piano với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 13 triệu đồng."
+    
+    utter_hp_ddien:
+    - text: "Ngành Đạo diễn điện ảnh truyền hình với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 13 triệu đồng."
+    
+    utter_hp_qphim:
+    - text: "Ngành Quay phim với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 14 triệu đồng."
+    
+    utter_hp_tkdh:
+    - text: "Ngành Thiết kế đồ họa với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 11 triệu đồng."
 
   utter_phuong_thuc_tuyen_sinh:
   - text: "Hiện tại trường Đại học Nguyễn Tất Thành đang tuyển sinh với 4 hình thức:
