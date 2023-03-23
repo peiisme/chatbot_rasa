@@ -48,6 +48,7 @@ intents:
   - hp_cnsh
   - hp_mmt
   - hp_ktpm
+  - hp_cntt
   - hp_cdt
   - hp_oto
   - hp_ddt
@@ -87,7 +88,7 @@ responses:
             Bên cạnh những thành tựu về đào tạo nguồn nhân lực chất lượng cao, vai trò và vị thế của trường đại học Nguyễn Tất Thành còn được thể hiện đậm nét trong các hoạt động nghiên cứu khoa học khi đứng ở TOP 5 toàn quốc về công trình nghiên cứu khoa học công bố quốc tế do tạp chí ISI trong năm 2019; TOP 5 tạp chí khoa học Việt Nam có chỉ số ảnh hưởng cao nhất năm 2020; TOP 20 các chỉ số nghiên cứu khoa học tại bảng xếp hạng Đại học của Việt Nam UPM năm 2020; Top 12 trường đại học Việt Nam tại bảng xếp hạng thế giới URAP 2020. Năm 2021, Trường ĐH Nguyễn Tất Thành được Webometrics xếp vị trí thứ 7 trên tổng số 178 trường đại học tại Việt Nam. Năm 2022, Trường ĐH Nguyễn Tất Thành xuất sắc lọt Top 3  trong tổng số 24 trường đại học của Việt Nam trên bảng xếp hạng SCImago Institutions Rankings 2022."
 
     utter_chao_hoi:
-    - text: "Xin chào, mình là một chat bot của NTTU, mình có thể giúp gì?"
+    - text: "Xin chào,  mình có thể giúp gì?"
 
     utter_tam_biet:
     - text: "Chào bạn hẹn gặp lại bạn, rất vui vì đã hỗ trợ được bạn"

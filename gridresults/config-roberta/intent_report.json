@@ -1,202 +1,206 @@
 {
   "hoi_ve_bot": {
-    "precision": 1.0,
-    "recall": 0.6,
-    "f1-score": 0.7499999999999999,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
     "support": 5,
     "confused_with": {
-      "dong_y": 1,
-      "hp_phcn": 1
+      "hp_ddt": 2,
+      "hp_cntt": 2,
+      "hoc_bong": 1
     }
   },
-  "hp_piano": {
+  "hp_ktxd": {
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
     "support": 4,
     "confused_with": {
-      "thoi_gian_dao_tao": 1,
-      "hp_dduong": 1,
-      "hp_qphim": 1
+      "hp_kthh": 2,
+      "hp_ktys": 1,
+      "hp_duoc": 1
     }
   },
-  "hp_phcn": {
-    "precision": 0.75,
-    "recall": 0.75,
-    "f1-score": 0.75,
-    "support": 4,
-    "confused_with": {
-      "hp_xnyh": 1
-    }
-  },
-  "tam_biet": {
-    "precision": 0.5714285714285714,
-    "recall": 0.8,
-    "f1-score": 0.6666666666666666,
+  "co_so_vat_chat": {
+    "precision": 0.3333333333333333,
+    "recall": 0.4,
+    "f1-score": 0.3636363636363636,
     "support": 5,
     "confused_with": {
-      "dong_y": 1
+      "nganh_dao_tao": 1,
+      "hp_cntt": 1
     }
   },
-  "hp_ddien": {
-    "precision": 0.6666666666666666,
-    "recall": 1.0,
-    "f1-score": 0.8,
+  "nganh_dao_tao": {
+    "precision": 0.6842105263157895,
+    "recall": 0.7647058823529411,
+    "f1-score": 0.7222222222222222,
+    "support": 17,
+    "confused_with": {
+      "co_so_vat_chat": 3,
+      "hp_y": 1
+    }
+  },
+  "hp_cnsh": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
     "support": 4,
+    "confused_with": {
+      "hp_qhcc": 1,
+      "hp_cntt": 1,
+      "hp_kthh": 1
+    }
+  },
+  "hp_xnyh": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "hp_kthh": 2,
+      "hp_ddien": 1,
+      "hp_vnh": 1
+    }
+  },
+  "hp_vnh": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "hp_cntt": 1,
+      "hp_ktoan": 1,
+      "hp_tv": 1
+    }
+  },
+  "hp_gdmn": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "hp_tv": 1,
+      "hp_cntt": 1,
+      "hp_ktoan": 1
+    }
+  },
+  "phuong_thuc_tuyen_sinh": {
+    "precision": 0.6363636363636364,
+    "recall": 1.0,
+    "f1-score": 0.7777777777777778,
+    "support": 7,
     "confused_with": {}
   },
-  "hp_y": {
+  "hp_oto": {
+    "precision": 0.2,
+    "recall": 0.25,
+    "f1-score": 0.22222222222222224,
+    "support": 4,
+    "confused_with": {
+      "hp_mmt": 1,
+      "hp_cntt": 1
+    }
+  },
+  "hp_ddt": {
+    "precision": 0.2,
+    "recall": 0.25,
+    "f1-score": 0.22222222222222224,
+    "support": 4,
+    "confused_with": {
+      "hp_mmt": 1,
+      "hp_htcn": 1
+    }
+  },
+  "hp_lkt": {
+    "precision": 0.2,
+    "recall": 0.25,
+    "f1-score": 0.22222222222222224,
+    "support": 4,
+    "confused_with": {
+      "hp_ktoan": 2,
+      "hp_tkdh": 1
+    }
+  },
+  "hp_qlbv": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "hp_qtnl": 1,
+      "chuong_trinh_dao_tao": 1,
+      "hp_mmt": 1
+    }
+  },
+  "hoc_phi": {
+    "precision": 0.25,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.28571428571428575,
+    "support": 6,
+    "confused_with": {
+      "hp_duoc": 2,
+      "hp_htcn": 1
+    }
+  },
+  "hp_qhqt": {
     "precision": 0.6666666666666666,
     "recall": 0.5,
     "f1-score": 0.5714285714285715,
     "support": 4,
     "confused_with": {
-      "thoi_gian_dao_tao": 1,
-      "hp_piano": 1
+      "hp_tkdh": 1,
+      "hp_kthh": 1
     }
   },
-  "hp_qlbv": {
-    "precision": 0.75,
-    "recall": 0.75,
-    "f1-score": 0.75,
-    "support": 4,
-    "confused_with": {
-      "hp_ddien": 1
-    }
-  },
-  "thoi_gian_dao_tao": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 4,
+  "hp_cntt": {
+    "precision": 0.11538461538461539,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.17142857142857146,
+    "support": 9,
     "confused_with": {
       "nganh_dao_tao": 2,
-      "hp_y": 1,
-      "diem_chuan": 1
+      "hp_ktoan": 2
     }
   },
-  "dong_y": {
-    "precision": 0.5,
-    "recall": 0.3333333333333333,
-    "f1-score": 0.4,
-    "support": 6,
-    "confused_with": {
-      "tam_biet": 2,
-      "co_so_vat_chat": 1
-    }
-  },
-  "hp_duoc": {
+  "hp_tv": {
     "precision": 0.6,
     "recall": 0.75,
     "f1-score": 0.6666666666666665,
     "support": 4,
     "confused_with": {
-      "hp_piano": 1
+      "hp_ddt": 1
     }
   },
-  "hp_tkdh": {
-    "precision": 0.75,
-    "recall": 0.75,
-    "f1-score": 0.75,
-    "support": 4,
-    "confused_with": {
-      "hp_xnyh": 1
-    }
-  },
-  "phuong_thuc_tuyen_sinh": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 7,
-    "confused_with": {}
-  },
-  "chuong_trinh_dao_tao": {
-    "precision": 1.0,
-    "recall": 0.6666666666666666,
-    "f1-score": 0.8,
-    "support": 3,
-    "confused_with": {
-      "thoi_gian_dao_tao": 1
-    }
-  },
-  "co_so_vat_chat": {
-    "precision": 0.8333333333333334,
-    "recall": 1.0,
-    "f1-score": 0.9090909090909091,
-    "support": 5,
-    "confused_with": {}
-  },
-  "chao_hoi": {
-    "precision": 1.0,
-    "recall": 0.8,
-    "f1-score": 0.888888888888889,
-    "support": 5,
-    "confused_with": {
-      "tam_biet": 1
-    }
-  },
-  "hoat_dong": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 2,
-    "confused_with": {
-      "diem_chuan": 2
-    }
-  },
-  "hp_qphim": {
-    "precision": 0.5,
-    "recall": 0.5,
-    "f1-score": 0.5,
-    "support": 4,
-    "confused_with": {
-      "thoi_gian_dao_tao": 1,
-      "hp_piano": 1
-    }
-  },
-  "gioi_thieu": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 2,
-    "confused_with": {
-      "hp_duoc": 1,
-      "hp_dduong": 1
-    }
-  },
-  "nganh_dao_tao": {
-    "precision": 0.85,
-    "recall": 1.0,
-    "f1-score": 0.9189189189189189,
-    "support": 17,
-    "confused_with": {}
-  },
-  "diem_chuan": {
-    "precision": 0.5,
-    "recall": 0.75,
-    "f1-score": 0.6,
-    "support": 4,
-    "confused_with": {
-      "nganh_dao_tao": 1
-    }
-  },
-  "hp_cnnt": {
-    "precision": 0.5,
+  "hp_kthh": {
+    "precision": 0.06666666666666667,
     "recall": 0.25,
-    "f1-score": 0.3333333333333333,
+    "f1-score": 0.10526315789473685,
     "support": 4,
     "confused_with": {
-      "hp_piano": 2,
-      "thoi_gian_dao_tao": 1
+      "hp_oto": 1,
+      "hp_duoc": 1
     }
   },
-  "hoc_bong": {
-    "precision": 1.0,
-    "recall": 0.8,
-    "f1-score": 0.888888888888889,
-    "support": 5,
+  "hp_y": {
+    "precision": 0.4,
+    "recall": 0.2857142857142857,
+    "f1-score": 0.3333333333333333,
+    "support": 7,
     "confused_with": {
-      "hoc_phi": 1
+      "hp_cntt": 2,
+      "hp_tcnh": 1
+    }
+  },
+  "hp_yhdp": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "hoc_phi": 1,
+      "hp_dph": 1,
+      "hp_cntp": 1
     }
   },
   "hp_tnhac": {
@@ -205,61 +209,465 @@
     "f1-score": 0.0,
     "support": 4,
     "confused_with": {
-      "thoi_gian_dao_tao": 1,
+      "hp_nna": 1,
+      "hp_ktoan": 1,
+      "hp_duoc": 1
+    }
+  },
+  "hp_qtnl": {
+    "precision": 0.3333333333333333,
+    "recall": 0.25,
+    "f1-score": 0.28571428571428575,
+    "support": 4,
+    "confused_with": {
       "hp_ddien": 1,
-      "hp_qphim": 1
-    }
-  },
-  "hp_dduong": {
-    "precision": 0.5,
-    "recall": 0.5,
-    "f1-score": 0.5,
-    "support": 4,
-    "confused_with": {
       "hp_duoc": 1,
-      "gioi_thieu": 1
+      "hp_phcn": 1
     }
   },
-  "hoc_phi": {
-    "precision": 0.8,
-    "recall": 1.0,
-    "f1-score": 0.888888888888889,
-    "support": 4,
-    "confused_with": {}
-  },
-  "hp_yhdp": {
-    "precision": 1.0,
-    "recall": 0.75,
-    "f1-score": 0.8571428571428571,
+  "hp_cntp": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
     "support": 4,
     "confused_with": {
-      "hp_xnyh": 1
+      "hp_cntt": 2,
+      "hp_mmt": 1,
+      "hp_kthh": 1
     }
   },
-  "hp_xnyh": {
+  "hp_ddien": {
+    "precision": 0.2,
+    "recall": 0.5,
+    "f1-score": 0.28571428571428575,
+    "support": 4,
+    "confused_with": {
+      "hp_mmt": 1,
+      "hp_oto": 1
+    }
+  },
+  "hp_duoc": {
+    "precision": 0.15384615384615385,
+    "recall": 0.5,
+    "f1-score": 0.23529411764705882,
+    "support": 4,
+    "confused_with": {
+      "phuong_thuc_tuyen_sinh": 1,
+      "hoc_phi": 1
+    }
+  },
+  "hp_log": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "hp_mmt": 2,
+      "hp_qtnhhang": 1,
+      "hp_tnmt": 1
+    }
+  },
+  "hp_ktruc": {
+    "precision": 0.3333333333333333,
+    "recall": 0.25,
+    "f1-score": 0.28571428571428575,
+    "support": 4,
+    "confused_with": {
+      "hp_ktoan": 2,
+      "hp_tkdh": 1
+    }
+  },
+  "hp_tcnh": {
+    "precision": 0.18181818181818182,
+    "recall": 0.5,
+    "f1-score": 0.26666666666666666,
+    "support": 4,
+    "confused_with": {
+      "hp_mmt": 1,
+      "hp_cntt": 1
+    }
+  },
+  "hp_cdt": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "hp_mmt": 2,
+      "hp_ddt": 1,
+      "hp_ddien": 1
+    }
+  },
+  "hp_ktys": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "hp_vlyk": 1,
+      "hp_ktruc": 1,
+      "hp_qtkd": 1
+    }
+  },
+  "gioi_thieu": {
+    "precision": 1.0,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.5,
+    "support": 3,
+    "confused_with": {
+      "co_so_vat_chat": 1,
+      "hoc_phi": 1
+    }
+  },
+  "hp_tknt": {
+    "precision": 0.6666666666666666,
+    "recall": 0.5,
+    "f1-score": 0.5714285714285715,
+    "support": 4,
+    "confused_with": {
+      "hp_tkdh": 1,
+      "hp_ktoan": 1
+    }
+  },
+  "hp_dph": {
     "precision": 0.5714285714285714,
     "recall": 1.0,
     "f1-score": 0.7272727272727273,
     "support": 4,
     "confused_with": {}
   },
-  "accuracy": 0.6746031746031746,
+  "hp_qhcc": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "hp_cntt": 2,
+      "hp_tcnh": 1,
+      "hoc_bong": 1
+    }
+  },
+  "hp_mmt": {
+    "precision": 0.17647058823529413,
+    "recall": 0.75,
+    "f1-score": 0.2857142857142857,
+    "support": 4,
+    "confused_with": {
+      "hp_qtnhhang": 1
+    }
+  },
+  "thoi_gian_dao_tao": {
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1-score": 0.4,
+    "support": 4,
+    "confused_with": {
+      "nganh_dao_tao": 2,
+      "hoc_bong": 1
+    }
+  },
+  "tam_biet": {
+    "precision": 1.0,
+    "recall": 0.4,
+    "f1-score": 0.5714285714285715,
+    "support": 5,
+    "confused_with": {
+      "dong_y": 2,
+      "chao_hoi": 1
+    }
+  },
+  "hp_qtnhhang": {
+    "precision": 0.4,
+    "recall": 0.5,
+    "f1-score": 0.4444444444444445,
+    "support": 4,
+    "confused_with": {
+      "hp_mmt": 2
+    }
+  },
+  "hp_tnmt": {
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1-score": 0.5,
+    "support": 4,
+    "confused_with": {
+      "hp_qtnhhang": 1,
+      "hp_oto": 1
+    }
+  },
+  "hp_qphim": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "hp_tcnh": 1,
+      "hp_cntt": 1,
+      "hp_y": 1
+    }
+  },
+  "hp_piano": {
+    "precision": 0.25,
+    "recall": 0.25,
+    "f1-score": 0.25,
+    "support": 4,
+    "confused_with": {
+      "hp_tcnh": 1,
+      "hp_ktoan": 1
+    }
+  },
+  "hp_nna": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "hp_piano": 2,
+      "hp_vlyk": 1,
+      "hp_qlbv": 1
+    }
+  },
+  "hp_vlyk": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "hp_tcnh": 2,
+      "chuong_trinh_dao_tao": 2
+    }
+  },
+  "hp_mar": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "hp_cntt": 2,
+      "hp_ktoan": 1,
+      "hp_duoc": 1
+    }
+  },
+  "chao_hoi": {
+    "precision": 0.7142857142857143,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.7142857142857143,
+    "support": 7,
+    "confused_with": {
+      "dong_y": 1,
+      "hp_tcnh": 1
+    }
+  },
+  "hp_tkdh": {
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "f1-score": 0.4,
+    "support": 4,
+    "confused_with": {
+      "hoc_phi": 1,
+      "hp_tknt": 1
+    }
+  },
+  "hp_ktpm": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "hp_lkt": 1,
+      "hp_ktoan": 1,
+      "hp_kthh": 1
+    }
+  },
+  "hp_tlh": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "hp_tcnh": 2,
+      "hp_cntt": 2
+    }
+  },
+  "hp_kdqt": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "hp_ktruc": 1,
+      "hp_ktoan": 1,
+      "hp_qhqt": 1
+    }
+  },
+  "hp_phcn": {
+    "precision": 0.5,
+    "recall": 0.25,
+    "f1-score": 0.3333333333333333,
+    "support": 4,
+    "confused_with": {
+      "hp_kthh": 2,
+      "hp_htcn": 1
+    }
+  },
+  "hp_nntq": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "hp_cntt": 1,
+      "hp_dph": 1,
+      "hp_cdt": 1
+    }
+  },
+  "dong_y": {
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1-score": 0.5,
+    "support": 6,
+    "confused_with": {
+      "chao_hoi": 1,
+      "hoat_dong": 1
+    }
+  },
+  "hp_dpt": {
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1-score": 0.4,
+    "support": 4,
+    "confused_with": {
+      "hp_mmt": 2,
+      "hp_dph": 1
+    }
+  },
+  "hp_qtkd": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "hp_lkt": 1,
+      "hp_ktys": 1,
+      "hp_kthh": 1
+    }
+  },
+  "hp_qtks": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "hp_ktoan": 2,
+      "hp_tnmt": 1,
+      "hp_qtnl": 1
+    }
+  },
+  "diem_chuan": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "phuong_thuc_tuyen_sinh": 2,
+      "nganh_dao_tao": 1,
+      "hp_qphim": 1
+    }
+  },
+  "chuong_trinh_dao_tao": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1-score": 0.6666666666666666,
+    "support": 5,
+    "confused_with": {}
+  },
+  "hp_dduong": {
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1-score": 0.4,
+    "support": 4,
+    "confused_with": {
+      "hp_ktoan": 1,
+      "hp_kthh": 1,
+      "hp_qtkd": 1
+    }
+  },
+  "hp_dlich": {
+    "precision": 0.6666666666666666,
+    "recall": 0.5,
+    "f1-score": 0.5714285714285715,
+    "support": 4,
+    "confused_with": {
+      "hp_ktoan": 1,
+      "hp_cntt": 1
+    }
+  },
+  "hoat_dong": {
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "f1-score": 0.4,
+    "support": 2,
+    "confused_with": {
+      "diem_chuan": 1
+    }
+  },
+  "hoc_bong": {
+    "precision": 0.5714285714285714,
+    "recall": 0.8,
+    "f1-score": 0.6666666666666666,
+    "support": 5,
+    "confused_with": {
+      "hp_duoc": 1
+    }
+  },
+  "hp_tmdt": {
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1-score": 0.4,
+    "support": 4,
+    "confused_with": {
+      "chuong_trinh_dao_tao": 2,
+      "hp_ddien": 1
+    }
+  },
+  "hp_ktoan": {
+    "precision": 0.047619047619047616,
+    "recall": 0.25,
+    "f1-score": 0.08,
+    "support": 4,
+    "confused_with": {
+      "hp_mar": 1,
+      "hp_cntt": 1
+    }
+  },
+  "hp_htcn": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "hp_ddien": 2,
+      "hp_oto": 1,
+      "hp_kthh": 1
+    }
+  },
+  "accuracy": 0.314878892733564,
   "macro avg": {
-    "precision": 0.6040564373897708,
-    "recall": 0.6018518518518519,
-    "f1-score": 0.5895254561921228,
-    "support": 126
+    "precision": 0.2857217021884204,
+    "recall": 0.27522977941176474,
+    "f1-score": 0.24696735642023956,
+    "support": 289
   },
   "weighted avg": {
-    "precision": 0.6642290249433107,
-    "recall": 0.6746031746031746,
-    "f1-score": 0.6564938933986554,
-    "support": 126
+    "precision": 0.3117870552571186,
+    "recall": 0.314878892733564,
+    "f1-score": 0.28195741282225045,
+    "support": 289
   },
   "micro avg": {
-    "precision": 0.6746031746031746,
-    "recall": 0.6746031746031746,
-    "f1-score": 0.6746031746031746,
-    "support": 126
+    "precision": 0.314878892733564,
+    "recall": 0.314878892733564,
+    "f1-score": 0.314878892733564,
+    "support": 289
   }
 }

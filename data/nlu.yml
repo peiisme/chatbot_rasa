@@ -3,6 +3,8 @@ version: "3.1"
 nlu:
   - intent: chao_hoi
     examples: |
+      - chào ad
+      - dạ cho em hỏi
       - Xin chào
       - hello
       - hi
@@ -21,7 +23,6 @@ nlu:
       - có
       - có chứ
       - tất nhiên rồi
-
       - tất nhiên
       - có vẻ thú vị
       - đúng rồi
@@ -85,7 +86,6 @@ nlu:
     examples: |
       - các hoạt động của trường
       - trường có những hoạt động nào
-      -
 
   - intent: thoi_gian_dao_tao
     examples: |
@@ -104,25 +104,35 @@ nlu:
   - intent: gioi_thieu
     examples: |
       - giới thiệu về trường
+      - giới thiệu sơ lược về trường mình với ạ
       - trường đại học Nguyễn Tất Thành có gì
 
   - intent: chuong_trinh_dao_tao
     examples: |
       - cho em hỏi về chương trình đào tạo
+      - trường mình có nhiêu chương trình đào tạo ạ
+      - các chương trình đào tạo trường mình tốt không ạ
       - chương trình đào tạo của mình có cái gì
       - chương trinh đào tạo của mình ra sao ạ
 
   - intent: hoc_phi
     examples: |
+      - trường mình mỗi kỳ học phí tầm bao nhiêu ạ
+      - học phí mỗi năm bao nhiêu ạ
       - cho em hỏi học phí của trường
       - học phí trung bình của trường
       - học phí
       - học phí thế nào ạ
 
-  - intent: hp_cnnt
+  - intent: hp_cntt
     examples: |
       - học phí ngành CNTT như nào ạ
       - ngành CNTT có đắt không
+      - học phí ngành công nghệ thông tin là bao nhiêu
+      - cho em hỏi học phí ngành công nghệ thông tin ạ
+      - ngành công nghệ thông tin mỗi kỳ bao nhiêu ạ
+      - học phí ngành cntt bao nhiêu 1 kỳ ạ
+      - học phí ngành cntt bao nhiêu 1 năm ạ 
       - học phí trung bình 1 học kì ngành CNTT
       - 1 học kì ngành CNTT bao nhiêu
 
@@ -135,6 +145,9 @@ nlu:
 
   - intent: hp_y
     examples: |
+      - cho em hỏi học phí ngành y bao nhiêu ạ
+      - ngành y bao nhiêu 1 kỳ ạ
+      - ngành y bao nhiêu 1 năm ạ
       - học phí ngành Y khoa như nào ạ
       - ngành Y khoa có đắt không
       - học phí trung bình 1 học kì ngành Y khoa

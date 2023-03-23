@@ -1,26 +1,26 @@
 [
   {
-    "text": "Xin chào",
+    "text": "hello",
     "intent": "chao_hoi",
     "intent_prediction": {
       "name": "tam_biet",
-      "confidence": 0.28312692046165466
+      "confidence": 0.3159036338329315
     }
   },
   {
-    "text": "alo",
-    "intent": "chao_hoi",
+    "text": "Hẹn gặp lại",
+    "intent": "tam_biet",
     "intent_prediction": {
-      "name": "dong_y",
-      "confidence": 0.2579469382762909
+      "name": "chao_hoi",
+      "confidence": 0.10778426378965378
     }
   },
   {
     "text": "tất nhiên rồi",
     "intent": "dong_y",
     "intent_prediction": {
-      "name": "hoi_ve_bot",
-      "confidence": 0.15934211015701294
+      "name": "nganh_dao_tao",
+      "confidence": 0.0894799456000328
     }
   },
   {
@@ -28,39 +28,79 @@
     "intent": "dong_y",
     "intent_prediction": {
       "name": "phuong_thuc_tuyen_sinh",
-      "confidence": 0.9148058891296387
+      "confidence": 0.043807391077280045
     }
   },
   {
-    "text": "mình đang nói chuyện với một chat bot phải không",
+    "text": "bạn có phải là một chat bot không",
     "intent": "hoi_ve_bot",
     "intent_prediction": {
-      "name": "hp_phcn",
-      "confidence": 0.18667131662368774
+      "name": "hp_vlyk",
+      "confidence": 0.054903820157051086
     }
   },
   {
-    "text": "đầu dây bên kia là ai nhỉ",
+    "text": "bạn có phải là con người không",
     "intent": "hoi_ve_bot",
     "intent_prediction": {
-      "name": "tam_biet",
-      "confidence": 0.18855367600917816
+      "name": "hp_vlyk",
+      "confidence": 0.060417499393224716
     }
   },
   {
-    "text": "trường đào tạo bao nhiêu ngành",
+    "text": "ai đang trả lời cuộc trò chuyện này",
+    "intent": "hoi_ve_bot",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.09936308860778809
+    }
+  },
+  {
+    "text": "các ngành tuyển sinh",
     "intent": "nganh_dao_tao",
     "intent_prediction": {
-      "name": "chuong_trinh_dao_tao",
-      "confidence": 0.3128858804702759
+      "name": "phuong_thuc_tuyen_sinh",
+      "confidence": 0.12347312271595001
     }
   },
   {
-    "text": "trường có bao nhiêu cơ sở",
+    "text": "các ngành trường tuyển sinh",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "phuong_thuc_tuyen_sinh",
+      "confidence": 0.22175030410289764
+    }
+  },
+  {
+    "text": "trường có học bổng không",
+    "intent": "hoc_bong",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.07957811653614044
+    }
+  },
+  {
+    "text": "các cơ sở chính",
     "intent": "co_so_vat_chat",
     "intent_prediction": {
-      "name": "gioi_thieu",
-      "confidence": 0.21392588317394257
+      "name": "dong_y",
+      "confidence": 0.08842930942773819
+    }
+  },
+  {
+    "text": "các cơ sở của trường",
+    "intent": "co_so_vat_chat",
+    "intent_prediction": {
+      "name": "dong_y",
+      "confidence": 0.12768375873565674
+    }
+  },
+  {
+    "text": "các cơ sở của trường ở đâu",
+    "intent": "co_so_vat_chat",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.10750942677259445
     }
   },
   {
@@ -68,23 +108,23 @@
     "intent": "hoat_dong",
     "intent_prediction": {
       "name": "diem_chuan",
-      "confidence": 0.1358945071697235
+      "confidence": 0.07445443421602249
     }
   },
   {
-    "text": "điểm chuẩn các ngành",
-    "intent": "diem_chuan",
+    "text": "ngành XYZ học mấy năm",
+    "intent": "thoi_gian_dao_tao",
     "intent_prediction": {
-      "name": "nganh_dao_tao",
-      "confidence": 0.9715713262557983
+      "name": "hp_y",
+      "confidence": 0.06661520153284073
     }
   },
   {
-    "text": "điểm chuẩn các ngành của trường",
-    "intent": "diem_chuan",
+    "text": "ngành XYZ học lâu không",
+    "intent": "thoi_gian_dao_tao",
     "intent_prediction": {
-      "name": "nganh_dao_tao",
-      "confidence": 0.26244181394577026
+      "name": "hp_piano",
+      "confidence": 0.05490469932556152
     }
   },
   {
@@ -92,223 +132,15 @@
     "intent": "gioi_thieu",
     "intent_prediction": {
       "name": "phuong_thuc_tuyen_sinh",
-      "confidence": 0.27616259455680847
+      "confidence": 0.03933488577604294
     }
   },
   {
-    "text": "cho em hỏi học phí của trường",
-    "intent": "hoc_phi",
-    "intent_prediction": {
-      "name": "co_so_vat_chat",
-      "confidence": 0.22362880408763885
-    }
-  },
-  {
-    "text": "ngành Dược học có đắt không",
-    "intent": "hp_duoc",
-    "intent_prediction": {
-      "name": "hp_qlbv",
-      "confidence": 0.09752485901117325
-    }
-  },
-  {
-    "text": "học phí trung bình 1 học kì ngành Dược học",
-    "intent": "hp_duoc",
-    "intent_prediction": {
-      "name": "hp_dduong",
-      "confidence": 0.13741424679756165
-    }
-  },
-  {
-    "text": "học phí trung bình 1 học kì ngành Y học dự phòng",
-    "intent": "hp_yhdp",
-    "intent_prediction": {
-      "name": "hp_tnhac",
-      "confidence": 0.09384030103683472
-    }
-  },
-  {
-    "text": "1 học kì ngành Y học dự phòng bao nhiêu",
-    "intent": "hp_yhdp",
-    "intent_prediction": {
-      "name": "hp_y",
-      "confidence": 0.48696765303611755
-    }
-  },
-  {
-    "text": "học phí ngành Điều dưỡng như nào ạ",
-    "intent": "hp_dduong",
-    "intent_prediction": {
-      "name": "hp_tnhac",
-      "confidence": 0.19161543250083923
-    }
-  },
-  {
-    "text": "ngành Điều dưỡng có đắt không",
-    "intent": "hp_dduong",
-    "intent_prediction": {
-      "name": "phuong_thuc_tuyen_sinh",
-      "confidence": 0.23318763077259064
-    }
-  },
-  {
-    "text": "ngành Kỹ thuật xét nghiệm y học có đắt không",
-    "intent": "hp_xnyh",
-    "intent_prediction": {
-      "name": "hp_phcn",
-      "confidence": 0.27690058946609497
-    }
-  },
-  {
-    "text": "1 học kì ngành Kỹ thuật xét nghiệm y học bao nhiêu",
-    "intent": "hp_xnyh",
-    "intent_prediction": {
-      "name": "hp_phcn",
-      "confidence": 0.26185938715934753
-    }
-  },
-  {
-    "text": "học phí ngành Quản lý bệnh viện như nào ạ",
-    "intent": "hp_qlbv",
-    "intent_prediction": {
-      "name": "hp_tnhac",
-      "confidence": 0.12759417295455933
-    }
-  },
-  {
-    "text": "học phí trung bình 1 học kì ngành Quản lý bệnh viện",
-    "intent": "hp_qlbv",
-    "intent_prediction": {
-      "name": "hp_tkdh",
-      "confidence": 0.1684676557779312
-    }
-  },
-  {
-    "text": "1 học kì ngành Thanh nhạc bao nhiêu",
-    "intent": "hp_tnhac",
-    "intent_prediction": {
-      "name": "hp_y",
-      "confidence": 0.11475978791713715
-    }
-  },
-  {
-    "text": "học phí ngành Đạo diễn điện ảnh truyền hình như nào ạ",
-    "intent": "hp_ddien",
-    "intent_prediction": {
-      "name": "chuong_trinh_dao_tao",
-      "confidence": 0.18979725241661072
-    }
-  },
-  {
-    "text": "ngành Đạo diễn điện ảnh truyền hình có đắt không",
-    "intent": "hp_ddien",
-    "intent_prediction": {
-      "name": "hp_phcn",
-      "confidence": 0.27436795830726624
-    }
-  },
-  {
-    "text": "học phí trung bình 1 học kì ngành Quay phim",
-    "intent": "hp_qphim",
-    "intent_prediction": {
-      "name": "hp_cnnt",
-      "confidence": 0.2466556280851364
-    }
-  },
-  {
-    "text": "1 học kì ngành Quay phim bao nhiêu",
-    "intent": "hp_qphim",
-    "intent_prediction": {
-      "name": "hp_y",
-      "confidence": 0.18250516057014465
-    }
-  },
-  {
-    "text": "Tạm biệt",
-    "intent": "tam_biet",
-    "intent_prediction": {
-      "name": "dong_y",
-      "confidence": 0.334078311920166
-    }
-  },
-  {
-    "text": "Hẹn gặp lại",
-    "intent": "tam_biet",
-    "intent_prediction": {
-      "name": "dong_y",
-      "confidence": 0.3770124316215515
-    }
-  },
-  {
-    "text": "có",
-    "intent": "dong_y",
-    "intent_prediction": {
-      "name": "chao_hoi",
-      "confidence": 0.7037950754165649
-    }
-  },
-  {
-    "text": "có chứ",
-    "intent": "dong_y",
-    "intent_prediction": {
-      "name": "chao_hoi",
-      "confidence": 0.3820710778236389
-    }
-  },
-  {
-    "text": "có vẻ thú vị",
-    "intent": "dong_y",
-    "intent_prediction": {
-      "name": "chao_hoi",
-      "confidence": 0.2362378090620041
-    }
-  },
-  {
-    "text": "tuyển sinh theo phương thức nào",
-    "intent": "phuong_thuc_tuyen_sinh",
-    "intent_prediction": {
-      "name": "nganh_dao_tao",
-      "confidence": 0.8265454173088074
-    }
-  },
-  {
-    "text": "trường có những hoạt động nào",
-    "intent": "hoat_dong",
-    "intent_prediction": {
-      "name": "nganh_dao_tao",
-      "confidence": 0.18061931431293488
-    }
-  },
-  {
-    "text": "ngành XYZ học lâu không",
-    "intent": "thoi_gian_dao_tao",
-    "intent_prediction": {
-      "name": "hoc_bong",
-      "confidence": 0.5289757251739502
-    }
-  },
-  {
-    "text": "ngành ABC lấy bao nhiêu điểm",
-    "intent": "diem_chuan",
-    "intent_prediction": {
-      "name": "thoi_gian_dao_tao",
-      "confidence": 0.22006867825984955
-    }
-  },
-  {
-    "text": "giới thiệu về trường",
-    "intent": "gioi_thieu",
-    "intent_prediction": {
-      "name": "phuong_thuc_tuyen_sinh",
-      "confidence": 0.42915078997612
-    }
-  },
-  {
-    "text": "cho em hỏi về chương trình đào tạo",
+    "text": "chương trình đào tạo của mình có cái gì",
     "intent": "chuong_trinh_dao_tao",
     "intent_prediction": {
-      "name": "hoc_phi",
-      "confidence": 0.27808550000190735
+      "name": "nganh_dao_tao",
+      "confidence": 0.056123897433280945
     }
   },
   {
@@ -316,7 +148,735 @@
     "intent": "chuong_trinh_dao_tao",
     "intent_prediction": {
       "name": "nganh_dao_tao",
-      "confidence": 0.4579433798789978
+      "confidence": 0.049093227833509445
+    }
+  },
+  {
+    "text": "cho em hỏi học phí của trường",
+    "intent": "hoc_phi",
+    "intent_prediction": {
+      "name": "dong_y",
+      "confidence": 0.0488850362598896
+    }
+  },
+  {
+    "text": "học phí",
+    "intent": "hoc_phi",
+    "intent_prediction": {
+      "name": "chao_hoi",
+      "confidence": 0.09952162951231003
+    }
+  },
+  {
+    "text": "ngành Dược học có đắt không",
+    "intent": "hp_duoc",
+    "intent_prediction": {
+      "name": "hp_kthh",
+      "confidence": 0.03780805319547653
+    }
+  },
+  {
+    "text": "1 học kì ngành Dược học bao nhiêu",
+    "intent": "hp_duoc",
+    "intent_prediction": {
+      "name": "hp_nna",
+      "confidence": 0.03545152023434639
+    }
+  },
+  {
+    "text": "ngành Y khoa có đắt không",
+    "intent": "hp_y",
+    "intent_prediction": {
+      "name": "hp_vlyk",
+      "confidence": 0.07190974801778793
+    }
+  },
+  {
+    "text": "1 học kì ngành Y khoa bao nhiêu",
+    "intent": "hp_y",
+    "intent_prediction": {
+      "name": "hp_vlyk",
+      "confidence": 0.04014289006590843
+    }
+  },
+  {
+    "text": "ngành Y học dự phòng có đắt không",
+    "intent": "hp_yhdp",
+    "intent_prediction": {
+      "name": "hp_gdmn",
+      "confidence": 0.03829474374651909
+    }
+  },
+  {
+    "text": "1 học kì ngành Y học dự phòng bao nhiêu",
+    "intent": "hp_yhdp",
+    "intent_prediction": {
+      "name": "hp_y",
+      "confidence": 0.04554417356848717
+    }
+  },
+  {
+    "text": "học phí ngành Điều dưỡng như nào ạ",
+    "intent": "hp_dduong",
+    "intent_prediction": {
+      "name": "hp_dpt",
+      "confidence": 0.029472118243575096
+    }
+  },
+  {
+    "text": "học phí ngành Kỹ thuật xét nghiệm y học như nào ạ",
+    "intent": "hp_xnyh",
+    "intent_prediction": {
+      "name": "hp_oto",
+      "confidence": 0.05768662318587303
+    }
+  },
+  {
+    "text": "ngành Kỹ thuật xét nghiệm y học có đắt không",
+    "intent": "hp_xnyh",
+    "intent_prediction": {
+      "name": "hp_vlyk",
+      "confidence": 0.048340845853090286
+    }
+  },
+  {
+    "text": "học phí ngành Quản lý bệnh viện như nào ạ",
+    "intent": "hp_qlbv",
+    "intent_prediction": {
+      "name": "hp_qhcc",
+      "confidence": 0.038704730570316315
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Quản lý bệnh viện",
+    "intent": "hp_qlbv",
+    "intent_prediction": {
+      "name": "hp_qhcc",
+      "confidence": 0.03578931838274002
+    }
+  },
+  {
+    "text": "học phí ngành Kỹ thuật phục hồi chức năng như nào ạ",
+    "intent": "hp_phcn",
+    "intent_prediction": {
+      "name": "hp_htcn",
+      "confidence": 0.03983636200428009
+    }
+  },
+  {
+    "text": "ngành Kỹ thuật phục hồi chức năng có đắt không",
+    "intent": "hp_phcn",
+    "intent_prediction": {
+      "name": "hp_htcn",
+      "confidence": 0.04180945083498955
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Thanh nhạc",
+    "intent": "hp_tnhac",
+    "intent_prediction": {
+      "name": "hp_dlich",
+      "confidence": 0.04544471576809883
+    }
+  },
+  {
+    "text": "1 học kì ngành Thanh nhạc bao nhiêu",
+    "intent": "hp_tnhac",
+    "intent_prediction": {
+      "name": "hp_cntp",
+      "confidence": 0.044565632939338684
+    }
+  },
+  {
+    "text": "học phí ngành Đạo diễn điện ảnh truyền hình như nào ạ",
+    "intent": "hp_ddien",
+    "intent_prediction": {
+      "name": "phuong_thuc_tuyen_sinh",
+      "confidence": 0.0509026013314724
+    }
+  },
+  {
+    "text": "ngành Đạo diễn điện ảnh truyền hình có đắt không",
+    "intent": "hp_ddien",
+    "intent_prediction": {
+      "name": "phuong_thuc_tuyen_sinh",
+      "confidence": 0.0732271671295166
+    }
+  },
+  {
+    "text": "ngành Quay phim có đắt không",
+    "intent": "hp_qphim",
+    "intent_prediction": {
+      "name": "hp_kdqt",
+      "confidence": 0.02676551230251789
+    }
+  },
+  {
+    "text": "1 học kì ngành Quay phim bao nhiêu",
+    "intent": "hp_qphim",
+    "intent_prediction": {
+      "name": "hp_ktruc",
+      "confidence": 0.033522479236125946
+    }
+  },
+  {
+    "text": "học phí ngành Thiết kế đồ họa như nào ạ",
+    "intent": "hp_tkdh",
+    "intent_prediction": {
+      "name": "hp_tknt",
+      "confidence": 0.03897814825177193
+    }
+  },
+  {
+    "text": "ngành Thiết kế đồ họa có đắt không",
+    "intent": "hp_tkdh",
+    "intent_prediction": {
+      "name": "hp_tknt",
+      "confidence": 0.046754926443099976
+    }
+  },
+  {
+    "text": "ngành Tiếng Việt và văn hóa Việt Nam có đắt không",
+    "intent": "hp_tv",
+    "intent_prediction": {
+      "name": "hp_vnh",
+      "confidence": 0.11418096721172333
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Tiếng Việt và văn hóa Việt Nam",
+    "intent": "hp_tv",
+    "intent_prediction": {
+      "name": "hp_vnh",
+      "confidence": 0.11580704152584076
+    }
+  },
+  {
+    "text": "ngành Ngôn ngữ Anh có đắt không",
+    "intent": "hp_nna",
+    "intent_prediction": {
+      "name": "phuong_thuc_tuyen_sinh",
+      "confidence": 0.035695478320121765
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Ngôn ngữ Anh",
+    "intent": "hp_nna",
+    "intent_prediction": {
+      "name": "hp_tkdh",
+      "confidence": 0.03938457369804382
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Ngôn ngữ Trung Quốc",
+    "intent": "hp_nntq",
+    "intent_prediction": {
+      "name": "hp_tkdh",
+      "confidence": 0.035964857786893845
+    }
+  },
+  {
+    "text": "1 học kì ngành Ngôn ngữ Trung Quốc bao nhiêu",
+    "intent": "hp_nntq",
+    "intent_prediction": {
+      "name": "hp_nna",
+      "confidence": 0.04440294951200485
+    }
+  },
+  {
+    "text": "ngành Quan hệ quốc tế có đắt không",
+    "intent": "hp_qhqt",
+    "intent_prediction": {
+      "name": "hp_tknt",
+      "confidence": 0.06379980593919754
+    }
+  },
+  {
+    "text": "1 học kì ngành Quan hệ quốc tế bao nhiêu",
+    "intent": "hp_qhqt",
+    "intent_prediction": {
+      "name": "hp_tkdh",
+      "confidence": 0.03765486925840378
+    }
+  },
+  {
+    "text": "ngành Tâm lý học có đắt không",
+    "intent": "hp_tlh",
+    "intent_prediction": {
+      "name": "hp_vlyk",
+      "confidence": 0.03308010846376419
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Tâm lý học",
+    "intent": "hp_tlh",
+    "intent_prediction": {
+      "name": "hp_duoc",
+      "confidence": 0.04500221088528633
+    }
+  },
+  {
+    "text": "học phí ngành Đông phương học như nào ạ",
+    "intent": "hp_dph",
+    "intent_prediction": {
+      "name": "hp_dpt",
+      "confidence": 0.038008760660886765
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Đông phương học",
+    "intent": "hp_dph",
+    "intent_prediction": {
+      "name": "hp_cnsh",
+      "confidence": 0.048099905252456665
+    }
+  },
+  {
+    "text": "1 học kì ngành Quản trị kinh doanh bao nhiêu",
+    "intent": "hp_qtkd",
+    "intent_prediction": {
+      "name": "hp_tcnh",
+      "confidence": 0.04218987748026848
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Marketing",
+    "intent": "hp_mar",
+    "intent_prediction": {
+      "name": "hp_duoc",
+      "confidence": 0.05521306395530701
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Kinh doanh quốc tế",
+    "intent": "hp_kdqt",
+    "intent_prediction": {
+      "name": "hp_dlich",
+      "confidence": 0.045365508645772934
+    }
+  },
+  {
+    "text": "1 học kì ngành Kinh doanh quốc tế bao nhiêu",
+    "intent": "hp_kdqt",
+    "intent_prediction": {
+      "name": "hp_cntp",
+      "confidence": 0.06560735404491425
+    }
+  },
+  {
+    "text": "học phí ngành Thương mại điện tử như nào ạ",
+    "intent": "hp_tmdt",
+    "intent_prediction": {
+      "name": "hp_tnmt",
+      "confidence": 0.03838518634438515
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Thương mại điện tử",
+    "intent": "hp_tmdt",
+    "intent_prediction": {
+      "name": "hp_ddt",
+      "confidence": 0.033531781286001205
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Kế toán",
+    "intent": "hp_ktoan",
+    "intent_prediction": {
+      "name": "hp_y",
+      "confidence": 0.04555279389023781
+    }
+  },
+  {
+    "text": "1 học kì ngành Kế toán bao nhiêu",
+    "intent": "hp_ktoan",
+    "intent_prediction": {
+      "name": "hp_ktruc",
+      "confidence": 0.037255797535181046
+    }
+  },
+  {
+    "text": "ngành Luật kinh tế có đắt không",
+    "intent": "hp_lkt",
+    "intent_prediction": {
+      "name": "hp_kdqt",
+      "confidence": 0.041971541941165924
+    }
+  },
+  {
+    "text": "1 học kì ngành Luật kinh tế bao nhiêu",
+    "intent": "hp_lkt",
+    "intent_prediction": {
+      "name": "hp_cntp",
+      "confidence": 0.07320516556501389
+    }
+  },
+  {
+    "text": "ngành Công nghệ sinh học có đắt không",
+    "intent": "hp_cnsh",
+    "intent_prediction": {
+      "name": "hp_kthh",
+      "confidence": 0.042350079864263535
+    }
+  },
+  {
+    "text": "1 học kì ngành Công nghệ sinh học bao nhiêu",
+    "intent": "hp_cnsh",
+    "intent_prediction": {
+      "name": "hp_cntp",
+      "confidence": 0.0936172753572464
+    }
+  },
+  {
+    "text": "ngành Kỹ thuật phần mềm có đắt không",
+    "intent": "hp_ktpm",
+    "intent_prediction": {
+      "name": "hp_vlyk",
+      "confidence": 0.0403699092566967
+    }
+  },
+  {
+    "text": "1 học kì ngành Kỹ thuật phần mềm bao nhiêu",
+    "intent": "hp_ktpm",
+    "intent_prediction": {
+      "name": "hp_phcn",
+      "confidence": 0.035878218710422516
+    }
+  },
+  {
+    "text": "ngành Công nghệ kỹ thuật cơ điện tử có đắt không",
+    "intent": "hp_cdt",
+    "intent_prediction": {
+      "name": "hp_ddt",
+      "confidence": 0.04085831344127655
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Công nghệ kỹ thuật cơ điện tử",
+    "intent": "hp_cdt",
+    "intent_prediction": {
+      "name": "hp_ddt",
+      "confidence": 0.06616654992103577
+    }
+  },
+  {
+    "text": "1 học kì ngành Công nghệ kỹ thuật điện điện tử bao nhiêu",
+    "intent": "hp_ddt",
+    "intent_prediction": {
+      "name": "hp_tnmt",
+      "confidence": 0.04629701003432274
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Công nghệ kỹ thuật hóa học",
+    "intent": "hp_kthh",
+    "intent_prediction": {
+      "name": "hp_cnsh",
+      "confidence": 0.10061626136302948
+    }
+  },
+  {
+    "text": "1 học kì ngành Công nghệ kỹ thuật hóa học bao nhiêu",
+    "intent": "hp_kthh",
+    "intent_prediction": {
+      "name": "hp_cntp",
+      "confidence": 0.05621594935655594
+    }
+  },
+  {
+    "text": "học phí ngành Kỹ thuật y sinh như nào ạ",
+    "intent": "hp_ktys",
+    "intent_prediction": {
+      "name": "hp_oto",
+      "confidence": 0.05030633136630058
+    }
+  },
+  {
+    "text": "1 học kì ngành Kỹ thuật y sinh bao nhiêu",
+    "intent": "hp_ktys",
+    "intent_prediction": {
+      "name": "hp_xnyh",
+      "confidence": 0.04758208245038986
+    }
+  },
+  {
+    "text": "học phí ngành Vật lý y khoa như nào ạ",
+    "intent": "hp_vlyk",
+    "intent_prediction": {
+      "name": "hp_y",
+      "confidence": 0.07999452948570251
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Vật lý y khoa",
+    "intent": "hp_vlyk",
+    "intent_prediction": {
+      "name": "hp_y",
+      "confidence": 0.06263995170593262
+    }
+  },
+  {
+    "text": "học phí ngành Công nghệ thực phẩm như nào ạ",
+    "intent": "hp_cntp",
+    "intent_prediction": {
+      "name": "hp_cnsh",
+      "confidence": 0.04669268801808357
+    }
+  },
+  {
+    "text": "ngành Công nghệ thực phẩm có đắt không",
+    "intent": "hp_cntp",
+    "intent_prediction": {
+      "name": "hp_ddt",
+      "confidence": 0.03643137216567993
+    }
+  },
+  {
+    "text": "ngành Kiến trúc có đắt không",
+    "intent": "hp_ktruc",
+    "intent_prediction": {
+      "name": "hp_vlyk",
+      "confidence": 0.0331895612180233
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Kiến trúc",
+    "intent": "hp_ktruc",
+    "intent_prediction": {
+      "name": "hp_dlich",
+      "confidence": 0.04370035231113434
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Thiết kế nội thất",
+    "intent": "hp_tknt",
+    "intent_prediction": {
+      "name": "hp_oto",
+      "confidence": 0.06890173256397247
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Kỹ thuật xây dựng",
+    "intent": "hp_ktxd",
+    "intent_prediction": {
+      "name": "hp_htcn",
+      "confidence": 0.041263140738010406
+    }
+  },
+  {
+    "text": "1 học kì ngành Kỹ thuật xây dựng bao nhiêu",
+    "intent": "hp_ktxd",
+    "intent_prediction": {
+      "name": "hp_phcn",
+      "confidence": 0.03744707256555557
+    }
+  },
+  {
+    "text": "ngành Du lịch có đắt không",
+    "intent": "hp_dlich",
+    "intent_prediction": {
+      "name": "chao_hoi",
+      "confidence": 0.03309221938252449
+    }
+  },
+  {
+    "text": "học phí ngành Quản trị khách sạn như nào ạ",
+    "intent": "hp_qtks",
+    "intent_prediction": {
+      "name": "hp_dpt",
+      "confidence": 0.0601314939558506
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Quản trị khách sạn",
+    "intent": "hp_qtks",
+    "intent_prediction": {
+      "name": "hp_cntt",
+      "confidence": 0.04594656825065613
+    }
+  },
+  {
+    "text": "học phí ngành Quản trị nhà hàng và dịch vụ ăn uống như nào ạ",
+    "intent": "hp_qtnhhang",
+    "intent_prediction": {
+      "name": "hp_qtnl",
+      "confidence": 0.042040664702653885
+    }
+  },
+  {
+    "text": "ngành Quản trị nhà hàng và dịch vụ ăn uống có đắt không",
+    "intent": "hp_qtnhhang",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.04268059507012367
+    }
+  },
+  {
+    "text": "Xin chào",
+    "intent": "chao_hoi",
+    "intent_prediction": {
+      "name": "dong_y",
+      "confidence": 0.12159289419651031
+    }
+  },
+  {
+    "text": "Tạm biệt",
+    "intent": "tam_biet",
+    "intent_prediction": {
+      "name": "chao_hoi",
+      "confidence": 0.06857188045978546
+    }
+  },
+  {
+    "text": "có",
+    "intent": "dong_y",
+    "intent_prediction": {
+      "name": "chao_hoi",
+      "confidence": 0.8785914182662964
+    }
+  },
+  {
+    "text": "có chứ",
+    "intent": "dong_y",
+    "intent_prediction": {
+      "name": "chao_hoi",
+      "confidence": 0.1704099178314209
+    }
+  },
+  {
+    "text": "có vẻ thú vị",
+    "intent": "dong_y",
+    "intent_prediction": {
+      "name": "chao_hoi",
+      "confidence": 0.10996302962303162
+    }
+  },
+  {
+    "text": "mình đang nói chuyện với một chat bot phải không",
+    "intent": "hoi_ve_bot",
+    "intent_prediction": {
+      "name": "hp_dpt",
+      "confidence": 0.06497132033109665
+    }
+  },
+  {
+    "text": "đầu dây bên kia là ai nhỉ",
+    "intent": "hoi_ve_bot",
+    "intent_prediction": {
+      "name": "hp_tknt",
+      "confidence": 0.037144847214221954
+    }
+  },
+  {
+    "text": "các phương thức tuyển sinh",
+    "intent": "phuong_thuc_tuyen_sinh",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.12823182344436646
+    }
+  },
+  {
+    "text": "phương thức tuyển sinh",
+    "intent": "phuong_thuc_tuyen_sinh",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.14866191148757935
+    }
+  },
+  {
+    "text": "phương thức được dùng để tuyển sinh năm nay",
+    "intent": "phuong_thuc_tuyen_sinh",
+    "intent_prediction": {
+      "name": "hp_tnmt",
+      "confidence": 0.062364380806684494
+    }
+  },
+  {
+    "text": "các ngành được đào tạo tại trường",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.08861126005649567
+    }
+  },
+  {
+    "text": "học bổng cho sinh viên như thế nào",
+    "intent": "hoc_bong",
+    "intent_prediction": {
+      "name": "phuong_thuc_tuyen_sinh",
+      "confidence": 0.042528193444013596
+    }
+  },
+  {
+    "text": "trường có bao nhiêu cơ sở",
+    "intent": "co_so_vat_chat",
+    "intent_prediction": {
+      "name": "hp_dph",
+      "confidence": 0.09176253527402878
+    }
+  },
+  {
+    "text": "trường có những hoạt động nào",
+    "intent": "hoat_dong",
+    "intent_prediction": {
+      "name": "hp_ktpm",
+      "confidence": 0.04003756120800972
+    }
+  },
+  {
+    "text": "ngành ABC đào tạo bao lâu",
+    "intent": "thoi_gian_dao_tao",
+    "intent_prediction": {
+      "name": "hp_cntt",
+      "confidence": 0.059531934559345245
+    }
+  },
+  {
+    "text": "bao lâu thì học xong ngành ABC",
+    "intent": "thoi_gian_dao_tao",
+    "intent_prediction": {
+      "name": "hoc_bong",
+      "confidence": 0.06724314391613007
+    }
+  },
+  {
+    "text": "điểm chuẩn năm trước của trường",
+    "intent": "diem_chuan",
+    "intent_prediction": {
+      "name": "hp_ddien",
+      "confidence": 0.04905233159661293
+    }
+  },
+  {
+    "text": "ngành ABC lấy bao nhiêu điểm",
+    "intent": "diem_chuan",
+    "intent_prediction": {
+      "name": "hp_cntt",
+      "confidence": 0.05809805542230606
+    }
+  },
+  {
+    "text": "giới thiệu về trường",
+    "intent": "gioi_thieu",
+    "intent_prediction": {
+      "name": "tam_biet",
+      "confidence": 0.04970945417881012
+    }
+  },
+  {
+    "text": "giới thiệu sơ lược về trường mình với ạ",
+    "intent": "gioi_thieu",
+    "intent_prediction": {
+      "name": "co_so_vat_chat",
+      "confidence": 0.09304855018854141
+    }
+  },
+  {
+    "text": "trường mình mỗi kỳ học phí tầm bao nhiêu ạ",
+    "intent": "hoc_phi",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.042211707681417465
     }
   },
   {
@@ -324,135 +884,559 @@
     "intent": "hoc_phi",
     "intent_prediction": {
       "name": "nganh_dao_tao",
-      "confidence": 0.3789043724536896
+      "confidence": 0.04369446262717247
     }
   },
   {
     "text": "học phí ngành Dược học như nào ạ",
     "intent": "hp_duoc",
     "intent_prediction": {
-      "name": "hoc_phi",
-      "confidence": 0.20972080528736115
+      "name": "hp_qtks",
+      "confidence": 0.028660060837864876
     }
   },
   {
-    "text": "1 học kì ngành Dược học bao nhiêu",
+    "text": "học phí trung bình 1 học kì ngành Dược học",
     "intent": "hp_duoc",
     "intent_prediction": {
-      "name": "hp_tnhac",
-      "confidence": 0.18072392046451569
+      "name": "hoc_phi",
+      "confidence": 0.027531379833817482
     }
   },
   {
-    "text": "học phí ngành Y khoa như nào ạ",
+    "text": "cho em hỏi học phí ngành y bao nhiêu ạ",
     "intent": "hp_y",
     "intent_prediction": {
       "name": "hoc_phi",
-      "confidence": 0.14962482452392578
-    }
-  },
-  {
-    "text": "1 học kì ngành Y khoa bao nhiêu",
-    "intent": "hp_y",
-    "intent_prediction": {
-      "name": "hp_yhdp",
-      "confidence": 0.21643821895122528
+      "confidence": 0.04563425853848457
     }
   },
   {
     "text": "học phí ngành Y học dự phòng như nào ạ",
     "intent": "hp_yhdp",
     "intent_prediction": {
-      "name": "hp_cnnt",
-      "confidence": 0.11379160732030869
+      "name": "hp_xnyh",
+      "confidence": 0.039753127843141556
     }
   },
   {
-    "text": "học phí trung bình 1 học kì ngành Điều dưỡng",
-    "intent": "hp_dduong",
+    "text": "học phí trung bình 1 học kì ngành Y học dự phòng",
+    "intent": "hp_yhdp",
     "intent_prediction": {
-      "name": "hp_duoc",
-      "confidence": 0.14347675442695618
+      "name": "hp_tnmt",
+      "confidence": 0.03432566672563553
     }
   },
   {
     "text": "1 học kì ngành Điều dưỡng bao nhiêu",
     "intent": "hp_dduong",
     "intent_prediction": {
-      "name": "hp_tkdh",
-      "confidence": 0.14525681734085083
-    }
-  },
-  {
-    "text": "học phí ngành Kỹ thuật xét nghiệm y học như nào ạ",
-    "intent": "hp_xnyh",
-    "intent_prediction": {
-      "name": "hp_phcn",
-      "confidence": 0.11594249308109283
+      "name": "hp_ddt",
+      "confidence": 0.03653593733906746
     }
   },
   {
     "text": "học phí trung bình 1 học kì ngành Kỹ thuật xét nghiệm y học",
     "intent": "hp_xnyh",
     "intent_prediction": {
-      "name": "hp_duoc",
-      "confidence": 0.1445356160402298
+      "name": "hp_kthh",
+      "confidence": 0.07309217751026154
+    }
+  },
+  {
+    "text": "1 học kì ngành Kỹ thuật xét nghiệm y học bao nhiêu",
+    "intent": "hp_xnyh",
+    "intent_prediction": {
+      "name": "hp_kthh",
+      "confidence": 0.06451471894979477
+    }
+  },
+  {
+    "text": "ngành Quản lý bệnh viện có đắt không",
+    "intent": "hp_qlbv",
+    "intent_prediction": {
+      "name": "hp_log",
+      "confidence": 0.03539183363318443
     }
   },
   {
     "text": "1 học kì ngành Quản lý bệnh viện bao nhiêu",
     "intent": "hp_qlbv",
     "intent_prediction": {
-      "name": "hp_tnhac",
-      "confidence": 0.2275058627128601
+      "name": "hp_log",
+      "confidence": 0.03001178242266178
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Kỹ thuật phục hồi chức năng",
+    "intent": "hp_phcn",
+    "intent_prediction": {
+      "name": "hp_ddt",
+      "confidence": 0.030383052304387093
     }
   },
   {
     "text": "1 học kì ngành Kỹ thuật phục hồi chức năng bao nhiêu",
     "intent": "hp_phcn",
     "intent_prediction": {
-      "name": "hp_tkdh",
-      "confidence": 0.14851659536361694
+      "name": "hp_ddt",
+      "confidence": 0.08068808168172836
     }
   },
   {
     "text": "học phí ngành Thanh nhạc như nào ạ",
     "intent": "hp_tnhac",
     "intent_prediction": {
-      "name": "hoc_phi",
-      "confidence": 0.12690259516239166
+      "name": "nganh_dao_tao",
+      "confidence": 0.03406558930873871
     }
   },
   {
-    "text": "học phí trung bình 1 học kì ngành Thanh nhạc",
+    "text": "ngành Thanh nhạc có đắt không",
     "intent": "hp_tnhac",
     "intent_prediction": {
       "name": "hp_qphim",
-      "confidence": 0.214633047580719
+      "confidence": 0.02879144810140133
     }
   },
   {
     "text": "học phí trung bình 1 học kì ngành Đạo diễn điện ảnh truyền hình",
     "intent": "hp_ddien",
     "intent_prediction": {
-      "name": "hp_duoc",
-      "confidence": 0.11836209893226624
+      "name": "hp_log",
+      "confidence": 0.037458427250385284
     }
   },
   {
     "text": "1 học kì ngành Đạo diễn điện ảnh truyền hình bao nhiêu",
     "intent": "hp_ddien",
     "intent_prediction": {
-      "name": "hp_tkdh",
-      "confidence": 0.19686457514762878
+      "name": "hp_ddt",
+      "confidence": 0.06787458807229996
+    }
+  },
+  {
+    "text": "học phí ngành Quay phim như nào ạ",
+    "intent": "hp_qphim",
+    "intent_prediction": {
+      "name": "hp_cntt",
+      "confidence": 0.037467293441295624
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Quay phim",
+    "intent": "hp_qphim",
+    "intent_prediction": {
+      "name": "hp_ktruc",
+      "confidence": 0.03371676057577133
     }
   },
   {
     "text": "học phí trung bình 1 học kì ngành Thiết kế đồ họa",
     "intent": "hp_tkdh",
     "intent_prediction": {
+      "name": "hp_tknt",
+      "confidence": 0.03229851648211479
+    }
+  },
+  {
+    "text": "1 học kì ngành Thiết kế đồ họa bao nhiêu",
+    "intent": "hp_tkdh",
+    "intent_prediction": {
+      "name": "hp_tknt",
+      "confidence": 0.05149850994348526
+    }
+  },
+  {
+    "text": "học phí ngành Ngôn ngữ Anh như nào ạ",
+    "intent": "hp_nna",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.05058915540575981
+    }
+  },
+  {
+    "text": "1 học kì ngành Ngôn ngữ Anh bao nhiêu",
+    "intent": "hp_nna",
+    "intent_prediction": {
+      "name": "hp_nntq",
+      "confidence": 0.03731157258152962
+    }
+  },
+  {
+    "text": "học phí ngành Ngôn ngữ Trung Quốc như nào ạ",
+    "intent": "hp_nntq",
+    "intent_prediction": {
+      "name": "hp_qtks",
+      "confidence": 0.028300408273935318
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Quan hệ quốc tế",
+    "intent": "hp_qhqt",
+    "intent_prediction": {
+      "name": "hp_qhcc",
+      "confidence": 0.058698222041130066
+    }
+  },
+  {
+    "text": "học phí ngành Tâm lý học như nào ạ",
+    "intent": "hp_tlh",
+    "intent_prediction": {
+      "name": "hp_tknt",
+      "confidence": 0.027930235490202904
+    }
+  },
+  {
+    "text": "1 học kì ngành Tâm lý học bao nhiêu",
+    "intent": "hp_tlh",
+    "intent_prediction": {
+      "name": "hp_ktoan",
+      "confidence": 0.02922406978905201
+    }
+  },
+  {
+    "text": "1 học kì ngành Đông phương học bao nhiêu",
+    "intent": "hp_dph",
+    "intent_prediction": {
+      "name": "hp_yhdp",
+      "confidence": 0.04425611346960068
+    }
+  },
+  {
+    "text": "học phí ngành Việt Nam học như nào ạ",
+    "intent": "hp_vnh",
+    "intent_prediction": {
+      "name": "hp_tv",
+      "confidence": 0.04761045426130295
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Quản trị kinh doanh",
+    "intent": "hp_qtkd",
+    "intent_prediction": {
+      "name": "hp_qhcc",
+      "confidence": 0.040693607181310654
+    }
+  },
+  {
+    "text": "học phí ngành Kinh doanh quốc tế như nào ạ",
+    "intent": "hp_kdqt",
+    "intent_prediction": {
+      "name": "hp_lkt",
+      "confidence": 0.050400059670209885
+    }
+  },
+  {
+    "text": "ngành Kinh doanh quốc tế có đắt không",
+    "intent": "hp_kdqt",
+    "intent_prediction": {
+      "name": "hp_lkt",
+      "confidence": 0.03377631679177284
+    }
+  },
+  {
+    "text": "ngành Thương mại điện tử có đắt không",
+    "intent": "hp_tmdt",
+    "intent_prediction": {
+      "name": "hp_tnmt",
+      "confidence": 0.030261535197496414
+    }
+  },
+  {
+    "text": "1 học kì ngành Thương mại điện tử bao nhiêu",
+    "intent": "hp_tmdt",
+    "intent_prediction": {
+      "name": "hp_ddt",
+      "confidence": 0.07134132087230682
+    }
+  },
+  {
+    "text": "học phí ngành Tài chính - Ngân hàng như nào ạ",
+    "intent": "hp_tcnh",
+    "intent_prediction": {
+      "name": "hp_cntt",
+      "confidence": 0.03947263956069946
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Tài chính - Ngân hàng",
+    "intent": "hp_tcnh",
+    "intent_prediction": {
+      "name": "hp_cntt",
+      "confidence": 0.03651838004589081
+    }
+  },
+  {
+    "text": "học phí ngành Kế toán như nào ạ",
+    "intent": "hp_ktoan",
+    "intent_prediction": {
+      "name": "hp_lkt",
+      "confidence": 0.04217136278748512
+    }
+  },
+  {
+    "text": "ngành Kế toán có đắt không",
+    "intent": "hp_ktoan",
+    "intent_prediction": {
+      "name": "hp_tkdh",
+      "confidence": 0.04304248094558716
+    }
+  },
+  {
+    "text": "ngành Quản trị nhân lực có đắt không",
+    "intent": "hp_qtnl",
+    "intent_prediction": {
+      "name": "hp_log",
+      "confidence": 0.06332911550998688
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Quản trị nhân lực",
+    "intent": "hp_qtnl",
+    "intent_prediction": {
+      "name": "hp_qhcc",
+      "confidence": 0.05024692788720131
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Luật kinh tế",
+    "intent": "hp_lkt",
+    "intent_prediction": {
+      "name": "hp_ktoan",
+      "confidence": 0.02829906716942787
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Công nghệ sinh học",
+    "intent": "hp_cnsh",
+    "intent_prediction": {
+      "name": "hp_oto",
+      "confidence": 0.03076549991965294
+    }
+  },
+  {
+    "text": "học phí ngành Mạng máy tính và truyền thông dữ liệu như nào ạ",
+    "intent": "hp_mmt",
+    "intent_prediction": {
+      "name": "hp_cntt",
+      "confidence": 0.039057064801454544
+    }
+  },
+  {
+    "text": "1 học kì ngành Mạng máy tính và truyền thông dữ liệu bao nhiêu",
+    "intent": "hp_mmt",
+    "intent_prediction": {
+      "name": "hp_ddt",
+      "confidence": 0.04996173083782196
+    }
+  },
+  {
+    "text": "học phí ngành Kỹ thuật phần mềm như nào ạ",
+    "intent": "hp_ktpm",
+    "intent_prediction": {
+      "name": "hp_xnyh",
+      "confidence": 0.050347715616226196
+    }
+  },
+  {
+    "text": "học phí ngành Công nghệ kỹ thuật cơ điện tử như nào ạ",
+    "intent": "hp_cdt",
+    "intent_prediction": {
+      "name": "hp_ddt",
+      "confidence": 0.05891686677932739
+    }
+  },
+  {
+    "text": "1 học kì ngành Công nghệ kỹ thuật cơ điện tử bao nhiêu",
+    "intent": "hp_cdt",
+    "intent_prediction": {
+      "name": "hp_ddt",
+      "confidence": 0.12498971819877625
+    }
+  },
+  {
+    "text": "1 học kì ngành Công nghệ kỹ thuật ô tô bao nhiêu",
+    "intent": "hp_oto",
+    "intent_prediction": {
+      "name": "hp_ddt",
+      "confidence": 0.05722331255674362
+    }
+  },
+  {
+    "text": "học phí ngành Công nghệ kỹ thuật hóa học như nào ạ",
+    "intent": "hp_kthh",
+    "intent_prediction": {
       "name": "hp_phcn",
-      "confidence": 0.11917310208082199
+      "confidence": 0.042011845856904984
+    }
+  },
+  {
+    "text": "ngành Công nghệ kỹ thuật hóa học có đắt không",
+    "intent": "hp_kthh",
+    "intent_prediction": {
+      "name": "hp_phcn",
+      "confidence": 0.03673060983419418
+    }
+  },
+  {
+    "text": "ngành Kỹ thuật hệ thống công nghiệp có đắt không",
+    "intent": "hp_htcn",
+    "intent_prediction": {
+      "name": "hp_phcn",
+      "confidence": 0.03763376548886299
+    }
+  },
+  {
+    "text": "1 học kì ngành Kỹ thuật hệ thống công nghiệp bao nhiêu",
+    "intent": "hp_htcn",
+    "intent_prediction": {
+      "name": "hp_ddt",
+      "confidence": 0.06961911916732788
+    }
+  },
+  {
+    "text": "ngành Kỹ thuật y sinh có đắt không",
+    "intent": "hp_ktys",
+    "intent_prediction": {
+      "name": "hp_xnyh",
+      "confidence": 0.04805240035057068
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Kỹ thuật y sinh",
+    "intent": "hp_ktys",
+    "intent_prediction": {
+      "name": "hp_y",
+      "confidence": 0.04832252487540245
+    }
+  },
+  {
+    "text": "ngành Vật lý y khoa có đắt không",
+    "intent": "hp_vlyk",
+    "intent_prediction": {
+      "name": "hp_y",
+      "confidence": 0.045767467468976974
+    }
+  },
+  {
+    "text": "1 học kì ngành Vật lý y khoa bao nhiêu",
+    "intent": "hp_vlyk",
+    "intent_prediction": {
+      "name": "hp_tknt",
+      "confidence": 0.04815470799803734
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Công nghệ thực phẩm",
+    "intent": "hp_cntp",
+    "intent_prediction": {
+      "name": "hp_ktruc",
+      "confidence": 0.027752874419093132
+    }
+  },
+  {
+    "text": "1 học kì ngành Công nghệ thực phẩm bao nhiêu",
+    "intent": "hp_cntp",
+    "intent_prediction": {
+      "name": "hp_yhdp",
+      "confidence": 0.03307570889592171
+    }
+  },
+  {
+    "text": "học phí ngành Kiến trúc như nào ạ",
+    "intent": "hp_ktruc",
+    "intent_prediction": {
+      "name": "hp_qtks",
+      "confidence": 0.029946941882371902
+    }
+  },
+  {
+    "text": "1 học kì ngành Kiến trúc bao nhiêu",
+    "intent": "hp_ktruc",
+    "intent_prediction": {
+      "name": "hp_y",
+      "confidence": 0.03979426249861717
+    }
+  },
+  {
+    "text": "học phí ngành Kỹ thuật xây dựng như nào ạ",
+    "intent": "hp_ktxd",
+    "intent_prediction": {
+      "name": "hp_phcn",
+      "confidence": 0.05047601833939552
+    }
+  },
+  {
+    "text": "ngành Kỹ thuật xây dựng có đắt không",
+    "intent": "hp_ktxd",
+    "intent_prediction": {
+      "name": "hp_cntt",
+      "confidence": 0.04728557541966438
+    }
+  },
+  {
+    "text": "học phí ngành Du lịch như nào ạ",
+    "intent": "hp_dlich",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.04229659587144852
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Du lịch",
+    "intent": "hp_dlich",
+    "intent_prediction": {
+      "name": "hp_piano",
+      "confidence": 0.03393716365098953
+    }
+  },
+  {
+    "text": "ngành Quản trị khách sạn có đắt không",
+    "intent": "hp_qtks",
+    "intent_prediction": {
+      "name": "hp_yhdp",
+      "confidence": 0.030459299683570862
+    }
+  },
+  {
+    "text": "1 học kì ngành Quản trị khách sạn bao nhiêu",
+    "intent": "hp_qtks",
+    "intent_prediction": {
+      "name": "hp_qtnl",
+      "confidence": 0.044342853128910065
+    }
+  },
+  {
+    "text": "1 học kì ngành Quản trị nhà hàng và dịch vụ ăn uống bao nhiêu",
+    "intent": "hp_qtnhhang",
+    "intent_prediction": {
+      "name": "hp_tknt",
+      "confidence": 0.03998629376292229
+    }
+  },
+  {
+    "text": "1 học kì ngành Quản lý tài nguyên và môi trường bao nhiêu",
+    "intent": "hp_tnmt",
+    "intent_prediction": {
+      "name": "hp_ddt",
+      "confidence": 0.06376300752162933
+    }
+  },
+  {
+    "text": "ngành Giáo dục mầm non có đắt không",
+    "intent": "hp_gdmn",
+    "intent_prediction": {
+      "name": "hp_log",
+      "confidence": 0.02871844172477722
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Giáo dục mầm non",
+    "intent": "hp_gdmn",
+    "intent_prediction": {
+      "name": "hp_qhcc",
+      "confidence": 0.04245951026678085
     }
   }
 ]
