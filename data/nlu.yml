@@ -85,7 +85,11 @@ nlu:
     examples: |
       - các hoạt động của trường
       - trường có những hoạt động nào
-      -
+      - hoạt động trong trường
+      - hoạt động cho sinh viên
+      - hoạt động
+      - sự kiện cho sinh viên
+      - các sự kiện của trường
 
   - intent: thoi_gian_dao_tao
     examples: |
@@ -105,12 +109,24 @@ nlu:
     examples: |
       - giới thiệu về trường
       - trường đại học Nguyễn Tất Thành có gì
+      - đôi nét về trường
+      - trường đại học Nguyễn Tất Thành là trường như thế nào
+      - sơ lược về trường
+      - giới thiệu ngắn gọn
+      - giới thiệu sơ lược
+      - giới thiệu đôi nét
+      - đôi nét ngắn gọn về trường
 
   - intent: chuong_trinh_dao_tao
     examples: |
       - cho em hỏi về chương trình đào tạo
       - chương trình đào tạo của mình có cái gì
       - chương trinh đào tạo của mình ra sao ạ
+      - chương trình đào tạo như thế nào
+      - chương trình đào tạo
+      - đào tạo như thế nào
+      - đào tạo ra sao
+      - đào tạo
 
   - intent: hoc_phi
     examples: |
@@ -118,6 +134,11 @@ nlu:
       - học phí trung bình của trường
       - học phí
       - học phí thế nào ạ
+      - học phí đắt không
+      - học phí như thế nào
+      - học phí ra sao
+      - học phí của trường
+
 
   - intent: hp_cnnt
     examples: |
@@ -125,6 +146,7 @@ nlu:
       - ngành CNTT có đắt không
       - học phí trung bình 1 học kì ngành CNTT
       - 1 học kì ngành CNTT bao nhiêu
+<<<<<<< Updated upstream
       - học phí như nào cho 1 học kì ngành 
       - học phí ngành CNTT ổn không
       - học phí 1 kì ngành CNTT có đắt không
@@ -132,6 +154,14 @@ nlu:
       - chi tiết học phí ngành CNTT
       - review học phí 1 kì ngành CNTT
       - 1 kì ngành CNTT thì học phí như nào
+=======
+      - học phí như nào cho 1 học kì
+      - học phí ổn không
+      - học phí có đắt không
+      - 1 kì học phí tốt không
+      - chi tiết học phí
+      - review học phí của ngành
+>>>>>>> Stashed changes
 
   - intent: hp_duoc
     examples: |
