@@ -125,6 +125,13 @@ nlu:
       - ngành CNTT có đắt không
       - học phí trung bình 1 học kì ngành CNTT
       - 1 học kì ngành CNTT bao nhiêu
+      - học phí như nào cho 1 học kì ngành 
+      - học phí ngành CNTT ổn không
+      - học phí 1 kì ngành CNTT có đắt không
+      - 1 kì ngành CNTT thì học phí tốt không
+      - chi tiết học phí ngành CNTT
+      - review học phí 1 kì ngành CNTT
+      - 1 kì ngành CNTT thì học phí như nào
 
   - intent: hp_duoc
     examples: |
@@ -132,6 +139,12 @@ nlu:
       - ngành Dược học có đắt không
       - học phí trung bình 1 học kì ngành Dược học
       - 1 học kì ngành Dược học bao nhiêu
+      - học phí ngành  ổn không
+      - học phí 1 kì ngành Dược có đắt không
+      - 1 kì ngành Dược thì học phí tốt không
+      - chi tiết học phí ngành Dược
+      - review học phí 1 kì ngành Dược
+      - 1 kì ngành Dược thì học phí như nào
 
   - intent: hp_y
     examples: |
@@ -139,6 +152,12 @@ nlu:
       - ngành Y khoa có đắt không
       - học phí trung bình 1 học kì ngành Y khoa
       - 1 học kì ngành Y khoa bao nhiêu
+      - học phí ngành Y khoa ổn không
+      - học phí 1 kì ngành Y khoa có đắt không
+      - 1 kì ngành Y khoa thì học phí tốt không
+      - chi tiết học phí ngành Y khoa
+      - review học phí 1 kì ngành Y khoa
+      - 1 kì ngành Y khoa thì học phí như nào
 
   - intent: hp_yhdp
     examples: |
@@ -146,6 +165,12 @@ nlu:
       - ngành Y học dự phòng có đắt không
       - học phí trung bình 1 học kì ngành Y học dự phòng
       - 1 học kì ngành Y học dự phòng bao nhiêu
+      - học phí ngành Y học dự phòng ổn không
+      - học phí 1 kì ngành Y học dự phòng có đắt không
+      - 1 kì ngành Y học dự phòng thì học phí tốt không
+      - chi tiết học phí ngành Y học dự phòng
+      - review học phí 1 kì ngành Y học dự phòng
+      - 1 kì ngành Y học dự phòng thì học phí như nào
 
   - intent: hp_dduong
     examples: |
@@ -153,6 +178,12 @@ nlu:
       - ngành Điều dưỡng có đắt không
       - học phí trung bình 1 học kì ngành Điều dưỡng
       - 1 học kì ngành Điều dưỡng bao nhiêu
+      - học phí ngành Điều dưỡng ổn không
+      - học phí 1 kì ngành Điều dưỡng có đắt không
+      - 1 kì ngành Điều dưỡng thì học phí tốt không
+      - chi tiết học phí ngành Điều dưỡng
+      - review học phí 1 kì ngành Điều dưỡng
+      - 1 kì ngành Điều dưỡng thì học phí như nào
 
   - intent: hp_xnyh
     examples: |
@@ -160,6 +191,12 @@ nlu:
       - ngành Kỹ thuật xét nghiệm y học có đắt không
       - học phí trung bình 1 học kì ngành Kỹ thuật xét nghiệm y học
       - 1 học kì ngành Kỹ thuật xét nghiệm y học bao nhiêu
+      - học phí ngành Kỹ thuật xét nghiệm y học ổn không
+      - học phí 1 kì ngành Kỹ thuật xét nghiệm y học có đắt không
+      - 1 kì ngành Kỹ thuật xét nghiệm y học thì học phí tốt không
+      - chi tiết học phí ngành Kỹ thuật xét nghiệm y học
+      - review học phí 1 kì ngành Kỹ thuật xét nghiệm y học
+      - 1 kì ngành Kỹ thuật xét nghiệm y học thì học phí như nào
 
   - intent: hp_qlbv
     examples: |
@@ -167,6 +204,12 @@ nlu:
       - ngành Quản lý bệnh viện có đắt không
       - học phí trung bình 1 học kì ngành Quản lý bệnh viện
       - 1 học kì ngành Quản lý bệnh viện bao nhiêu
+      - học phí ngành Quản lý bệnh viện ổn không
+      - học phí 1 kì ngành Quản lý bệnh viện có đắt không
+      - 1 kì ngành Quản lý bệnh viện thì học phí tốt không
+      - chi tiết học phí ngành Quản lý bệnh viện
+      - review học phí 1 kì ngành Quản lý bệnh viện
+      - 1 kì ngành Quản lý bệnh viện thì học phí như nào
 
   - intent: hp_phcn
     examples: |
@@ -174,6 +217,12 @@ nlu:
       - ngành Kỹ thuật phục hồi chức năng có đắt không
       - học phí trung bình 1 học kì ngành Kỹ thuật phục hồi chức năng
       - 1 học kì ngành Kỹ thuật phục hồi chức năng bao nhiêu
+      - học phí ngành Kỹ thuật phục hồi chức năng ổn không
+      - học phí 1 kì ngành Kỹ thuật phục hồi chức năng có đắt không
+      - 1 kì ngành Kỹ thuật phục hồi chức năng thì học phí tốt không
+      - chi tiết học phí ngành Kỹ thuật phục hồi chức năng
+      - review học phí 1 kì ngành Kỹ thuật phục hồi chức năng
+      - 1 kì ngành Kỹ thuật phục hồi chức năng thì học phí như nào
 
   - intent: hp_tnhac
     examples: |
@@ -181,6 +230,12 @@ nlu:
       - ngành Thanh nhạc có đắt không
       - học phí trung bình 1 học kì ngành Thanh nhạc
       - 1 học kì ngành Thanh nhạc bao nhiêu
+      - học phí ngành Thanh nhạc ổn không
+      - học phí 1 kì ngành Thanh nhạc có đắt không
+      - 1 kì ngành Thanh nhạc thì học phí tốt không
+      - chi tiết học phí ngành Thanh nhạc
+      - review học phí 1 kì ngành Thanh nhạc
+      - 1 kì ngành Thanh nhạc thì học phí như nào
 
   - intent: hp_piano
     examples: |
@@ -188,6 +243,12 @@ nlu:
       - ngành Piano có đắt không
       - học phí trung bình 1 học kì ngành Piano
       - 1 học kì ngành Piano bao nhiêu
+      - học phí ngành Piano ổn không
+      - học phí 1 kì ngành Piano có đắt không
+      - 1 kì ngành Piano thì học phí tốt không
+      - chi tiết học phí ngành Piano
+      - review học phí 1 kì ngành Piano
+      - 1 kì ngành Piano thì học phí như nào
 
   - intent: hp_ddien
     examples: |
@@ -195,6 +256,12 @@ nlu:
       - ngành Đạo diễn điện ảnh truyền hình có đắt không
       - học phí trung bình 1 học kì ngành Đạo diễn điện ảnh truyền hình
       - 1 học kì ngành Đạo diễn điện ảnh truyền hình bao nhiêu
+      - học phí ngành Đạo diễn điện ảnh truyền hình ổn không
+      - học phí 1 kì ngành Đạo diễn điện ảnh truyền hình có đắt không
+      - 1 kì ngành Đạo diễn điện ảnh truyền hình thì học phí tốt không
+      - chi tiết học phí ngành Đạo diễn điện ảnh truyền hình
+      - review học phí 1 kì ngành Đạo diễn điện ảnh truyền hình
+      - 1 kì ngành Đạo diễn điện ảnh truyền hình thì học phí như nào
 
   - intent: hp_qphim
     examples: |
@@ -202,6 +269,12 @@ nlu:
       - ngành Quay phim có đắt không
       - học phí trung bình 1 học kì ngành Quay phim
       - 1 học kì ngành Quay phim bao nhiêu
+      - học phí ngành Quay phim ổn không
+      - học phí 1 kì ngành Quay phim có đắt không
+      - 1 kì ngành Quay phim thì học phí tốt không
+      - chi tiết học phí ngành Quay phim
+      - review học phí 1 kì ngành Quay phim
+      - 1 kì ngành Quay phim thì học phí như nào
 
   - intent: hp_tkdh
     examples: |
@@ -209,6 +282,12 @@ nlu:
       - ngành Thiết kế đồ họa có đắt không
       - học phí trung bình 1 học kì ngành Thiết kế đồ họa
       - 1 học kì ngành Thiết kế đồ họa bao nhiêu
+      - học phí ngành Thiết kế đồ họa ổn không
+      - học phí 1 kì ngành Thiết kế đồ họa có đắt không
+      - 1 kì ngành Thiết kế đồ họa thì học phí tốt không
+      - chi tiết học phí ngành Thiết kế đồ họa
+      - review học phí 1 kì ngành Thiết kế đồ họa
+      - 1 kì ngành Thiết kế đồ họa thì học phí như nào
 
   - intent: hp_tv
     examples: |
@@ -216,6 +295,12 @@ nlu:
       - ngành Tiếng Việt và văn hóa Việt Nam có đắt không
       - học phí trung bình 1 học kì ngành Tiếng Việt và văn hóa Việt Nam
       - 1 học kì ngành Tiếng Việt và văn hóa Việt Nam bao nhiêu
+      - học phí ngành Tiếng Việt và văn hóa Việt Nam ổn không
+      - học phí 1 kì ngành Tiếng Việt và văn hóa Việt Nam có đắt không
+      - 1 kì ngành Tiếng Việt và văn hóa Việt Nam thì học phí tốt không
+      - chi tiết học phí ngành Tiếng Việt và văn hóa Việt Nam
+      - review học phí 1 kì ngành Tiếng Việt và văn hóa Việt Nam
+      - 1 kì ngành Tiếng Việt và văn hóa Việt Nam thì học phí như nào
 
   - intent: hp_nna
     examples: |
@@ -223,6 +308,12 @@ nlu:
       - ngành Ngôn ngữ Anh có đắt không
       - học phí trung bình 1 học kì ngành Ngôn ngữ Anh
       - 1 học kì ngành Ngôn ngữ Anh bao nhiêu
+      - học phí ngành Ngôn ngữ Anh ổn không
+      - học phí 1 kì ngành Ngôn ngữ Anh có đắt không
+      - 1 kì ngành Ngôn ngữ Anh thì học phí tốt không
+      - chi tiết học phí ngành Ngôn ngữ Anh
+      - review học phí 1 kì ngành Ngôn ngữ Anh
+      - 1 kì ngành Ngôn ngữ Anh thì học phí như nào
 
   - intent: hp_nntq
     examples: |
@@ -230,6 +321,12 @@ nlu:
       - ngành Ngôn ngữ Trung Quốc có đắt không
       - học phí trung bình 1 học kì ngành Ngôn ngữ Trung Quốc
       - 1 học kì ngành Ngôn ngữ Trung Quốc bao nhiêu
+      - học phí ngành Ngôn ngữ Trung Quốc ổn không
+      - học phí 1 kì ngành Ngôn ngữ Trung Quốc có đắt không
+      - 1 kì ngành Ngôn ngữ Trung Quốc thì học phí tốt không
+      - chi tiết học phí ngành Ngôn ngữ Trung Quốc
+      - review học phí 1 kì ngành Ngôn ngữ Trung Quốc
+      - 1 kì ngành Ngôn ngữ Trung Quốc thì học phí như nào
 
   - intent: hp_qhqt
     examples: |
@@ -237,6 +334,12 @@ nlu:
       - ngành Quan hệ quốc tế có đắt không
       - học phí trung bình 1 học kì ngành Quan hệ quốc tế
       - 1 học kì ngành Quan hệ quốc tế bao nhiêu
+      - học phí ngành Quan hệ quốc tế ổn không
+      - học phí 1 kì ngành Quan hệ quốc tế có đắt không
+      - 1 kì ngành Quan hệ quốc tế thì học phí tốt không
+      - chi tiết học phí ngành Quan hệ quốc tế
+      - review học phí 1 kì ngành Quan hệ quốc tế
+      - 1 kì ngành Quan hệ quốc tế thì học phí như nào
 
   - intent: hp_tlh
     examples: |
@@ -244,6 +347,12 @@ nlu:
       - ngành Tâm lý học có đắt không
       - học phí trung bình 1 học kì ngành Tâm lý học
       - 1 học kì ngành Tâm lý học bao nhiêu
+      - học phí ngành Tâm lý học ổn không
+      - học phí 1 kì ngành Tâm lý học có đắt không
+      - 1 kì ngành Tâm lý học thì học phí tốt không
+      - chi tiết học phí ngành Tâm lý học
+      - review học phí 1 kì ngành Tâm lý học
+      - 1 kì ngành Tâm lý học thì học phí như nào
 
   - intent: hp_dph
     examples: |
@@ -251,6 +360,12 @@ nlu:
       - ngành Đông phương học có đắt không
       - học phí trung bình 1 học kì ngành Đông phương học
       - 1 học kì ngành Đông phương học bao nhiêu
+      - học phí ngành Đông phương học ổn không
+      - học phí 1 kì ngành Đông phương học có đắt không
+      - 1 kì ngành Đông phương học thì học phí tốt không
+      - chi tiết học phí ngành Đông phương học
+      - review học phí 1 kì ngành Đông phương học
+      - 1 kì ngành Đông phương học thì học phí như nào
 
   - intent: hp_vnh
     examples: |
@@ -258,6 +373,12 @@ nlu:
       - ngành Việt Nam học có đắt không
       - học phí trung bình 1 học kì ngành Việt Nam học
       - 1 học kì ngành Việt Nam học bao nhiêu
+      - học phí ngành Việt Nam học ổn không
+      - học phí 1 kì ngành Việt Nam học có đắt không
+      - 1 kì ngành Việt Nam học thì học phí tốt không
+      - chi tiết học phí ngành Việt Nam học
+      - review học phí 1 kì ngành Việt Nam học
+      - 1 kì ngành Việt Nam học thì học phí như nào
 
   - intent: hp_dpt
     examples: |
@@ -265,6 +386,12 @@ nlu:
       - ngành Truyền thông đa phương tiện có đắt không
       - học phí trung bình 1 học kì ngành Truyền thông đa phương tiện
       - 1 học kì ngành Truyền thông đa phương tiện bao nhiêu
+      - học phí ngành Truyền thông đa phương tiện ổn không
+      - học phí 1 kì ngành Truyền thông đa phương tiện có đắt không
+      - 1 kì ngành Truyền thông đa phương tiện thì học phí tốt không
+      - chi tiết học phí ngành Truyền thông đa phương tiện
+      - review học phí 1 kì ngành Truyền thông đa phương tiện
+      - 1 kì ngành Truyền thông đa phương tiện thì học phí như nào
 
   - intent: hp_qhcc
     examples: |
@@ -272,6 +399,12 @@ nlu:
       - ngành Quan hệ công chúng có đắt không
       - học phí trung bình 1 học kì ngành Quan hệ công chúng
       - 1 học kì ngành Quan hệ công chúng bao nhiêu
+      - học phí ngành Quan hệ công chúng ổn không
+      - học phí 1 kì ngành Quan hệ công chúng có đắt không
+      - 1 kì ngành Quan hệ công chúng thì học phí tốt không
+      - chi tiết học phí ngành Quan hệ công chúng
+      - review học phí 1 kì ngành Quan hệ công chúng
+      - 1 kì ngành Quan hệ công chúng thì học phí như nào
 
   - intent: hp_qtkd
     examples: |
@@ -279,6 +412,12 @@ nlu:
       - ngành Quản trị kinh doanh có đắt không
       - học phí trung bình 1 học kì ngành Quản trị kinh doanh
       - 1 học kì ngành Quản trị kinh doanh bao nhiêu
+      - học phí ngành Quản trị kinh doanh ổn không
+      - học phí 1 kì ngành Quản trị kinh doanh có đắt không
+      - 1 kì ngành Quản trị kinh doanh thì học phí tốt không
+      - chi tiết học phí ngành Quản trị kinh doanh
+      - review học phí 1 kì ngành Quản trị kinh doanh
+      - 1 kì ngành Quản trị kinh doanh thì học phí như nào
 
   - intent: hp_mar
     examples: |
@@ -286,6 +425,12 @@ nlu:
       - ngành Marketing có đắt không
       - học phí trung bình 1 học kì ngành Marketing
       - 1 học kì ngành Marketing bao nhiêu
+      - học phí ngành Marketing ổn không
+      - học phí 1 kì ngành Marketing có đắt không
+      - 1 kì ngành Marketing thì học phí tốt không
+      - chi tiết học phí ngành Marketing
+      - review học phí 1 kì ngành Marketing
+      - 1 kì ngành Marketing thì học phí như nào
 
   - intent: hp_kdqt
     examples: |
@@ -293,6 +438,12 @@ nlu:
       - ngành Kinh doanh quốc tế có đắt không
       - học phí trung bình 1 học kì ngành Kinh doanh quốc tế
       - 1 học kì ngành Kinh doanh quốc tế bao nhiêu
+      - học phí ngành Kinh doanh quốc tế ổn không
+      - học phí 1 kì ngành Kinh doanh quốc tế có đắt không
+      - 1 kì ngành Kinh doanh quốc tế thì học phí tốt không
+      - chi tiết học phí ngành Kinh doanh quốc tế
+      - review học phí 1 kì ngành Kinh doanh quốc tế
+      - 1 kì ngành Kinh doanh quốc tế thì học phí như nào
 
   - intent: hp_tmdt
     examples: |
@@ -300,6 +451,12 @@ nlu:
       - ngành Thương mại điện tử có đắt không
       - học phí trung bình 1 học kì ngành Thương mại điện tử
       - 1 học kì ngành Thương mại điện tử bao nhiêu
+      - học phí ngành Thương mại điện tử ổn không
+      - học phí 1 kì ngành Thương mại điện tử có đắt không
+      - 1 kì ngành Thương mại điện tử thì học phí tốt không
+      - chi tiết học phí ngành Thương mại điện tử
+      - review học phí 1 kì ngành Thương mại điện tử
+      - 1 kì ngành Thương mại điện tử thì học phí như nào
 
   - intent: hp_tcnh
     examples: |
@@ -307,6 +464,12 @@ nlu:
       - ngành Tài chính - Ngân hàng có đắt không
       - học phí trung bình 1 học kì ngành Tài chính - Ngân hàng
       - 1 học kì ngành Tài chính - Ngân hàng bao nhiêu
+      - học phí ngành Tài chính - Ngân hàng ổn không
+      - học phí 1 kì ngành Tài chính - Ngân hàng có đắt không
+      - 1 kì ngành Tài chính - Ngân hàng thì học phí tốt không
+      - chi tiết học phí ngành Tài chính - Ngân hàng
+      - review học phí 1 kì ngành Tài chính - Ngân hàng
+      - 1 kì ngành Tài chính - Ngân hàng thì học phí như nào
 
   - intent: hp_ktoan
     examples: |
@@ -314,6 +477,12 @@ nlu:
       - ngành Kế toán có đắt không
       - học phí trung bình 1 học kì ngành Kế toán
       - 1 học kì ngành Kế toán bao nhiêu
+      - học phí ngành Kế toán ổn không
+      - học phí 1 kì ngành Kế toán có đắt không
+      - 1 kì ngành Kế toán thì học phí tốt không
+      - chi tiết học phí ngành Kế toán
+      - review học phí 1 kì ngành Kế toán
+      - 1 kì ngành Kế toán thì học phí như nào
 
   - intent: hp_qtnl
     examples: |
@@ -321,13 +490,25 @@ nlu:
       - ngành Quản trị nhân lực có đắt không
       - học phí trung bình 1 học kì ngành Quản trị nhân lực
       - 1 học kì ngành Quản trị nhân lực bao nhiêu
+      - học phí ngành Quản trị nhân lực ổn không
+      - học phí 1 kì ngành Quản trị nhân lực có đắt không
+      - 1 kì ngành Quản trị nhân lực thì học phí tốt không
+      - chi tiết học phí ngành Quản trị nhân lực
+      - review học phí 1 kì ngành Quản trị nhân lực
+      - 1 kì ngành Quản trị nhân lực thì học phí như nào
 
   - intent: hp_lkt
     examples: |
-      - học phí ngành Luật kinh tế như nào ạ
+      - học phí ngành  như nào ạ
       - ngành Luật kinh tế có đắt không
       - học phí trung bình 1 học kì ngành Luật kinh tế
-      - 1 học kì ngành Luật kinh tế bao nhiêu
+      - 1 học kì ngànhLuật kinh tế Luật kinh tế bao nhiêu
+      - học phí ngành Luật kinh tế ổn không
+      - học phí 1 kì ngành Luật kinh tếcó đắt không
+      - 1 kì ngành Luật kinh tế thì học phí tốt không
+      - chi tiết học phí ngành Luật kinh tế
+      - review học phí 1 kì ngành Luật kinh tế
+      - 1 kì ngành Luật kinh tế thì học phí như nào
 
   - intent: hp_cnsh
     examples: |
@@ -335,6 +516,12 @@ nlu:
       - ngành Công nghệ sinh học có đắt không
       - học phí trung bình 1 học kì ngành Công nghệ sinh học
       - 1 học kì ngành Công nghệ sinh học bao nhiêu
+      - học phí ngành Công nghệ sinh học như nào ạ
+      - học phí 1 kì ngành Công nghệ sinh học có đắt không
+      - 1 kì ngành Công nghệ sinh học thì học phí tốt không
+      - chi tiết học phí ngành Công nghệ sinh học
+      - review học phí 1 kì ngành Công nghệ sinh học
+      - 1 kì ngành Công nghệ sinh học thì học phí như nào
 
   - intent: hp_mmt
     examples: |
@@ -342,6 +529,12 @@ nlu:
       - ngành Mạng máy tính và truyền thông dữ liệu có đắt không
       - học phí trung bình 1 học kì ngành Mạng máy tính và truyền thông dữ liệu
       - 1 học kì ngành Mạng máy tính và truyền thông dữ liệu bao nhiêu
+      - học phí ngành Mạng máy tính và truyền thông dữ liệu ổn không
+      - học phí 1 kì ngành Mạng máy tính và truyền thông dữ liệu có đắt không
+      - 1 kì ngành Mạng máy tính và truyền thông dữ liệu thì học phí tốt không
+      - chi tiết học phí ngành Mạng máy tính và truyền thông dữ liệu
+      - review học phí 1 kì ngành Mạng máy tính và truyền thông dữ liệu
+      - 1 kì ngành Mạng máy tính và truyền thông dữ liệu thì học phí như nào
 
   - intent: hp_ktpm
     examples: |
@@ -349,6 +542,12 @@ nlu:
       - ngành Kỹ thuật phần mềm có đắt không
       - học phí trung bình 1 học kì ngành Kỹ thuật phần mềm
       - 1 học kì ngành Kỹ thuật phần mềm bao nhiêu
+      - học phí ngành Kỹ thuật phần mềm ổn không
+      - học phí 1 kì ngành Kỹ thuật phần mềm có đắt không
+      - 1 kì ngành Kỹ thuật phần mềm thì học phí tốt không
+      - chi tiết học phí ngành Kỹ thuật phần mềm
+      - review học phí 1 kì ngành Kỹ thuật phần mềm
+      - 1 kì ngành Kỹ thuật phần mềm thì học phí như nào
 
   - intent: hp_cdt
     examples: |
@@ -356,6 +555,12 @@ nlu:
       - ngành Công nghệ kỹ thuật cơ điện tử có đắt không
       - học phí trung bình 1 học kì ngành Công nghệ kỹ thuật cơ điện tử
       - 1 học kì ngành Công nghệ kỹ thuật cơ điện tử bao nhiêu
+      - học phí ngành Công nghệ kỹ thuật cơ điện tử ổn không
+      - học phí 1 kì ngành Công nghệ kỹ thuật cơ điện tử có đắt không
+      - 1 kì ngành Công nghệ kỹ thuật cơ điện tử thì học phí tốt không
+      - chi tiết học phí ngành Công nghệ kỹ thuật cơ điện tử
+      - review học phí 1 kì ngành Công nghệ kỹ thuật cơ điện tử
+      - 1 kì ngành Công nghệ kỹ thuật cơ điện tử thì học phí như nào
 
   - intent: hp_oto
     examples: |
@@ -363,6 +568,12 @@ nlu:
       - ngành Công nghệ kỹ thuật ô tô có đắt không
       - học phí trung bình 1 học kì ngành Công nghệ kỹ thuật ô tô
       - 1 học kì ngành Công nghệ kỹ thuật ô tô bao nhiêu
+      - học phí ngành Công nghệ kỹ thuật ô tô ổn không
+      - học phí 1 kì ngành Công nghệ kỹ thuật ô tô có đắt không
+      - 1 kì ngành Công nghệ kỹ thuật ô tô thì học phí tốt không
+      - chi tiết học phí ngành Công nghệ kỹ thuật ô tô
+      - review học phí 1 kì ngành Công nghệ kỹ thuật ô tô
+      - 1 kì ngành Công nghệ kỹ thuật ô tô thì học phí như nào
 
   - intent: hp_ddt
     examples: |
@@ -370,6 +581,12 @@ nlu:
       - ngành Công nghệ kỹ thuật điện điện tử có đắt không
       - học phí trung bình 1 học kì ngành Công nghệ kỹ thuật điện điện tử
       - 1 học kì ngành Công nghệ kỹ thuật điện điện tử bao nhiêu
+      - học phí ngành Công nghệ kỹ thuật điện điện tử ổn không
+      - học phí 1 kì ngành Công nghệ kỹ thuật điện điện tử có đắt không
+      - 1 kì ngành Công nghệ kỹ thuật điện điện tử thì học phí tốt không
+      - chi tiết học phí ngành Công nghệ kỹ thuật điện điện tử
+      - review học phí 1 kì ngành Công nghệ kỹ thuật điện điện tử
+      - 1 kì ngành Công nghệ kỹ thuật điện điện tử thì học phí như nào
 
   - intent: hp_kthh
     examples: |
@@ -377,6 +594,12 @@ nlu:
       - ngành Công nghệ kỹ thuật hóa học có đắt không
       - học phí trung bình 1 học kì ngành Công nghệ kỹ thuật hóa học
       - 1 học kì ngành Công nghệ kỹ thuật hóa học bao nhiêu
+      - học phí ngành Công nghệ kỹ thuật hóa học ổn không
+      - học phí 1 kì ngành Công nghệ kỹ thuật hóa học có đắt không
+      - 1 kì ngành Công nghệ kỹ thuật hóa học thì học phí tốt không
+      - chi tiết học phí ngành Công nghệ kỹ thuật hóa học
+      - review học phí 1 kì ngành Công nghệ kỹ thuật hóa học
+      - 1 kì ngành Công nghệ kỹ thuật hóa học thì học phí như nào
 
   - intent: hp_log
     examples: |
@@ -384,6 +607,12 @@ nlu:
       - ngành Logistics và quản lý chuỗi cung ứng có đắt không
       - học phí trung bình 1 học kì ngành Logistics và quản lý chuỗi cung ứng
       - 1 học kì ngành Logistics và quản lý chuỗi cung ứng bao nhiêu
+      - học phí ngành Logistics và quản lý chuỗi cung ứng ổn không
+      - học phí 1 kì ngành Logistics và quản lý chuỗi cung ứng có đắt không
+      - 1 kì ngành Logistics và quản lý chuỗi cung ứng thì học phí tốt không
+      - chi tiết học phí ngành Logistics và quản lý chuỗi cung ứng
+      - review học phí 1 kì ngành Logistics và quản lý chuỗi cung ứng
+      - 1 kì ngành Logistics và quản lý chuỗi cung ứng thì học phí như nào
 
   - intent: hp_htcn
     examples: |
@@ -391,6 +620,12 @@ nlu:
       - ngành Kỹ thuật hệ thống công nghiệp có đắt không
       - học phí trung bình 1 học kì ngành Kỹ thuật hệ thống công nghiệp
       - 1 học kì ngành Kỹ thuật hệ thống công nghiệp bao nhiêu
+      - học phí ngành Kỹ thuật hệ thống công nghiệp ổn không
+      - học phí 1 kì ngành Kỹ thuật hệ thống công nghiệp có đắt không
+      - 1 kì ngành Kỹ thuật hệ thống công nghiệp thì học phí tốt không
+      - chi tiết học phí ngành Kỹ thuật hệ thống công nghiệp
+      - review học phí 1 kì ngành Kỹ thuật hệ thống công nghiệp
+      - 1 kì ngành Kỹ thuật hệ thống công nghiệp thì học phí như nào
 
   - intent: hp_ktys
     examples: |
@@ -398,6 +633,12 @@ nlu:
       - ngành Kỹ thuật y sinh có đắt không
       - học phí trung bình 1 học kì ngành Kỹ thuật y sinh
       - 1 học kì ngành Kỹ thuật y sinh bao nhiêu
+      - học phí ngành Kỹ thuật y sinh ổn không
+      - học phí 1 kì ngành Kỹ thuật y sinh có đắt không
+      - 1 kì ngành Kỹ thuật y sinh thì học phí tốt không
+      - chi tiết học phí ngành Kỹ thuật y sinh
+      - review học phí 1 kì ngành Kỹ thuật y sinh
+      - 1 kì ngành Kỹ thuật y sinh thì học phí như nào
 
   - intent: hp_vlyk
     examples: |
@@ -405,12 +646,25 @@ nlu:
       - ngành Vật lý y khoa có đắt không
       - học phí trung bình 1 học kì ngành Vật lý y khoa
       - 1 học kì ngành Vật lý y khoa bao nhiêu
+      - học phí ngành Vật lý y khoa ổn không
+      - học phí 1 kì ngành Vật lý y khoa có đắt không
+      - 1 kì ngành Vật lý y khoa thì học phí tốt không
+      - chi tiết học phí ngành Vật lý y khoa
+      - review học phí 1 kì ngành Vật lý y khoa
+      - 1 kì ngành Vật lý y khoa thì học phí như nào
+
   - intent: hp_cntp
     examples: |
       - học phí ngành Công nghệ thực phẩm như nào ạ
       - ngành Công nghệ thực phẩm có đắt không
       - học phí trung bình 1 học kì ngành Công nghệ thực phẩm
       - 1 học kì ngành Công nghệ thực phẩm bao nhiêu
+      - học phí ngành Công nghệ thực phẩm ổn không
+      - học phí 1 kì ngành Công nghệ thực phẩm có đắt không
+      - 1 kì ngành Công nghệ thực phẩm thì học phí tốt không
+      - chi tiết học phí ngành Công nghệ thực phẩm
+      - review học phí 1 kì ngành Công nghệ thực phẩm
+      - 1 kì ngành Công nghệ thực phẩm thì học phí như nào
 
   - intent: hp_ktruc
     examples: |
@@ -418,6 +672,12 @@ nlu:
       - ngành Kiến trúc có đắt không
       - học phí trung bình 1 học kì ngành Kiến trúc
       - 1 học kì ngành Kiến trúc bao nhiêu
+      - học phí ngành Kiến trúc ổn không
+      - học phí 1 kì ngành Kiến trúc có đắt không
+      - 1 kì ngành Kiến trúc thì học phí tốt không
+      - chi tiết học phí ngành Kiến trúc
+      - review học phí 1 kì ngành Kiến trúc
+      - 1 kì ngành Kiến trúc thì học phí như nào
 
   - intent: hp_tknt
     examples: |
@@ -425,6 +685,12 @@ nlu:
       - ngành Thiết kế nội thất có đắt không
       - học phí trung bình 1 học kì ngành Thiết kế nội thất
       - 1 học kì ngành Thiết kế nội thất bao nhiêu
+      - học phí ngành Thiết kế nội thất ổn không
+      - học phí 1 kì ngành Thiết kế nội thất có đắt không
+      - 1 kì ngành Thiết kế nội thất thì học phí tốt không
+      - chi tiết học phí ngành Thiết kế nội thất
+      - review học phí 1 kì ngành Thiết kế nội thất
+      - 1 kì ngành Thiết kế nội thất thì học phí như nào
 
   - intent: hp_ktxd
     examples: |
@@ -432,6 +698,12 @@ nlu:
       - ngành Kỹ thuật xây dựng có đắt không
       - học phí trung bình 1 học kì ngành Kỹ thuật xây dựng
       - 1 học kì ngành Kỹ thuật xây dựng bao nhiêu
+      - học phí ngành Kỹ thuật xây dựng ổn không
+      - học phí 1 kì ngành Kỹ thuật xây dựng có đắt không
+      - 1 kì ngành Kỹ thuật xây dựng thì học phí tốt không
+      - chi tiết học phí ngành Kỹ thuật xây dựng
+      - review học phí 1 kì ngành Kỹ thuật xây dựng
+      - 1 kì ngành Kỹ thuật xây dựng thì học phí như nào
 
   - intent: hp_dlich
     examples: |
@@ -439,6 +711,12 @@ nlu:
       - ngành Du lịch có đắt không
       - học phí trung bình 1 học kì ngành Du lịch
       - 1 học kì ngành Du lịch bao nhiêu
+      - học phí ngành Du lịch ổn không
+      - học phí 1 kì ngành Du lịch có đắt không
+      - 1 kì ngành Du lịch thì học phí tốt không
+      - chi tiết học phí ngành Du lịch
+      - review học phí 1 kì ngành Du lịch
+      - 1 kì ngành Du lịch thì học phí như nào
 
   - intent: hp_qtks
     examples: |
@@ -446,6 +724,12 @@ nlu:
       - ngành Quản trị khách sạn có đắt không
       - học phí trung bình 1 học kì ngành Quản trị khách sạn
       - 1 học kì ngành Quản trị khách sạn bao nhiêu
+      - học phí ngành Quản trị khách sạn ổn không
+      - học phí 1 kì ngành Quản trị khách sạn có đắt không
+      - 1 kì ngành Quản trị khách sạn thì học phí tốt không
+      - chi tiết học phí ngành Quản trị khách sạn
+      - review học phí 1 kì ngành Quản trị khách sạn
+      - 1 kì ngành Quản trị khách sạn thì học phí như nào
 
   - intent: hp_qtnhhang
     examples: |
@@ -453,6 +737,12 @@ nlu:
       - ngành Quản trị nhà hàng và dịch vụ ăn uống có đắt không
       - học phí trung bình 1 học kì ngành Quản trị nhà hàng và dịch vụ ăn uống
       - 1 học kì ngành Quản trị nhà hàng và dịch vụ ăn uống bao nhiêu
+      - học phí ngành Quản trị nhà hàng và dịch vụ ăn uống ổn không
+      - học phí 1 kì ngành Quản trị nhà hàng và dịch vụ ăn uống có đắt không
+      - 1 kì ngành Quản trị nhà hàng và dịch vụ ăn uống thì học phí tốt không
+      - chi tiết học phí ngành Quản trị nhà hàng và dịch vụ ăn uống
+      - review học phí 1 kì ngành Quản trị nhà hàng và dịch vụ ăn uống
+      - 1 kì ngành Quản trị nhà hàng và dịch vụ ăn uống thì học phí như nào
 
   - intent: hp_tnmt
     examples: |
@@ -460,6 +750,12 @@ nlu:
       - ngành Quản lý tài nguyên và môi trường có đắt không
       - học phí trung bình 1 học kì ngành Quản lý tài nguyên và môi trường
       - 1 học kì ngành Quản lý tài nguyên và môi trường bao nhiêu
+      - học phí ngành Quản lý tài nguyên và môi trường ổn không
+      - học phí 1 kì ngành Quản lý tài nguyên và môi trường có đắt không
+      - 1 kì ngành Quản lý tài nguyên và môi trường thì học phí tốt không
+      - chi tiết học phí ngành Quản lý tài nguyên và môi trường
+      - review học phí 1 kì ngành Quản lý tài nguyên và môi trường
+      - 1 kì ngành Quản lý tài nguyên và môi trường thì học phí như nào
 
   - intent: hp_gdmn
     examples: |
@@ -467,3 +763,300 @@ nlu:
       - ngành Giáo dục mầm non có đắt không
       - học phí trung bình 1 học kì ngành Giáo dục mầm non
       - 1 học kì ngành Giáo dục mầm non bao nhiêu
+      - học phí ngành Giáo dục mầm non ổn không
+      - học phí 1 kì ngành Giáo dục mầm non có đắt không
+      - 1 kì ngành Giáo dục mầm non thì học phí tốt không
+      - chi tiết học phí ngành Giáo dục mầm non
+      - review học phí 1 kì ngành Giáo dục mầm non
+      - 1 kì ngành Giáo dục mầm non thì học phí như nào
+
+
+
+
+- intent: gt_duochoc
+    examples: |
+      - giới thiệu về ngành Dược học được không ạ
+      - dược học là ngành như thế nào
+      - giới thiệu đôi chút về ngành Dược học được không ạ
+
+- intent: gt_xny
+    examples: |
+      - giới thiệu về ngành Kỹ thuật xét nghiệm y học được không ạ
+      - Kỹ thuật xét nghiệm y học là ngành như thế nào
+      - giới thiệu đôi chút về ngành Kỹ thuật xét nghiệm y học được không ạ
+
+- intent: gt_ykhoa
+    examples: |
+      - giới thiệu về ngành Y khoa được không ạ
+      - Y khoa là ngành như thế nào
+      - giới thiệu đôi chút về ngành Y khoa được không ạ
+
+- intent: gt_yhdp
+    examples: |
+      - giới thiệu về ngành Y học dự phòng được không ạ
+      - Y học dự phòng là ngành như thế nào
+      - giới thiệu đôi chút về ngành Y học dự phòng được không ạ
+
+- intent: gt_dduong
+    examples: |
+      - giới thiệu về ngành Điều dưỡng được không ạ
+      - Điều dưỡng là ngành như thế nào
+      - giới thiệu đôi chút về ngành Điều dưỡng được không ạ
+
+- intent: gt_tnhac
+    examples: |
+      - giới thiệu về ngành Thanh nhạc được không ạ
+      - Thanh nhạc là ngành như thế nào
+      - giới thiệu đôi chút về ngành Thanh nhạc được không ạ
+
+- intent: gt_piano
+    examples: |
+      - giới thiệu về ngành Piano được không ạ
+      - Piano là ngành như thế nào
+      - giới thiệu đôi chút về ngành Piano được không ạ
+
+- intent: gt_dvien
+    examples: |
+      - giới thiệu về ngành Diễn viên được không ạ
+      - Diễn viên là ngành như thế nào
+      - giới thiệu đôi chút về ngành Diễn viên được không ạ
+
+- intent: gt_ddien
+    examples: |
+      - giới thiệu về ngành Đạo diễn được không ạ
+      - Đạo diễn là ngành như thế nào
+      - giới thiệu đôi chút về ngành Đạo diễn được không ạ
+
+- intent: gt_qphim
+    examples: |
+      - giới thiệu về ngành Quay phim được không ạ
+      - Quay phim là ngành như thế nào
+      - giới thiệu đôi chút về ngành Quay phim được không ạ
+
+- intent: gt_tkdh
+    examples: |
+      - giới thiệu về ngành Thiết kế đồ họa được không ạ
+      - Thiết kế đồ họa là ngành như thế nào
+      - giới thiệu đôi chút về ngành Thiết kế đồ họa được không ạ
+
+- intent: gt_vhvn
+    examples: |
+      - giới thiệu về ngành Tiếng Việt & Văn hóa Việt Nam được không ạ
+      - Tiếng Việt & Văn hóa Việt Nam là ngành như thế nào
+      - giới thiệu đôi chút về ngành Tiếng Việt & Văn hóa Việt Nam được không ạ
+
+- intent: gt_nnanh
+    examples: |
+      - giới thiệu về ngành Ngôn ngữ Anh được không ạ
+      - Ngôn ngữ Anh là ngành như thế nào
+      - giới thiệu đôi chút về ngành Ngôn ngữ Anh được không ạ
+
+- intent: gt_nntq
+    examples: |
+      - giới thiệu về ngành Ngôn ngữ Trung Quốc được không ạ
+      - Ngôn ngữ Trung Quốc là ngành như thế nào
+      - giới thiệu đôi chút về ngành Ngôn ngữ Trung Quốc được không ạ
+
+- intent: gt_qhqt
+    examples: |
+      - giới thiệu về ngành Quan hệ quốc tế được không ạ
+      - Quan hệ quốc tế là ngành như thế nào
+      - giới thiệu đôi chút về ngành Quan hệ quốc tế được không ạ
+
+- intent: gt_tlhoc
+    examples: |
+      - giới thiệu về ngành Tâm lý học được không ạ
+      - Tâm lý học là ngành như thế nào
+      - giới thiệu đôi chút về ngành Tâm lý học được không ạ
+
+- intent: gt_dphoc
+    examples: |
+      - giới thiệu về ngành Đông phương học được không ạ
+      - Đông phương học là ngành như thế nào
+      - giới thiệu đôi chút về ngành Đông phương học được không ạ
+
+- intent: gt_vnhoc
+    examples: |
+      - giới thiệu về ngành Việt Nam học được không ạ
+      - Việt Nam học là ngành như thế nào
+      - giới thiệu đôi chút về ngành Việt Nam học được không ạ
+
+- intent: gt_ttdaphuongtien
+    examples: |
+      - giới thiệu về ngành Truyền thông đa phương tiện được không ạ
+      - Truyền thông đa phương tiện là ngành như thế nào
+      - giới thiệu đôi chút về ngành Truyền thông đa phương tiện được không ạ
+
+- intent: gt_qhcongchung
+    examples: |
+      - giới thiệu về ngành Quan hệ công chúng được không ạ
+      - Quan hệ công chúng là ngành như thế nào
+      - giới thiệu đôi chút về ngành Quan hệ công chúng được không ạ
+
+- intent: gt_qtkdoanh
+    examples: |
+      - giới thiệu về ngành Quản trị kinh doanh được không ạ
+      - Quản trị kinh doanh là ngành như thế nào
+      - giới thiệu đôi chút về ngành Quản trị kinh doanh được không ạ
+
+- intent: gt_marketing
+    examples: |
+      - giới thiệu về ngành Marketing được không ạ
+      - Marketing là ngành như thế nào
+      - giới thiệu đôi chút về ngành Marketing được không ạ
+
+- intent: gt_kdqte
+    examples: |
+      - giới thiệu về ngành Kinh doanh quốc tế được không ạ
+      - Kinh doanh quốc tế là ngành như thế nào
+      - giới thiệu đôi chút về ngành Kinh doanh quốc tế được không ạ
+
+- intent: gt_tcnganhang
+    examples: |
+      - giới thiệu về ngành Tài chính ngân hàng được không ạ
+      - Tài chính ngân hàng là ngành như thế nào
+      - giới thiệu đôi chút về ngành Tài chính ngân hàng được không ạ
+
+- intent: gt_ktoan
+    examples: |
+      - giới thiệu về ngành Kế toán được không ạ
+      - Kế toán là ngành như thế nào
+      - giới thiệu đôi chút về ngành Kế toán được không ạ
+
+- intent: gt_tmdientu
+    examples: |
+      - giới thiệu về ngành Thương mại điện tử được không ạ
+      - Thương mại điện tử là ngành như thế nào
+      - giới thiệu đôi chút về ngành Thương mại điện tử được không ạ
+
+- intent: gt_qtnhanluc
+    examples: |
+      - giới thiệu về ngành Quản trị nhân lực được không ạ
+      - Quản trị nhân lực là ngành như thế nào
+      - giới thiệu đôi chút về ngành Quản trị nhân lực được không ạ
+
+- intent: gt_luatkt
+    examples: |
+      - giới thiệu về ngành Luật kinh tế được không ạ
+      - Luật kinh tế là ngành như thế nào
+      - giới thiệu đôi chút về ngành Luật kinh tế được không ạ
+
+- intent: gt_cnshoc
+    examples: |
+      - giới thiệu về ngành Công nghệ sinh học được không ạ
+      - Công nghệ sinh học là ngành như thế nào
+      - giới thiệu đôi chút về Công nghệ sinh học học được không ạ
+
+- intent: gt_ktphanmem
+    examples: |
+      - giới thiệu về ngành Kỹ thuật phần mềm được không ạ
+      - Kỹ thuật phần mềm là ngành như thế nào
+      - giới thiệu đôi chút về ngành Kỹ thuật phần mềm được không ạ
+
+- intent: gt_mmt_ttdulieu
+    examples: |
+      - giới thiệu về ngành Mạng máy tính và Truyền thông dữ liệu được không ạ
+      - Mạng máy tính và Truyền thông dữ liệu là ngành như thế nào
+      - giới thiệu đôi chút về ngành Mạng máy tính và Truyền thông dữ liệu được không ạ
+
+- intent: gt_cnnt
+    examples: |
+      - giới thiệu về ngành Công nghệ thông tin được không ạ
+      - Công nghệ thông tin là ngành như thế nào
+      - giới thiệu đôi chút về ngành Công nghệ thông tin được không ạ
+
+- intent: gt_cnktcdientu
+    examples: |
+      - giới thiệu về ngành Công nghệ kỹ thuật cơ điện tử được không ạ
+      - Công nghệ kỹ thuật cơ điện tử là ngành như thế nào
+      - giới thiệu đôi chút về ngành Công nghệ kỹ thuật cơ điện tử được không ạ
+
+- intent: gt_cnktoto
+    examples: |
+      - giới thiệu về ngành Công nghệ kỹ thuật ô tô được không ạ
+      - Công nghệ kỹ thuật ô tô là ngành như thế nào
+      - giới thiệu đôi chút về ngành Công nghệ kỹ thuật ô tô được không ạ
+
+- intent: gt_cnktdien_dientu
+    examples: |
+      - giới thiệu về ngành Công nghệ kỹ thuật điện - điện tử được không ạ
+      - Công nghệ kỹ thuật điện - điện tử là ngành như thế nào
+      - giới thiệu đôi chút về ngành Công nghệ kỹ thuật điện - điện tử được không ạ
+
+- intent: gt_cnkthhoc
+    examples: |
+      - giới thiệu về ngành Công nghệ kỹ thuật hoá học được không ạ
+      - Công nghệ kỹ thuật hoá học là ngành như thế nào
+      - giới thiệu đôi chút về ngành Công nghệ kỹ thuật hoá học được không ạ
+
+- intent: gt_logistic
+    examples: |
+      - giới thiệu về ngành Logistics & Quản lý chuỗi cung ứng được không ạ
+      - Logistics & Quản lý chuỗi cung ứng là ngành như thế nào
+      - giới thiệu đôi chút về ngành Logistics & Quản lý chuỗi cung ứng được không ạ
+
+- intent: gt_kthtcnghiep
+    examples: |
+      - giới thiệu về ngành Kỹ thuật hệ thống công nghiệp được không ạ
+      - Kỹ thuật hệ thống công nghiệp là ngành như thế nào
+      - giới thiệu đôi chút về ngành Kỹ thuật hệ thống công nghiệp được không ạ
+
+- intent: gt_ktysinh
+    examples: |
+      - giới thiệu về ngành Kỹ thuật y sinh được không ạ
+      - Kỹ thuật y sinh là ngành như thế nào
+      - giới thiệu đôi chút về ngành Kỹ thuật y sinh được không ạ
+
+- intent: gt_vlykhoa
+    examples: |
+      - giới thiệu về ngành Vật lý y khoa được không ạ
+      - Vật lý y khoa là ngành như thế nào
+      - giới thiệu đôi chút về ngành Vật lý y khoa được không ạ
+
+- intent: gt_cntpham
+    examples: |
+      - giới thiệu về ngành Công nghệ thực phẩm được không ạ
+      - Công nghệ thực phẩm là ngành như thế nào
+      - giới thiệu đôi chút về ngành Công nghệ thực phẩm được không ạ
+
+- intent: gt_ktruc
+    examples: |
+      - giới thiệu về ngành Kiến trúc được không ạ
+      - Kiến trúc là ngành như thế nào
+      - giới thiệu đôi chút về ngành Kiến trúc được không ạ
+
+- intent: gt_tknthat
+    examples: |
+      - giới thiệu về ngành Thiết kế nội thất được không ạ
+      - Thiết kế nội thất là ngành như thế nào
+      - giới thiệu đôi chút về ngành Thiết kế nội thất được không ạ
+
+- intent: gt_ktxdung
+    examples: |
+      - giới thiệu về ngành Kỹ thuật xây dựng được không ạ
+      - Kỹ thuật xây dựng là ngành như thế nào
+      - giới thiệu đôi chút về ngành Kỹ thuật xây dựng được không ạ
+
+- intent: gt_qtksan
+    examples: |
+      - giới thiệu về ngành Quản trị khách sạn được không ạ
+      - Quản trị khách sạn là ngành như thế nào
+      - giới thiệu đôi chút về ngành Quản trị khách sạn được không ạ
+
+- intent: gt_qtnhang
+    examples: |
+      - giới thiệu về ngành Quản trị nhà hàng & Dịch vụ ăn uống được không ạ
+      - Quản trị nhà hàng & Dịch vụ ăn uống là ngành như thế nào
+      - giới thiệu đôi chút về ngành Quản trị nhà hàng & Dịch vụ ăn uống được không ạ
+
+- intent: gt_dlich
+    examples: |
+      - giới thiệu về ngành Du lịch được không ạ
+      - Du lịch là ngành như thế nào
+      - giới thiệu đôi chút về ngành Du lịch được không ạ
+
+- intent: gt_qltnmt
+    examples: |
+      - giới thiệu về ngành Quản lý tài nguyên & môi trường được không ạ
+      - Quản lý tài nguyên & môi trường là ngành như thế nào
+      - giới thiệu đôi chút về ngành Quản lý tài nguyên & môi trường được không ạ
