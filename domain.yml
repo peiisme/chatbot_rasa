@@ -418,7 +418,7 @@ responses:
     utter_gt_qltnmt:
     - text: "Đây là ngành học kết hợp giữa hai khối kiến thức KHTN và KHXH nhằm nghiên cứu mối quan hệ giữa các nguồn tài nguyên thiên nhiên, môi trường tự nhiên và các hoạt động sống. của con người, qua đó tìm ra các phương thức đánh giá, quản lý, bảo vệ, khôi phục các nguồn tài nguyên và môi trường."
 
-
+    
     utter_hp_cntt:
     - text: "Ngành Công nghệ thông tin với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 11 triệu đồng."
 
