@@ -31,3 +31,210 @@ stories:
       - action: utter_chao_hoi
       - intent: gioi_thieu
       - action: utter_gioi_thieu  
+
+ 
+  - story: gioi_thieu
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_duochoc
+      - action: utter_gt_duochoc
+      - intent: hp_duoc
+      - action: utter_hp_duoc   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+  - story: gioi_thieu
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_xny
+      - action: utter_gt_xny
+      - intent: hp_xnyh
+      - action: utter_hp_xnyh   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+  - story: gioi_thieu
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: hp_qlbv
+      - action: utter_hp_qlbv
+      - intent: hp_qlbv
+      - action: utter_hp_qlbv   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+
+  - story: gioi_thieu
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_tnhac
+      - action: utter_gt_tnhac
+      - intent: hp_tnhac
+      - action: utter_hp_tnhac   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+
+  - story: gioi_thieu
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_piano
+      - action: utter_gt_piano
+      - intent: hp_piano
+      - action: utter_hp_piano   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+
+  - story: gioi_thieu
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_ddien
+      - action: utter_gt_ddien
+      - intent: hp_ddien
+      - action: utter_hp_ddien   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+
+  - story: gioi_thieu
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: hp_qphim
+      - action: utter_gt_qphim
+      - intent: hp_qphim
+      - action: utter_hp_qphim   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+
+  - story: gioi_thieu
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_tkdh
+      - action: utter_gt_tkdh
+      - intent: hp_tkdh
+      - action: utter_hp_tkdh   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+
+
+# thiếu học phí ngôn ngữ anh
+  - story: gioi_thieu
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_nnanh
+      - action: utter_gt_nnanh
+
+
+
+# thiếu học phí ngôn ngữ trung 
+  - story: gioi_thieu
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: hp_nntq
+      - action: utter_gt_nntq
+
+
+
+
+  - story: gioi_thieu
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_qhqt
+      - action: utter_gt_qhqt
+      - intent: hp_qhqt
+      - action: utter_hp_qhqt
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+
+
+  - story: gioi_thieu
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_tlhoc
+      - action: utter_gt_tlhoc
+      - intent: hp_tlh
+      - action: utter_hp_tlh   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+
+
+  - story: gioi_thieu
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_dphoc
+      - action: utter_gt_dphoc
+      - intent: hp_dph
+      - action: utter_hp_dph   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+
+
+  - story: gioi_thieu
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_vnhoc
+      - action: utter_gt_vnhoc
+      - intent: hp_vnh
+      - action: utter_hp_tkdh   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+
+
+  - story: gioi_thieu
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_ttdaphuongtien
+      - action: utter_gt_ttdaphuongtien
+      - intent: hp_dpt
+      - action: utter_hp_dpt   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+

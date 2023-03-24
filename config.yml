@@ -1,14 +1,48 @@
 recipe: default.v1
-language: vi
+language: "vi"
 pipeline:
-   - name: WhitespaceTokenizer
-   - name: LanguageModelFeaturizer
-     model_name: bert
-     model_weights: bert-base-uncased
-   - name: DIETClassifier
-     epochs: 200
-   - name: EntitySynonymMapper
+  - name: WhitespaceTokenizer
+  - name: CountVectorsFeaturizer
+  - name: DIETClassifier
+    epochs: 100
+    batch_size: 16
+  - name: EntitySynonymMapper
+  - name: RegexFeaturizer
+    case_sensitive: False
+    use_word_boundaries: False
+  - name: CRFEntityExtractor
+    features:
+    - ["low", "title", "upper"]
+    - ["bias", "low", "suffix3"]
+    - ["low", "prefix3", "upper"]
 policies:
+
+# # No configuration for policies was provided. The following default policies were used to train your model.
+# # If you'd like to customize them, uncomment and adjust the policies.
+# # See https://rasa.com/docs/rasa/policies for more information.
+#   - name: MemoizationPolicy
+#   - name: RulePolicy
+#   - name: UnexpecTEDIntentPolicy
+#     max_history: 5
+#     epochs: 100
+#   - name: TEDPolicy
+#     max_history: 5
+#     epochs: 100
+#     constrain_similarities: true
+
+# # No configuration for policies was provided. The following default policies were used to train your model.
+# # If you'd like to customize them, uncomment and adjust the policies.
+# # See https://rasa.com/docs/rasa/policies for more information.
+#   - name: MemoizationPolicy
+#   - name: RulePolicy
+#   - name: UnexpecTEDIntentPolicy
+#     max_history: 5
+#     epochs: 100
+#   - name: TEDPolicy
+#     max_history: 5
+#     epochs: 100
+#     constrain_similarities: true
+
 # # No configuration for policies was provided. The following default policies were used to train your model.
 # # If you'd like to customize them, uncomment and adjust the policies.
 # # See https://rasa.com/docs/rasa/policies for more information.

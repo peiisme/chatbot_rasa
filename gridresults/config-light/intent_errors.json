@@ -1,18 +1,10 @@
 [
   {
-    "text": "hi",
+    "text": "dạ cho em hỏi",
     "intent": "chao_hoi",
     "intent_prediction": {
-      "name": "dong_y",
-      "confidence": 0.8428577184677124
-    }
-  },
-  {
-    "text": "Tạm biệt",
-    "intent": "tam_biet",
-    "intent_prediction": {
-      "name": "dong_y",
-      "confidence": 0.7760661244392395
+      "name": "hoc_phi",
+      "confidence": 0.8419556617736816
     }
   },
   {
@@ -20,15 +12,31 @@
     "intent": "tam_biet",
     "intent_prediction": {
       "name": "chao_hoi",
-      "confidence": 0.3337148427963257
+      "confidence": 0.3058292865753174
     }
   },
   {
-    "text": "ai đang trả lời cuộc trò chuyện này",
+    "text": "có vẻ thú vị",
+    "intent": "dong_y",
+    "intent_prediction": {
+      "name": "gioi_thieu",
+      "confidence": 0.10548468679189682
+    }
+  },
+  {
+    "text": "mình đang nói chuyện với một chat bot phải không",
     "intent": "hoi_ve_bot",
     "intent_prediction": {
-      "name": "chuong_trinh_dao_tao",
-      "confidence": 0.584490180015564
+      "name": "hp_dlich",
+      "confidence": 0.10980480164289474
+    }
+  },
+  {
+    "text": "có bao nhiêu ngành",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "dong_y",
+      "confidence": 0.26992475986480713
     }
   },
   {
@@ -36,55 +44,111 @@
     "intent": "thoi_gian_dao_tao",
     "intent_prediction": {
       "name": "nganh_dao_tao",
-      "confidence": 0.997302770614624
+      "confidence": 0.9061948657035828
     }
   },
   {
-    "text": "trường đại học Nguyễn Tất Thành có gì",
-    "intent": "gioi_thieu",
+    "text": "điểm chuẩn năm trước của trường",
+    "intent": "diem_chuan",
+    "intent_prediction": {
+      "name": "hp_htcn",
+      "confidence": 0.18975402414798737
+    }
+  },
+  {
+    "text": "cho em hỏi về chương trình đào tạo",
+    "intent": "chuong_trinh_dao_tao",
     "intent_prediction": {
       "name": "nganh_dao_tao",
-      "confidence": 0.25993940234184265
+      "confidence": 0.28151747584342957
     }
   },
   {
-    "text": "cho em hỏi học phí của trường",
-    "intent": "hoc_phi",
+    "text": "cho em hỏi học phí ngành y bao nhiêu ạ",
+    "intent": "hp_y",
     "intent_prediction": {
-      "name": "hoc_bong",
-      "confidence": 0.6441372036933899
+      "name": "hoc_phi",
+      "confidence": 0.3017498850822449
     }
   },
   {
-    "text": "good bye",
+    "text": "ngành y bao nhiêu 1 năm ạ",
+    "intent": "hp_y",
+    "intent_prediction": {
+      "name": "hoi_ve_bot",
+      "confidence": 0.13115331530570984
+    }
+  },
+  {
+    "text": "học phí ngành Quản trị kinh doanh như nào ạ",
+    "intent": "hp_qtkd",
+    "intent_prediction": {
+      "name": "hp_dpt",
+      "confidence": 0.12826217710971832
+    }
+  },
+  {
+    "text": "1 học kì ngành Quản trị kinh doanh bao nhiêu",
+    "intent": "hp_qtkd",
+    "intent_prediction": {
+      "name": "hp_cntp",
+      "confidence": 0.14080825448036194
+    }
+  },
+  {
+    "text": "ngành Công nghệ kỹ thuật cơ điện tử có đắt không",
+    "intent": "hp_cdt",
+    "intent_prediction": {
+      "name": "hp_ddt",
+      "confidence": 0.245376855134964
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Công nghệ kỹ thuật cơ điện tử",
+    "intent": "hp_cdt",
+    "intent_prediction": {
+      "name": "hp_ddt",
+      "confidence": 0.24064341187477112
+    }
+  },
+  {
+    "text": "hi",
+    "intent": "chao_hoi",
+    "intent_prediction": {
+      "name": "dong_y",
+      "confidence": 0.2370281219482422
+    }
+  },
+  {
+    "text": "Tạm biệt",
     "intent": "tam_biet",
     "intent_prediction": {
-      "name": "chao_hoi",
-      "confidence": 0.6864810585975647
+      "name": "nganh_dao_tao",
+      "confidence": 0.2858012020587921
     }
   },
   {
     "text": "Hẹn gặp lại",
     "intent": "tam_biet",
     "intent_prediction": {
-      "name": "chao_hoi",
-      "confidence": 0.3452385663986206
+      "name": "hp_qtkd",
+      "confidence": 0.3785845935344696
     }
   },
   {
-    "text": "good night",
-    "intent": "tam_biet",
-    "intent_prediction": {
-      "name": "chao_hoi",
-      "confidence": 0.4532921016216278
-    }
-  },
-  {
-    "text": "có vẻ thú vị",
+    "text": "đúng rồi",
     "intent": "dong_y",
     "intent_prediction": {
-      "name": "chao_hoi",
-      "confidence": 0.3298860490322113
+      "name": "hp_qhcc",
+      "confidence": 0.29120850563049316
+    }
+  },
+  {
+    "text": "đầu dây bên kia là ai nhỉ",
+    "intent": "hoi_ve_bot",
+    "intent_prediction": {
+      "name": "dong_y",
+      "confidence": 0.12512460350990295
     }
   },
   {
@@ -92,15 +156,39 @@
     "intent": "thoi_gian_dao_tao",
     "intent_prediction": {
       "name": "nganh_dao_tao",
-      "confidence": 0.9488792419433594
+      "confidence": 0.6031154990196228
     }
   },
   {
-    "text": "giới thiệu về trường",
+    "text": "ngành ABC lấy bao nhiêu điểm",
+    "intent": "diem_chuan",
+    "intent_prediction": {
+      "name": "thoi_gian_dao_tao",
+      "confidence": 0.7168376445770264
+    }
+  },
+  {
+    "text": "trường đại học Nguyễn Tất Thành có gì",
     "intent": "gioi_thieu",
     "intent_prediction": {
-      "name": "hoc_phi",
-      "confidence": 0.34082528948783875
+      "name": "dong_y",
+      "confidence": 0.2618206739425659
+    }
+  },
+  {
+    "text": "cho em hỏi học phí của trường",
+    "intent": "hoc_phi",
+    "intent_prediction": {
+      "name": "hp_y",
+      "confidence": 0.11531191319227219
+    }
+  },
+  {
+    "text": "học phí trung bình của trường",
+    "intent": "hoc_phi",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.17214016616344452
     }
   }
 ]
