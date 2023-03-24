@@ -787,6 +787,13 @@ utter_hp_nna:
     utter_hp_gdmn:
     - text: "Ngành Giáo dục mầm non là ngành mới với thời gian đào tạo là 3.5 năm, chưa có mức học phí cụ thể."
 
+    utter_hoc_bong:
+    - text: "- SV hoàn thành tất cả các học phần đã đăng ký trông năm học (gồm cả 3 học kỳ trong năm học);\n
+             - Điểm trung bình chung của năm học đặt từ 2.5 trở lên theo thang điểm 4;\n
+             - SV tổng số tính chỉ tích lũy từ 30 tín chỉ trở lên trong năm học, riêng với sinh viên năm cuối tích lũy 20 tín chỉ trở lên trong năm học;\n
+             - SV không có điểm thi kêt thúc môn học và và điểm trung bình của kết thúc học phần dưới 5 điểm trong năm \n
+             - Kết quả rèn luyện từ loại khá trở lên"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

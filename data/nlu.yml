@@ -808,289 +808,289 @@ nlu:
 
 
 
-- intent: gt_duochoc
+  - intent: gt_duochoc
     examples: |
       - giới thiệu về ngành Dược học được không ạ
       - dược học là ngành như thế nào
       - giới thiệu đôi chút về ngành Dược học được không ạ
 
-- intent: gt_xny
+  - intent: gt_xny
     examples: |
       - giới thiệu về ngành Kỹ thuật xét nghiệm y học được không ạ
       - Kỹ thuật xét nghiệm y học là ngành như thế nào
       - giới thiệu đôi chút về ngành Kỹ thuật xét nghiệm y học được không ạ
 
-- intent: gt_ykhoa
+  - intent: gt_ykhoa
     examples: |
       - giới thiệu về ngành Y khoa được không ạ
       - Y khoa là ngành như thế nào
       - giới thiệu đôi chút về ngành Y khoa được không ạ
 
-- intent: gt_yhdp
+  - intent: gt_yhdp
     examples: |
       - giới thiệu về ngành Y học dự phòng được không ạ
       - Y học dự phòng là ngành như thế nào
       - giới thiệu đôi chút về ngành Y học dự phòng được không ạ
 
-- intent: gt_dduong
+  - intent: gt_dduong
     examples: |
       - giới thiệu về ngành Điều dưỡng được không ạ
       - Điều dưỡng là ngành như thế nào
       - giới thiệu đôi chút về ngành Điều dưỡng được không ạ
 
-- intent: gt_tnhac
+  - intent: gt_tnhac
     examples: |
       - giới thiệu về ngành Thanh nhạc được không ạ
       - Thanh nhạc là ngành như thế nào
       - giới thiệu đôi chút về ngành Thanh nhạc được không ạ
 
-- intent: gt_piano
+  - intent: gt_piano
     examples: |
       - giới thiệu về ngành Piano được không ạ
       - Piano là ngành như thế nào
       - giới thiệu đôi chút về ngành Piano được không ạ
 
-- intent: gt_dvien
+  - intent: gt_dvien
     examples: |
       - giới thiệu về ngành Diễn viên được không ạ
       - Diễn viên là ngành như thế nào
       - giới thiệu đôi chút về ngành Diễn viên được không ạ
 
-- intent: gt_ddien
+  - intent: gt_ddien
     examples: |
       - giới thiệu về ngành Đạo diễn được không ạ
       - Đạo diễn là ngành như thế nào
       - giới thiệu đôi chút về ngành Đạo diễn được không ạ
 
-- intent: gt_qphim
+  - intent: gt_qphim
     examples: |
       - giới thiệu về ngành Quay phim được không ạ
       - Quay phim là ngành như thế nào
       - giới thiệu đôi chút về ngành Quay phim được không ạ
 
-- intent: gt_tkdh
+  - intent: gt_tkdh
     examples: |
       - giới thiệu về ngành Thiết kế đồ họa được không ạ
       - Thiết kế đồ họa là ngành như thế nào
       - giới thiệu đôi chút về ngành Thiết kế đồ họa được không ạ
 
-- intent: gt_vhvn
+  - intent: gt_vhvn
     examples: |
       - giới thiệu về ngành Tiếng Việt & Văn hóa Việt Nam được không ạ
       - Tiếng Việt & Văn hóa Việt Nam là ngành như thế nào
       - giới thiệu đôi chút về ngành Tiếng Việt & Văn hóa Việt Nam được không ạ
 
-- intent: gt_nnanh
+  - intent: gt_nnanh
     examples: |
       - giới thiệu về ngành Ngôn ngữ Anh được không ạ
       - Ngôn ngữ Anh là ngành như thế nào
       - giới thiệu đôi chút về ngành Ngôn ngữ Anh được không ạ
 
-- intent: gt_nntq
+  - intent: gt_nntq
     examples: |
       - giới thiệu về ngành Ngôn ngữ Trung Quốc được không ạ
       - Ngôn ngữ Trung Quốc là ngành như thế nào
       - giới thiệu đôi chút về ngành Ngôn ngữ Trung Quốc được không ạ
 
-- intent: gt_qhqt
+  - intent: gt_qhqt
     examples: |
       - giới thiệu về ngành Quan hệ quốc tế được không ạ
       - Quan hệ quốc tế là ngành như thế nào
       - giới thiệu đôi chút về ngành Quan hệ quốc tế được không ạ
 
-- intent: gt_tlhoc
+  - intent: gt_tlhoc
     examples: |
       - giới thiệu về ngành Tâm lý học được không ạ
       - Tâm lý học là ngành như thế nào
       - giới thiệu đôi chút về ngành Tâm lý học được không ạ
 
-- intent: gt_dphoc
+  - intent: gt_dphoc
     examples: |
       - giới thiệu về ngành Đông phương học được không ạ
       - Đông phương học là ngành như thế nào
       - giới thiệu đôi chút về ngành Đông phương học được không ạ
 
-- intent: gt_vnhoc
+  - intent: gt_vnhoc
     examples: |
       - giới thiệu về ngành Việt Nam học được không ạ
       - Việt Nam học là ngành như thế nào
       - giới thiệu đôi chút về ngành Việt Nam học được không ạ
 
-- intent: gt_ttdaphuongtien
+  - intent: gt_ttdaphuongtien
     examples: |
       - giới thiệu về ngành Truyền thông đa phương tiện được không ạ
       - Truyền thông đa phương tiện là ngành như thế nào
       - giới thiệu đôi chút về ngành Truyền thông đa phương tiện được không ạ
 
-- intent: gt_qhcongchung
+  - intent: gt_qhcongchung
     examples: |
       - giới thiệu về ngành Quan hệ công chúng được không ạ
       - Quan hệ công chúng là ngành như thế nào
       - giới thiệu đôi chút về ngành Quan hệ công chúng được không ạ
 
-- intent: gt_qtkdoanh
+  - intent: gt_qtkdoanh
     examples: |
       - giới thiệu về ngành Quản trị kinh doanh được không ạ
       - Quản trị kinh doanh là ngành như thế nào
       - giới thiệu đôi chút về ngành Quản trị kinh doanh được không ạ
 
-- intent: gt_marketing
+  - intent: gt_marketing
     examples: |
       - giới thiệu về ngành Marketing được không ạ
       - Marketing là ngành như thế nào
       - giới thiệu đôi chút về ngành Marketing được không ạ
 
-- intent: gt_kdqte
+  - intent: gt_kdqte
     examples: |
       - giới thiệu về ngành Kinh doanh quốc tế được không ạ
       - Kinh doanh quốc tế là ngành như thế nào
       - giới thiệu đôi chút về ngành Kinh doanh quốc tế được không ạ
 
-- intent: gt_tcnganhang
+  - intent: gt_tcnganhang
     examples: |
       - giới thiệu về ngành Tài chính ngân hàng được không ạ
       - Tài chính ngân hàng là ngành như thế nào
       - giới thiệu đôi chút về ngành Tài chính ngân hàng được không ạ
 
-- intent: gt_ktoan
+  - intent: gt_ktoan
     examples: |
       - giới thiệu về ngành Kế toán được không ạ
       - Kế toán là ngành như thế nào
       - giới thiệu đôi chút về ngành Kế toán được không ạ
 
-- intent: gt_tmdientu
+  - intent: gt_tmdientu
     examples: |
       - giới thiệu về ngành Thương mại điện tử được không ạ
       - Thương mại điện tử là ngành như thế nào
       - giới thiệu đôi chút về ngành Thương mại điện tử được không ạ
 
-- intent: gt_qtnhanluc
+  - intent: gt_qtnhanluc
     examples: |
       - giới thiệu về ngành Quản trị nhân lực được không ạ
       - Quản trị nhân lực là ngành như thế nào
       - giới thiệu đôi chút về ngành Quản trị nhân lực được không ạ
 
-- intent: gt_luatkt
+  - intent: gt_luatkt
     examples: |
       - giới thiệu về ngành Luật kinh tế được không ạ
       - Luật kinh tế là ngành như thế nào
       - giới thiệu đôi chút về ngành Luật kinh tế được không ạ
 
-- intent: gt_cnshoc
+  - intent: gt_cnshoc
     examples: |
       - giới thiệu về ngành Công nghệ sinh học được không ạ
       - Công nghệ sinh học là ngành như thế nào
       - giới thiệu đôi chút về Công nghệ sinh học học được không ạ
 
-- intent: gt_ktphanmem
+  - intent: gt_ktphanmem
     examples: |
       - giới thiệu về ngành Kỹ thuật phần mềm được không ạ
       - Kỹ thuật phần mềm là ngành như thế nào
       - giới thiệu đôi chút về ngành Kỹ thuật phần mềm được không ạ
 
-- intent: gt_mmt_ttdulieu
+  - intent: gt_mmt_ttdulieu
     examples: |
       - giới thiệu về ngành Mạng máy tính và Truyền thông dữ liệu được không ạ
       - Mạng máy tính và Truyền thông dữ liệu là ngành như thế nào
       - giới thiệu đôi chút về ngành Mạng máy tính và Truyền thông dữ liệu được không ạ
 
-- intent: gt_cnnt
+  - intent: gt_cnnt
     examples: |
       - giới thiệu về ngành Công nghệ thông tin được không ạ
       - Công nghệ thông tin là ngành như thế nào
       - giới thiệu đôi chút về ngành Công nghệ thông tin được không ạ
 
-- intent: gt_cnktcdientu
+  - intent: gt_cnktcdientu
     examples: |
       - giới thiệu về ngành Công nghệ kỹ thuật cơ điện tử được không ạ
       - Công nghệ kỹ thuật cơ điện tử là ngành như thế nào
       - giới thiệu đôi chút về ngành Công nghệ kỹ thuật cơ điện tử được không ạ
 
-- intent: gt_cnktoto
+  - intent: gt_cnktoto
     examples: |
       - giới thiệu về ngành Công nghệ kỹ thuật ô tô được không ạ
       - Công nghệ kỹ thuật ô tô là ngành như thế nào
       - giới thiệu đôi chút về ngành Công nghệ kỹ thuật ô tô được không ạ
 
-- intent: gt_cnktdien_dientu
+  - intent: gt_cnktdien_dientu
     examples: |
       - giới thiệu về ngành Công nghệ kỹ thuật điện - điện tử được không ạ
       - Công nghệ kỹ thuật điện - điện tử là ngành như thế nào
       - giới thiệu đôi chút về ngành Công nghệ kỹ thuật điện - điện tử được không ạ
 
-- intent: gt_cnkthhoc
+  - intent: gt_cnkthhoc
     examples: |
       - giới thiệu về ngành Công nghệ kỹ thuật hoá học được không ạ
       - Công nghệ kỹ thuật hoá học là ngành như thế nào
       - giới thiệu đôi chút về ngành Công nghệ kỹ thuật hoá học được không ạ
 
-- intent: gt_logistic
+  - intent: gt_logistic
     examples: |
       - giới thiệu về ngành Logistics & Quản lý chuỗi cung ứng được không ạ
       - Logistics & Quản lý chuỗi cung ứng là ngành như thế nào
       - giới thiệu đôi chút về ngành Logistics & Quản lý chuỗi cung ứng được không ạ
 
-- intent: gt_kthtcnghiep
+  - intent: gt_kthtcnghiep
     examples: |
       - giới thiệu về ngành Kỹ thuật hệ thống công nghiệp được không ạ
       - Kỹ thuật hệ thống công nghiệp là ngành như thế nào
       - giới thiệu đôi chút về ngành Kỹ thuật hệ thống công nghiệp được không ạ
 
-- intent: gt_ktysinh
+  - intent: gt_ktysinh
     examples: |
       - giới thiệu về ngành Kỹ thuật y sinh được không ạ
       - Kỹ thuật y sinh là ngành như thế nào
       - giới thiệu đôi chút về ngành Kỹ thuật y sinh được không ạ
 
-- intent: gt_vlykhoa
+  - intent: gt_vlykhoa
     examples: |
       - giới thiệu về ngành Vật lý y khoa được không ạ
       - Vật lý y khoa là ngành như thế nào
       - giới thiệu đôi chút về ngành Vật lý y khoa được không ạ
 
-- intent: gt_cntpham
+  - intent: gt_cntpham
     examples: |
       - giới thiệu về ngành Công nghệ thực phẩm được không ạ
       - Công nghệ thực phẩm là ngành như thế nào
       - giới thiệu đôi chút về ngành Công nghệ thực phẩm được không ạ
 
-- intent: gt_ktruc
+  - intent: gt_ktruc
     examples: |
       - giới thiệu về ngành Kiến trúc được không ạ
       - Kiến trúc là ngành như thế nào
       - giới thiệu đôi chút về ngành Kiến trúc được không ạ
 
-- intent: gt_tknthat
+  - intent: gt_tknthat
     examples: |
       - giới thiệu về ngành Thiết kế nội thất được không ạ
       - Thiết kế nội thất là ngành như thế nào
       - giới thiệu đôi chút về ngành Thiết kế nội thất được không ạ
 
-- intent: gt_ktxdung
+  - intent: gt_ktxdung
     examples: |
       - giới thiệu về ngành Kỹ thuật xây dựng được không ạ
       - Kỹ thuật xây dựng là ngành như thế nào
       - giới thiệu đôi chút về ngành Kỹ thuật xây dựng được không ạ
 
-- intent: gt_qtksan
+  - intent: gt_qtksan
     examples: |
       - giới thiệu về ngành Quản trị khách sạn được không ạ
       - Quản trị khách sạn là ngành như thế nào
       - giới thiệu đôi chút về ngành Quản trị khách sạn được không ạ
 
-- intent: gt_qtnhang
+  - intent: gt_qtnhang
     examples: |
       - giới thiệu về ngành Quản trị nhà hàng & Dịch vụ ăn uống được không ạ
       - Quản trị nhà hàng & Dịch vụ ăn uống là ngành như thế nào
       - giới thiệu đôi chút về ngành Quản trị nhà hàng & Dịch vụ ăn uống được không ạ
 
-- intent: gt_dlich
+  - intent: gt_dlich
     examples: |
       - giới thiệu về ngành Du lịch được không ạ
       - Du lịch là ngành như thế nào
       - giới thiệu đôi chút về ngành Du lịch được không ạ
 
-- intent: gt_qltnmt
+  - intent: gt_qltnmt
     examples: |
       - giới thiệu về ngành Quản lý tài nguyên & môi trường được không ạ
       - Quản lý tài nguyên & môi trường là ngành như thế nào
