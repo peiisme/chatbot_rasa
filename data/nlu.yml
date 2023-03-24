@@ -856,7 +856,7 @@ nlu:
       - Mạng máy tính và Truyền thông dữ liệu là ngành như thế nào
       - giới thiệu đôi chút về ngành Mạng máy tính và Truyền thông dữ liệu được không ạ
 
-- intent: gt_cnnt
+- intent: gt_cntt
     examples: |
       - giới thiệu về ngành Công nghệ thông tin được không ạ
       - Công nghệ thông tin là ngành như thế nào
