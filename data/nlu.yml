@@ -3,6 +3,8 @@ version: "3.1"
 nlu:
   - intent: chao_hoi
     examples: |
+      - chào ad
+      - dạ cho em hỏi
       - Xin chào
       - hello
       - hi
@@ -21,7 +23,6 @@ nlu:
       - có
       - có chứ
       - tất nhiên rồi
-
       - tất nhiên
       - có vẻ thú vị
       - đúng rồi
@@ -108,6 +109,7 @@ nlu:
   - intent: gioi_thieu
     examples: |
       - giới thiệu về trường
+      - giới thiệu sơ lược về trường mình với ạ
       - trường đại học Nguyễn Tất Thành có gì
       - đôi nét về trường
       - trường đại học Nguyễn Tất Thành là trường như thế nào
@@ -120,6 +122,8 @@ nlu:
   - intent: chuong_trinh_dao_tao
     examples: |
       - cho em hỏi về chương trình đào tạo
+      - trường mình có nhiêu chương trình đào tạo ạ
+      - các chương trình đào tạo trường mình tốt không ạ
       - chương trình đào tạo của mình có cái gì
       - chương trinh đào tạo của mình ra sao ạ
       - chương trình đào tạo như thế nào
@@ -130,6 +134,8 @@ nlu:
 
   - intent: hoc_phi
     examples: |
+      - trường mình mỗi kỳ học phí tầm bao nhiêu ạ
+      - học phí mỗi năm bao nhiêu ạ
       - cho em hỏi học phí của trường
       - học phí trung bình của trường
       - học phí
@@ -140,28 +146,24 @@ nlu:
       - học phí của trường
 
 
-  - intent: hp_cnnt
+  - intent: hp_cntt
     examples: |
       - học phí ngành CNTT như nào ạ
       - ngành CNTT có đắt không
+      - học phí ngành công nghệ thông tin là bao nhiêu
+      - cho em hỏi học phí ngành công nghệ thông tin ạ
+      - ngành công nghệ thông tin mỗi kỳ bao nhiêu ạ
+      - học phí ngành cntt bao nhiêu 1 kỳ ạ
+      - học phí ngành cntt bao nhiêu 1 năm ạ 
       - học phí trung bình 1 học kì ngành CNTT
       - 1 học kì ngành CNTT bao nhiêu
-<<<<<<< Updated upstream
-      - học phí như nào cho 1 học kì ngành 
-      - học phí ngành CNTT ổn không
-      - học phí 1 kì ngành CNTT có đắt không
-      - 1 kì ngành CNTT thì học phí tốt không
-      - chi tiết học phí ngành CNTT
-      - review học phí 1 kì ngành CNTT
-      - 1 kì ngành CNTT thì học phí như nào
-=======
       - học phí như nào cho 1 học kì
       - học phí ổn không
       - học phí có đắt không
       - 1 kì học phí tốt không
       - chi tiết học phí
       - review học phí của ngành
->>>>>>> Stashed changes
+
 
   - intent: hp_duoc
     examples: |
@@ -178,6 +180,9 @@ nlu:
 
   - intent: hp_y
     examples: |
+      - cho em hỏi học phí ngành y bao nhiêu ạ
+      - ngành y bao nhiêu 1 kỳ ạ
+      - ngành y bao nhiêu 1 năm ạ
       - học phí ngành Y khoa như nào ạ
       - ngành Y khoa có đắt không
       - học phí trung bình 1 học kì ngành Y khoa

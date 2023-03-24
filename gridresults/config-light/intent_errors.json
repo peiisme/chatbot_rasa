@@ -1,0 +1,194 @@
+[
+  {
+    "text": "dạ cho em hỏi",
+    "intent": "chao_hoi",
+    "intent_prediction": {
+      "name": "hoc_phi",
+      "confidence": 0.8419556617736816
+    }
+  },
+  {
+    "text": "see you later",
+    "intent": "tam_biet",
+    "intent_prediction": {
+      "name": "chao_hoi",
+      "confidence": 0.3058292865753174
+    }
+  },
+  {
+    "text": "có vẻ thú vị",
+    "intent": "dong_y",
+    "intent_prediction": {
+      "name": "gioi_thieu",
+      "confidence": 0.10548468679189682
+    }
+  },
+  {
+    "text": "mình đang nói chuyện với một chat bot phải không",
+    "intent": "hoi_ve_bot",
+    "intent_prediction": {
+      "name": "hp_dlich",
+      "confidence": 0.10980480164289474
+    }
+  },
+  {
+    "text": "có bao nhiêu ngành",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "dong_y",
+      "confidence": 0.26992475986480713
+    }
+  },
+  {
+    "text": "ngành ABC đào tạo bao lâu",
+    "intent": "thoi_gian_dao_tao",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.9061948657035828
+    }
+  },
+  {
+    "text": "điểm chuẩn năm trước của trường",
+    "intent": "diem_chuan",
+    "intent_prediction": {
+      "name": "hp_htcn",
+      "confidence": 0.18975402414798737
+    }
+  },
+  {
+    "text": "cho em hỏi về chương trình đào tạo",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.28151747584342957
+    }
+  },
+  {
+    "text": "cho em hỏi học phí ngành y bao nhiêu ạ",
+    "intent": "hp_y",
+    "intent_prediction": {
+      "name": "hoc_phi",
+      "confidence": 0.3017498850822449
+    }
+  },
+  {
+    "text": "ngành y bao nhiêu 1 năm ạ",
+    "intent": "hp_y",
+    "intent_prediction": {
+      "name": "hoi_ve_bot",
+      "confidence": 0.13115331530570984
+    }
+  },
+  {
+    "text": "học phí ngành Quản trị kinh doanh như nào ạ",
+    "intent": "hp_qtkd",
+    "intent_prediction": {
+      "name": "hp_dpt",
+      "confidence": 0.12826217710971832
+    }
+  },
+  {
+    "text": "1 học kì ngành Quản trị kinh doanh bao nhiêu",
+    "intent": "hp_qtkd",
+    "intent_prediction": {
+      "name": "hp_cntp",
+      "confidence": 0.14080825448036194
+    }
+  },
+  {
+    "text": "ngành Công nghệ kỹ thuật cơ điện tử có đắt không",
+    "intent": "hp_cdt",
+    "intent_prediction": {
+      "name": "hp_ddt",
+      "confidence": 0.245376855134964
+    }
+  },
+  {
+    "text": "học phí trung bình 1 học kì ngành Công nghệ kỹ thuật cơ điện tử",
+    "intent": "hp_cdt",
+    "intent_prediction": {
+      "name": "hp_ddt",
+      "confidence": 0.24064341187477112
+    }
+  },
+  {
+    "text": "hi",
+    "intent": "chao_hoi",
+    "intent_prediction": {
+      "name": "dong_y",
+      "confidence": 0.2370281219482422
+    }
+  },
+  {
+    "text": "Tạm biệt",
+    "intent": "tam_biet",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.2858012020587921
+    }
+  },
+  {
+    "text": "Hẹn gặp lại",
+    "intent": "tam_biet",
+    "intent_prediction": {
+      "name": "hp_qtkd",
+      "confidence": 0.3785845935344696
+    }
+  },
+  {
+    "text": "đúng rồi",
+    "intent": "dong_y",
+    "intent_prediction": {
+      "name": "hp_qhcc",
+      "confidence": 0.29120850563049316
+    }
+  },
+  {
+    "text": "đầu dây bên kia là ai nhỉ",
+    "intent": "hoi_ve_bot",
+    "intent_prediction": {
+      "name": "dong_y",
+      "confidence": 0.12512460350990295
+    }
+  },
+  {
+    "text": "ngành XYZ học mấy năm",
+    "intent": "thoi_gian_dao_tao",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.6031154990196228
+    }
+  },
+  {
+    "text": "ngành ABC lấy bao nhiêu điểm",
+    "intent": "diem_chuan",
+    "intent_prediction": {
+      "name": "thoi_gian_dao_tao",
+      "confidence": 0.7168376445770264
+    }
+  },
+  {
+    "text": "trường đại học Nguyễn Tất Thành có gì",
+    "intent": "gioi_thieu",
+    "intent_prediction": {
+      "name": "dong_y",
+      "confidence": 0.2618206739425659
+    }
+  },
+  {
+    "text": "cho em hỏi học phí của trường",
+    "intent": "hoc_phi",
+    "intent_prediction": {
+      "name": "hp_y",
+      "confidence": 0.11531191319227219
+    }
+  },
+  {
+    "text": "học phí trung bình của trường",
+    "intent": "hoc_phi",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.17214016616344452
+    }
+  }
+]

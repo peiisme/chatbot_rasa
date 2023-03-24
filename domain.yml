@@ -48,6 +48,7 @@ intents:
   - hp_cnsh
   - hp_mmt
   - hp_ktpm
+  - hp_cntt
   - hp_cdt
   - hp_oto
   - hp_ddt
@@ -87,7 +88,7 @@ responses:
             Bên cạnh những thành tựu về đào tạo nguồn nhân lực chất lượng cao, vai trò và vị thế của trường đại học Nguyễn Tất Thành còn được thể hiện đậm nét trong các hoạt động nghiên cứu khoa học khi đứng ở TOP 5 toàn quốc về công trình nghiên cứu khoa học công bố quốc tế do tạp chí ISI trong năm 2019; TOP 5 tạp chí khoa học Việt Nam có chỉ số ảnh hưởng cao nhất năm 2020; TOP 20 các chỉ số nghiên cứu khoa học tại bảng xếp hạng Đại học của Việt Nam UPM năm 2020; Top 12 trường đại học Việt Nam tại bảng xếp hạng thế giới URAP 2020. Năm 2021, Trường ĐH Nguyễn Tất Thành được Webometrics xếp vị trí thứ 7 trên tổng số 178 trường đại học tại Việt Nam. Năm 2022, Trường ĐH Nguyễn Tất Thành xuất sắc lọt Top 3  trong tổng số 24 trường đại học của Việt Nam trên bảng xếp hạng SCImago Institutions Rankings 2022."
 
     utter_chao_hoi:
-    - text: "Xin chào, mình là một chat bot của NTTU, mình có thể giúp gì?"
+    - text: "Xin chào,  mình có thể giúp gì?"
 
     utter_tam_biet:
     - text: "Chào bạn hẹn gặp lại bạn, rất vui vì đã hỗ trợ được bạn"
@@ -223,8 +224,6 @@ responses:
                 Ngành: Quản trị nhà hàng & Dịch vụ ăn uống\n
                 Ngành: Du lịch\n
                 Ngành: Quản lý tài nguyên & môi trường\n"
-
-    <<<<<<< HEAD
     #   utter_nganhhoc:
     #   - text: "Ngành: Dược học"
     #   - text: "Ngành: Kỹ thuật xét nghiệm y học"
@@ -348,7 +347,7 @@ responses:
     - text: "Đây là một ngành thuộc lĩnh vực kinh tế bao gồm toàn bộ các hoạt động liên quan đến giao dịch tiền tệ và kinh doanh thông qua ngân hàng. Hay nói cách khác đây là ngành tập trung cụ thể đến các lĩnh vực về tài chính và lưu thông tiền tệ."
 
     utter_gt_ktoan:
-    - text: "Đây là một trong những ngành "hot" trên thị trường lao động hiện nay bởi bất cứ một tổ chức hay doanh nghiệp dù lớn hay nhỏ đều phải cần đến. Kế toán là lĩnh vực liên quan đến việc thực hiện quá trình thu thập, xử lý, kiểm tra thông tin về kinh tế tài chính cho các đối tượng có nhu cầu sử dụng."
+    - text: "Đây là một trong những ngành 'hot' trên thị trường lao động hiện nay bởi bất cứ một tổ chức hay doanh nghiệp dù lớn hay nhỏ đều phải cần đến. Kế toán là lĩnh vực liên quan đến việc thực hiện quá trình thu thập, xử lý, kiểm tra thông tin về kinh tế tài chính cho các đối tượng có nhu cầu sử dụng."
     
     utter_gt_tmdientu:
     - text: "Đây là ngành chuyên nghiên cứu về các hoạt động thương mại thông qua những phương tiện điện tử hiện đại, từ đó giúp cho hoạt động thương mại diễn ra nhanh hơn, hiệu quả hơn, tiết kiệm chi phí, mở rộng không gian kinh doanh."
@@ -458,6 +457,32 @@ responses:
     
     utter_hp_tkdh:
     - text: "Ngành Thiết kế đồ họa với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 11 triệu đồng."
+    utter_hp_qhqt:
+    - text: "Ngành Quan hệ quốc tế là ngành mới với thời gian đào tạo là 3 năm, chưa có mức học phí cụ thể."
+
+    utter_hp_tlh:
+    - text: "Ngành Tâm lý học với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 13 triệu đồng."
+
+    utter_hp_dph:
+    - text: "Ngành Đông phương học với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 14 triệu đồng."
+
+    utter_hp_vnh:
+    - text: "Ngành Việt Nam học với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 14 triệu đồng."
+
+    utter_hp_dpt:
+    - text: "Ngành Truyền thông đa phương tiện với thời gian đào tạo là 3.5 năm, chưa có mức học phí cụ thể."
+
+    utter_hp_qhcc:
+    - text: "Ngành Quan hệ công chúng với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 16 triệu đồng."
+
+    utter_hp_qtkd:
+    - text: "Ngành Quản trị kinh doanh với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 12 triệu đồng."
+
+    utter_hp_mar:
+    - text: "Ngành Marketing với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 16 triệu đồng."
+
+    utter_hp_kdqt:
+    - text: "Ngành Kinh doanh quốc tế là ngành mới với thời gian đào tạo là 3 năm, chưa có mức học phí cụ thể."
 
     utter_phuong_thuc_tuyen_sinh:
     - text: "Hiện tại trường Đại học Nguyễn Tất Thành đang tuyển sinh với 4 hình thức:\n
@@ -692,75 +717,75 @@ utter_hp_nna:
 
   utter_hp_tmdt:
   - text: "Ngành Thương mại điện tử với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 15 triệu đồng."
+  
+    utter_hp_tcnh:
+    - text: "Ngành Tài chính - Ngân hàng với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 12 triệu đồng."
 
-  utter_hp_tcnh:
-  - text: "Ngành Tài chính - Ngân hàng với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 12 triệu đồng."
+    utter_hp_ktoan:
+    - text: "Ngành Kế toán với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 12 triệu đồng."
 
-  utter_hp_ktoan:
-  - text: "Ngành Kế toán với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 12 triệu đồng."
+    utter_hp_qtnl:
+    - text: "Ngành Quản trị nhân lực với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 12 triệu đồng."
 
-  utter_hp_qtnl:
-  - text: "Ngành Quản trị nhân lực với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 12 triệu đồng."
+    utter_hp_lkt:
+    - text: "Ngành Luật kinh tế với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 12 triệu đồng."
 
-  utter_hp_lkt:
-  - text: "Ngành Luật kinh tế với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 12 triệu đồng."
+    utter_hp_cnsh:
+    - text: "Ngành Công nghệ sinh học với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 11 triệu đồng."
 
-  utter_hp_cnsh:
-  - text: "Ngành Công nghệ sinh học với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 11 triệu đồng."
+    utter_hp_mmt:
+    - text: "Ngành Mạng máy tính và truyền thông dữ liệu là ngành mới với thời gian đào tạo là 3 - 3.5 năm, chưa có mức học phí cụ thể."
 
-  utter_hp_mmt:
-  - text: "Ngành Mạng máy tính và truyền thông dữ liệu là ngành mới với thời gian đào tạo là 3 - 3.5 năm, chưa có mức học phí cụ thể."
+    utter_hp_ktpm:
+    - text: "Ngành Kỹ thuật phần mềm là ngành mớimới với thời gian đào tạo là 3 - 3.5 năm, chưa có mức học phí cụ thể."
 
-  utter_hp_ktpm:
-  - text: "Ngành Kỹ thuật phần mềm là ngành mớimới với thời gian đào tạo là 3 - 3.5 năm, chưa có mức học phí cụ thể."
+    utter_hp_cdt:
+    - text: "Ngành Công nghệ kỹ thuật cơ điện tử với thời gian đào tạo là 3.5 - 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
 
-  utter_hp_cdt:
-  - text: "Ngành Công nghệ kỹ thuật cơ điện tử với thời gian đào tạo là 3.5 - 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
+    utter_hp_oto:
+    - text: "Ngành Công nghệ kỹ thuật ô tô với thời gian đào tạo là 3.5 - 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
 
-  utter_hp_oto:
-  - text: "Ngành Công nghệ kỹ thuật ô tô với thời gian đào tạo là 3.5 - 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
+    utter_hp_ddt:
+    - text: "Ngành Công nghệ kỹ thuật điện điện tử với thời gian đào tạo là 3.5 - 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
 
-  utter_hp_ddt:
-  - text: "Ngành Công nghệ kỹ thuật điện điện tử với thời gian đào tạo là 3.5 - 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
+    utter_hp_kthh:
+    - text: "Ngành Công nghệ kỹ thuật hóa học với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
 
-  utter_hp_kthh:
-  - text: "Ngành Công nghệ kỹ thuật hóa học với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
+    utter_hp_log:
+    - text: "Ngành Logistics và quản lý chuỗi cung ứng với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 13 triệu đồng."
 
-  utter_hp_log:
-  - text: "Ngành Logistics và quản lý chuỗi cung ứng với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 13 triệu đồng."
+    utter_hp_htcn:
+    - text: "Ngành Kỹ thuật hệ thống công nghiệp với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 9 triệu đồng."
 
-  utter_hp_htcn:
-  - text: "Ngành Kỹ thuật hệ thống công nghiệp với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 9 triệu đồng."
+    utter_hp_ktys:
+    - text: "Ngành Kỹ thuật y sinh với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
 
-  utter_hp_ktys:
-  - text: "Ngành Kỹ thuật y sinh với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
+    utter_hp_cntp:
+    - text: "Ngành Công nghệ thực phẩm với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
 
-  utter_hp_cntp:
-  - text: "Ngành Công nghệ thực phẩm với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
+    utter_hp_ktruc:
+    - text: "Ngành Kiến trúc với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 12 triệu đồng."
 
-  utter_hp_ktruc:
-  - text: "Ngành Kiến trúc với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 12 triệu đồng."
+    utter_hp_tknt:
+    - text: "Ngành Thiết kế nội thất với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 12 triệu đồng."
 
-  utter_hp_tknt:
-  - text: "Ngành Thiết kế nội thất với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 12 triệu đồng."
+    utter_hp_ktxd:
+    - text: "Ngành Kỹ thuật xây dựng với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
 
-  utter_hp_ktxd:
-  - text: "Ngành Kỹ thuật xây dựng với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 11 triệu đồng."
+    utter_hp_dlich:
+    - text: "Ngành Du lịch với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 16 triệu đồng."
 
-  utter_hp_dlich:
-  - text: "Ngành Du lịch với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 16 triệu đồng."
+    utter_hp_qtks:
+    - text: "Ngành Quản trị khách sạn với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 14 triệu đồng."
 
-  utter_hp_qtks:
-  - text: "Ngành Quản trị khách sạn với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 14 triệu đồng."
+    utter_hp_qtnhhang:
+    - text: "Ngành Quản trị nhà hàng và dịch vụ ăn uống với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 14 triệu đồng."
 
-  utter_hp_qtnhhang:
-  - text: "Ngành Quản trị nhà hàng và dịch vụ ăn uống với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 14 triệu đồng."
+    utter_hp_tnmt:
+    - text: "Ngành Quản lý tài nguyên và môi trường với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 11 triệu đồng."
 
-  utter_hp_tnmt:
-  - text: "Ngành Quản lý tài nguyên và môi trường với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 11 triệu đồng."
-
-  utter_hp_gdmn:
-  - text: "Ngành Giáo dục mầm non là ngành mới với thời gian đào tạo là 3.5 năm, chưa có mức học phí cụ thể."
+    utter_hp_gdmn:
+    - text: "Ngành Giáo dục mầm non là ngành mới với thời gian đào tạo là 3.5 năm, chưa có mức học phí cụ thể."
 
 session_config:
   session_expiration_time: 60

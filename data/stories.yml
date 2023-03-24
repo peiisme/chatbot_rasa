@@ -31,3 +31,24 @@ stories:
       - action: utter_chao_hoi
       - intent: gioi_thieu
       - action: utter_gioi_thieu  
+
+  - story: story_hoi_diem
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: hoc_phi
+      - action: utter_hoc_phi
+      - intent: tam_biet
+      - action: utter_tam_biet
+  - story: story_hoi_hp_duoc
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: hoc_phi
+      - action: utter_hoc_phi
+      - intent: hp_cntt
+      - action: utter_hp_cntt
+      - intent: hp_duoc
+      - action: utter_hp_duoc
+      - intent: tam_biet
+      - action: utter_tam_biet
