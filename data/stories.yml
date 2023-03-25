@@ -33,7 +33,7 @@ stories:
       - action: utter_gioi_thieu  
 
  
-  - story: gioi_thieu
+  - story: duoc hoc
     steps:
       - intent: chao_hoi
       - action: utter_chao_hoi
@@ -46,7 +46,7 @@ stories:
       - intent: tam_biet
       - action: utter_tam_biet
 
-  - story: gioi_thieu
+  - story: xet nghiem y
     steps:
       - intent: chao_hoi
       - action: utter_chao_hoi
@@ -59,7 +59,7 @@ stories:
       - intent: tam_biet
       - action: utter_tam_biet
 
-  - story: gioi_thieu
+  - story: quan li benh vien
     steps:
       - intent: chao_hoi
       - action: utter_chao_hoi
@@ -73,7 +73,7 @@ stories:
       - action: utter_tam_biet
 
 
-  - story: gioi_thieu
+  - story: thanh nhac
     steps:
       - intent: chao_hoi
       - action: utter_chao_hoi
@@ -87,7 +87,7 @@ stories:
       - action: utter_tam_biet
 
 
-  - story: gioi_thieu
+  - story: piano
     steps:
       - intent: chao_hoi
       - action: utter_chao_hoi
@@ -101,7 +101,7 @@ stories:
       - action: utter_tam_biet
 
 
-  - story: gioi_thieu
+  - story: dao dien
     steps:
       - intent: chao_hoi
       - action: utter_chao_hoi
@@ -115,7 +115,7 @@ stories:
       - action: utter_tam_biet
 
 
-  - story: gioi_thieu
+  - story: quay phim
     steps:
       - intent: chao_hoi
       - action: utter_chao_hoi
@@ -129,7 +129,7 @@ stories:
       - action: utter_tam_biet
 
 
-  - story: gioi_thieu
+  - story: thiet ke do hoa
     steps:
       - intent: chao_hoi
       - action: utter_chao_hoi
@@ -144,28 +144,36 @@ stories:
 
 
 
-# thiếu học phí ngôn ngữ anh
-  - story: gioi_thieu
+  - story: ngon ngu anh
     steps:
       - intent: chao_hoi
       - action: utter_chao_hoi
       - intent: gt_nnanh
       - action: utter_gt_nnanh
+      - intent: hp_nna
+      - action: utter_gt_nnanh
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
 
 
-
-# thiếu học phí ngôn ngữ trung 
-  - story: gioi_thieu
+  - story: ngon ngu trung quoc
     steps:
       - intent: chao_hoi
       - action: utter_chao_hoi
+      - intent: gt_nntq
+      - action: utter_gt_nntq
       - intent: hp_nntq
       - action: utter_gt_nntq
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
 
 
 
-
-  - story: gioi_thieu
+  - story: quan he quoc te
     steps:
       - intent: chao_hoi
       - action: utter_chao_hoi
@@ -180,7 +188,7 @@ stories:
 
 
 
-  - story: gioi_thieu
+  - story: tam li hoc
     steps:
       - intent: chao_hoi
       - action: utter_chao_hoi
@@ -195,7 +203,7 @@ stories:
 
 
 
-  - story: gioi_thieu
+  - story: dong phuong hoc
     steps:
       - intent: chao_hoi
       - action: utter_chao_hoi
@@ -210,7 +218,7 @@ stories:
 
 
 
-  - story: gioi_thieu
+  - story: viet nam hoc
     steps:
       - intent: chao_hoi
       - action: utter_chao_hoi
@@ -225,7 +233,7 @@ stories:
 
 
 
-  - story: gioi_thieu
+  - story: truyen thong da phuong tien
     steps:
       - intent: chao_hoi
       - action: utter_chao_hoi
@@ -238,3 +246,428 @@ stories:
       - intent: tam_biet
       - action: utter_tam_biet
 
+
+  - story: quan he cong chung
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_qhcongchung
+      - action: utter_gt_qhcongchung
+      - intent: hp_qhcc
+      - action: utter_hp_qhcc   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+  - story: quan tri kinh doanh
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_qtkdoanh
+      - action: utter_gt_qtkdoanh
+      - intent: hp_qtkd
+      - action: utter_hp_qtkd   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+  - story: marketting
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_marketing
+      - action: utter_gt_marketing
+      - intent: hp_mar
+      - action: utter_hp_mar   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+  - story: kinh doanh quoc te
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_kdqte
+      - action: utter_gt_kdqte
+      - intent: hp_kdqt
+      - action: utter_hp_kdqt   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+  - story: thuong mai dien tu
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_tmdientu
+      - action: utter_gt_tmdientu
+      - intent: hp_tmdt
+      - action: utter_hp_tmdt   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+  - story: tai chinh ngan hang
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_tcnganhang
+      - action: utter_gt_tcnganhang
+      - intent: hp_tcnh
+      - action: utter_hp_tcnh   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+  - story: ke toan
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_ktoan
+      - action: utter_gt_ktoan
+      - intent: hp_ktoan
+      - action: utter_hp_ktoan   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+  - story: quan tri nhan luc
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_qtnhanluc
+      - action: utter_gt_qtnhanluc
+      - intent: hp_qtnl
+      - action: utter_hp_qtnl
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+  - story: cong nghe sinh hoc
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_cnshoc
+      - action: utter_gt_cnshoc
+      - intent: hp_cnsh
+      - action: utter_hp_cnsh   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+  - story: truyen thong du lieu
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_mmt_ttdulieu
+      - action: utter_gt_mmt_ttdulieu
+      - intent: hp_mmt
+      - action: utter_hp_mmt   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+  - story: ky thuat phan mem
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_ktphanmem
+      - action: utter_gt_ktphanmem
+      - intent: hp_ktpm
+      - action: utter_hp_ktpm   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+
+  - story: cong nghe oto
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_cnktoto
+      - action: utter_gt_cnktoto
+      - intent: hp_oto
+      - action: utter_hp_oto   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+# thieu hoc phi con nghe ky thuat dien tu
+  - story: cong nghe ky thuat dien tu
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_cnktdien_dientu
+      - action: utter_gt_cnktcdientu
+
+
+  - story: cong nghe ky thuat hoa hoc
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_cnkthhoc
+      - action: utter_gt_cnkthhoc
+      - intent: hp_kthh
+      - action: utter_hp_kthh   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+
+
+  - story: logic
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_logistic
+      - action: utter_gt_logistic
+      - intent: hp_log
+      - action: utter_hp_log   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+
+
+ 
+  - story: he thong cong nghiep
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_kthtcnghiep
+      - action: utter_gt_kthtcnghiep
+      - intent: hp_htcn
+      - action: utter_hp_htcn   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+
+
+  - story: ky thua y sinh
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_ktysinh
+      - action: utter_gt_ktysinh
+      - intent: hp_ktys
+      - action: utter_hp_ktys
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+
+# khong co utter hoc phi
+  - story: vat ly y khoa
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_vlykhoa
+      - action: utter_gt_vlykhoa
+      - intent: hp_vlyk
+
+
+
+
+  - story: cong nghe thuc pham
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_cntpham
+      - action: utter_gt_cntpham
+      - intent: hp_cntp
+      - action: utter_hp_cntp   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+
+
+  - story: kien truc
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_ktruc
+      - action: utter_gt_ktruc
+      - intent: hp_ktruc
+      - action: utter_hp_ktruc   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+
+
+  - story: thiet ke noi that
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_tknthat
+      - action: utter_gt_tknthat
+      - intent: hp_tknt
+      - action: utter_hp_tknt
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+
+
+  - story: kien truc xay dung
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_ktxdung
+      - action: utter_gt_ktxdung
+      - intent: hp_ktxd
+      - action: utter_hp_ktxd
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+
+
+  - story: du lich
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_dlich
+      - action: utter_gt_dlich
+      - intent: hp_dlich
+      - action: utter_hp_dlich   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+
+  - story: quan tri khach san
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_qtksan
+      - action: utter_gt_qtksan
+      - intent: hp_qtks
+      - action: utter_hp_qtks
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+  - story: quan tri nha hang
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_qtnhang
+      - action: utter_gt_qtnhang
+      - intent: hp_qtnhhang
+      - action: utter_hp_qtnhhang   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+  - story: quan li tai nguyen moi truong
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_qltnmt
+      - action: utter_gt_qltnmt
+      - intent: hp_tnmt
+      - action: utter_hp_tnmt
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+
+
+# thieu gt giao duc mam non
+  - story: giao duc mam non
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+
+
+  - story: xet nghiem y
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_xny
+      - action: utter_gt_xny
+      - intent: hp_xnyh
+      - action: utter_hp_xnyh
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+  - story: y khoa
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_ykhoa
+      - action: utter_gt_ykhoa
+      - intent: hp_y
+      - action: utter_hp_y   
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+  - story: y hoc du phong
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_yhdp
+      - action: utter_gt_yhdp
+      - intent: hp_yhdp
+      - action: utter_hp_yhdp
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+  - story: dieu duong
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: gt_dduong
+      - action: utter_gt_dduong
+      - intent: hp_dduong
+      - action: utter_hp_dduong
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
+
+
+#thieu gioi thieu
+  - story: giao du mam non
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: hp_gdmn
+      - action: utter_hp_gdmn
+      - intent: hoc_bong
+      - action: utter_hoc_bong
+      - intent: tam_biet
+      - action: utter_tam_biet
