@@ -10,6 +10,8 @@ nlu:
       - hi
       - chào
       - alo
+      - bạn ơi
+      - ad ơi
 
   - intent: tam_biet
     examples: |
@@ -18,6 +20,8 @@ nlu:
       - Hẹn gặp lại
       - see you later
       - good night
+      - bye
+
   - intent: dong_y
     examples: |
       - có
@@ -73,6 +77,12 @@ nlu:
       - học bổng cho sinh viên như thế nào
       - tân sinh viên có học bổng không
       - có học bổng cho sinh viên không
+      - chính sách học bổng cho sinh viên
+      - chính sách học bổng
+      - học bổng của trường
+      - học bổng của trường như thế nào
+      - các loại học bổng của trường
+      - học bổng của trường có hấp dẫn không
 
   - intent: co_so_vat_chat
     examples: |
@@ -81,6 +91,11 @@ nlu:
       - các cơ sở của trường
       - các cơ sở của trường ở đâu
       - có bao nhiêu cơ sở tất cả
+      - trường có mấy cơ sở
+      - cơ sở chính
+      - các cơ sở
+      - cơ sở
+      - cơ sở của trường ở đâu
 
   - intent: hoat_dong
     examples: |
@@ -808,9 +823,8 @@ nlu:
 
 
 
-- intent: gt_duochoc
+  - intent: gt_duochoc
     examples: |
-      - giới thiệu về ngành Dược học được không ạ
       - dược học là ngành như thế nào
       - giới thiệu đôi chút về ngành Dược học được không ạ
       - ngành Dược học là gì
@@ -829,7 +843,8 @@ nlu:
       - đôi nét về ngành Xét nghiệm y học
       - mô tả ngành Xét nghiệm y học
 
-- intent: gt_ykhoa
+
+  - intent: gt_ykhoa
     examples: |
       - giới thiệu về ngành Y khoa được không ạ
       - Y khoa là ngành như thế nào
@@ -839,7 +854,7 @@ nlu:
       - đôi nét về ngành Y khoa
       - mô tả ngành Y khoa
 
-- intent: gt_yhdp
+  - intent: gt_yhdp
     examples: |
       - giới thiệu về ngành Y học dự phòng được không ạ
       - Y học dự phòng là ngành như thế nào
@@ -849,7 +864,7 @@ nlu:
       - đôi nét về ngành Y học dự phòng
       - mô tả ngành Y học dự phòng
 
-- intent: gt_dduong
+  - intent: gt_dduong
     examples: |
       - giới thiệu về ngành Điều dưỡng được không ạ
       - Điều dưỡng là ngành như thế nào
@@ -859,7 +874,8 @@ nlu:
       - đôi nét về ngành Điều dưỡng
       - mô tả ngành Điều dưỡng
 
-- intent: gt_tnhac
+
+  - intent: gt_tnhac
     examples: |
       - giới thiệu về ngành Thanh nhạc được không ạ
       - Thanh nhạc là ngành như thế nào
@@ -869,27 +885,28 @@ nlu:
       - đôi nét về ngành Thanh nhạc
       - mô tả ngành Thanh nhạc
 
-- intent: gt_piano
+
+  - intent: gt_piano
     examples: |
       - giới thiệu về ngành Piano được không ạ
       - Piano là ngành như thế nào
       - giới thiệu đôi chút về ngành Piano được không ạ
+
       - ngành Piano là gì
       - ngành Piano như thế nào
       - đôi nét về ngành Piano
       - mô tả ngành Piano
-
 - intent: gt_dvien
     examples: |
       - giới thiệu về ngành Diễn viên được không ạ
       - Diễn viên là ngành như thế nào
-      - giới thiệu đôi chút về ngành Diễn viên được không ạ
+      - giới thiệu đôi chút về ngành Diễn viên được không 
       - ngành Diễn viên là gì
       - ngành Diễn viên như thế nào
       - đôi nét về ngành Diễn viên
       - mô tả ngành Diễn viên
 
-- intent: gt_ddien
+  - intent: gt_ddien
     examples: |
       - giới thiệu về ngành Đạo diễn được không ạ
       - Đạo diễn là ngành như thế nào
@@ -899,7 +916,7 @@ nlu:
       - đôi nét về ngành Đạo diễn
       - mô tả ngành Đạo diễn
 
-- intent: gt_qphim
+  - intent: gt_qphim
     examples: |
       - giới thiệu về ngành Quay phim được không ạ
       - Quay phim là ngành như thế nào
@@ -909,7 +926,7 @@ nlu:
       - đôi nét về ngành Quay phim
       - mô tả ngành Quay phim
 
-- intent: gt_tkdh
+  - intent: gt_tkdh
     examples: |
       - giới thiệu về ngành Thiết kế đồ họa được không ạ
       - Thiết kế đồ họa là ngành như thế nào
@@ -919,7 +936,7 @@ nlu:
       - đôi nét về ngành Thiết kế đồ họa
       - mô tả ngành Thiết kế đồ họa
 
-- intent: gt_vhvn
+  - intent: gt_vhvn
     examples: |
       - giới thiệu về ngành Tiếng Việt & Văn hóa Việt Nam được không ạ
       - Tiếng Việt & Văn hóa Việt Nam là ngành như thế nào
@@ -929,7 +946,7 @@ nlu:
       - đôi nét về ngành Tiếng Việt & Văn hóa Việt Nam
       - mô tả ngành Tiếng Việt & Văn hóa Việt Nam
 
-- intent: gt_nnanh
+  - intent: gt_nnanh
     examples: |
       - giới thiệu về ngành Ngôn ngữ Anh được không ạ
       - Ngôn ngữ Anh là ngành như thế nào
@@ -939,7 +956,7 @@ nlu:
       - đôi nét về ngành Ngôn ngữ Anh
       - mô tả ngành Ngôn ngữ Anh
 
-- intent: gt_nntq
+  - intent: gt_nntq
     examples: |
       - giới thiệu về ngành Ngôn ngữ Trung Quốc được không ạ
       - Ngôn ngữ Trung Quốc là ngành như thế nào
@@ -949,7 +966,7 @@ nlu:
       - đôi nét về ngành Ngôn ngữ Trung Quốc
       - mô tả ngành Ngôn ngữ Trung Quốc
 
-- intent: gt_qhqt
+  - intent: gt_qhqt
     examples: |
       - giới thiệu về ngành Quan hệ quốc tế được không ạ
       - Quan hệ quốc tế là ngành như thế nào
@@ -959,7 +976,7 @@ nlu:
       - đôi nét về ngành Quan hệ quốc tế
       - mô tả ngành Quan hệ quốc tế
 
-- intent: gt_tlhoc
+  - intent: gt_tlhoc
     examples: |
       - giới thiệu về ngành Tâm lý học được không ạ
       - Tâm lý học là ngành như thế nào
@@ -969,7 +986,7 @@ nlu:
       - đôi nét về ngành Tâm lý học
       - mô tả ngành Tâm lý học
 
-- intent: gt_dphoc
+  - intent: gt_dphoc
     examples: |
       - giới thiệu về ngành Đông phương học được không ạ
       - Đông phương học là ngành như thế nào
@@ -979,7 +996,7 @@ nlu:
       - đôi nét về ngành Đông phương học
       - mô tả ngành Đông phương học
 
-- intent: gt_vnhoc
+  - intent: gt_vnhoc
     examples: |
       - giới thiệu về ngành Việt Nam học được không ạ
       - Việt Nam học là ngành như thế nào
@@ -989,7 +1006,8 @@ nlu:
       - đôi nét về ngành Việt Nam học
       - mô tả ngành Việt Nam học
 
-- intent: gt_ttdaphuongtien
+
+  - intent: gt_ttdaphuongtien
     examples: |
       - giới thiệu về ngành Truyền thông đa phương tiện được không ạ
       - Truyền thông đa phương tiện là ngành như thế nào
@@ -999,7 +1017,7 @@ nlu:
       - đôi nét về ngành Truyền thông đa phương tiện
       - mô tả ngành Truyền thông đa phương tiện
 
-- intent: gt_qhcongchung
+  - intent: gt_qhcongchung
     examples: |
       - giới thiệu về ngành Quan hệ công chúng được không ạ
       - Quan hệ công chúng là ngành như thế nào
@@ -1009,7 +1027,7 @@ nlu:
       - đôi nét về ngành Quan hệ công chúng
       - mô tả ngành Quan hệ công chúng
 
-- intent: gt_qtkdoanh
+  - intent: gt_qtkdoanh
     examples: |
       - giới thiệu về ngành Quản trị kinh doanh được không ạ
       - Quản trị kinh doanh là ngành như thế nào
@@ -1019,7 +1037,7 @@ nlu:
       - đôi nét về ngành Quản trị kinh doanh
       - mô tả ngành Quản trị kinh doanh
 
-- intent: gt_marketing
+  - intent: gt_marketing
     examples: |
       - giới thiệu về ngành Marketing được không ạ
       - Marketing là ngành như thế nào
@@ -1028,8 +1046,8 @@ nlu:
       - ngành Marketing như thế nào
       - đôi nét về ngành Marketing
       - mô tả ngành Marketing
-
-- intent: gt_kdqte
+      
+  - intent: gt_kdqte
     examples: |
       - giới thiệu về ngành Kinh doanh quốc tế được không ạ
       - Kinh doanh quốc tế là ngành như thế nào
@@ -1039,7 +1057,8 @@ nlu:
       - đôi nét về ngành Kinh doanh quốc tế
       - mô tả ngành Kinh doanh quốc tế
 
-- intent: gt_tcnganhang
+
+  - intent: gt_tcnganhang
     examples: |
       - giới thiệu về ngành Tài chính ngân hàng được không ạ
       - Tài chính ngân hàng là ngành như thế nào
@@ -1049,7 +1068,7 @@ nlu:
       - đôi nét về ngành Tài chính ngân hàng
       - mô tả ngành Tài chính ngân hàng
 
-- intent: gt_ktoan
+  - intent: gt_ktoan
     examples: |
       - giới thiệu về ngành Kế toán được không ạ
       - Kế toán là ngành như thế nào
@@ -1059,7 +1078,7 @@ nlu:
       - đôi nét về ngành Kế toán
       - mô tả ngành Kế toán
 
-- intent: gt_tmdientu
+  - intent: gt_tmdientu
     examples: |
       - giới thiệu về ngành Thương mại điện tử được không ạ
       - Thương mại điện tử là ngành như thế nào
@@ -1069,7 +1088,7 @@ nlu:
       - đôi nét về ngành Thương mại điện tử
       - mô tả ngành Thương mại điện tử
 
-- intent: gt_qtnhanluc
+  - intent: gt_qtnhanluc
     examples: |
       - giới thiệu về ngành Quản trị nhân lực được không ạ
       - Quản trị nhân lực là ngành như thế nào
@@ -1079,7 +1098,7 @@ nlu:
       - đôi nét về ngành Quản trị nhân lực
       - mô tả ngành Quản trị nhân lực
 
-- intent: gt_luatkt
+  - intent: gt_luatkt
     examples: |
       - giới thiệu về ngành Luật kinh tế được không ạ
       - Luật kinh tế là ngành như thế nào
@@ -1109,7 +1128,7 @@ nlu:
       - đôi nét về ngành Kỹ thuật phần mềm
       - mô tả ngành Kỹ thuật phần mềm
 
-- intent: gt_mmt_ttdulieu
+  - intent: gt_mmt_ttdulieu
     examples: |
       - giới thiệu về ngành Mạng máy tính và Truyền thông dữ liệu được không ạ
       - Mạng máy tính và Truyền thông dữ liệu là ngành như thế nào
@@ -1129,7 +1148,7 @@ nlu:
       - đôi nét về ngành Công nghệ thông tin
       - mô tả ngành Công nghệ thông tin
 
-- intent: gt_cnktcdientu
+  - intent: gt_cnktcdientu
     examples: |
       - giới thiệu về ngành Công nghệ kỹ thuật cơ điện tử được không ạ
       - Công nghệ kỹ thuật cơ điện tử là ngành như thế nào
@@ -1149,7 +1168,7 @@ nlu:
       - đôi nét về ngành Công nghệ kỹ thuật ô tô
       - mô tả ngành Công nghệ kỹ thuật ô tô
 
-- intent: gt_cnktdien_dientu
+  - intent: gt_cnktdien_dientu
     examples: |
       - giới thiệu về ngành Công nghệ kỹ thuật điện - điện tử được không ạ
       - Công nghệ kỹ thuật điện - điện tử là ngành như thế nào
@@ -1159,7 +1178,7 @@ nlu:
       - đôi nét về ngành Công nghệ kỹ thuật điện - điện tử
       - mô tả ngành Công nghệ kỹ thuật điện - điện tử
 
-- intent: gt_cnkthhoc
+  - intent: gt_cnkthhoc
     examples: |
       - giới thiệu về ngành Công nghệ kỹ thuật hoá học được không ạ
       - Công nghệ kỹ thuật hoá học là ngành như thế nào
