@@ -826,484 +826,668 @@ nlu:
   - intent: gt_duochoc
     examples: |
       - dược học là ngành như thế nào
-      - giới thiệu đôi chút về ngành Dược học được không ạ
-      - ngành Dược học là gì
-      - ngành Dược học như thế nào
-      - đôi nét về ngành Dược học
-      - mô tả ngành Dược học
-      
+      - giới thiệu về ngành Dược học được không ạ
+      - ngành dược học là ngành gì
+      - như thế nào là dược học
+      - dược học là gì
+      - giới thiệu dược học
+      - dược học
+      - giới thiệu một chút về dược học đi
+      - giới thiệu dược học đi
+      - giới thiệu về dược học đi
+      - giới thiệu về dược học
 
-- intent: gt_xny
+  - intent: gt_xny
     examples: |
       - giới thiệu về ngành Kỹ thuật xét nghiệm y học được không ạ
       - Kỹ thuật xét nghiệm y học là ngành như thế nào
       - giới thiệu đôi chút về ngành Kỹ thuật xét nghiệm y học được không ạ
-      - ngành Xét nghiệm y học là gì
-      - ngành Xét nghiệm y học như thế nào
-      - đôi nét về ngành Xét nghiệm y học
-      - mô tả ngành Xét nghiệm y học
-
+      - kỹ thuật xét nghiệm y khoa là ngành gì
+      - giới thiệu kỹ thuật xét nghiệm y khoa
+      - kỹ thuật xét nghiệm y khoa là gì
+      - kỹ thuật xét nghiệm y khoa
+      - giới thiệu kỹ thuật xét nghiệm y khoa đi
+      - giới thiệu một chút về dược học đi 
+      - giới thiệu về kỹ thuật xét nghiệm y khoa đi
+      - giới thiệu về kỹ thuật xét nghiệm y khoa
 
   - intent: gt_ykhoa
     examples: |
       - giới thiệu về ngành Y khoa được không ạ
       - Y khoa là ngành như thế nào
       - giới thiệu đôi chút về ngành Y khoa được không ạ
-      - ngành Y khoa là gì
-      - ngành Y khoa như thế nào
-      - đôi nét về ngành Y khoa
-      - mô tả ngành Y khoa
+      - y khoa là ngành gì
+      - y khoa là gì
+      - y khoa 
+      - giới thiệu về y khoa đi
+      - giới thiệu y khoa đi
+      - giới thiệu một chút về y khoa đi
+      - giới thiệu về y khoa
+      - giới thiệu y khoa
 
   - intent: gt_yhdp
     examples: |
       - giới thiệu về ngành Y học dự phòng được không ạ
       - Y học dự phòng là ngành như thế nào
       - giới thiệu đôi chút về ngành Y học dự phòng được không ạ
-      - ngành Y học dự phòng là gì
-      - ngành Y học dự phòng như thế nào
-      - đôi nét về ngành Y học dự phòng
-      - mô tả ngành Y học dự phòng
+      - y học dự phòng là ngành gì
+      - y học dự phòng là gì
+      - y học dự phòng 
+      - giới thiệu về y học dự phòng đi
+      - giới thiệu y học dự phòng đi
+      - giới thiệu một chút về y học dự phòng đi
+      - giới thiệu về y học dự phòng
+      - giới thiệu y học dự phòng
 
   - intent: gt_dduong
     examples: |
       - giới thiệu về ngành Điều dưỡng được không ạ
       - Điều dưỡng là ngành như thế nào
       - giới thiệu đôi chút về ngành Điều dưỡng được không ạ
-      - ngành Điều dưỡng là gì
-      - ngành Điều dưỡng như thế nào
-      - đôi nét về ngành Điều dưỡng
-      - mô tả ngành Điều dưỡng
-
+      - điều dưỡng là ngành gì
+      - điều dưỡng là gì
+      - điều dưỡng 
+      - giới thiệu về điều dưỡng đi
+      - giới thiệu điều dưỡng đi
+      - giới thiệu một chút về điều dưỡng đi
+      - giới thiệu về điều dưỡng 
+      - giới thiệu điều dưỡng
 
   - intent: gt_tnhac
     examples: |
       - giới thiệu về ngành Thanh nhạc được không ạ
       - Thanh nhạc là ngành như thế nào
       - giới thiệu đôi chút về ngành Thanh nhạc được không ạ
-      - ngành Thanh nhạc là gì
-      - ngành Thanh nhạc như thế nào
-      - đôi nét về ngành Thanh nhạc
-      - mô tả ngành Thanh nhạc
-
+      - thanh nhạc là ngành gì
+      - thanh nhạc là gì
+      - thanh nhạc
+      - giới thiệu về thanh nhạc đi
+      - giới thiệu thanh nhạc đi
+      - giới thiệu một chút về thanh nhạc đi
+      - giới thiệu về thanh nhạc
+      - giới thiệu thanh nhạc
 
   - intent: gt_piano
     examples: |
       - giới thiệu về ngành Piano được không ạ
       - Piano là ngành như thế nào
       - giới thiệu đôi chút về ngành Piano được không ạ
-
-      - ngành Piano là gì
-      - ngành Piano như thế nào
-      - đôi nét về ngành Piano
-      - mô tả ngành Piano
-- intent: gt_dvien
+      - piano là ngành gì
+      - piano là gì
+      - piano 
+      - giới thiệu về piano đi
+      - giới thiệu piano đi
+      - giới thiệu một chút về piano đi
+      - giới thiệu về piano
+      - giới thiệu piano
+  - intent: gt_dvien
     examples: |
       - giới thiệu về ngành Diễn viên được không ạ
       - Diễn viên là ngành như thế nào
-      - giới thiệu đôi chút về ngành Diễn viên được không 
-      - ngành Diễn viên là gì
-      - ngành Diễn viên như thế nào
-      - đôi nét về ngành Diễn viên
-      - mô tả ngành Diễn viên
+      - giới thiệu đôi chút về ngành Diễn viên được không ạ
+      - diễn viên là ngành gì
+      - diễn viên là gì
+      - diễn viên
+      - giới thiệu về diễn viên đi
+      - giới thiệu diễn viên đi
+      - giới thiệu một chút về diễn viên đi
+      - giới thiệu về diễn viên
+      - giới thiệu diễn viên
 
   - intent: gt_ddien
     examples: |
       - giới thiệu về ngành Đạo diễn được không ạ
       - Đạo diễn là ngành như thế nào
       - giới thiệu đôi chút về ngành Đạo diễn được không ạ
-      - ngành Đạo diễn là gì
-      - ngành Đạo diễn như thế nào
-      - đôi nét về ngành Đạo diễn
-      - mô tả ngành Đạo diễn
+      - đạo diễn là ngành gì
+      - đạo diễn là gì
+      - đạo diễn
+      - giới thiệu về đạo diễn đi
+      - giới thiệu đạo diễn đi
+      - giới thiệu một chút về đạo diễn đi
+      - giới thiệu về đạo diễn
+      - giới thiệu đạo diễn
 
   - intent: gt_qphim
     examples: |
       - giới thiệu về ngành Quay phim được không ạ
       - Quay phim là ngành như thế nào
       - giới thiệu đôi chút về ngành Quay phim được không ạ
-      - ngành Quay phim là gì
-      - ngành Quay phim như thế nào
-      - đôi nét về ngành Quay phim
-      - mô tả ngành Quay phim
+      - quay phim là ngành gì
+      - quay phim là gì
+      - quay phim
+      - giới thiệu về quay phim đi
+      - giới thiệu quay phim đi
+      - giới thiệu một chút về quay phim đi
+      - giới thiệu về quay phim
+      - giới thiệu quay phim
 
   - intent: gt_tkdh
     examples: |
       - giới thiệu về ngành Thiết kế đồ họa được không ạ
       - Thiết kế đồ họa là ngành như thế nào
       - giới thiệu đôi chút về ngành Thiết kế đồ họa được không ạ
-      - ngành Thiết kế đồ học là gì
-      - ngành Thiết kế đồ họa như thế nào
-      - đôi nét về ngành Thiết kế đồ họa
-      - mô tả ngành Thiết kế đồ họa
+      - thiết kế đồ hoạ là ngành gì
+      - thiết kế đồ hoạ là gì
+      - thiết kế đồ hoạ
+      - giới thiệu về thiết kế đồ hoạ đi
+      - giới thiệu thiết kế đồ hoạ đi
+      - giới thiệu một chút về thiết kế đồ hoạ đi
+      - giới thiệu về thiết kế đồ hoạ
+      - giới thiệu thiết kế đồ hoạ
 
   - intent: gt_vhvn
     examples: |
       - giới thiệu về ngành Tiếng Việt & Văn hóa Việt Nam được không ạ
       - Tiếng Việt & Văn hóa Việt Nam là ngành như thế nào
       - giới thiệu đôi chút về ngành Tiếng Việt & Văn hóa Việt Nam được không ạ
-      - ngành Tiếng Việt & Văn hóa Việt Nam là gì
-      - ngành Tiếng Việt & Văn hóa Việt Nam như thế nào
-      - đôi nét về ngành Tiếng Việt & Văn hóa Việt Nam
-      - mô tả ngành Tiếng Việt & Văn hóa Việt Nam
+      - Tiếng Việt & Văn hóa Việt Nam là ngành gì
+      - Tiếng Việt & Văn hóa Việt Nam là gì
+      - Tiếng Việt & Văn hóa Việt Nam
+      - giới thiệu về Tiếng Việt & Văn hóa Việt Nam đi
+      - giới thiệu Tiếng Việt & Văn hóa Việt Nam đi
+      - giới thiệu một chút về Tiếng Việt & Văn hóa Việt Nam đi
+      - giới thiệu về Tiếng Việt & Văn hóa Việt Nam
+      - giới thiệu Tiếng Việt & Văn hóa Việt Nam
 
   - intent: gt_nnanh
     examples: |
       - giới thiệu về ngành Ngôn ngữ Anh được không ạ
       - Ngôn ngữ Anh là ngành như thế nào
       - giới thiệu đôi chút về ngành Ngôn ngữ Anh được không ạ
-      - ngành Ngôn ngữ Anh là gì
-      - ngành Ngôn ngữ Anh như thế nào
-      - đôi nét về ngành Ngôn ngữ Anh
-      - mô tả ngành Ngôn ngữ Anh
+      - ngôn ngữ anh là ngành gì
+      - ngôn ngữ anh là gì
+      - ngôn ngữ anh
+      - giới thiệu về ngôn ngữ anh đi
+      - giới thiệu ngôn ngữ anh đi
+      - giới thiệu một chút về ngôn ngữ anh đi
+      - giới thiệu về ngôn ngữ anh
+      - giới thiệu ngôn ngữ anh
 
   - intent: gt_nntq
     examples: |
       - giới thiệu về ngành Ngôn ngữ Trung Quốc được không ạ
       - Ngôn ngữ Trung Quốc là ngành như thế nào
       - giới thiệu đôi chút về ngành Ngôn ngữ Trung Quốc được không ạ
-      - ngành Ngôn ngữ Trung Quốc là gì
-      - ngành Ngôn ngữ Trung Quốc như thế nào
-      - đôi nét về ngành Ngôn ngữ Trung Quốc
-      - mô tả ngành Ngôn ngữ Trung Quốc
+      - ngôn ngữ trung quốc là ngành gì
+      - ngôn ngữ trung quốc là gì
+      - ngôn ngữ trung quốc
+      - giới thiệu về ngôn ngữ trung quốc đi
+      - giới thiệu ngôn ngữ trung quốc đi
+      - giới thiệu một chút về ngôn ngữ trung quốc đi
+      - giới thiệu về ngôn ngữ trung quốc
+      - giới thiệu ngôn ngữ trung quốc
+
 
   - intent: gt_qhqt
     examples: |
       - giới thiệu về ngành Quan hệ quốc tế được không ạ
       - Quan hệ quốc tế là ngành như thế nào
       - giới thiệu đôi chút về ngành Quan hệ quốc tế được không ạ
-      - ngành Quan hệ quốc tế là gì
-      - ngành Quan hệ quốc tế như thế nào
-      - đôi nét về ngành Quan hệ quốc tế
-      - mô tả ngành Quan hệ quốc tế
+      - quan hệ quốc tế là ngành gì
+      - quan hệ quốc tế là gì
+      - quan hệ quốc tế
+      - giới thiệu về quan hệ quốc tế đi
+      - giới thiệu quan hệ quốc tế đi
+      - giới thiệu một chút về quan hệ quốc tế đi
+      - giới thiệu về quan hệ quốc tế
+      - giới thiệu quan hệ quốc tế
 
   - intent: gt_tlhoc
     examples: |
       - giới thiệu về ngành Tâm lý học được không ạ
       - Tâm lý học là ngành như thế nào
       - giới thiệu đôi chút về ngành Tâm lý học được không ạ
-      - ngành Tâm lý học là gì
-      - ngành Tâm lý học như thế nào
-      - đôi nét về ngành Tâm lý học
-      - mô tả ngành Tâm lý học
+      - tâm lý học là ngành gì
+      - tâm lý học là gì
+      - tâm lý học
+      - giới thiệu về tâm lý học đi
+      - giới thiệu tâm lý học đi
+      - giới thiệu một chút về tâm lý học đi
+      - giới thiệu về tâm lý học
+      - giới thiệu tâm lý học
 
   - intent: gt_dphoc
     examples: |
       - giới thiệu về ngành Đông phương học được không ạ
       - Đông phương học là ngành như thế nào
       - giới thiệu đôi chút về ngành Đông phương học được không ạ
-      - ngành Đông phương học là gì
-      - ngành Đông phương học như thế nào
-      - đôi nét về ngành Đông phương học
-      - mô tả ngành Đông phương học
+      - đông phương học là ngành gì
+      - đông phương học là gì
+      - đông phương học
+      - giới thiệu về đông phương học đi
+      - giới thiệu đông phương học đi
+      - giới thiệu một chút về đông phương học đi
+      - giới thiệu về đông phương học
+      - giới thiệu đông phương học
 
   - intent: gt_vnhoc
     examples: |
       - giới thiệu về ngành Việt Nam học được không ạ
       - Việt Nam học là ngành như thế nào
       - giới thiệu đôi chút về ngành Việt Nam học được không ạ
-      - ngành Việt Nam học là gì
-      - ngành Việt Nam học như thế nào
-      - đôi nét về ngành Việt Nam học
-      - mô tả ngành Việt Nam học
-
+      - việt nam học là ngành gì
+      - việt nam học là gì
+      - việt nam học
+      - giới thiệu về việt nam học đi
+      - giới thiệu việt nam học đi
+      - giới thiệu một chút về việt nam học đi
+      - giới thiệu về việt nam học
+      - giới thiệu việt nam học
 
   - intent: gt_ttdaphuongtien
     examples: |
       - giới thiệu về ngành Truyền thông đa phương tiện được không ạ
       - Truyền thông đa phương tiện là ngành như thế nào
       - giới thiệu đôi chút về ngành Truyền thông đa phương tiện được không ạ
-      - ngành Truyền thông đa phương tiện là gì
-      - ngành Truyền thông đa phương tiệnTruyền thông đa phương tiện như thế nào
-      - đôi nét về ngành Truyền thông đa phương tiện
-      - mô tả ngành Truyền thông đa phương tiện
+      - Truyền thông đa phương tiện là ngành gì
+      - Truyền thông đa phương tiện là gì
+      - Truyền thông đa phương tiện
+      - giới thiệu về Truyền thông đa phương tiện đi
+      - giới thiệu Truyền thông đa phương tiện đi
+      - giới thiệu một chút về Truyền thông đa phương tiện đi
+      - giới thiệu về Truyền thông đa phương tiện
+      - giới thiệu Truyền thông đa phương tiện
 
   - intent: gt_qhcongchung
     examples: |
       - giới thiệu về ngành Quan hệ công chúng được không ạ
       - Quan hệ công chúng là ngành như thế nào
       - giới thiệu đôi chút về ngành Quan hệ công chúng được không ạ
-      - ngành Quan hệ công chúng là gì
-      - ngành Quan hệ công chúng như thế nào
-      - đôi nét về ngành Quan hệ công chúng
-      - mô tả ngành Quan hệ công chúng
+      - Quan hệ công chúng là ngành gì
+      - Quan hệ công chúng là gì
+      - Quan hệ công chúng
+      - giới thiệu về Quan hệ công chúng đi
+      - giới thiệu Quan hệ công chúng đi
+      - giới thiệu một chút về Quan hệ công chúng đi
+      - giới thiệu về Quan hệ công chúng
+      - giới thiệu Quan hệ công chúng
 
   - intent: gt_qtkdoanh
     examples: |
       - giới thiệu về ngành Quản trị kinh doanh được không ạ
       - Quản trị kinh doanh là ngành như thế nào
       - giới thiệu đôi chút về ngành Quản trị kinh doanh được không ạ
-      - ngành Quản trị kinh doanh là gì
-      - ngành Quản trị kinh doanh như thế nào
-      - đôi nét về ngành Quản trị kinh doanh
-      - mô tả ngành Quản trị kinh doanh
+      - Quản trị kinh doanh là ngành gì
+      - Quản trị kinh doanh là gì
+      - Quản trị kinh doanh
+      - giới thiệu về Quản trị kinh doanh đi
+      - giới thiệu Quản trị kinh doanh đi
+      - giới thiệu một chút về Quản trị kinh doanh đi
+      - giới thiệu về Quản trị kinh doanh
+      - giới thiệu Quản trị kinh doanh
 
   - intent: gt_marketing
     examples: |
       - giới thiệu về ngành Marketing được không ạ
       - Marketing là ngành như thế nào
       - giới thiệu đôi chút về ngành Marketing được không ạ
-      - ngành Marketing là gì
-      - ngành Marketing như thế nào
-      - đôi nét về ngành Marketing
-      - mô tả ngành Marketing
-      
+      - marketing là ngành gì
+      - marketing là gì
+      - marketing
+      - giới thiệu về marketing đi
+      - giới thiệu marketing đi
+      - giới thiệu một chút về marketing đi
+      - giới thiệu về marketing
+      - giới thiệu marketing
+
   - intent: gt_kdqte
     examples: |
       - giới thiệu về ngành Kinh doanh quốc tế được không ạ
       - Kinh doanh quốc tế là ngành như thế nào
       - giới thiệu đôi chút về ngành Kinh doanh quốc tế được không ạ
-      - ngành Kinh doanh quốc tế là gì
-      - ngành Kinh doanh quốc tế như thế nào
-      - đôi nét về ngành Kinh doanh quốc tế
-      - mô tả ngành Kinh doanh quốc tế
-
+      - kinh doanh quốc tế là ngành gì
+      - kinh doanh quốc tế là gì
+      - kinh doanh quốc tế
+      - giới thiệu về kinh doanh quốc tế đi
+      - giới thiệu kinh doanh quốc tế đi
+      - giới thiệu một chút về kinh doanh quốc tế đi
+      - giới thiệu về kinh doanh quốc tế
+      - giới thiệu kinh doanh quốc tế
 
   - intent: gt_tcnganhang
     examples: |
       - giới thiệu về ngành Tài chính ngân hàng được không ạ
       - Tài chính ngân hàng là ngành như thế nào
       - giới thiệu đôi chút về ngành Tài chính ngân hàng được không ạ
-      - ngành Tài chính ngân hàng là gì
-      - ngành Tài chính ngân hàng như thế nào
-      - đôi nét về ngành Tài chính ngân hàng
-      - mô tả ngành Tài chính ngân hàng
+      - tài chính ngân hàng là ngành gì
+      - tài chính ngân hàng là gì
+      - tài chính ngân hàng
+      - giới thiệu về tài chính ngân hàng đi
+      - giới thiệu tài chính ngân hàng đi
+      - giới thiệu một chút về tài chính ngân hàng đi
+      - giới thiệu về tài chính ngân hàng
+      - giới thiệu tài chính ngân hàng
 
   - intent: gt_ktoan
     examples: |
       - giới thiệu về ngành Kế toán được không ạ
       - Kế toán là ngành như thế nào
       - giới thiệu đôi chút về ngành Kế toán được không ạ
-      - ngành Kế toán là gì
-      - ngành Kế toán như thế nào
-      - đôi nét về ngành Kế toán
-      - mô tả ngành Kế toán
+      - kế toán là ngành gì
+      - kế toán là gì
+      - kế toán
+      - giới thiệu về kế toán đi
+      - giới thiệu kế toán đi
+      - giới thiệu một chút về kế toán đi
+      - giới thiệu về kế toán
+      - giới thiệu kế toán
 
   - intent: gt_tmdientu
     examples: |
       - giới thiệu về ngành Thương mại điện tử được không ạ
       - Thương mại điện tử là ngành như thế nào
       - giới thiệu đôi chút về ngành Thương mại điện tử được không ạ
-      - ngành Thương mại điện tử là gì
-      - ngành Thương mại điện tử như thế nào
-      - đôi nét về ngành Thương mại điện tử
-      - mô tả ngành Thương mại điện tử
+      - thương mại điện tử là ngành gì
+      - thương mại điện tử là gì
+      - thương mại điện tử
+      - giới thiệu về thương mại điện tử đi
+      - giới thiệu thương mại điện tử đi
+      - giới thiệu một chút về thương mại điện tử đi
+      - giới thiệu về thương mại điện tử
+      - giới thiệu thương mại điện tử
 
   - intent: gt_qtnhanluc
     examples: |
       - giới thiệu về ngành Quản trị nhân lực được không ạ
       - Quản trị nhân lực là ngành như thế nào
       - giới thiệu đôi chút về ngành Quản trị nhân lực được không ạ
-      - ngành Quản trị nhân lực là gì
-      - ngành Quản trị nhân lực như thế nào
-      - đôi nét về ngành Quản trị nhân lực
-      - mô tả ngành Quản trị nhân lực
+      - quản trị nhân lực là ngành gì
+      - quản trị nhân lực là gì
+      - quản trị nhân lực
+      - giới thiệu về quản trị nhân lực đi
+      - giới thiệu quản trị nhân lực đi
+      - giới thiệu một chút về quản trị nhân lực đi
+      - giới thiệu về quản trị nhân lực
+      - giới thiệu quản trị nhân lực
 
   - intent: gt_luatkt
     examples: |
       - giới thiệu về ngành Luật kinh tế được không ạ
       - Luật kinh tế là ngành như thế nào
       - giới thiệu đôi chút về ngành Luật kinh tế được không ạ
-      - ngành Luật kinh tế là gì
-      - ngành Luật kinh tế như thế nào
-      - đôi nét về ngành Luật kinh tế
-      - mô tả ngành Luật kinh tế
-
-- intent: gt_cnshoc
+      - luật kinh tế là ngành gì
+      - luật kinh tế là gì
+      - luật kinh tế
+      - giới thiệu về luật kinh tế đi
+      - giới thiệu luật kinh tế đi
+      - giới thiệu một chút về luật kinh tế đi
+      - giới thiệu về luật kinh tế
+      - giới thiệu luật kinh tế
+  - intent: gt_cnshoc
     examples: |
       - giới thiệu về ngành Công nghệ sinh học được không ạ
       - Công nghệ sinh học là ngành như thế nào
       - giới thiệu đôi chút về Công nghệ sinh học học được không ạ
-      - ngành Công nghệ sinh học là gì
-      - ngành Công nghệ sinh học như thế nào
-      - đôi nét về ngành Công nghệ sinh học
-      - mô tả ngành Công nghệ sinh học
-
-- intent: gt_ktphanmem
+      - công nghệ sinh học là ngành gì
+      - công nghệ sinh học là gì
+      - công nghệ sinh học
+      - giới thiệu về công nghệ sinh học đi
+      - giới thiệu công nghệ sinh học đi
+      - giới thiệu một chút về công nghệ sinh học đi
+      - giới thiệu về công nghệ sinh học
+      - giới thiệu công nghệ sinh học
+  - intent: gt_ktphanmem
     examples: |
       - giới thiệu về ngành Kỹ thuật phần mềm được không ạ
       - Kỹ thuật phần mềm là ngành như thế nào
       - giới thiệu đôi chút về ngành Kỹ thuật phần mềm được không ạ
-      - ngành Kỹ thuật phần mềm là gì
-      - ngành Kỹ thuật phần mềm như thế nào
-      - đôi nét về ngành Kỹ thuật phần mềm
-      - mô tả ngành Kỹ thuật phần mềm
+      - kỹ thuật phần mềm là ngành gì
+      - kỹ thuật phần mềm là gì
+      - kỹ thuật phần mềm
+      - giới thiệu về kỹ thuật phần mềm đi
+      - giới thiệu kỹ thuật phần mềm đi
+      - giới thiệu một chút về kỹ thuật phần mềm đi
+      - giới thiệu về kỹ thuật phần mềm
+      - giới thiệu kỹ thuật phần mềm
 
   - intent: gt_mmt_ttdulieu
     examples: |
       - giới thiệu về ngành Mạng máy tính và Truyền thông dữ liệu được không ạ
       - Mạng máy tính và Truyền thông dữ liệu là ngành như thế nào
       - giới thiệu đôi chút về ngành Mạng máy tính và Truyền thông dữ liệu được không ạ
-      - ngành Kỹ thuật phần mềm là gì
-      - ngành Kỹ thuật phần mềm như thế nào
-      - đôi nét về ngành Kỹ thuật phần mềm
-      - mô tả ngành Kỹ thuật phần mềm
+      - mạng máy tính và truyền thông dữ liệu là ngành gì
+      - mạng máy tính và truyền thông dữ liệu là gì
+      - mạng máy tính và truyền thông dữ liệu
+      - giới thiệu về mạng máy tính và truyền thông dữ liệu đi
+      - giới thiệu mạng máy tính và truyền thông dữ liệu đi
+      - giới thiệu một chút về mạng máy tính và truyền thông dữ liệu đi
+      - giới thiệu về mạng máy tính và truyền thông dữ liệu
+      - giới thiệu mạng máy tính và truyền thông dữ liệu
 
-- intent: gt_cnnt
+- intent: gt_cntt
     examples: |
       - giới thiệu về ngành Công nghệ thông tin được không ạ
       - Công nghệ thông tin là ngành như thế nào
       - giới thiệu đôi chút về ngành Công nghệ thông tin được không ạ
-      - ngành Công nghệ thông tin là gì
-      - ngành Công nghệ thông tin như thế nào
-      - đôi nét về ngành Công nghệ thông tin
-      - mô tả ngành Công nghệ thông tin
+      - công nghệ thông tin là ngành gì
+      - công nghệ thông tin là gì
+      - công nghệ thông tin
+      - giới thiệu về công nghệ thông tin đi
+      - giới thiệu công nghệ thông tin đi
+      - giới thiệu một chút về công nghệ thông tin đi
+      - giới thiệu về công nghệ thông tin
+      - giới thiệu công nghệ thông tin
 
   - intent: gt_cnktcdientu
     examples: |
       - giới thiệu về ngành Công nghệ kỹ thuật cơ điện tử được không ạ
       - Công nghệ kỹ thuật cơ điện tử là ngành như thế nào
       - giới thiệu đôi chút về ngành Công nghệ kỹ thuật cơ điện tử được không ạ
-      - ngành Công nghệ kỹ thuật cơ điện tử là gì
-      - ngành Công nghệ kỹ thuật cơ điện tử như thế nào
-      - đôi nét về ngành Công nghệ kỹ thuật cơ điện tử
-      - mô tả ngành Công nghệ kỹ thuật cơ điện tử
-
-- intent: gt_cnktoto
+      - công nghệ kỹ thuật cơ điện tử là ngành gì
+      - công nghệ kỹ thuật cơ điện tử là gì
+      - công nghệ kỹ thuật cơ điện tử
+      - giới thiệu về công nghệ kỹ thuật cơ điện tử đi
+      - giới thiệu công nghệ kỹ thuật cơ điện tử đi
+      - giới thiệu một chút về công nghệ kỹ thuật cơ điện tử đi
+      - giới thiệu về công nghệ kỹ thuật cơ điện tử
+      - giới thiệu công nghệ kỹ thuật cơ điện tử
+  - intent: gt_cnktoto
     examples: |
       - giới thiệu về ngành Công nghệ kỹ thuật ô tô được không ạ
       - Công nghệ kỹ thuật ô tô là ngành như thế nào
       - giới thiệu đôi chút về ngành Công nghệ kỹ thuật ô tô được không ạ
-      - ngành Công nghệ kỹ thuật ô tô là gì
-      - ngành Công nghệ kỹ thuật ô tô như thế nào
-      - đôi nét về ngành Công nghệ kỹ thuật ô tô
-      - mô tả ngành Công nghệ kỹ thuật ô tô
+      - công nghệ kỹ thuật ô tô là ngành gì
+      - công nghệ kỹ thuật ô tô là gì
+      - công nghệ kỹ thuật ô tô
+      - giới thiệu về công nghệ kỹ thuật ô tô đi
+      - giới thiệu công nghệ kỹ thuật ô tô đi
+      - giới thiệu một chút về công nghệ kỹ thuật ô tô đi
+      - giới thiệu về công nghệ kỹ thuật ô tô
+      - giới thiệu công nghệ kỹ thuật ô tô
 
   - intent: gt_cnktdien_dientu
     examples: |
       - giới thiệu về ngành Công nghệ kỹ thuật điện - điện tử được không ạ
       - Công nghệ kỹ thuật điện - điện tử là ngành như thế nào
       - giới thiệu đôi chút về ngành Công nghệ kỹ thuật điện - điện tử được không ạ
-      - ngành Công nghệ kỹ thuật điện - điện tử là gì
-      - ngành Công nghệ kỹ thuật điện - điện tử như thế nào
-      - đôi nét về ngành Công nghệ kỹ thuật điện - điện tử
-      - mô tả ngành Công nghệ kỹ thuật điện - điện tử
+      - công nghệ kỹ thuật điện - điện tử là ngành gì
+      - công nghệ kỹ thuật điện - điện tử là gì
+      - công nghệ kỹ thuật điện - điện tử
+      - giới thiệu về công nghệ kỹ thuật điện - điện tử đi
+      - giới thiệu công nghệ kỹ thuật điện - điện tử đi
+      - giới thiệu một chút về công nghệ kỹ thuật điện - điện tử đi
+      - giới thiệu về công nghệ kỹ thuật điện - điện tử
+      - giới thiệu công nghệ kỹ thuật điện - điện tử
 
   - intent: gt_cnkthhoc
     examples: |
       - giới thiệu về ngành Công nghệ kỹ thuật hoá học được không ạ
       - Công nghệ kỹ thuật hoá học là ngành như thế nào
       - giới thiệu đôi chút về ngành Công nghệ kỹ thuật hoá học được không ạ
-      - ngành Công nghệ kỹ thuật hoá học là gì
-      - ngành Công nghệ kỹ thuật hoá học như thế nào
-      - đôi nét về ngành Công nghệ kỹ thuật hoá học
-      - mô tả ngành Công nghệ kỹ thuật hoá học
+      - công nghệ kỹ thuật hoá học là ngành gì
+      - công nghệ kỹ thuật hoá học là gì
+      - công nghệ kỹ thuật hoá học
+      - giới thiệu về công nghệ kỹ thuật hoá học đi
+      - giới thiệu công nghệ kỹ thuật hoá học đi
+      - giới thiệu một chút về công nghệ kỹ thuật hoá học đi
+      - giới thiệu về công nghệ kỹ thuật hoá học
+      - giới thiệu công nghệ kỹ thuật hoá học
 
-- intent: gt_logistic
+  - intent: gt_logistic
     examples: |
-      - giới thiệu về ngành Logistics & Quản lý chuỗi cung ứng được không ạ
-      - Logistics & Quản lý chuỗi cung ứng là ngành như thế nào
-      - giới thiệu đôi chút về ngành Logistics & Quản lý chuỗi cung ứng được không ạ
-      - ngành Logistics & Quản lý chuỗi cung ứng là gì
-      - ngành Logistics & Quản lý chuỗi cung ứng như thế nào
-      - đôi nét về ngành Logistics & Quản lý chuỗi cung ứng
-      - mô tả ngành Logistics & Quản lý chuỗi cung ứng
+      - giới thiệu về ngành logistics và quản lý chuỗi cung ứng được không ạ
+      - logistics và quản lý chuỗi cung ứng là ngành như thế nào
+      - giới thiệu đôi chút về ngành logistics và quản lý chuỗi cung ứng được không ạ
+      - logistics và quản lý chuỗi cung ứng là ngành gì
+      - logistics và quản lý chuỗi cung ứng là gì
+      - logistics và quản lý chuỗi cung ứng
+      - giới thiệu về logistics và quản lý chuỗi cung ứng đi
+      - giới thiệu logistics và quản lý chuỗi cung ứng đi
+      - giới thiệu một chút về logistics và quản lý chuỗi cung ứng đi
+      - giới thiệu về logistics và quản lý chuỗi cung ứng
+      - giới thiệu logistics và quản lý chuỗi cung ứng
 
-- intent: gt_kthtcnghiep
+  - intent: gt_kthtcnghiep
     examples: |
-      - giới thiệu về ngành Kỹ thuật hệ thống công nghiệp được không ạ
+      - giới thiệu về ngành kỹ thuật hệ thống công nghiệp được không ạ
       - Kỹ thuật hệ thống công nghiệp là ngành như thế nào
       - giới thiệu đôi chút về ngành Kỹ thuật hệ thống công nghiệp được không ạ
-      - ngành Kỹ thuật hệ thống công nghiệp là gì
-      - ngành Kỹ thuật hệ thống công nghiệp như thế nào
-      - đôi nét về ngành Kỹ thuật hệ thống công nghiệp
-      - mô tả ngành Kỹ thuật hệ thống công nghiệp
+      - kỹ thuật hệ thống công nghiệp là ngành gì
+      - kỹ thuật hệ thống công nghiệp là gì
+      - kỹ thuật hệ thống công nghiệp
+      - giới thiệu về kỹ thuật hệ thống công nghiệp đi
+      - giới thiệu kỹ thuật hệ thống công nghiệp đi
+      - giới thiệu một chút về kỹ thuật hệ thống công nghiệp đi
+      - giới thiệu về kỹ thuật hệ thống công nghiệp
+      - giới thiệu kỹ thuật hệ thống công nghiệp
 
-- intent: gt_ktysinh
+  - intent: gt_ktysinh
     examples: |
-      - giới thiệu về ngành Kỹ thuật y sinh được không ạ
+      - giới thiệu về ngành kỹ thuật y sinh được không ạ
       - Kỹ thuật y sinh là ngành như thế nào
       - giới thiệu đôi chút về ngành Kỹ thuật y sinh được không ạ
-      - ngành Kỹ thuật y sinh là gì
-      - ngành Kỹ thuật y sinh như thế nào
-      - đôi nét về ngành Kỹ thuật y sinh
-      - mô tả ngành Kỹ thuật y sinh
+      - kỹ thuật y sinh là ngành gì
+      - kỹ thuật y sinh là gì
+      - kỹ thuật y sinh
+      - giới thiệu về kỹ thuật y sinh đi
+      - giới thiệu kỹ thuật y sinh đi
+      - giới thiệu một chút về kỹ thuật y sinh đi
+      - giới thiệu về kỹ thuật y sinh
+      - giới thiệu kỹ thuật y sinh
 
-- intent: gt_vlykhoa
+  - intent: gt_vlykhoa
     examples: |
-      - giới thiệu về ngành Vật lý y khoa được không ạ
+      - giới thiệu về ngành vật lý y khoa được không ạ
       - Vật lý y khoa là ngành như thế nào
       - giới thiệu đôi chút về ngành Vật lý y khoa được không ạ
-      - ngành Vật lý y khoa là gì
-      - ngành Vật lý y khoa như thế nào
-      - đôi nét về ngành Vật lý y khoa
-      - mô tả ngành Vật lý y khoa
+      - vật lý y khoa là ngành gì
+      - vật lý y khoa là gì
+      - vật lý y khoa
+      - giới thiệu về vật lý y khoa đi
+      - giới thiệu vật lý y khoa đi
+      - giới thiệu một chút về vật lý y khoa đi
+      - giới thiệu về vật lý y khoa
+      - giới thiệu vật lý y khoa
 
-- intent: gt_cntpham
+  - intent: gt_cntpham
     examples: |
-      - giới thiệu về ngành Công nghệ thực phẩm được không ạ
+      - giới thiệu về ngành công nghệ thực phẩm được không ạ
       - Công nghệ thực phẩm là ngành như thế nào
       - giới thiệu đôi chút về ngành Công nghệ thực phẩm được không ạ
-      - ngành Công nghệ thực phẩm là gì
-      - ngành Công nghệ thực phẩm như thế nào
-      - đôi nét về ngành Công nghệ thực phẩm
-      - mô tả ngành Công nghệ thực phẩm
+      - công nghệ thực phẩm là ngành gì
+      - công nghệ thực phẩm là gì
+      - công nghệ thực phẩm
+      - giới thiệu về công nghệ thực phẩm đi
+      - giới thiệu công nghệ thực phẩm đi
+      - giới thiệu một chút về công nghệ thực phẩm đi
+      - giới thiệu về công nghệ thực phẩm
+      - giới thiệu công nghệ thực phẩm
 
-- intent: gt_ktruc
+  - intent: gt_ktruc
     examples: |
-      - giới thiệu về ngành Kiến trúc được không ạ
+      - giới thiệu về ngành kiến trúc được không ạ
       - Kiến trúc là ngành như thế nào
       - giới thiệu đôi chút về ngành Kiến trúc được không ạ
-      - ngành Kiến trúc là gì
-      - ngành Kiến trúc như thế nào
-      - đôi nét về ngành Kiến trúc
-      - mô tả ngành Kiến trúc
+      - kiến trúc là ngành gì
+      - kiến trúc là gì
+      - kiến trúc
+      - giới thiệu về kiến trúc đi
+      - giới thiệu kiến trúc đi
+      - giới thiệu một chút về kiến trúc đi
+      - giới thiệu về kiến trúc
+      - giới thiệu kiến trúc
 
-- intent: gt_tknthat
+  - intent: gt_tknthat
     examples: |
-      - giới thiệu về ngành Thiết kế nội thất được không ạ
+      - giới thiệu về ngành thiết kế nội thất được không ạ
       - Thiết kế nội thất là ngành như thế nào
       - giới thiệu đôi chút về ngành Thiết kế nội thất được không ạ
-      - ngành Thiết kế nội thất là gì
-      - ngành Thiết kế nội thất như thế nào
-      - đôi nét về ngành Thiết kế nội thất
-      - mô tả ngành Thiết kế nội thất
+      - thiết kế nội thất là ngành gì
+      - thiết kế nội thất là gì
+      - thiết kế nội thất
+      - giới thiệu về thiết kế nội thất đi
+      - giới thiệu thiết kế nội thất đi
+      - giới thiệu một chút về thiết kế nội thất đi
+      - giới thiệu về thiết kế nội thất
+      - giới thiệu thiết kế nội thất
 
-- intent: gt_ktxdung
+  - intent: gt_ktxdung
     examples: |
-      - giới thiệu về ngành Kỹ thuật xây dựng được không ạ
+      - giới thiệu về ngành kỹ thuật xây dựng được không ạ
       - Kỹ thuật xây dựng là ngành như thế nào
       - giới thiệu đôi chút về ngành Kỹ thuật xây dựng được không ạ
-      - ngành Kỹ thuật xây dựng là gì
-      - ngành Kỹ thuật xây dựng như thế nào
-      - đôi nét về ngành Kỹ thuật xây dựng
-      - mô tả ngành Kỹ thuật xây dựng
+      - kỹ thuật xây dựng là ngành gì
+      - kỹ thuật xây dựng là gì
+      - kỹ thuật xây dựng
+      - giới thiệu về kỹ thuật xây dựng đi
+      - giới thiệu kỹ thuật xây dựng đi
+      - giới thiệu một chút về kỹ thuật xây dựng đi
+      - giới thiệu về kỹ thuật xây dựng
+      - giới thiệu kỹ thuật xây dựng
 
-- intent: gt_qtksan
+  - intent: gt_qtksan
     examples: |
-      - giới thiệu về ngành Quản trị khách sạn được không ạ
+      - giới thiệu về ngành quản trị khách sạn được không ạ
       - Quản trị khách sạn là ngành như thế nào
       - giới thiệu đôi chút về ngành Quản trị khách sạn được không ạ
-      - ngành Quản trị khách sạn là gì
-      - ngành Quản trị khách sạn như thế nào
-      - đôi nét về ngành Quản trị khách sạn
-      - mô tả ngành Quản trị khách sạn
+      - quản trị khách sạn là ngành gì
+      - quản trị khách sạn là gì
+      - quản trị khách sạn
+      - giới thiệu về quản trị khách sạn đi
+      - giới thiệu quản trị khách sạn đi
+      - giới thiệu một chút về quản trị khách sạn đi
+      - giới thiệu về quản trị khách sạn
+      - giới thiệu quản trị khách sạn
 
-- intent: gt_qtnhang
+  - intent: gt_qtnhang
     examples: |
-      - giới thiệu về ngành Quản trị nhà hàng & Dịch vụ ăn uống được không ạ
-      - Quản trị nhà hàng & Dịch vụ ăn uống là ngành như thế nào
-      - giới thiệu đôi chút về ngành Quản trị nhà hàng & Dịch vụ ăn uống được không ạ
-      - ngành Quản trị nhà hàng & Dịch vụ ăn uống là gì
-      - ngành Quản trị nhà hàng & Dịch vụ ăn uống như thế nào
-      - đôi nét về ngành Quản trị nhà hàng & Dịch vụ ăn uống
-      - mô tả ngành Quản trị nhà hàng & Dịch vụ ăn uống
+      - giới thiệu về ngành quản trị nhà hàng và dịch vụ ăn uống được không ạ
+      - quản trị nhà hàng và dịch vụ ăn uống là ngành như thế nào
+      - giới thiệu đôi chút về ngành quản trị nhà hàng và dịch vụ ăn uống được không ạ
+      - quản trị nhà hàng và dịch vụ ăn uống là ngành gì
+      - quản trị nhà hàng và dịch vụ ăn uống là gì
+      - quản trị nhà hàng và dịch vụ ăn uống
+      - giới thiệu về quản trị nhà hàng và dịch vụ ăn uống đi
+      - giới thiệu quản trị nhà hàng và dịch vụ ăn uống đi
+      - giới thiệu một chút về quản trị nhà hàng và dịch vụ ăn uống đi
+      - giới thiệu về quản trị nhà hàng và dịch vụ ăn uống
+      - giới thiệu quản trị nhà hàng và dịch vụ ăn uống
 
-- intent: gt_dlich
+  - intent: gt_dlich
     examples: |
-      - giới thiệu về ngành Du lịch được không ạ
+      - giới thiệu về ngành du lịch được không ạ
       - Du lịch là ngành như thế nào
       - giới thiệu đôi chút về ngành Du lịch được không ạ
-      - ngành Du lịch là gì
-      - ngành Du lịch như thế nào
-      - đôi nét về ngành Du lịch
-      - mô tả ngành Du lịch
+      - du lịch là ngành gì
+      - du lịch là gì
+      - du lịch
+      - giới thiệu về du lịch đi
+      - giới thiệu du lịch đi
+      - giới thiệu một chút về du lịch đi
+      - giới thiệu về du lịch
+      - giới thiệu du lịch
 
-- intent: gt_qltnmt
+  - intent: gt_qltnmt
     examples: |
-      - giới thiệu về ngành Quản lý tài nguyên & môi trường được không ạ
-      - Quản lý tài nguyên & môi trường là ngành như thế nào
-      - giới thiệu đôi chút về ngành Quản lý tài nguyên & môi trường được không ạ
-      - ngành Quản lý tài nguyên & môi trường là gì
-      - ngành Quản lý tài nguyên & môi trường như thế nào
-      - đôi nét về ngành Quản lý tài nguyên & môi trường
-      - mô tả ngành Quản lý tài nguyên & môi trường
+      - giới thiệu về ngành quản lý tài nguyên và môi trường được không ạ
+      - quản lý tài nguyên và môi trường là ngành như thế nào
+      - giới thiệu đôi chút về ngành quản lý tài nguyên và môi trường được không ạ
+      - quản lý tài nguyên và môi trường là ngành gì
+      - quản lý tài nguyên và môi trường là gì
+      - quản lý tài nguyên và môi trường
+      - giới thiệu về quản lý tài nguyên và môi trường đi
+      - giới thiệu quản lý tài nguyên và môi trường đi
+      - giới thiệu một chút về quản lý tài nguyên và môi trường đi
+      - giới thiệu về quản lý tài nguyên và môi trường
+      - giới thiệu quản lý tài nguyên và môi trường
