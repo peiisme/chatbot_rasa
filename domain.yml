@@ -66,7 +66,80 @@ intents:
   - hp_qtnhhang
   - hp_tnmt
   - hp_gdmn
-
+  - gt_qltnmt
+  - gt_dlich
+  - gt_qtnhang
+  - gt_qtksan
+  - gt_ktxdung
+  - gt_tknthat
+  - gt_ktruc
+  - gt_cntpham
+  - gt_vlykhoa
+  - gt_ktysinh
+  - gt_kthtcnghiep
+  - gt_logistic
+  - gt_cnkthhoc
+  - gt_cnktdien_dientu
+  - gt_cnktoto
+  - gt_cnktcdientu
+  - gt_cnnt
+  - gt_mmt_ttdulieu
+  - gt_ktphanmem
+  - gt_cnshoc
+  - gt_luatkt
+  - gt_qtnhanluc
+  - gt_tmdientu
+  - gt_ktoan
+  - gt_tcnganhang
+  - gt_kdqte
+  - gt_marketing
+  - gt_qtkdoanh
+  - gt_qhcongchung
+  - gt_ttdaphuongtien
+  - gt_vnhoc
+  - gt_dphoc
+  - gt_tlhoc
+  - gt_qhqt
+  - gt_nntq
+  - gt_nnanh
+  - gt_vhvn
+  - gt_tkdh
+  - gt_qphim
+  - gt_ddien
+  - gt_dvien
+  - gt_piano
+  - gt_tnhac
+  - gt_dduong
+  - gt_yhdp
+  - gt_ykhoa
+  - gt_xny
+  - gt_duochoc
+  - chnn_duochoc
+  - chnn_ktxnykhoa
+  - chnn_ktxnykhoa
+  - chnn_ykhoa
+  - chnn_yhduphong
+  - chnn_dduong
+  - chnn_tnhac
+  - chnn_piano
+  - chnn_dvien
+  - chnn_ddien
+  - chnn_qphim
+  - chnn_tkdhoa
+  - chnn_vhvn
+  - chnn_nnanh
+  - chnn_nntq
+  - chnn_qhqte
+  - chnn_tlhoc
+  - chnn_dphoc
+  - chnn_vnhoc
+  - chnn_ttdaphuongtien
+  - chnn_qhcongchung
+  - chnn_qtkdoanh
+  - chnn_marketing
+  - chnn_kdqte
+  - chnn_tcnganhang
+  - chnn_ktoan
 
 responses:
   utter_phuong_thuc_tuyen_sinh:
@@ -410,43 +483,43 @@ responses:
     - text: "Ngành Kinh doanh quốc tế là ngành mới với thời gian đào tạo là 3 năm, chưa có mức học phí cụ thể."
 
   utter_hp_dduong:
-  - text: "Ngành Điều dưỡng với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 12 triệu đồng."  
+    - text: "Ngành Điều dưỡng với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 12 triệu đồng."  
 
   utter_hp_xnyh:
-  - text: "Ngành Kỹ thuật xét nghiệm y học với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 13 triệu đồng."  
+    - text: "Ngành Kỹ thuật xét nghiệm y học với thời gian đào tạo là 4 năm, học phí trung bình một kì khoảng 13 triệu đồng."  
 
   utter_hp_qlbv:
-  - text: "Ngành Quản lí bệnh viện là ngành học dự kiến, với thời gian đào tạo là 4 năm, chưa có mức học phí cụ thể."  
+    - text: "Ngành Quản lí bệnh viện là ngành học dự kiến, với thời gian đào tạo là 4 năm, chưa có mức học phí cụ thể."  
 
   utter_hp_phcn:
-  - text: "Ngành Kỹ thuật phục hồi chức năng với thời gian đào tạo là 4 năm, chưa có mức học phí cụ thể."  
+    - text: "Ngành Kỹ thuật phục hồi chức năng với thời gian đào tạo là 4 năm, chưa có mức học phí cụ thể."  
 
   utter_hp_tnhac:
-  - text: "Ngành Thanh nhạc với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 13 triệu đồng."  
+    - text: "Ngành Thanh nhạc với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 13 triệu đồng."  
   
   utter_hp_piano:
-  - text: "Ngành Piano với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 13 triệu đồng."
+    - text: "Ngành Piano với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 13 triệu đồng."
   
   utter_hp_ddien:
-  - text: "Ngành Đạo diễn điện ảnh truyền hình với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 13 triệu đồng."
+    - text: "Ngành Đạo diễn điện ảnh truyền hình với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 13 triệu đồng."
   
   utter_hp_qphim:
-  - text: "Ngành Quay phim với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 14 triệu đồng."
+    - text: "Ngành Quay phim với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 14 triệu đồng."
   
   utter_hp_tkdh:
-  - text: "Ngành Thiết kế đồ họa với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 11 triệu đồng."
+    - text: "Ngành Thiết kế đồ họa với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 11 triệu đồng."
   
   utter_hp_tv:
-  - text: "Ngành Tiếng Việt và văn hóa Việt Nam với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 13 triệu đồng."
+    - text: "Ngành Tiếng Việt và văn hóa Việt Nam với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 13 triệu đồng."
   
   utter_hp_nna:
-  - text: "Ngành Ngôn ngữ Anh với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 13 triệu đồng."
+    - text: "Ngành Ngôn ngữ Anh với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 13 triệu đồng."
 
   utter_hp_nntq:
-  - text: "Ngành Ngôn ngữ Trung Quốc với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 13 triệu đồng."
+    - text: "Ngành Ngôn ngữ Trung Quốc với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 13 triệu đồng."
 
   utter_hp_tmdt:
-  - text: "Ngành Thương mại điện tử với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 15 triệu đồng."
+    - text: "Ngành Thương mại điện tử với thời gian đào tạo là 3.5 năm, học phí trung bình một kì khoảng 15 triệu đồng."
   
   utter_hp_tcnh:
     - text: "Ngành Tài chính - Ngân hàng với thời gian đào tạo là 3 năm, học phí trung bình một kì khoảng 12 triệu đồng."
@@ -518,11 +591,198 @@ responses:
     - text: "Ngành Giáo dục mầm non là ngành mới với thời gian đào tạo là 3.5 năm, chưa có mức học phí cụ thể."
 
   utter_hoc_bong:
-    - text: "- SV hoàn thành tất cả các học phần đã đăng ký trông năm học (gồm cả 3 học kỳ trong năm học);\n
+    - text: "- SV hoàn thành tất cả các học phần đã đăng ký trong năm học (gồm cả 3 học kỳ trong năm học);\n
              - Điểm trung bình chung của năm học đặt từ 2.5 trở lên theo thang điểm 4;\n
              - SV tổng số tính chỉ tích lũy từ 30 tín chỉ trở lên trong năm học, riêng với sinh viên năm cuối tích lũy 20 tín chỉ trở lên trong năm học;\n
              - SV không có điểm thi kêt thúc môn học và và điểm trung bình của kết thúc học phần dưới 5 điểm trong năm \n
              - Kết quả rèn luyện từ loại khá trở lên"
+
+  
+  utter_chnn_duochoc:
+    text: "Cơ hội nghề nghiệp:\n
+          • Cán bộ quản lý, phụ trách kỹ thuật tại các cơ sở sản xuất dược phẩm: Phòng Nghiên cứu phát triển thuốc (R&D), đảm bảo chất lượng thuốc (QA), kiểm soát chất lượng thuốc (QC), sản xuất thuốc, thủ kho tại xí nghiệp sản xuất Dược phẩm.\n
+          • Quản lý chuyên môn và tư vấn, hướng dẫn sử dụng thuốc tại các cơ sở khám chữa bệnh, hệ thống bán lẻ, cơ sở kinh doanh và nhập khẩu thuốc.\n
+          • Cán bộ nghiên cứu - giảng dạy tại các viện, trung tâm, các trường đào tạo Dược và lĩnh vực có liên quan.\n
+          • Cán bộ kiểm nghiệm thuốc, mỹ phẩm và thực phẩm chức năng tại các cơ sở, trung tâm kiểm nghiệm và viện kiểm nghiệm.\n
+          • Làm việc tại cơ quan quản lý Nhà nước về Dược, Phòng Y tế, Sở Y tế, Bộ Y tế, ..."
+
+  utter_chnn_ktxnykhoa:
+    text: "Cơ hội nghề nghiệp: 
+          • Đủ khả năng làm việc tại các bệnh viện từ tuyến cơ sở đến Trung ương, Viện nghiên cứu, Trung tâm y tế, Công ti, Xí nghiệp.\n
+          • Tham gia giảng dạy tại các cơ sở đào tạo cán bộ y tế hay tại khoa Kỹ thuật xét nghiệp y học của các trường Đại học."
+
+  utter_chnn_ykhoa:
+    text: "Cơ hội nghề nghiệp:\n 
+          • Sinh viên sau khi tốt nghiệp có đủ trình độ và kỹ năng làm việc tại các bệnh viện, cơ sở y tế nhà nước, tư nhân,...\n
+          • Mở phòng khám đa khoa riêng.\n
+          • Giảng dạy, nghiên cứu tại các trường đại học, cao đẳng có đào tạo ngành y đa khoa.\n
+          • Chuyên viên nghiên cứu tại các lĩnh vực thuộc khoa học sức khỏe, y dược, y sinh, công nghệ y dược,..."
+
+  utter_chnn_yhduphong:
+    text: "Cơ hội nghề nghiệp:\n
+          • Làm việc tại các cơ sở y tế, Cục Y học dự phòng, trung tâm y tế dự phòng từ trung ương đến địa phương.\n
+          • Làm việc tại các phòng tiêm chủng vaccine, phòng chống bệnh dịch, tham gia vào công tác truyền thông giáo dục sức khỏe tại các trường học, bệnh viện, cơ quan nhà nước.\n
+          • Giảng dạy tại các trường đại học, cao đẳng, trung cấp,... có các ngành về y tế."
+
+  utter_chnn_dduong:
+    text: "Cơ hội nghề nghiệp:\n
+          • Làm việc tại các bệnh viện, trung tâm y tế, phòng khám, cơ sở chăm sóc sức khỏe từ trung ương đến địa phương, cơ sở khám chữa bệnh của nhà nước và tư nhân, y tế cơ quan, học đường.\n
+          • Giảng dạy, nghiên cứu tại các đơn vị y tế, giáo dục về khoa học sức khỏe và điều dưỡng.\n
+          • Tham gia vào công tác quản lý chăm sóc và xây dựng chính sách liên quan đến việc điều dưỡng chăm sóc người bệnh.\n
+          • Có cơ hội tham gia vào thị trường chăm sóc sức khỏe tại Đức, Nhật Bản, Đài Loan,..."
+
+  utter_chnn_tnhac:
+    text: "Cơ hội nghề nghiệp:\n
+          • Sinh viên tốt nghiệp ngành Thanh nhạc có thể cộng tác tại các nhà hát, các đoàn nghệ thuật chuyên nghiệp hay hoạt động như một ca sỹ tự do.\n
+          • Tham gia biểu diễn tại các đơn vị tổ chức nghệ thuật trên cả nước.\n
+          • Tham gia giảng dạy tại các cơ sở giáo dục âm nhạc, dàn dựng các chương trình ca múa nghệ thuật chuyên nghiệp."
+
+  utter_chnn_piano:
+    text: "Cơ hội nghề nghiệp:\n
+          • Sinh viên tố nghiệp ngành Piano có thể biểu diễn tại các nhà hát, các đoàn nghệ thuật với vai trò nghệ sĩ độc tấu hoặc hòa tấu với các nhạc cụ khác.\n
+          • Nghệ sĩ biểu diễn độc lập hoặc trong các nhà hát, các cơ sở hoạt động nghệ thuật, âm nhạc.\n
+          • Tư vấn và tổ chức dàn dựng các chương trình âm nhạc.\n
+          • Tham gia giảng dạy tại các cơ sở giáo dục âm nhạc trên cả nước."
+
+  utter_chnn_dvien:
+    text: "Cơ hội nghề nghiệp:\n
+          • Nghề diễn xuất có thể hoạt động tự do hoặc gắn với các hãng phim, các đài truyền hình, các sân khấu kịch, câu lạc bộ, nhà văn hóa, các tổ chức nghệ thuật,...\n
+          • Do được đài tạo đặc biệt về hình thể cũng như giọng nói, phát âm, sinh viên tốt nghiệp còn có thể dễ dàng đảm nhiệm vai trò dẫn chương trình, đồng thời có thể lồng tiếng cho các tác phẩm điện ảnh, truyền hình.\n
+          • Làm trợ lý đạo diễn, tuyển chọn diễn viên cho các bộ phim.\n
+          • Tham gia công tác giảng dạy chuyên ngành ở các trường đào tạo nghệ thuật trong cả nước, giáo viên giảng dạy tại các trung tâm văn hóa, nghệ thuật."
+
+  utter_chnn_ddien:
+    text: "Cơ hội nghề nghiệp:\n
+          • Làm việc tại các hãng phim, đài truyền hình, công ty quảng cáo thương mại hoặc các cơ quan, doanh nghiệp có hoạt động nghe nhìn.\n
+          • Giảng dạy hoặc hướng dẫn thực tập tại các trường hoặc cơ sở đào tạo nghề liên quan.\n
+          • Làm công tác nghiên cứu tại các viện, cơ quan về văn hóa nghệ thuật.\n
+          • Làm việc độc lập, khởi nghiệp bằng công ty riêng, sản xuất các loại phim hoặc cung cấp dịch vụ liên quan đến phim ảnh, công nghệ nghe nhìn, truyền thông đa phương tiện, quảng cáo,..."
+
+  utter_chnn_qphim:
+    text: "Cơ hội nghề nghiệp:\n
+          • Đảm nhận công việc quay phim tại các hãng phim, đài truyền hình, công ty nhà nước hoặc tư nhân có nhu cầu ghi hình, quảng cáo.\n
+          • Giảng dạy tại các trường đại học, trường dạy nghề và các cơ sở đào tạo khác.\n
+          • Có thể trở thành một nhà quay phim tự do, làm việc độc lập, khởi nghiệp về lĩnh vực quảng cáo - truyền thông hoặc đi quay theo các đơn đặt hàng."
+
+  utter_chnn_tkdhoa:
+    text: "Cơ hội nghề nghiệp:\n
+          • Chuyên gia thiết kế tại các công ty truyền thông, quảng cáo, nhà xuất bản, tạp chí,... các tổ chưc doanh nghiệp chuyên về thiết kế đồ họa.\n
+          • Làm việc với các vị trí thiết kế hoặc quản lý thiết kế tại các công ty trong và ngoài nước.\n
+          • Khả năng học tập nâng cao trình độ thạc sĩ, tiến sĩ sau khi ra trường hoặc tham gia giảng dạy ở các trường đại học, các cơ quan nghiên cứu, đào tạo chuyên ngành thiết kế đồ họa."
+
+  utter_chnn_vhvn:
+    text: "Cơ hội nghề nghiệp:\n
+          • Làm việc tại các cơ quan, tổ chức thuộc lĩnh vực văn hóa - xã hội như: sở văn hóa - thể thao và du lịch, thư viện, báo chí, đài phát thanh, truyền hình, viện bảo tàng, văn phòng các cơ quan, đoàn thể thuộc khối hành chính sự nghiệp; các cơ quan quản lí giáo dục như: sở/phòng Giáo dục và Đào tạo.\n
+          • Giảng dạy/Nghiên cứu ngôn ngữ/văn hóa Việt Nam ở các viện văn học, ngôn ngữ, văn hóa, trung tâm nghiên cứu khoa học xã hội và nhân văn trung ương và địa phương.\n
+          • Làm việc tại cơ quan ngoại giao các tổ chức quốc tế, các cơ quan hợp tác kinh tế, văn hóa của Việt Nam ở nước ngoài."
+
+  utter_chnn_nnanh:
+    text: "Cơ hội nghề nghiệp:\n
+          • Biên - phiên dịch viên tại các cơ quan ngoại giao, tổ chức phi chính phủ.\n
+          • Chuyên viên truyền thông tổ chức sự kiện.\n
+          • Nhân viên văn phòng, trợ lý, thư kí tại các công ty liên doanh, các công ti nước ngoài.\n
+          • Cán bộ phụ trách đối ngoại, hợp tác, kinh doanh tại các công ti liên doanh quốc tế.\n
+          • Hướng dẫn viên du lịch, lễ tân nhà hàng, khách sạn.\n
+          • Giảng viên, nghiên cứu viên tại các cơ sở đào tạo, viện nghiên cứu ngôn ngữ Anh."
+
+  utter_chnn_nntq:
+    text: "Cơ hội nghề nghiệp:\n
+          • Biên - Phiên dịch viên.\n
+          • Phóng viên, Biên tập tại các cơ quan thông tấn báo chí.\n
+          • Nhân viên, chuyên viên hành chính, Thư kí văn phòng tại các doanh nghiệp nước ngoài.\n
+          • Trợ lý, Thư ký tại các tập đoàn đa quốc gia.\n
+          • Hướng dẫn viên du lịch.\n
+          • Giảng viên, nghiên cứu viên tại các cơ sở đào tạo, viện nghiên cứu Ngôn ngữ - Văn hóa Trung Quốc."
+
+  utter_chnn_qhqte:
+    text: "Cơ hội nghề nghiệp:\n
+          • Cử nhân ngành Quan hệ Quốc tế có thể đảm đương congp tác đối ngoại và hợp tác quốc tế tại các cơ quan, công ti, tổ chức xã hội, tổ chức phi chính phủ, các tập đoàn đa quốc gia, công ti liên doanh, doanh nghiệp hoặc làm việc trong các ngành ngoại giao, giáo dục, du lịch, truyền thông.\n
+          • Có năng lực tự học, tự nghiên cứu và tham gia học tập ở bậc cao hơn tại Việt Nam và nước ngoài."
+
+  utter_chnn_tlhoc:
+    text: "Cơ hội nghề nghiệp:\n
+          • Chuyên viên trị liệu tâm lý tại các trung tâm, bệnh viện.\n
+          • Nghiên cứu khoa học tâm lý tại các viện, trung tâm, cơ quan điều tra tâm lý tội phạm.\n
+          • Chuyên gia tư vấn trên các kênh truyền thông, trung tâm phát thanh, đài truyền hình.\n
+          • Quản lý nhân sự, hỗ trợ tuyển dụng nhân sự.\n
+          • Giảng dạy, nghiên cứu chuyên sâu ở các trường cao đẳng, đại học.\n
+          • Mở các trung tâm tư vấn, trị liệu tâm lý."
+
+  utter_chnn_dphoc:
+    text: "Cơ hội nghề nghiệp:\n
+          • Biên - Phiên dịch viên tại các cơ quan ngoại giao, tôt chức phi chính phủ.\n
+          • Phóng viên, Biên tập tại các cơ quan thông tấn báo chí.\n
+          • Nhân viên văn phòng, trợ lý, thư kí tại các công ty liên doanh, các công ty nước ngoài.\n
+          • Cán bộ phụ trách đối ngoại, hợp tác, kinh doanh tại các công ty liên doanh quốc tế.\n
+          • Hướng dẫn viên du lịch, lễ tân Nhà hàng, khách sạn.\n
+          • Giảng viên, nghiên cứu viên tại các cơ sở đào tạo, viện nghiên cứu về ngôn ngữ Hàn Quốc hoặc Nhật Bản."
+
+  utter_chnn_vnhoc:
+    text: "Cơ hội nghề nghiệp:\n
+          • Hướng dẫn viên du lịch, chuyên viên viện bảo tàng.\n
+          • Tư vấn về Việt Nam học cho các công ty, tập đoàn quốc tế tại Việt Nam.\n
+          • Nghiên cứu, quảng bá văn hóa tại các cơ quan văn hóa thông tin từ Trung ương đến địa phương.\n
+          • Chuyên viên, biên tập viên tại các tờ báo, tạp chí, các cơ quan truyền thông và xuất bản.\n
+          • Giảng dạy về ngành Việt Nam học cho sinh viên bậc cao đẳng hoặc cho người nước ngoài."
+
+  utter_chnn_ttdaphuongtien:
+    text: "Cơ hội nghề nghiệp:\n
+          • Xây dựng các nội dung đa phương tiện (hình ảnh, âm thanh, video) phục vụ trong các lĩnh vực truyền thông, giải trí, truyền hình, điện ảnh, báo chí, internet, quảng cáo.\n
+          • Làm trong các lĩnh vực quảng cáo, chuyên viên chăm sóc khách hàng.\n
+          • Chuyên viên quản trị web, chuyên viên quản lý sự kiện, chuyên viên mạng xã hội, chuyên viên quan hệ công chúng.\n
+          • Giảng dạy các môn học thuộc ngành truyền thông đa phương tiện ở các cơ sở đào tạo."
+
+  utter_chnn_qhcongchung:
+    text: "Cơ hội nghề nghiệp:\n
+          • Chuyên viên PR: phụ trách quan hệ báo chí, quan hệ cộng đồng, tổ chức sự kiện, tổ chức truyền thông nội bộ tại các cơ quan, doanh nghiệp nhà nước và tư nhân, các tổ chức kinh tế, quốc tế và các tổ chức xã hội, phi chính phủ.\n
+          • Phóng viên, biên tập viên tại các cơ quan báo, tạp chí, hãng thông tấn, đài phát thanh, đài truyền hình và các kênh truyền thông.\n
+          • Chuyên viên phân tích và tư vấn quan hệ công chúng tại các công ty, tổ chức tư vấn quản trị truyền thông doanh nghiệp, các Bộ và Sở, Ban, Ngành liên quan đến truyền thông.\n
+          • Nghiên cứu và giảng dạy về PR trong các cơ sở giáo dục đại học, cao đẳng."
+
+  utter_chnn_qtkdoanh:
+    text: "Cơ hội nghề nghiệp:\n
+          • Công tác quản lý tại các doang nghiệp có vốn đầu tư nước ngoài, các tập đoàn, công ty đa quốc gia.\n
+          • Chuyên gia trong lĩnh vực kinh doanh, bán hàng, marketing, chứng khoán, nghiên cứu thị trường, quản lý sản xuất, quản trị chất lượng, xuất nhập khẩu.\n
+          • Chuyên viên kế hoạch đầu tư, dự án, nhân sự, hành chính.\n
+          • Khởi nghiệp, phát triển và quản lý công ty.\n
+          • Giảng dạy tại các trường đại học, cao đẳng."
+
+  utter_chnn_marketing:
+    text: "Cơ hội nghề nghiệp:\n
+          • Làm việc trong các loại hình doanh nghiệp khác nhau như các công ty liên doanh, tập đoàn đa quốc gia, các công ty quảng cáo, công ty truyền thông.\n
+          • Chuyên gia trong phát triển và quản trị thương hiệu.\n
+          • Chuyên viên phân tích chiến dịch marketing.\n
+          • Làm việc tại các công ty hoạt động trong lĩnh vực quảng cáo, marketing, chuyên viên nghiên cứu và khảo sát thị trường, chuyên viên chăm sóc khách hàng."
+
+  utter_chnn_kdqte:
+    text: "Cơ hội nghề nghiệp:\n
+          • Chuyên viên nghiên cứu thị trường, chuyên viên kinh doanh, chuyên viên phân phối, quản lý thương mại quốc tế.\n
+          • Chuyên viên xuất nhập khẩu, marketing, tư vấn kinh doanh quốc tế, giao dịch viên quốc tế.\n
+          • Chuyên viên nghiên cứu, hoạch định chính sách tại các cơ quan quản lý nhà nước.\n
+          • Giảng viên, nghiên cứu viên tại các cơ sở đào tạo, viện nghiên cứu về lĩnh vực kinh doanh."
+
+  utter_chnn_tcnganhang:
+    text: "Cơ hội nghề nghiệp:\n
+          • Chuyên viên phụ trách phân tích tài chính, kinh doanh tiền tệ,... tại các ngân hàng thương mại, tổ chức tín dụng, công ty tài chính đa quốc gia, công ty chứng khoán, công ty bảo hiểm.\n
+          • Làm việc tại các cơ quan nhà nước như thuế, hải quan. Chuyên viên chăm sóc khách hàng tại các ngân hàng, công ty.\n
+          • Có năng lực công tác trong các tổ chức doanh nghiệp và ngân hàng ở các vị trí: giám đốc tài chính, giám đốc điều hành, tổng giám đốc,..."
+
+  utter_chnn_ktoan:
+    text: "Cơ hội nghề nghiệp:\n
+          • Đảm nhận tốt các vị trí như kế toán viên, kế toán tổng hợp, kế toán thuế, kế toán trưởng, kiểm toán tại các doanh nghiệp trong và ngoài nước.\n
+          • Làm việc tại các công ty kiểm toán, tổ chức tài chính - tín dụng, ngân hàng, cơ quan, tổ chức, doanh nghiệp trong và ngoài nước.\n
+          • Có năng lực công tác ở các vị trí như kế toán trưởng, trưởng phòng kế toán, giám đốc điều hành, tổng giám đốc,...\n
+          • Có khả năng giảng dạy, nghiên cứu khoa học chuyên môn tại các trường và các cơ quan nghiên cứu khoa học, viện nghiên cứu."
+
+
+
+
+
+
+
+
+
+
 
 session_config:
   session_expiration_time: 60
