@@ -1,7 +1,6 @@
 version: "3.1"
 
 stories:
-
   - story: story_1
     steps:
       - intent: chao_hoi
@@ -27,9 +26,8 @@ stories:
       - intent: chao_hoi
       - action: utter_chao_hoi
       - intent: gioi_thieu
-      - action: utter_gioi_thieu  
+      - action: utter_gioi_thieu
 
- 
   - story: duoc hoc
     steps:
       - intent: chao_hoi
@@ -37,7 +35,7 @@ stories:
       - intent: gt_duochoc
       - action: utter_gt_duochoc
       - intent: hp_duoc
-      - action: utter_hp_duoc   
+      - action: utter_hp_duoc
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
@@ -50,7 +48,7 @@ stories:
       - intent: gt_xny
       - action: utter_gt_xny
       - intent: hp_xnyh
-      - action: utter_hp_xnyh   
+      - action: utter_hp_xnyh
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
@@ -63,12 +61,11 @@ stories:
       - intent: hp_qlbv
       - action: utter_hp_qlbv
       - intent: hp_qlbv
-      - action: utter_hp_qlbv   
+      - action: utter_hp_qlbv
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
 
   - story: thanh nhac
     steps:
@@ -77,12 +74,11 @@ stories:
       - intent: gt_tnhac
       - action: utter_gt_tnhac
       - intent: hp_tnhac
-      - action: utter_hp_tnhac   
+      - action: utter_hp_tnhac
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
 
   - story: piano
     steps:
@@ -91,12 +87,11 @@ stories:
       - intent: gt_piano
       - action: utter_gt_piano
       - intent: hp_piano
-      - action: utter_hp_piano   
+      - action: utter_hp_piano
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
 
   - story: dao dien
     steps:
@@ -105,12 +100,11 @@ stories:
       - intent: gt_ddien
       - action: utter_gt_ddien
       - intent: hp_ddien
-      - action: utter_hp_ddien   
+      - action: utter_hp_ddien
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
 
   - story: quay phim
     steps:
@@ -119,12 +113,11 @@ stories:
       - intent: hp_qphim
       - action: utter_gt_qphim
       - intent: hp_qphim
-      - action: utter_hp_qphim   
+      - action: utter_hp_qphim
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
 
   - story: thiet ke do hoa
     steps:
@@ -133,13 +126,11 @@ stories:
       - intent: gt_tkdh
       - action: utter_gt_tkdh
       - intent: hp_tkdh
-      - action: utter_hp_tkdh   
+      - action: utter_hp_tkdh
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
-
 
   - story: ngon ngu anh
     steps:
@@ -154,7 +145,6 @@ stories:
       - intent: tam_biet
       - action: utter_tam_biet
 
-
   - story: ngon ngu trung quoc
     steps:
       - intent: chao_hoi
@@ -167,8 +157,6 @@ stories:
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
-
 
   - story: quan he quoc te
     steps:
@@ -183,8 +171,6 @@ stories:
       - intent: tam_biet
       - action: utter_tam_biet
 
-
-
   - story: tam li hoc
     steps:
       - intent: chao_hoi
@@ -192,13 +178,11 @@ stories:
       - intent: gt_tlhoc
       - action: utter_gt_tlhoc
       - intent: hp_tlh
-      - action: utter_hp_tlh   
+      - action: utter_hp_tlh
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
-
 
   - story: dong phuong hoc
     steps:
@@ -207,13 +191,11 @@ stories:
       - intent: gt_dphoc
       - action: utter_gt_dphoc
       - intent: hp_dph
-      - action: utter_hp_dph   
+      - action: utter_hp_dph
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
-
 
   - story: viet nam hoc
     steps:
@@ -222,13 +204,11 @@ stories:
       - intent: gt_vnhoc
       - action: utter_gt_vnhoc
       - intent: hp_vnh
-      - action: utter_hp_tkdh   
+      - action: utter_hp_tkdh
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
-
 
   - story: truyen thong da phuong tien
     steps:
@@ -237,12 +217,11 @@ stories:
       - intent: gt_ttdaphuongtien
       - action: utter_gt_ttdaphuongtien
       - intent: hp_dpt
-      - action: utter_hp_dpt   
+      - action: utter_hp_dpt
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
 
   - story: quan he cong chung
     steps:
@@ -251,7 +230,7 @@ stories:
       - intent: gt_qhcongchung
       - action: utter_gt_qhcongchung
       - intent: hp_qhcc
-      - action: utter_hp_qhcc   
+      - action: utter_hp_qhcc
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
@@ -264,7 +243,7 @@ stories:
       - intent: gt_qtkdoanh
       - action: utter_gt_qtkdoanh
       - intent: hp_qtkd
-      - action: utter_hp_qtkd   
+      - action: utter_hp_qtkd
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
@@ -277,7 +256,7 @@ stories:
       - intent: gt_marketing
       - action: utter_gt_marketing
       - intent: hp_mar
-      - action: utter_hp_mar   
+      - action: utter_hp_mar
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
@@ -290,7 +269,7 @@ stories:
       - intent: gt_kdqte
       - action: utter_gt_kdqte
       - intent: hp_kdqt
-      - action: utter_hp_kdqt   
+      - action: utter_hp_kdqt
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
@@ -303,7 +282,7 @@ stories:
       - intent: gt_tmdientu
       - action: utter_gt_tmdientu
       - intent: hp_tmdt
-      - action: utter_hp_tmdt   
+      - action: utter_hp_tmdt
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
@@ -316,7 +295,7 @@ stories:
       - intent: gt_tcnganhang
       - action: utter_gt_tcnganhang
       - intent: hp_tcnh
-      - action: utter_hp_tcnh   
+      - action: utter_hp_tcnh
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
@@ -329,7 +308,7 @@ stories:
       - intent: gt_ktoan
       - action: utter_gt_ktoan
       - intent: hp_ktoan
-      - action: utter_hp_ktoan   
+      - action: utter_hp_ktoan
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
@@ -355,7 +334,7 @@ stories:
       - intent: gt_cnshoc
       - action: utter_gt_cnshoc
       - intent: hp_cnsh
-      - action: utter_hp_cnsh   
+      - action: utter_hp_cnsh
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
@@ -368,7 +347,7 @@ stories:
       - intent: gt_mmt_ttdulieu
       - action: utter_gt_mmt_ttdulieu
       - intent: hp_mmt
-      - action: utter_hp_mmt   
+      - action: utter_hp_mmt
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
@@ -381,12 +360,11 @@ stories:
       - intent: gt_ktphanmem
       - action: utter_gt_ktphanmem
       - intent: hp_ktpm
-      - action: utter_hp_ktpm   
+      - action: utter_hp_ktpm
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
 
   - story: cong nghe oto
     steps:
@@ -395,20 +373,19 @@ stories:
       - intent: gt_cnktoto
       - action: utter_gt_cnktoto
       - intent: hp_oto
-      - action: utter_hp_oto   
+      - action: utter_hp_oto
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
 
-# thieu hoc phi con nghe ky thuat dien tu
+  # thieu hoc phi con nghe ky thuat dien tu
   - story: cong nghe ky thuat dien tu
     steps:
       - intent: chao_hoi
       - action: utter_chao_hoi
       - intent: gt_cnktdien_dientu
       - action: utter_gt_cnktcdientu
-
 
   - story: cong nghe ky thuat hoa hoc
     steps:
@@ -417,13 +394,11 @@ stories:
       - intent: gt_cnkthhoc
       - action: utter_gt_cnkthhoc
       - intent: hp_kthh
-      - action: utter_hp_kthh   
+      - action: utter_hp_kthh
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
-
 
   - story: logis
     steps:
@@ -432,15 +407,12 @@ stories:
       - intent: gt_logistic
       - action: utter_gt_logistic
       - intent: hp_log
-      - action: utter_hp_log   
+      - action: utter_hp_log
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
 
-
-
- 
   - story: he thong cong nghiep
     steps:
       - intent: chao_hoi
@@ -448,13 +420,11 @@ stories:
       - intent: gt_kthtcnghiep
       - action: utter_gt_kthtcnghiep
       - intent: hp_htcn
-      - action: utter_hp_htcn   
+      - action: utter_hp_htcn
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
-
 
   - story: ky thuat y sinh
     steps:
@@ -469,8 +439,7 @@ stories:
       - intent: tam_biet
       - action: utter_tam_biet
 
-
-# khong co utter hoc phi
+  # khong co utter hoc phi
   - story: vat ly y khoa
     steps:
       - intent: chao_hoi
@@ -479,9 +448,6 @@ stories:
       - action: utter_gt_vlykhoa
       - intent: hp_vlyk
 
-
-
-
   - story: cong nghe thuc pham
     steps:
       - intent: chao_hoi
@@ -489,13 +455,11 @@ stories:
       - intent: gt_cntpham
       - action: utter_gt_cntpham
       - intent: hp_cntp
-      - action: utter_hp_cntp   
+      - action: utter_hp_cntp
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
-
 
   - story: kien truc
     steps:
@@ -504,13 +468,11 @@ stories:
       - intent: gt_ktruc
       - action: utter_gt_ktruc
       - intent: hp_ktruc
-      - action: utter_hp_ktruc   
+      - action: utter_hp_ktruc
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
-
 
   - story: thiet ke noi that
     steps:
@@ -525,8 +487,6 @@ stories:
       - intent: tam_biet
       - action: utter_tam_biet
 
-
-
   - story: kien truc xay dung
     steps:
       - intent: chao_hoi
@@ -540,8 +500,6 @@ stories:
       - intent: tam_biet
       - action: utter_tam_biet
 
-
-
   - story: du lich
     steps:
       - intent: chao_hoi
@@ -549,12 +507,11 @@ stories:
       - intent: gt_dlich
       - action: utter_gt_dlich
       - intent: hp_dlich
-      - action: utter_hp_dlich   
+      - action: utter_hp_dlich
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
 
   - story: quan tri khach san
     steps:
@@ -576,7 +533,7 @@ stories:
       - intent: gt_qtnhang
       - action: utter_gt_qtnhang
       - intent: hp_qtnhhang
-      - action: utter_hp_qtnhhang   
+      - action: utter_hp_qtnhhang
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
@@ -595,14 +552,11 @@ stories:
       - intent: tam_biet
       - action: utter_tam_biet
 
-
-
-# thieu gt giao duc mam non
+  # thieu gt giao duc mam non
   - story: giao duc mam non
     steps:
       - intent: chao_hoi
       - action: utter_chao_hoi
-
 
   - story: xet nghiem y
     steps:
@@ -624,7 +578,7 @@ stories:
       - intent: gt_ykhoa
       - action: utter_gt_ykhoa
       - intent: hp_y
-      - action: utter_hp_y   
+      - action: utter_hp_y
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
@@ -656,8 +610,7 @@ stories:
       - intent: tam_biet
       - action: utter_tam_biet
 
-
-#thieu gioi thieu
+  #thieu gioi thieu
   - story: giao duc mam non
     steps:
       - intent: chao_hoi
@@ -685,8 +638,8 @@ stories:
       - intent: hoc phi
       - action: utter_hoc_phi
       - intent: tam_biet
-      - action: utter_tam_biet      
-      
+      - action: utter_tam_biet
+
   - story: phuong thuc tuyen sinh
     steps:
       - intent: chao_hoi
@@ -708,8 +661,8 @@ stories:
       - intent: hoc phi
       - action: utter_hoc_phi
       - intent: tam_biet
-      - action: utter_tam_biet      
-      
+      - action: utter_tam_biet
+
   - story: phuong thuc tuyen sinh_1
     steps:
       - intent: phuong_thuc_tuyen_sinh
@@ -717,16 +670,12 @@ stories:
       - intent: tam_biet
       - action: utter_tam_biet
 
-
-
-
-
   - story: duoc hoc_1
     steps:
       - intent: gt_duochoc
       - action: utter_gt_duochoc
       - intent: hp_duoc
-      - action: utter_hp_duoc   
+      - action: utter_hp_duoc
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
@@ -737,7 +686,7 @@ stories:
       - intent: gt_xny
       - action: utter_gt_xny
       - intent: hp_xnyh
-      - action: utter_hp_xnyh   
+      - action: utter_hp_xnyh
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
@@ -748,73 +697,66 @@ stories:
       - intent: hp_qlbv
       - action: utter_hp_qlbv
       - intent: hp_qlbv
-      - action: utter_hp_qlbv   
+      - action: utter_hp_qlbv
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
 
   - story: thanh nhac_1
     steps:
       - intent: gt_tnhac
       - action: utter_gt_tnhac
       - intent: hp_tnhac
-      - action: utter_hp_tnhac   
+      - action: utter_hp_tnhac
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
 
   - story: piano_1
     steps:
       - intent: gt_piano
       - action: utter_gt_piano
       - intent: hp_piano
-      - action: utter_hp_piano   
+      - action: utter_hp_piano
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
 
   - story: dao dien_1
     steps:
       - intent: gt_ddien
       - action: utter_gt_ddien
       - intent: hp_ddien
-      - action: utter_hp_ddien   
+      - action: utter_hp_ddien
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
 
   - story: quay phim_1
     steps:
       - intent: hp_qphim
       - action: utter_gt_qphim
       - intent: hp_qphim
-      - action: utter_hp_qphim   
+      - action: utter_hp_qphim
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
 
   - story: thiet ke do hoa_1
     steps:
       - intent: gt_tkdh
       - action: utter_gt_tkdh
       - intent: hp_tkdh
-      - action: utter_hp_tkdh   
+      - action: utter_hp_tkdh
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
-
 
   - story: ngon ngu anh_1
     steps:
@@ -827,7 +769,6 @@ stories:
       - intent: tam_biet
       - action: utter_tam_biet
 
-
   - story: ngon ngu trung quoc_1
     steps:
       - intent: gt_nntq
@@ -838,8 +779,6 @@ stories:
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
-
 
   - story: quan he quoc te_1
     steps:
@@ -852,65 +791,56 @@ stories:
       - intent: tam_biet
       - action: utter_tam_biet
 
-
-
   - story: tam li hoc_1
     steps:
       - intent: gt_tlhoc
       - action: utter_gt_tlhoc
       - intent: hp_tlh
-      - action: utter_hp_tlh   
+      - action: utter_hp_tlh
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
-
 
   - story: dong phuong hoc_1
     steps:
       - intent: gt_dphoc
       - action: utter_gt_dphoc
       - intent: hp_dph
-      - action: utter_hp_dph   
+      - action: utter_hp_dph
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
-
 
   - story: viet nam hoc_1
     steps:
       - intent: gt_vnhoc
       - action: utter_gt_vnhoc
       - intent: hp_vnh
-      - action: utter_hp_tkdh   
+      - action: utter_hp_tkdh
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
-
 
   - story: truyen thong da phuong tien_1
     steps:
       - intent: gt_ttdaphuongtien
       - action: utter_gt_ttdaphuongtien
       - intent: hp_dpt
-      - action: utter_hp_dpt   
+      - action: utter_hp_dpt
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
 
   - story: quan he cong chung_1
     steps:
       - intent: gt_qhcongchung
       - action: utter_gt_qhcongchung
       - intent: hp_qhcc
-      - action: utter_hp_qhcc   
+      - action: utter_hp_qhcc
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
@@ -921,7 +851,7 @@ stories:
       - intent: gt_qtkdoanh
       - action: utter_gt_qtkdoanh
       - intent: hp_qtkd
-      - action: utter_hp_qtkd   
+      - action: utter_hp_qtkd
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
@@ -932,7 +862,7 @@ stories:
       - intent: gt_marketing
       - action: utter_gt_marketing
       - intent: hp_mar
-      - action: utter_hp_mar   
+      - action: utter_hp_mar
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
@@ -943,7 +873,7 @@ stories:
       - intent: gt_kdqte
       - action: utter_gt_kdqte
       - intent: hp_kdqt
-      - action: utter_hp_kdqt   
+      - action: utter_hp_kdqt
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
@@ -954,7 +884,7 @@ stories:
       - intent: gt_tmdientu
       - action: utter_gt_tmdientu
       - intent: hp_tmdt
-      - action: utter_hp_tmdt   
+      - action: utter_hp_tmdt
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
@@ -965,7 +895,7 @@ stories:
       - intent: gt_tcnganhang
       - action: utter_gt_tcnganhang
       - intent: hp_tcnh
-      - action: utter_hp_tcnh   
+      - action: utter_hp_tcnh
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
@@ -976,7 +906,7 @@ stories:
       - intent: gt_ktoan
       - action: utter_gt_ktoan
       - intent: hp_ktoan
-      - action: utter_hp_ktoan   
+      - action: utter_hp_ktoan
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
@@ -998,7 +928,7 @@ stories:
       - intent: gt_cnshoc
       - action: utter_gt_cnshoc
       - intent: hp_cnsh
-      - action: utter_hp_cnsh   
+      - action: utter_hp_cnsh
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
@@ -1009,7 +939,7 @@ stories:
       - intent: gt_mmt_ttdulieu
       - action: utter_gt_mmt_ttdulieu
       - intent: hp_mmt
-      - action: utter_hp_mmt   
+      - action: utter_hp_mmt
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
@@ -1020,25 +950,24 @@ stories:
       - intent: gt_ktphanmem
       - action: utter_gt_ktphanmem
       - intent: hp_ktpm
-      - action: utter_hp_ktpm   
+      - action: utter_hp_ktpm
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
 
   - story: cong nghe oto_1
     steps:
       - intent: gt_cnktoto
       - action: utter_gt_cnktoto
       - intent: hp_oto
-      - action: utter_hp_oto   
+      - action: utter_hp_oto
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
 
-# thieu hoc phi con nghe ky thuat dien tu
+  # thieu hoc phi con nghe ky thuat dien tu
   - story: cong nghe ky thuat dien tu_1
     steps:
       - intent: gt_cnktdien_dientu
@@ -1053,40 +982,33 @@ stories:
       - intent: gt_cnkthhoc
       - action: utter_gt_cnkthhoc
       - intent: hp_kthh
-      - action: utter_hp_kthh   
+      - action: utter_hp_kthh
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
-
 
   - story: logis_1
     steps:
       - intent: gt_logistic
       - action: utter_gt_logistic
       - intent: hp_log
-      - action: utter_hp_log   
+      - action: utter_hp_log
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
 
-
-
- 
   - story: he thong cong nghiep_1
     steps:
       - intent: gt_kthtcnghiep
       - action: utter_gt_kthtcnghiep
       - intent: hp_htcn
-      - action: utter_hp_htcn   
+      - action: utter_hp_htcn
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
-
 
   - story: ky thua y sinh_1
     steps:
@@ -1099,8 +1021,7 @@ stories:
       - intent: tam_biet
       - action: utter_tam_biet
 
-
-# khong co utter hoc phi
+  # khong co utter hoc phi
   - story: vat ly y khoa_1
     steps:
       - intent: gt_vlykhoa
@@ -1111,34 +1032,27 @@ stories:
       - intent: tam_biet
       - action: utter_tam_biet
 
-
-
-
   - story: cong nghe thuc pham_1
     steps:
       - intent: gt_cntpham
       - action: utter_gt_cntpham
       - intent: hp_cntp
-      - action: utter_hp_cntp   
+      - action: utter_hp_cntp
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
-
 
   - story: kien truc_1
     steps:
       - intent: gt_ktruc
       - action: utter_gt_ktruc
       - intent: hp_ktruc
-      - action: utter_hp_ktruc   
+      - action: utter_hp_ktruc
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
-
 
   - story: thiet ke noi that_1
     steps:
@@ -1151,8 +1065,6 @@ stories:
       - intent: tam_biet
       - action: utter_tam_biet
 
-
-
   - story: kien truc xay dung_1
     steps:
       - intent: gt_ktxdung
@@ -1164,19 +1076,16 @@ stories:
       - intent: tam_biet
       - action: utter_tam_biet
 
-
-
   - story: du lich_1
     steps:
       - intent: gt_dlich
       - action: utter_gt_dlich
       - intent: hp_dlich
-      - action: utter_hp_dlich   
+      - action: utter_hp_dlich
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
 
   - story: quan tri khach san_1
     steps:
@@ -1194,7 +1103,7 @@ stories:
       - intent: gt_qtnhang
       - action: utter_gt_qtnhang
       - intent: hp_qtnhhang
-      - action: utter_hp_qtnhhang   
+      - action: utter_hp_qtnhhang
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
@@ -1211,9 +1120,7 @@ stories:
       - intent: tam_biet
       - action: utter_tam_biet
 
-
-
-# thieu gt giao duc mam non
+  # thieu gt giao duc mam non
   - story: giao duc mam non_1
     steps:
       - intent: hp_gdmn
@@ -1222,7 +1129,6 @@ stories:
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-
 
   - story: xet nghiem y_1
     steps:
@@ -1240,7 +1146,7 @@ stories:
       - intent: gt_ykhoa
       - action: utter_gt_ykhoa
       - intent: hp_y
-      - action: utter_hp_y   
+      - action: utter_hp_y
       - intent: hoc_bong
       - action: utter_hoc_bong
       - intent: tam_biet
@@ -1267,4 +1173,3 @@ stories:
       - action: utter_hoc_bong
       - intent: tam_biet
       - action: utter_tam_biet
-

@@ -774,6 +774,197 @@ responses:
           • Có năng lực công tác ở các vị trí như kế toán trưởng, trưởng phòng kế toán, giám đốc điều hành, tổng giám đốc,...\n
           • Có khả năng giảng dạy, nghiên cứu khoa học chuyên môn tại các trường và các cơ quan nghiên cứu khoa học, viện nghiên cứu."
 
+chnn_tmdt:
+    text: "Cơ hội nghề nghiệp: \n
+          • Chuyên viên kinh doanh trực tuyến, marketing trực tuyến quảng bá và mở rộng thị trường.
+          • Chuyên viên tư vấn hoạch định chiến lược, phát triển hệ thống logistics, xây dựng và bảo trì các dự án số hoá hệ thống kinh doanh.
+          • Chuyên viên xây dựng hệ thống giao dịch và phân phối sản phẩm trực tuyến.
+          • Chuyên viên quản lý cổng thông tin điện tử tại cơ quan, doanh nghiệp và quản lý nhà nước, bộ, sở, ban hành, văn phòng quận huyện Nhà nước."
+
+  utter_chnn_qtnl:
+    text: "Cơ hội nghề nghiệp: \n
+          • Nhân viên tuyển dụng, nhân viên đào tạo, nhân viên tiền lương, nhân viên nhân sự tổng hợp… Tại các doanh nghiệp sản xuất, dịch vụ.
+          • Nhân viên tư vấn tuyển dụng làm việc cho các công ty săn đầu người.
+          • Tham gia công tác đào tạo và nghiên cứu tại các trung tâm, các trường cao đẳng, đại học.
+          • Có đủ năng lực giữ chức vụ trưởng phòng hoặc giám đốc tại các công ty, 
+          doanh nghiệp."
+
+  utter_chnn_lkt:
+    text: "Cơ hội nghề nghiệp: \n
+          • Chuyên viên pháp lý tại các tổ chức dịch vụ pháp luật, văn phòng luật sư;
+          cơ quan - Thừa Phát Lại: công ty quản lý tài viên.
+          • Chuyên viên về công tác văn phòng nhân sự tổ chức nghiệp vụ tham mưu trong các cơ quan chuyên môn Nhà nước, các cơ quan chuyên môn Nhà nước, các cơ quan hành chính.
+          • Mở văn phòng luật sư riêng hoặc tham gia nghiên cứu, giảng dạy về Luật kinh tế tại các cơ sở giáo dục.
+          • Cử nhân Luật kinh tế cũng có thể thành công với vai trò chuyên gia tư vấn tài chính, hỗ trợ khách hàng đưa ra những quyết định đầu tư đúng đắn, sáng suốt."
+
+  utter_chnn_cnsh:
+    text: "Cơ hội nghề nghiệp: \n
+          • Làm việc ở các cơ quan quản lý có liên quan đến Sinh học và Công nghệ sinh học từ Trung ương đến địa phương.
+          • Làm các công việc kỹ thuật, quản lý chất lượng, kiểm nghiệm tại các đơn vị sản xuất trong lĩnh vực Công nghệ sinh học, nông, lâm, ngư, y dược, khoa học hình sự, công nghiệp nhẹ.
+          • Nghiên cứu khoa học thuộc các lĩnh vực về sinh học, sinh học thực nghiệm và công nghệ sinh học ở các viện nghiên cứu, các trung tâm và các cơ quan nghiên cứu của các bộ, ngành, các trường đại học và cao đẳng."
+
+  utter_chnn_ktpm:
+    text: "Cơ hội nghề nghiệp: \n
+          • Lập trình viên.
+          • Chuyên viên phân tích hệ thống thông tin.
+          • Chuyên viên quản trị và khai thác cơ sở dữ liệu.
+          • Chuyên viên phát triển dự án phần mềm.
+          • Chuyên gia quản trị dự án phần mềm.
+          • Kỹ sư vận hành và phát triển hệ thống phần mềm.
+          • Chuyên viên kiểm tra chất lượng phần mềm.
+          • Cán bộ nghiên cứu, giảng dạy về Kỹ thuật phần mềm tại các viện và cơ sở đào tạo."          
+
+  utter_chnn_mmt:
+    text: "Cơ hội nghề nghiệp: \n
+          • Chuyên viên quản trị hệ thống mạng; thiết kế và xây dựng hệ thống mạng; bảo mật và an ninh mạng; quản trị dự án mạng.
+          • Lập trình viên các ứng dụng trên hệ thống mạng; Kỹ sư bảo trì và phát triển hệ thống mạng; xây dựng và phát triển ứng dụng trên điện toán đám mây.
+          • Cán bộ nghiên cứu, giảng dạy về mạng máy tính và truyền thông dữ liệu tại các viện và cơ sở đào tạo."
+
+  utter_chnn_cntt:
+    text: "Cơ hội nghề nghiệp: \n
+          • Chuyên viên về phân tích, thiết kế và xây dựng hệ thống công nghệ thông tin, bao gồm phần cứng và phần mềm.
+          • Chuyên viên quản trị hệ thống mạng và phần mềm.
+          • Chuyên gia quản trị dự án công nghệ thông tin.
+          • Chuyên viên bảo trì và phát triển hệ thống công nghệ thông tin.
+          • Cán bộ kỹ thuật, quản lý, điều hành trong lĩnh vực công nghệ thông tin.
+          • Lập trình viên, các nhà quản trị hệ thống công nghệ thông tin. 
+          • Cán bộ nghiên cứu, giảng dạy về công nghệ thông tin tại các viện và cơ sở đào tạo."
+
+  utter_chnn_cnktcdientu:
+    text: "Cơ hội nghề nghiệp: \n
+          • Đảm nhận công việc thiết kế hệ thống Cơ điện tử, thiết lập kiểm soát tự động cho quy trình sản xuất, vận hành, bảo trì, sửa chữa các thiết bị mua sắm và chuyển giao công nghệ cho các công ty, nhà máy, xí nghiệp.
+          • Làm việc trong phòng nghiên cứu và phát triển sản phẩm của công ty, nhà máy, xí nghiệp, các viện nghiên cứu thuộc chuyên ngành cơ điện tử, cơ khí, điện tử và điều khiển tự động hóa.
+          • Tham gia công tác giảng dạy chuyên ngành cơ điện tử, điện tử và điều khiển tự động trong các trường đại học, cao đẳng và trung cấp."
+
+  utter_chnn_cnktoto:
+    text: "Cơ hội nghề nghiệp: \n
+          • Kỹ sư vận hành, giám sát sản xuất phụ tùng, phụ kiện và lắp ráp ô tô tại các nhà máy sản xuất, các cơ sở sửa chữa, bảo trì bảo dưỡng ô tô.
+          • Cố vấn dịch vụ, nhân viên kinh doanh tại các doanh nghiệp kinh doanh ô tô, máy động lực, phụ tùng ô tô.
+          • Chuyên viên kỹ thuật của các công ty, nhà máy, xí nghiệp, viện nghiên cứu chuyên ngành cơ khí ô tô và cơ khí động lực hay giáo viên giảng dạy trong các trường cao đẳng, đại học.
+          • Có cơ hội thăng tiến lên cấp quản lý và cơ hội khởi nghiệp trong lĩnh vực công nghệ kỹ thuật ô tô."
+
+  utter_chnn_cnktdien_dientu:
+    text: "Cơ hội nghề nghiệp: \n
+          • Đảm nhận các công việc trong các lĩnh vực thiết kế, lắp đặt, thi công, bảo trì và giám sát các hệ thống điện công nghiệp, hệ thống điện, điện tử, hệ thống tự động hóa trong công nghiệp và dân dụng.
+          • Làm việc trong phòng nghiên cứu và phát triển sản phẩm của công ty, nhà máy, xí nghiệp, các viện nghiên cứu thuộc chuyên ngành điện, điện tử và tự động hóa.
+          • Tham gia công tác giảng dạy tại các trường đại học, cao đẳng và trung cấp.
+          • Có cơ hội khởi nghiệp trong lĩnh vực sản xuất, cung cấp các giải pháp công nghệ ứng dụng kỹ thuật điện, điện tử và tự động hóa."
+
+  utter_chnn_cnkthhoc:
+    text: "Cơ hội nghề nghiệp: \n
+          • Kỹ sư thiết kế, vận hành và quản lý kỹ thuật tại các công ty, nhà máy hoạt động trong lĩnh vực hóa học, thực phẩm, môi trường…
+          • Kỹ thuật viên trong phòng thí nghiệm, các cơ quan kiểm định, đánh giá chất lượng sản phẩm.
+          • Nghiên cứu phát triển sản phẩm mới trên nền tảng sản phẩm truyền thống.
+          • Tham gia giảng dạy ở các cơ quan nghiên cứu, cơ sở giáo dục trong lĩnh vực công nghệ kỹ thuật hóa học.
+          • Kinh doanh và khởi nghiệp."     
+
+  utter_chnn_logistic:
+    text: "Cơ hội nghề nghiệp: \n
+          • Quản lý Logistics tại các công ty logistics, vận tải, bảo hiểm, hàng không, E-commerce.
+          • Chuyên viên lập kế hoạch, marketing, dịch vụ khách hàng, quản lý kho vận, giao nhận tại các công ty có nhu cầu.
+          • Chuyên viên cơ quan nhà nước (công thương, giao thông vận tải, hải quan, bưu điện).
+          • Tự khởi nghiệp, làm chủ và điều hành công ty dịch vụ logistics, vận tải."
+
+  utter_chnn_kthtcnghiep:
+    text: "Cơ hội nghề nghiệp: \n
+          • Làm việc tại phòng kỹ thuật, phòng thiết kế hay phòng bảo trì trong các nhà máy.
+          • Làm việc trong nhà máy, làm việc cả trong các đơn vị vận tải, công ty xây dựng, công ty logistics, trường học...
+          • Chuyên viên chất lượng (kiểm tra sản phẩm, kiểm soát hoạt động để bảo đảm chất lượng).
+          • Chuyên viên chất lượng (kiểm tra sản phẩm, kiểm soát hoạt động để bảo đảm chất lượng).
+          • Chuyên viên dự án (hoạch định hoạt động của dự án, theo dõi tiến độ dự án).
+          • Chuyên viên cung ứng vật tư (tính toán nhu cầu vật tư để thu mua).
+          • Chuyên viên kho vận (nhận và lưu kho sao cho an toàn, hiệu quả)."
+
+  utter_chnn_ktysinh:
+    text: "Cơ hội nghề nghiệp: \n
+          • Chuyên viên kỹ thuật đảm bảo về các thiết bị y tế trong các bệnh viện.
+          • Nhân viên phân phối trang thiết bị y tế cho các công ty.
+          • Tư vấn trang thiết bị y tế cho các loại hình tổ chức liên quan.
+          • Chuyên gia ứng dụng làm việc cho đại diện các hãng thiết bị y tế nước ngoài tại Việt Nam.
+          • Nghiên cứu về Kỹ thuật y sinh tại các viện nghiên cứu, bệnh viện, nhà trường.
+          • Giảng dạy tại các trường cao đẳng, trung cấp thiết bị y tế.
+          • Tự mở công ty hoạt động trong lĩnh vực trang thiết bị y tế."
+
+  utter_chnn_vlykhoa:
+    text: "Cơ hội nghề nghiệp: \n
+          • Làm việc tại các khoa xạ trị, chẩn đoán hình ảnh, y học hạt nhân của các bệnh viện, phòng khám, công việc cụ thể:
+          • Lập kế hoạch xạ trị ung thư. 
+          • Kiểm tra, đảm bảo chất lượng (QA/QC) thiết bị ghi hình và điều trị.
+          • Nghiên cứu ứng dụng các kỹ thuật chẩn đoán và điều trị mới 
+          • Đánh giá liều bệnh nhân trong chẩn đoán và điều trị.
+          • Đảm bảo an toàn bức xạ cho bệnh nhân và nhân viên.
+          • Làm việc tại Viện nghiên cứu, trường Đại học.
+          • Công ty kinh doanh thiết bị y tế, Trung tâm kiểm định thiết bị y tế.
+          • Cơ quan quản lý nhà nước về an toàn bức xạ, quản lý trang thiết bị y tế."
+
+  utter_chnn_cntpham:
+    text: "Cơ hội nghề nghiệp: \n
+          • Đảm nhiệm những vị trí trong các doanh nghiệp sản xuất - kinh doanh thực phẩm, trường cao đẳng/đại học, các viện/trung tâm phân tích, nghiên cứu.
+          • Nghiên cứu và phát triển sản phẩm thực phẩm.
+          • Kiểm soát và vận hành dây chuyền sản xuất thực phẩm, đảm bảo chất lượng thực phẩm.
+          • Kỹ thuật viên phòng thí nghiệm tại các nhà máy, trung tâm, viện, trường.
+          • Kinh doanh sản phẩm thực phẩm, phụ gia, thiết bị chế biến thực phẩm.
+          • Giảng viên các trường cao đẳng hoặc đại học."
+
+  utter_chnn_ktruc:
+    text: "Cơ hội nghề nghiệp: \n
+          • Kiến trúc sư có thể hoạt động trong nhiều loại hình công ty và cơ quan khác nhau như: công ty tư vấn thiết kế, công ty xây dựng, công ty đóng vai trò chủ đầu tư, công ty bất động sản, cơ quan nhà nước đóng vai trò quản lý và cấp phép xây dựng…
+          • Thiết kế kiến trúc theo đơn đặt hàng của chủ đầu tư hoặc tham gia đấu thầu dự án theo quy định.
+          • Tham gia công tác giám sát tác giả hoặc giám sát kỹ thuật trong quá trình thi công tại công trường.
+          • Tự thành lập doanh nghiệp riêng trong lĩnh vực thiết kế và thi công xây dựng.
+          • Tham gia giảng dạy, nghiên cứu về lĩnh vực kiến trúc tại các cơ sở đào tạo, các trường đại học, cao đẳng..."     
+
+  utter_chnn_tknthat:
+    text: "Cơ hội nghề nghiệp: \n
+          • Chuyên viên thiết kế tại các công ty thiết kế nội thất, xây dựng, kinh doanh vật liệu nội thất.
+          • Chuyên viên tư vấn thiết kế cho các công trình dân dụng và công nghiệp như nhà ở, khách sạn, trường học, văn phòng, bệnh viện, nhà máy, khu triển lãm…
+          • Tổ chức thành lập công ty chuyên ngành thiết kế trong các lĩnh vực chuyên ngành nội thất.
+          • Tham gia giảng dạy ở các trường đại học, các cơ quan nghiên cứu, đào tạo chuyên ngành thiết kế nội thất."
+
+  utter_chnn_ktxdung:
+    text: "Cơ hội nghề nghiệp: \n
+          • Công việc trong văn phòng: kỹ sư thiết kế kỹ sư quản lý dự án; chuyên viên tư vấn xây dựng, chuyên viên lập hồ sơ mời thầu và đánh giá hồ sơ đấu thầu…
+          • Công việc tại công trường: Kỹ sư thi công (hướng dẫn thực hiện các khâu đọc hiểu bản vẽ thiết kế, tính toán khối lượng phải làm, hướng dẫn công nhân thực hiện công việc, lập bản vẽ hoàn công, công tác trắc đạc); kỹ sư giám sát thi công, chỉ huy trưởng công trình…
+          • Công việc trong công xưởng: Kỹ sư giám sát nội bộ; kỹ sư quản lý chất lượng, chuyên viên phát triển sản phẩm..."
+
+  utter_chnn_qtksan:
+    text: "Cơ hội nghề nghiệp: \n
+          • Nhân viên hoặc quản lý bộ phận lễ tân, bộ phận tiền sảnh, nhân viên buồng phòng, nhân viên sale và marketing tại các khách sạn, resort 3-5 sao, các doanh nghiệp kinh doanh dịch vụ lưu trú trong và ngoài nước.
+          • Các vị trí chuyên gia quản lý tại các sở du lịch.
+          • Tham gia giảng dạy tại các trường cao đẳng, đại học trong nước."
+
+  utter_chnn_qtnhang:
+    text: "Cơ hội nghề nghiệp: \n
+          • Trở thành giám sát viên, quản lý tại nhà hàng, quản trị các dịch vụ ẩm thực, các dịch vụ chăm sóc khách hàng, sales và marketing cho các nhà hàng, khách sạn.
+          • Làm việc tại các sở ban ngành liên quan đến lĩnh vực nhà hàng, du lịch, văn hóa.
+          • Chuyên viên tư vấn, tổ chức và điều hành sự kiện ẩm thực trong các nhà hàng - khách sạn.
+          • Khởi nghiệp, tự thành lập doanh nghiệp riêng trong lĩnh vực nhà hàng và dịch vụ ăn uống.
+          • Tham gia giảng dạy, nghiên cứu về lĩnh vực khách sạn, nhà hàng tại các cơ sở đào tạo, các trường đại học, cao đẳng..."
+
+  utter_chnn_dlich:
+    text: "Cơ hội nghề nghiệp: \n
+          • Chuyên ngành hướng dẫn viên du lịch:
+          • Hướng dẫn viên du lịch.
+          • Điều hành tour. 
+          • Chuyên viên tại các sở ban ngành du lịch.
+          • Chăm sóc khách hàng. 
+          • Quản trị và tổ chức sự kiện.
+          • Giảng dạy tại các cơ sở đào tạo lữ hành. 
+          • Giám sát, điều hành tại các cơ sở lưu trú hoặc doanh nghiệp lữ hành.
+          • Chuyên ngành quản lý du lịch:
+          • Nghiên cứu thị trường, quảng bá và xúc tiến du lịch; nghiên cứu phát triển và quản lý du lịch (thuộc các cơ quan nghiên cứu và quản lý du lịch).
+          • Giảng dạy tại các trường đại học, cao đẳng, trung học chuyên nghiệp có đào tạo về
+          du lịch.
+          • Làm chuyên viên tại các trung tâm du lịch, sở ban ngành liên quan đến du lịch."
+
+  utter_chnn_qltnmt:
+    text: "Cơ hội nghề nghiệp: \n
+          • Chuyên viên môi trường tại các sở, ban, ngành như sở tài nguyên và môi trường; sở khoa học và công nghệ, sở nông nghiệp & phát triển nông thôn hoặc tại các trung tâm bảo vệ môi trường.
+          • Chuyên viên thiết kế, chế tạo, lắp đặt, vận hành, bảo trì, sửa chữa các thiết bị, hệ thống của ngành kỹ thuật và công nghệ xử lý môi trường.
+          • Vận hành công nghệ tái chế chất thải và xử lý nước cấp. nước thải, rác thải, khí thải cho các nhà máy, công ty, các khu công nghiệp, khu chế xuất...
+          • Nghiên cứu chuyên sâu về lĩnh vực môi trường tại các trường đại học, viện nghiên cứu."      
+
+
 
 
 
